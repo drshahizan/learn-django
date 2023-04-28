@@ -7,7 +7,9 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Deploying a Django app involves setting up a production environment and deploying the code to a server. Here are the general steps for deploying a Django app:
+# Deploying a Django app
+
+Deploying a Django app involves setting up a production environment and deploying the code to a server. Here are the general steps for deploying a Django app:
 
 1. Choose a hosting provider: There are many hosting providers available, such as Heroku, AWS, and DigitalOcean. Choose the one that best suits your needs and budget.
 
@@ -30,6 +32,24 @@ Don't forget to hit the :star: if you like this repo.
 10. Monitor the app: Set up monitoring and logging to monitor the app's health and log any errors or issues.
 
 These are the general steps for deploying a Django app. However, the specific details may vary depending on your hosting provider, server setup, and app requirements.
+
+## Web hosting
+Free web hosting options for Django:
+
+| Hosting Provider | Free Plan Features |
+| ---------------- | ------------------ |
+| Heroku | 512 MB RAM, 1 web dyno, 1 worker dyno, 10,000 rows PostgreSQL |
+| PythonAnywhere | 512 MB RAM, 1 CPU, 1 web app, 5 GB storage, MySQL or PostgreSQL |
+| HelioHost | 1 GB storage, 1 MySQL database, PHP, Perl, and Python support |
+| InfinityFree | Unlimited disk space and bandwidth, 400 MySQL databases, PHP and FTP support |
+| 000webhost | 300 MB disk space, 3 MySQL databases, PHP and FTP support |
+| FreeHostia | 250 MB disk space, 6 GB monthly traffic, 3 email accounts, PHP support |
+| Awardspace | 1 GB disk space, 5 GB monthly traffic, 1 MySQL database, PHP and FTP support |
+| ByetHost | 5 GB disk space, 50 GB monthly traffic, 5 email accounts, PHP and MySQL support |
+| Webhostapp | 1 GB disk space, 1 MySQL database, PHP and FTP support |
+| FlaskHost | 500 MB disk space, 1 MySQL database, PHP and FTP support |
+
+Note: Free plans may have limitations in terms of resources, such as memory, CPU, storage, or bandwidth, and may have restrictions on the type of content or usage. It's always recommended to read the terms and conditions carefully before signing up for a hosting provider.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
