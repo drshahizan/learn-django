@@ -30,6 +30,9 @@ Don't forget to hit the :star: if you like this repo.
 
 That's it! You've now installed Python on your Windows computer. If you encounter any issues during the installation process, feel free to consult the Python documentation or seek help from a developer community.
 
+## Useful link
+-[How to install DJANGO 4 on MAC OS + PIP + PYTHON](https://youtu.be/RuWYPHKrhEs)
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/python-web/issues) for any improvements, suggestions or errors in the content.
 
