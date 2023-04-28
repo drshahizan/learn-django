@@ -6,24 +6,50 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-django)
 
 Don't forget to hit the :star: if you like this repo.
-# Django
 
-Django is a popular web development framework that can be used to build complex and scalable web applications. As a beginner in Django, there are several topics that you will need to cover. These topics include setting up a Django project, creating a Django app, working with models to represent data, creating views and templates to generate HTML, defining URL patterns to handle requests, working with forms to process user input, using the built-in admin interface to manage data, adding user authentication and authorization to your app, and finally, deploying your app to a production server. By understanding and mastering these topics, you will be well on your way to building robust and dynamic web applications using Django.
+# Views and Templates
 
-| No | Topic                          | Description                                                  |
-|----|--------------------------------|--------------------------------------------------------------|
-| 1  | Setting up a Django Project    | Learn how to install and configure Django on your computer. |
-| 2  | Creating a Django App          | Learn how to create a new Django app and add it to your project. |
-| 3  | Models in Django               | Learn about Django's ORM and how to create models to represent your data. |
-| 4  | Views and Templates            | Learn how to create views that handle requests and generate HTML using templates. |
-| 5  | URL routing in Django          | Learn how to map URLs to views in your Django app.           |
-| 6  | Forms in Django                | Learn how to create HTML forms and handle user input with Django forms. |
-| 7  | Admin interface in Django      | Learn how to use Django's built-in admin interface for managing your app's data. |
-| 8  | Authentication and Authorization in Django | Learn how to add user authentication and authorization to your Django app. |
-| 9  | Deploying a Django app         | Learn how to deploy your Django app to a production server.   |
+In Django, views and templates are two core components of the Model-View-Template (MVT) architecture, which is similar to the Model-View-Controller (MVC) pattern used in other web frameworks.
 
-I hope this helps you! Good luck with your Django web development journey.
+## Views
 
+Views are Python functions that handle HTTP requests and return HTTP responses. Views are responsible for fetching data from the database, processing it, and returning it to the user in a format suitable for rendering by the template. Views can perform various operations, such as querying the database, rendering HTML templates, and returning JSON or other data formats.
+
+Here is an example of a simple view that returns a list of blog posts:
+
+```python
+from django.shortcuts import render
+from myapp.models import BlogPost
+
+def post_list(request):
+    posts = BlogPost.objects.all()
+    return render(request, 'post_list.html', {'posts': posts})
+```
+
+This view queries the `BlogPost` model to fetch a list of all posts, and then renders a template called `post_list.html`, passing the list of posts as a context variable.
+
+## Templates
+
+Templates are HTML files that define the structure and layout of your web pages. Templates can include variables, loops, conditionals, and other control structures that allow you to dynamically generate content based on data provided by the view. Templates can also include static files such as CSS, JavaScript, and images.
+
+Here is an example of a simple template that displays a list of blog posts:
+
+```html
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Blog Posts</h1>
+  <ul>
+  {% for post in posts %}
+    <li><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endblock %}
+```
+
+This template extends a base template called `base.html`, and defines a block called `content` where the list of blog posts will be displayed. The template uses a for loop to iterate over the list of posts passed from the view, and generates a list item for each post, with a link to the post's detail page.
+
+In summary, views and templates are two essential components of a Django web application. Views handle requests and return responses, while templates define the structure and layout of web pages. Together, views and templates provide a powerful and flexible way to generate dynamic content for your users.
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
 
