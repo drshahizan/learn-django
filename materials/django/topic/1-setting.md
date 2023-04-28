@@ -15,7 +15,7 @@ Setting up a Django project involves installing Python and Django, creating a vi
 ### 1. [Install Python](1-1-python.md)
 Django is a Python web framework, so you'll need to have Python installed on your computer. You can download Python from the official website: https://www.python.org/downloads/. 
 
-### 2. Install Django: 
+### 2. [Install Django](1-2-django.md)
 Once you have Python installed, you can install Django using pip, the Python package manager. Open a terminal or command prompt and run the following command:
 
    ```python
