@@ -131,6 +131,36 @@ To use Django in Visual Studio Code, you need to follow these steps:
 
 By following these steps, you can create a basic Django web application in Visual Studio Code.
 
+## Django extension for Visual Studio Code
+
+The Django extension for Visual Studio Code is a plugin that provides a set of useful tools and features for Django developers working with Visual Studio Code. The extension includes features like IntelliSense for Django templates, syntax highlighting for Django template tags, snippets for common Django code patterns, and support for running Django manage.py commands from within the editor. 
+
+Other features of the Django extension include Django project creation, code navigation, and debugging support. The extension also supports various Django versions, including the latest version, and can be configured to work with different Python environments.
+
+With the Django extension for Visual Studio Code, developers can write Django code more efficiently, debug their applications with ease, and improve their overall productivity.
+
+To install the Django extension for Visual Studio Code, follow these steps:
+
+1. Open Visual Studio Code and click on the Extensions icon in the sidebar.
+2. Search for "Django" in the Extensions Marketplace and click on the Django extension by Microsoft.
+3. Click on the Install button to install the extension.
+
+Once the Django extension is installed, you can use it to develop Django applications in Visual Studio Code. Here are some of the features you can use:
+
+1. IntelliSense for Django templates: The Django extension provides code completion and suggestions for Django template tags and filters.
+
+2. Syntax highlighting for Django template tags: The extension highlights Django template tags and filters in different colors for better readability.
+
+3. Snippets for common Django code patterns: The extension includes snippets for common Django code patterns, such as creating a new Django app or defining a view.
+
+4. Django project creation: You can use the extension to create a new Django project with a single command.
+
+5. Code navigation: The extension allows you to quickly navigate between views, models, and templates in your Django project.
+
+6. Debugging support: The extension provides debugging support for Django applications, allowing you to set breakpoints, step through code, and inspect variables.
+
+To use the Django extension, open a Django project in Visual Studio Code and start coding. You should see IntelliSense suggestions for Django tags and filters, as well as syntax highlighting for Django templates. You can also use the extension to create new Django apps, navigate between different parts of your project, and debug your code.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/python-web/issues) for any improvements, suggestions or errors in the content.
 
