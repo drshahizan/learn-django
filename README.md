@@ -32,13 +32,14 @@ Bottle is a micro-framework that is easy to learn and use. It is designed to be 
 Python web development can be used for a wide range of applications, including web scraping, data analysis, machine learning, and artificial intelligence. It can be used to create web applications for e-commerce, social networking, content management systems, and many other types of applications. The versatility of Python and its rich ecosystem of libraries and frameworks make it a popular choice for web development.
 
 
-## Useful links: Web Application
+## Useful links
+
+### Web Application
 - [Python Dash Web Application Connected to Live Database - MongoDB](https://www.youtube.com/watch?v=DWqEVpOfYxE)
 - [Web Data Dashboard with Plotly express and Flask Python and JavaScript](https://youtu.be/B97qWOUvlnU)
 - [Flask Course - Python Web Application Development](https://youtu.be/Qr4QMBUPxWo)
 - [Jupyter Notebook: How to use it to create a web application using Django and MongoDb](./materials/wa-jupyter.md)
 - [Visual Studio Code: develop web application using MongoDb and Django](./materials/wa-VSC.md)
-
 
 ### Python web development
 - [Python Web Development Libraries - Quick Guide](https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_quick_guide.htm)
@@ -46,17 +47,6 @@ Python web development can be used for a wide range of applications, including w
 - [13 Project Ideas for Intermediate Python Developers](https://realpython.com/intermediate-python-project-ideas/)
 - [Top 11 Python Frameworks for Web Development In 2023](https://www.netsolutions.com/insights/top-10-python-frameworks-for-web-development-in-2019/)
 - [Github: Real Python - materials](https://github.com/realpython/materials)
-
-### PyScript
-- [PyScript - GitHub](https://github.com/pyscript/pyscript)
-- [Run Python Visualizations on the Web Using PyScript](https://www.makeuseof.com/pyscript-python-visualizations-web/)
-- [Run Python in Your HTML](https://pyscript.net/)
-- [PyScript demos](https://pyscript.net/examples/)
-- [Pyscript Tutorial With Simple Code Examples](https://pythonistaplanet.com/pyscript/)
-- [How to Run Python Visualizations on a Web Browser using PyScript](https://educationecosystem.com/blog/how-to-run-python-visualizations-on-a-web-browser-using-pyscript-education-ecosystem/)
-- [A First Look at PyScript: Python in the Web Browser](https://realpython.com/pyscript-python-in-browser/)
-- [How to Embed Interactive Python Visualizations on Your Website with Python and Matplotlib](https://www.freecodecamp.org/news/how-to-embed-interactive-python-visualizations-on-your-website-with-python-and-matplotlib/)
-- [How to Easily Run Python Visualizations On a Web Browser with PyScript](https://youtu.be/QYIr7A5ueXA)
 
 ### Django
 - [Meet Django](https://www.djangoproject.com/)
@@ -70,6 +60,18 @@ Python web development can be used for a wide range of applications, including w
 - [College Management System using Django – Python Project](https://www.geeksforgeeks.org/college-management-system-using-django-python-project/)
 - [Best Python Django Tutorial For Beginners – With Project Structure](https://data-flair.training/blogs/python-django-tutorial/)
 - [Django Dashboards — Open Source and Free](https://medium.com/@appseed.us/django-dashboards-open-source-and-free-projects-1d8e64919e6d)
+
+
+### PyScript
+- [PyScript - GitHub](https://github.com/pyscript/pyscript)
+- [Run Python Visualizations on the Web Using PyScript](https://www.makeuseof.com/pyscript-python-visualizations-web/)
+- [Run Python in Your HTML](https://pyscript.net/)
+- [PyScript demos](https://pyscript.net/examples/)
+- [Pyscript Tutorial With Simple Code Examples](https://pythonistaplanet.com/pyscript/)
+- [How to Run Python Visualizations on a Web Browser using PyScript](https://educationecosystem.com/blog/how-to-run-python-visualizations-on-a-web-browser-using-pyscript-education-ecosystem/)
+- [A First Look at PyScript: Python in the Web Browser](https://realpython.com/pyscript-python-in-browser/)
+- [How to Embed Interactive Python Visualizations on Your Website with Python and Matplotlib](https://www.freecodecamp.org/news/how-to-embed-interactive-python-visualizations-on-your-website-with-python-and-matplotlib/)
+- [How to Easily Run Python Visualizations On a Web Browser with PyScript](https://youtu.be/QYIr7A5ueXA)
 
 ### Python TurboGears 
 - [Python TurboGears: The Web Framework that scales with you](https://turbogears.org/)
