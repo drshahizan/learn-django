@@ -20,7 +20,7 @@ Django is a popular web development framework that can be used to build complex 
 | 6 | [Forms in Django](./topic/6-form.md) | Learn how to create HTML forms and handle user input with Django forms. |
 | 7 | [Admin interface in Django](./topic/7-admin.md) | Learn how to use Django's built-in admin interface for managing your app's data. |
 | 8 | [Authentication and Authorization in Django](./topic/8-authentication.md) | Learn how to add user authentication and authorization to your Django app. |
-| 9 | [Deploying a Django app](9-deploying.md) | Learn how to deploy your Django app to a production server. |
+| 9 | [Deploying a Django app](./topic/9-deploying.md) | Learn how to deploy your Django app to a production server. |
 
 ## Key features
 Django is a high-level, open-source web framework for Python that follows the Model-View-Controller (MVC) architectural pattern. It is designed to make web development faster, easier, and more secure by providing developers with a set of tools and features to build complex web applications.
