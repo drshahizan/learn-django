@@ -65,8 +65,9 @@ Now that you have defined your models, created database tables, created a view, 
 python manage.py runserver
 ```
 
-This command will start the development server, and you can access your application by navigating to http://127.0.0.1:8000/ in your web browser.
+This command will start the development server, and you can access your application by navigating to http://127.0.0.1:8000/ http://localhost:8000/ or in your web browser.
 
+<img src="localhost.png" width="400" />
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/python-web/issues) for any improvements, suggestions or errors in the content.
