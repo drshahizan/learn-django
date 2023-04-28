@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Install Django
-Pip is a package manager for Python that allows you to easily install and manage third-party Python packages. To install Django, a popular Python web framework, you can use pip by running the command "pip install django" in a terminal or command prompt. This will download and install the latest version of Django and its dependencies on your system. Once the installation is complete, you can start using Django to build web applications by creating a new Django project and running the development server. Overall, pip is a powerful tool that makes it easy to install and manage Python packages, including Django and many others, and is a must-have for any Python developer.
+Pip is a package manager for Python that allows you to easily install and manage third-party Python packages. To install Django, a popular Python web framework, you can use pip by running the command `pip install django` in a terminal or command prompt. This will download and install the latest version of Django and its dependencies on your system. Once the installation is complete, you can start using Django to build web applications by creating a new Django project and running the development server. Overall, pip is a powerful tool that makes it easy to install and manage Python packages, including Django and many others, and is a must-have for any Python developer.
 
 ## Install pip
 To install pip on your computer, you can follow these steps:
