@@ -37,7 +37,7 @@ python manage.py startapp appname
 
 Replace "appname" with the name you want to give your new app. This command will create a new directory with the same name as your app inside the project directory.
 
-<img src="members.png" width="350" />
+<img src="members.png" width="300" />
 
 
 ### 4. Define your models
