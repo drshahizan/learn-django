@@ -11,6 +11,8 @@ Don't forget to hit the :star: if you like this repo.
 
 In Django, a model is a Python class that represents a database table and its associated fields. Models define the structure of a database and provide an API for accessing the data stored within it. When you define a model in Django, you can specify the fields that it contains, as well as any relationships it has with other models.
 
+To create models that represent your data in Django, you define Python classes that inherit from the django.db.models.Model class. Each attribute of the class represents a field in the database table, and you can specify the data type and other attributes of the field using the various field classes provided by Django.
+
 Here's an example of a simple model in Django:
 
 ```python
