@@ -6,24 +6,36 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-django)
 
 Don't forget to hit the :star: if you like this repo.
-# Django
 
-Django is a popular web development framework that can be used to build complex and scalable web applications. As a beginner in Django, there are several topics that you will need to cover. These topics include setting up a Django project, creating a Django app, working with models to represent data, creating views and templates to generate HTML, defining URL patterns to handle requests, working with forms to process user input, using the built-in admin interface to manage data, adding user authentication and authorization to your app, and finally, deploying your app to a production server. By understanding and mastering these topics, you will be well on your way to building robust and dynamic web applications using Django.
+# Models in Django	
 
-| No | Topic                          | Description                                                  |
-|----|--------------------------------|--------------------------------------------------------------|
-| 1  | Setting up a Django Project    | Learn how to install and configure Django on your computer. |
-| 2  | Creating a Django App          | Learn how to create a new Django app and add it to your project. |
-| 3  | Models in Django               | Learn about Django's ORM and how to create models to represent your data. |
-| 4  | Views and Templates            | Learn how to create views that handle requests and generate HTML using templates. |
-| 5  | URL routing in Django          | Learn how to map URLs to views in your Django app.           |
-| 6  | Forms in Django                | Learn how to create HTML forms and handle user input with Django forms. |
-| 7  | Admin interface in Django      | Learn how to use Django's built-in admin interface for managing your app's data. |
-| 8  | Authentication and Authorization in Django | Learn how to add user authentication and authorization to your Django app. |
-| 9  | Deploying a Django app         | Learn how to deploy your Django app to a production server.   |
+In Django, a model is a Python class that represents a database table and its associated fields. Models define the structure of a database and provide an API for accessing the data stored within it. When you define a model in Django, you can specify the fields that it contains, as well as any relationships it has with other models.
 
-I hope this helps you! Good luck with your Django web development journey.
+Here's an example of a simple model in Django:
 
+```python
+from django.db import models
+
+class BlogPost(models.Model):
+    title = models.CharField(max_length=200)
+    content = models.TextField()
+    pub_date = models.DateTimeField(auto_now_add=True)
+```
+
+In this example, we define a model called `BlogPost` with three fields: `title`, `content`, and `pub_date`. The `title` field is a `CharField` that can hold up to 200 characters, the `content` field is a `TextField` that can hold an arbitrary amount of text, and the `pub_date` field is a `DateTimeField` that will automatically be set to the current date and time when a new `BlogPost` object is created.
+
+Models can also have relationships with other models. For example, you could define a `Comment` model that has a foreign key relationship with the `BlogPost` model:
+
+```python
+class Comment(models.Model):
+    blog_post = models.ForeignKey(BlogPost, on_delete=models.CASCADE)
+    author = models.CharField(max_length=100)
+    content = models.TextField()
+```
+
+In this example, we define a `Comment` model with three fields: `blog_post`, which is a foreign key to a `BlogPost` object, `author`, which is a `CharField` that can hold up to 100 characters, and `content`, which is a `TextField` that can hold an arbitrary amount of text.
+
+Models in Django provide a powerful and flexible way to define the structure of a database and interact with the data stored within it. They also provide an abstraction layer that allows you to work with data in a way that is independent of the underlying database engine.
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
 
