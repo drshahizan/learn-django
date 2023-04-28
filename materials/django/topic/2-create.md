@@ -24,8 +24,9 @@ Once you have installed Django, you can create a new project by running the foll
 ```python
 django-admin startproject projek_ST
 ```
+<img src="vsc.png" width="250" />
 
-Replace "projectname" with the name you want to give your new Django project. This command will create a new directory with the same name as your project inside the directory where you ran the command.
+Replace "projek_ST" with the name you want to give your new Django project. This command will create a new directory with the same name as your project inside the directory where you ran the command.
 
 ### 3. Create a new app
 Once you have created a new project, you can create a new app by running the following command:
@@ -36,7 +37,8 @@ python manage.py startapp appname
 
 Replace "appname" with the name you want to give your new app. This command will create a new directory with the same name as your app inside the project directory.
 
-<img src="vsc.png" width="400" />
+<img src="members.png" width="350" />
+
 
 ### 4. Define your models
 Now that you have created a new app, you can define your models in the models.py file inside the app directory. Models are used to define the data structure of your application.
@@ -56,6 +58,7 @@ Once you have created the migration file, you can apply the migrations by runnin
 ```python
 python manage.py migrate
 ```
+<img src="migrate.png" width="350" />
 
 This command will create the necessary database tables based on the models you have defined.
 
