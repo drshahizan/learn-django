@@ -6,7 +6,7 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-django)
 
 Don't forget to hit the :star: if you like this repo.
-# Authentication and authorization
+# Authentication and Authorization in Django
 
 Authentication and authorization are important aspects of building secure web applications, and Django provides built-in features to handle these tasks.
 
@@ -24,6 +24,28 @@ To enable authorization in your Django application, you need to define the permi
 
 Overall, Django's authentication and authorization systems provide a powerful and flexible way to build secure web applications that protect user data and resources. By using these features, you can ensure that only authorized users can access your application's sensitive data and functionality.
 
+## Add user authentication and authorization
+Sure, here are the general steps to add user authentication and authorization to your Django app:
+
+1. Define a User model: Django provides a built-in User model that can be used to store user information such as username, password, and email. You can also create your own custom User model if needed.
+
+2. Configure the authentication backend: Django provides several authentication backends such as the default database backend and third-party backends for social media authentication. Choose the one that best suits your needs and configure it in your app's settings.
+
+3. Define login and logout views: Django provides built-in views for handling user authentication, such as the `LoginView` and `LogoutView`. You can use these views or create your own custom views for handling login and logout functionality.
+
+4. Implement user registration: You can provide a registration form for users to create an account in your app. This can be done using Django forms and views.
+
+5. Implement password reset: If a user forgets their password, you can provide a password reset functionality that allows them to reset their password using their email address.
+
+6. Define permissions for your models: Use Django's built-in permission system to define which users or groups have access to which models and their associated views.
+
+7. Check user permissions in your views: Use the `user_passes_test` decorator or the `permission_required` decorator to check if a user has the necessary permissions to access a view.
+
+8. Use Django's built-in `User` model in your app: Django provides a built-in `User` model that can be used to associate data with specific users in your app. Use this model to store information such as user preferences or data that needs to be associated with a specific user.
+
+9. Customize the authentication and authorization functionality: Django provides a lot of customization options for authentication and authorization. You can customize the authentication backend, create custom permission types, and create custom views for handling login, logout, and other authentication-related functionality.
+
+These are the general steps to add user authentication and authorization to your Django app. However, the specific implementation details may vary depending on your app's requirements and the complexity of your authentication and authorization needs.
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
 
