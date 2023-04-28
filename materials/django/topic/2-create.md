@@ -24,7 +24,7 @@ Once you have installed Django, you can create a new project by running the foll
 ```python
 django-admin startproject projek_ST
 ```
-<img src="vsc.png" width="300" />
+<img src="vsc.png" width="250" />
 
 Replace "projek_ST" with the name you want to give your new Django project. This command will create a new directory with the same name as your project inside the directory where you ran the command.
 
