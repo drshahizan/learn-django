@@ -52,22 +52,6 @@ Free Django projects for beginners:
 | [DjangoGirls Tutorial](https://tutorial.djangogirls.org/en/) | DjangoGirls is a nonprofit organization that aims to teach women and girls how to code using Django. They offer a free tutorial that teaches you how to build a blog application using Django. |
 | [Real Python](https://realpython.com/get-started-with-django-1/) | Real Python is a website that offers tutorials and courses on Python and Django. They have a free course that teaches you how to build a simple Django project. |
 
-These resources provide a range of options for beginners to find and learn from Django projects.
-
-### Web Application
-- [Python Dash Web Application Connected to Live Database - MongoDB](https://www.youtube.com/watch?v=DWqEVpOfYxE)
-- [Web Data Dashboard with Plotly express and Flask Python and JavaScript](https://youtu.be/B97qWOUvlnU)
-- [Flask Course - Python Web Application Development](https://youtu.be/Qr4QMBUPxWo)
-- [Jupyter Notebook: How to use it to create a web application using Django and MongoDb](./materials/wa-jupyter.md)
-- [Visual Studio Code: develop web application using MongoDb and Django](./materials/wa-VSC.md)
-
-### Python web development
-- [Python Web Development Libraries - Quick Guide](https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_quick_guide.htm)
-- [Python Web Framework — A Detailed List of Web Frameworks in Python](https://towardsdatascience.com/python-web-framework-a-detailed-list-of-web-frameworks-in-python-1916d3c6222d)
-- [13 Project Ideas for Intermediate Python Developers](https://realpython.com/intermediate-python-project-ideas/)
-- [Top 11 Python Frameworks for Web Development In 2023](https://www.netsolutions.com/insights/top-10-python-frameworks-for-web-development-in-2019/)
-- [Github: Real Python - materials](https://github.com/realpython/materials)
-
 ### Django
 - [Meet Django](https://www.djangoproject.com/)
 - [Github: django](https://github.com/django/django)
@@ -86,6 +70,21 @@ These resources provide a range of options for beginners to find and learn from 
 - [Build a Social Media App with Django – Python Web Framework Tutorial](https://youtu.be/xSUm6iMtREA)
 - 💻 [Source code:](https://github.com/tomitokko/django-social-media-website)
 - 💻 [Template files](https://github.com/tomitokko/django-social-media-template)
+These resources provide a range of options for beginners to find and learn from Django projects.
+
+### Web Application
+- [Python Dash Web Application Connected to Live Database - MongoDB](https://www.youtube.com/watch?v=DWqEVpOfYxE)
+- [Web Data Dashboard with Plotly express and Flask Python and JavaScript](https://youtu.be/B97qWOUvlnU)
+- [Flask Course - Python Web Application Development](https://youtu.be/Qr4QMBUPxWo)
+- [Jupyter Notebook: How to use it to create a web application using Django and MongoDb](./materials/wa-jupyter.md)
+- [Visual Studio Code: develop web application using MongoDb and Django](./materials/wa-VSC.md)
+
+### Python web development
+- [Python Web Development Libraries - Quick Guide](https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_quick_guide.htm)
+- [Python Web Framework — A Detailed List of Web Frameworks in Python](https://towardsdatascience.com/python-web-framework-a-detailed-list-of-web-frameworks-in-python-1916d3c6222d)
+- [13 Project Ideas for Intermediate Python Developers](https://realpython.com/intermediate-python-project-ideas/)
+- [Top 11 Python Frameworks for Web Development In 2023](https://www.netsolutions.com/insights/top-10-python-frameworks-for-web-development-in-2019/)
+- [Github: Real Python - materials](https://github.com/realpython/materials)
 
 ### PyScript
 - [PyScript - GitHub](https://github.com/pyscript/pyscript)
