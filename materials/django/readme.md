@@ -6,7 +6,9 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/python-web)
 
 Don't forget to hit the :star: if you like this repo.
-# Django: Topics related to web development using Django
+# Django
+
+Django is a popular web development framework that can be used to build complex and scalable web applications. As a beginner in Django, there are several topics that you will need to cover. These topics include setting up a Django project, creating a Django app, working with models to represent data, creating views and templates to generate HTML, defining URL patterns to handle requests, working with forms to process user input, using the built-in admin interface to manage data, adding user authentication and authorization to your app, and finally, deploying your app to a production server. By understanding and mastering these topics, you will be well on your way to building robust and dynamic web applications using Django.
 
 | No | Topic                          | Description                                                  |
 |----|--------------------------------|--------------------------------------------------------------|
