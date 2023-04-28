@@ -6,23 +6,160 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/python-web)
 
 Don't forget to hit the :star: if you like this repo.
-# Django
 
-Django is a popular web development framework that can be used to build complex and scalable web applications. As a beginner in Django, there are several topics that you will need to cover. These topics include setting up a Django project, creating a Django app, working with models to represent data, creating views and templates to generate HTML, defining URL patterns to handle requests, working with forms to process user input, using the built-in admin interface to manage data, adding user authentication and authorization to your app, and finally, deploying your app to a production server. By understanding and mastering these topics, you will be well on your way to building robust and dynamic web applications using Django.
+# Setting up a Django Project
+Setting up a Django project involves installing Python and Django, creating a virtual environment, creating a new Django project using the django-admin command, configuring the database in the settings.py file, and starting the development server using the python manage.py runserver command. Once the server is running, you can build your web application by creating new apps and adding views, templates, and models. It's a good practice to create a virtual environment for your Django projects to keep them isolated from your system-wide Python installation.
 
-| No | Topic                          | Description                                                  |
-|----|--------------------------------|--------------------------------------------------------------|
-| 1  | Setting up a Django Project    | Learn how to install and configure Django on your computer. |
-| 2  | Creating a Django App          | Learn how to create a new Django app and add it to your project. |
-| 3  | Models in Django               | Learn about Django's ORM and how to create models to represent your data. |
-| 4  | Views and Templates            | Learn how to create views that handle requests and generate HTML using templates. |
-| 5  | URL routing in Django          | Learn how to map URLs to views in your Django app.           |
-| 6  | Forms in Django                | Learn how to create HTML forms and handle user input with Django forms. |
-| 7  | Admin interface in Django      | Learn how to use Django's built-in admin interface for managing your app's data. |
-| 8  | Authentication and Authorization in Django | Learn how to add user authentication and authorization to your Django app. |
-| 9  | Deploying a Django app         | Learn how to deploy your Django app to a production server.   |
+## Setting up a Django project on your computer
 
-I hope this helps you! Good luck with your Django web development journey.
+### 1. [Install Python](1-1-python.md)
+Django is a Python web framework, so you'll need to have Python installed on your computer. You can download Python from the official website: https://www.python.org/downloads/. 
+
+### 2. Install Django: 
+Once you have Python installed, you can install Django using pip, the Python package manager. Open a terminal or command prompt and run the following command:
+
+   ```python
+   pip install django
+   ```
+
+   This will install the latest version of Django.
+
+### 3. Create a virtual environment
+It's a good practice to create a virtual environment for your Django projects. A virtual environment is a self-contained environment that allows you to install packages without affecting your system-wide Python installation. To create a virtual environment, run the following command in your terminal:
+
+   ```python
+   python -m venv myenv
+   ```
+
+   Replace "myenv" with the name you want to give to your virtual environment.
+
+### 4. Activate the virtual environment: 
+Once you've created the virtual environment, you need to activate it. To activate the virtual environment on Windows, run the following command:
+
+   ```python
+   myenv\Scripts\activate
+   ```
+
+   On macOS or Linux, run the following command:
+
+   ```
+   source myenv/bin/activate
+   ```
+
+### 5. Create a new Django project
+With the virtual environment activated, you can create a new Django project using the following command:
+
+   ```python
+   django-admin startproject myproject
+   ```
+
+   Replace "myproject" with the name you want to give to your project.
+
+### 6. Configure the database
+By default, Django uses SQLite as its database backend. If you want to use a different database, you need to modify the settings.py file in your project folder. Look for the DATABASES setting and update it with your database details.
+
+### 7. Run the development server
+With the database configured, you can start the development server using the following command:
+
+   ```python
+   python manage.py runserver
+   ```
+
+   This will start the server on http://127.0.0.1:8000/. You can open this URL in your web browser to see the default Django welcome page.
+
+That's it! You've now set up a Django project on your computer. You can start building your web application by creating new apps and adding views, templates, and models.
+
+## Django in Visual Studio Code
+To use Django in Visual Studio Code, you need to follow these steps:
+
+1. Install Python: Before you can use Django, you need to install Python on your machine. You can download and install Python from the official website.
+
+2. Create a virtual environment: It is recommended to create a virtual environment for your Django project. A virtual environment is a way to isolate your project’s dependencies from other projects on your machine. To create a virtual environment, open the terminal in Visual Studio Code and run the following command:
+
+   ```
+   python -m venv env
+   ```
+
+   This command will create a new virtual environment named `env` in your project directory.
+
+3. Activate the virtual environment: To activate the virtual environment, run the following command in the terminal:
+
+   - On Windows: `.\env\Scripts\activate`
+   - On macOS or Linux: `source env/bin/activate`
+
+   Once activated, you should see the name of the virtual environment in the terminal prompt.
+
+4. Install Django: To install Django, run the following command in the terminal:
+
+   ```
+   pip install django
+   ```
+
+5. Create a Django project: To create a new Django project, run the following command in the terminal:
+
+   ```
+   django-admin startproject project_name
+   ```
+
+   This will create a new Django project in a directory named `project_name`.
+
+6. Run the development server: To run the development server, navigate to the project directory and run the following command in the terminal:
+
+   ```
+   python manage.py runserver
+   ```
+
+   This will start the development server on `http://localhost:8000`.
+
+7. Create an app: To create a new app in your Django project, run the following command in the terminal:
+
+   ```
+   python manage.py startapp app_name
+   ```
+
+   This will create a new app in a directory named `app_name`.
+
+8. Configure the database: Django uses a database to store data. You need to configure the database settings in the `settings.py` file.
+
+9. Create models: Models are Python classes that represent the data in the database. You can create models in the `models.py` file in your app directory.
+
+10. Create views: Views are Python functions that handle requests and generate responses. You can create views in the `views.py` file in your app directory.
+
+11. Create templates: Templates are HTML files that define the structure and layout of your web pages. You can create templates in a directory named `templates` in your app directory.
+
+12. Connect URLs to views: You need to create URL patterns in the `urls.py` file in your app directory to connect URLs to views.
+
+By following these steps, you can create a basic Django web application in Visual Studio Code.
+
+## Django extension for Visual Studio Code
+
+The Django extension for Visual Studio Code is a plugin that provides a set of useful tools and features for Django developers working with Visual Studio Code. The extension includes features like IntelliSense for Django templates, syntax highlighting for Django template tags, snippets for common Django code patterns, and support for running Django manage.py commands from within the editor. 
+
+Other features of the Django extension include Django project creation, code navigation, and debugging support. The extension also supports various Django versions, including the latest version, and can be configured to work with different Python environments.
+
+With the Django extension for Visual Studio Code, developers can write Django code more efficiently, debug their applications with ease, and improve their overall productivity.
+
+To install the Django extension for Visual Studio Code, follow these steps:
+
+1. Open Visual Studio Code and click on the Extensions icon in the sidebar.
+2. Search for "Django" in the Extensions Marketplace and click on the Django extension by Microsoft.
+3. Click on the Install button to install the extension.
+
+Once the Django extension is installed, you can use it to develop Django applications in Visual Studio Code. Here are some of the features you can use:
+
+1. IntelliSense for Django templates: The Django extension provides code completion and suggestions for Django template tags and filters.
+
+2. Syntax highlighting for Django template tags: The extension highlights Django template tags and filters in different colors for better readability.
+
+3. Snippets for common Django code patterns: The extension includes snippets for common Django code patterns, such as creating a new Django app or defining a view.
+
+4. Django project creation: You can use the extension to create a new Django project with a single command.
+
+5. Code navigation: The extension allows you to quickly navigate between views, models, and templates in your Django project.
+
+6. Debugging support: The extension provides debugging support for Django applications, allowing you to set breakpoints, step through code, and inspect variables.
+
+To use the Django extension, open a Django project in Visual Studio Code and start coding. You should see IntelliSense suggestions for Django tags and filters, as well as syntax highlighting for Django templates. You can also use the extension to create new Django apps, navigate between different parts of your project, and debug your code.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/python-web/issues) for any improvements, suggestions or errors in the content.

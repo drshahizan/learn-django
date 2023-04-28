@@ -9,15 +9,22 @@ Don't forget to hit the :star: if you like this repo.
 
 # Python Web Frameworks
 
-Python is a popular programming language that can be used for web development. It has a large and active community of developers who contribute to many powerful and easy-to-use libraries and frameworks. In this context, web development with Python involves creating web applications, websites, and APIs using Python programming language, web frameworks, and other related technologies.
+Python is a popular high-level programming language used for web development. It has gained popularity in recent years due to its simplicity, readability, and wide range of libraries and frameworks. Python web development involves the creation of web applications and websites using Python programming language.
 
+Python web development involves a variety of technologies and frameworks that facilitate the creation of dynamic and interactive web applications. Some of the popular Python web development frameworks include Django, Flask, Pyramid, Bottle, and CherryPy. These frameworks provide developers with tools and pre-built components to streamline the development process.
+
+Django is a full-stack web framework for Python that provides a lot of built-in functionality such as an Object-Relational Mapper (ORM), a templating engine, and an authentication system. Flask is a micro web framework that is lightweight and easy to use. It is well-suited for small to medium-sized web applications. Pyramid is a flexible and scalable web framework that is used for building complex web applications.
+
+In addition to these frameworks, Python also has a wide range of libraries and tools that make web development easier. For example, the Requests library is used for making HTTP requests, while BeautifulSoup is used for parsing HTML and XML documents. Python also has robust support for data science and machine learning, which can be leveraged in web development to create intelligent web applications.
+
+Overall, Python web development offers a flexible and powerful platform for creating web applications and websites. Its wide range of libraries and frameworks, combined with its simplicity and readability, make it an ideal choice for many web development projects.
 <p align="center">
 <img src="https://github.com/drshahizan/python-web/blob/main/image/Top-python-web-frameworks.jpg"  height="400" />
 </p>
 
 ## Popular Python Web Frameworks
 
-### 1. [Django]()
+### 1. [Django](./materials/django)
 This is a high-level Python web framework that follows the Model-View-Controller (MVC) architectural pattern. It comes with many built-in features such as an ORM (Object-Relational Mapping), an admin interface, and many other useful libraries that make it easy to build complex web applications.
 
 ### 2. Flask
