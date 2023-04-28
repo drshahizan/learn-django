@@ -7,22 +7,38 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# About Us
-The information on this Github is part of the materials for the subject High Performance Data Processing (SECP3133). This folder contains general big data information as well as big data case studies using Malaysian datasets. This case study was created by a [Bachelor of Computer Science (Data Engineering)](https://comp.utm.my/bachelor-of-computer-science-data-engineering/), Universiti Teknologi Malaysia student.
+# Python Web Frameworks
+
+Python is a popular programming language that can be used for web development. It has a large and active community of developers who contribute to many powerful and easy-to-use libraries and frameworks. In this context, web development with Python involves creating web applications, websites, and APIs using Python programming language, web frameworks, and other related technologies.
 
 <p align="center">
-<img src="https://github.com/drshahizan/Python_EDA/blob/main/lab/hpdp1.jpeg"  height="200" />
+<img src="https://github.com/drshahizan/python-web/blob/main/image/Top-python-web-frameworks.jpg"  height="400" />
 </p>
 
-## Web Application
+## Popular Python web frameworks
+
+### 1. Django
+This is a high-level Python web framework that follows the Model-View-Controller (MVC) architectural pattern. It comes with many built-in features such as an ORM (Object-Relational Mapping), an admin interface, and many other useful libraries that make it easy to build complex web applications.
+
+### 2. Flask
+Flask is a lightweight web framework that is easy to learn and use. It is based on the WSGI toolkit and provides a flexible and modular design that allows developers to create web applications quickly and easily.
+
+### 3. Pyramid
+Pyramid is a general-purpose Python web framework that is well-suited for large and complex web applications. It follows a minimalist approach and allows developers to use the best tools for their specific needs.
+
+### 4. Bottle
+Bottle is a micro-framework that is easy to learn and use. It is designed to be lightweight and does not have many dependencies. It is suitable for small web applications or prototyping.
+
+Python web development can be used for a wide range of applications, including web scraping, data analysis, machine learning, and artificial intelligence. It can be used to create web applications for e-commerce, social networking, content management systems, and many other types of applications. The versatility of Python and its rich ecosystem of libraries and frameworks make it a popular choice for web development.
+
+
+## Useful links: Web Application
 - [Python Dash Web Application Connected to Live Database - MongoDB](https://www.youtube.com/watch?v=DWqEVpOfYxE)
 - [Web Data Dashboard with Plotly express and Flask Python and JavaScript](https://youtu.be/B97qWOUvlnU)
 - [Flask Course - Python Web Application Development](https://youtu.be/Qr4QMBUPxWo)
 - [Jupyter Notebook: How to use it to create a web application using Django and MongoDb](./materials/wa-jupyter.md)
 - [Visual Studio Code: develop web application using MongoDb and Django](./materials/wa-VSC.md)
-<p align="center">
-<img src="https://github.com/drshahizan/python-web/blob/main/image/Top-python-web-frameworks.jpg"  height="400" />
-</p>
+
 
 ### Python web development
 - [Python Web Development Libraries - Quick Guide](https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_quick_guide.htm)
