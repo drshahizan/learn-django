@@ -12,8 +12,8 @@ Django is a popular web development framework that can be used to build complex 
 
 | No | Topic | Description |
 |----|---------------|---------------------------|
-| 1 | [Setting up a Django Project](topic/1-setting.md) | Learn how to install and configure Django on your computer. |
-| 2 | [Creating a Django App](topic/2-create.md) | Learn how to create a new Django app and add it to your project. |
+| 1 | [Setting up a Django Project](./topic/1-setting.md) | Learn how to install and configure Django on your computer. |
+| 2 | [Creating a Django App](./topic/2-create.md) | Learn how to create a new Django app and add it to your project. |
 | 3 | Models in Django | Learn about Django's ORM and how to create models to represent your data. |
 | 4 | Views and Templates | Learn how to create views that handle requests and generate HTML using templates. |
 | 5 | URL routing in Django | Learn how to map URLs to views in your Django app. |
