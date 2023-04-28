@@ -48,7 +48,6 @@ Python web development can be used for a wide range of applications, including w
 | Fraud Detection | Use machine learning models to identify fraudulent transactions based on historical data. | A financial institution wants to detect fraudulent transactions in real-time to prevent financial loss and protect their customers. |
 | Sentiment Analysis | Use natural language processing techniques to analyze and classify text data based on the sentiment expressed. | A social media company wants to analyze the sentiment of user comments and posts to understand how users feel about their platform and identify areas for improvement. |
 
-One real case study of a Django-based data science project is the "Data Dashboard" project, which involves building a web-based dashboard that displays key metrics and insights derived from a company's data. The dashboard is built using Django's web framework, and it uses data visualization libraries like Plotly and Bokeh to create interactive charts and graphs. The data is processed and analyzed using Python-based data science tools like pandas and scikit-learn. The dashboard can be customized to display different metrics and insights depending on the user's needs, and it can be integrated with other systems like CRMs or ERPs. This project can be used in various industries like healthcare, finance, and e-commerce to monitor business performance and make data-driven decisions.
 ## Useful links
 
 Free Django projects for beginners:
