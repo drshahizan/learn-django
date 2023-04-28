@@ -19,3 +19,10 @@ Don't forget to hit the :star: if you like this repo.
 | Admin interface in Django     | Learn how to use Django's built-in admin interface for managing your app's data. |
 | Authentication and Authorization in Django | Learn how to add user authentication and authorization to your Django app. |
 | Deploying a Django app        | Learn how to deploy your Django app to a production server.   |
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/python-web/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
