@@ -31,6 +31,8 @@ To use the admin interface in Django, you need to follow these steps:
 
 3. Access the admin interface: You can access the admin interface by navigating to `http://localhost:8000/admin` in your web browser and logging in with your superuser account. Once you are logged in, you can see a list of registered models and perform various actions such as adding, editing, and deleting data.
 
+4. Manage your data: From the main admin page, you can click on a model to view and manage its data. You can add, edit, and delete objects using the provided forms and buttons. You can also search and filter objects based on their attributes.
+
 The admin interface provides a variety of customization options, such as changing the layout, adding custom views, and defining permissions for users. You can also customize the forms used for adding and editing data, and provide custom validation and processing logic.
 
 Overall, the admin interface in Django provides a convenient and powerful way to manage your application's data, and it can save you a lot of time and effort in developing custom management views and forms.
