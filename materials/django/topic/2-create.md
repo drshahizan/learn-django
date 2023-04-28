@@ -56,6 +56,7 @@ Once you have created the migration file, you can apply the migrations by runnin
 ```python
 python manage.py migrate
 ```
+<img src="migrate.png" width="300" />
 
 This command will create the necessary database tables based on the models you have defined.
 
