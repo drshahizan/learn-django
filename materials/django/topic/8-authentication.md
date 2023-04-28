@@ -6,23 +6,23 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-django)
 
 Don't forget to hit the :star: if you like this repo.
-# Django
+# Authentication and authorization
 
-Django is a popular web development framework that can be used to build complex and scalable web applications. As a beginner in Django, there are several topics that you will need to cover. These topics include setting up a Django project, creating a Django app, working with models to represent data, creating views and templates to generate HTML, defining URL patterns to handle requests, working with forms to process user input, using the built-in admin interface to manage data, adding user authentication and authorization to your app, and finally, deploying your app to a production server. By understanding and mastering these topics, you will be well on your way to building robust and dynamic web applications using Django.
+Authentication and authorization are important aspects of building secure web applications, and Django provides built-in features to handle these tasks.
 
-| No | Topic                          | Description                                                  |
-|----|--------------------------------|--------------------------------------------------------------|
-| 1  | Setting up a Django Project    | Learn how to install and configure Django on your computer. |
-| 2  | Creating a Django App          | Learn how to create a new Django app and add it to your project. |
-| 3  | Models in Django               | Learn about Django's ORM and how to create models to represent your data. |
-| 4  | Views and Templates            | Learn how to create views that handle requests and generate HTML using templates. |
-| 5  | URL routing in Django          | Learn how to map URLs to views in your Django app.           |
-| 6  | Forms in Django                | Learn how to create HTML forms and handle user input with Django forms. |
-| 7  | Admin interface in Django      | Learn how to use Django's built-in admin interface for managing your app's data. |
-| 8  | Authentication and Authorization in Django | Learn how to add user authentication and authorization to your Django app. |
-| 9  | Deploying a Django app         | Learn how to deploy your Django app to a production server.   |
+Authentication refers to the process of verifying the identity of a user who is trying to access a protected resource, such as a web page or an API endpoint. Django provides a powerful and flexible authentication system that allows you to authenticate users using a variety of methods, such as username and password, social media logins, or single sign-on (SSO).
 
-I hope this helps you! Good luck with your Django web development journey.
+Django's authentication system is based on the concept of a User model, which represents a user of your application. The User model includes fields for storing basic user information, such as username, email, and password, and it provides methods for authenticating users and managing their permissions.
+
+To enable authentication in your Django application, you need to configure the authentication backend and define the login and logout views. Django provides several authentication backends out of the box, such as the default database backend and third-party backends for social media authentication. You can also create your own custom authentication backends if needed.
+
+Authorization refers to the process of determining what actions a user is allowed to perform on a resource based on their role or permissions. Django provides a flexible and granular authorization system that allows you to define permissions at the model, view, and template level.
+
+Django's authorization system is based on the concept of a Permission model, which represents a specific permission that can be granted to a user or group of users. Permissions can be associated with a model or a view, and they can be assigned to users or groups using the Django admin interface or programmatically.
+
+To enable authorization in your Django application, you need to define the permissions for your models and views, and check the user's permissions in your views and templates. Django provides several tools for handling permissions, such as the `login_required` decorator, the `permission_required` decorator, and the `user_passes_test` decorator.
+
+Overall, Django's authentication and authorization systems provide a powerful and flexible way to build secure web applications that protect user data and resources. By using these features, you can ensure that only authorized users can access your application's sensitive data and functionality.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
