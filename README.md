@@ -1,9 +1,9 @@
-<a href="https://github.com/drshahizan/python-web/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/python-web" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/python-web/network/members"><img src="https://img.shields.io/github/forks/drshahizan/python-web" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/python-web/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/python-web" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/python-web/issues"><img src="https://img.shields.io/github/issues/drshahizan/python-web" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/python-web/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/python-web?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/python-web)
+<a href="https://github.com/drshahizan/learn-django/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-django" alt="Stars Badge"/></a>
+<a href="https://github.com/drshahizan/learn-django/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-django" alt="Forks Badge"/></a>
+<a href="https://github.com/drshahizan/learn-django/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-django" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/drshahizan/learn-django/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-django" alt="Issues Badge"/></a>
+<a href="https://github.com/drshahizan/learn-django/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-django?color=2b9348"></a>
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-django)
 
 Don't forget to hit the :star: if you like this repo.
 
@@ -105,16 +105,16 @@ Python web development can be used for a wide range of applications, including w
 ### Lab
 
 #### PyScript
-- [Lab 1: Hello World Program](https://raw.githubusercontent.com/drshahizan/python-web/main/pyscript/exer1.html)
-- [Lab 2: Pyscript With the src Attribute](https://raw.githubusercontent.com/drshahizan/python-web/main/pyscript/exer2.html)
-- [Lab 3: Working With Python Environment](https://raw.githubusercontent.com/drshahizan/python-web/main/pyscript/exer3.html)
-- [Lab 4: Interactive Embedded Shell](https://raw.githubusercontent.com/drshahizan/python-web/main/pyscript/exer4.html)
-- [Lab 5: Rendering Bokeh Plot With Pyscript](https://raw.githubusercontent.com/drshahizan/python-web/main/pyscript/exer5.html)
-- [Lab 6: Matplotlib](https://raw.githubusercontent.com/drshahizan/python-web/main/pyscript/matplotlib.html.html)
+- [Lab 1: Hello World Program](https://raw.githubusercontent.com/drshahizan/learn-django/main/pyscript/exer1.html)
+- [Lab 2: Pyscript With the src Attribute](https://raw.githubusercontent.com/drshahizan/learn-django/main/pyscript/exer2.html)
+- [Lab 3: Working With Python Environment](https://raw.githubusercontent.com/drshahizan/learn-django/main/pyscript/exer3.html)
+- [Lab 4: Interactive Embedded Shell](https://raw.githubusercontent.com/drshahizan/learn-django/main/pyscript/exer4.html)
+- [Lab 5: Rendering Bokeh Plot With Pyscript](https://raw.githubusercontent.com/drshahizan/learn-django/main/pyscript/exer5.html)
+- [Lab 6: Matplotlib](https://raw.githubusercontent.com/drshahizan/learn-django/main/pyscript/matplotlib.html.html)
 
 
 ## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/python-web/issues) for any improvements, suggestions or errors in the content.
+Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
 
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
