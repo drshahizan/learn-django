@@ -6,23 +6,29 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/python-web)
 
 Don't forget to hit the :star: if you like this repo.
-# Django
+# Install Python
 
-Django is a popular web development framework that can be used to build complex and scalable web applications. As a beginner in Django, there are several topics that you will need to cover. These topics include setting up a Django project, creating a Django app, working with models to represent data, creating views and templates to generate HTML, defining URL patterns to handle requests, working with forms to process user input, using the built-in admin interface to manage data, adding user authentication and authorization to your app, and finally, deploying your app to a production server. By understanding and mastering these topics, you will be well on your way to building robust and dynamic web applications using Django.
+## Steps to install Python on a MacBook
 
-| No | Topic                          | Description                                                  |
-|----|--------------------------------|--------------------------------------------------------------|
-| 1  | Setting up a Django Project    | Learn how to install and configure Django on your computer. |
-| 2  | Creating a Django App          | Learn how to create a new Django app and add it to your project. |
-| 3  | Models in Django               | Learn about Django's ORM and how to create models to represent your data. |
-| 4  | Views and Templates            | Learn how to create views that handle requests and generate HTML using templates. |
-| 5  | URL routing in Django          | Learn how to map URLs to views in your Django app.           |
-| 6  | Forms in Django                | Learn how to create HTML forms and handle user input with Django forms. |
-| 7  | Admin interface in Django      | Learn how to use Django's built-in admin interface for managing your app's data. |
-| 8  | Authentication and Authorization in Django | Learn how to add user authentication and authorization to your Django app. |
-| 9  | Deploying a Django app         | Learn how to deploy your Django app to a production server.   |
+1. Open the official Python website (https://www.python.org/downloads/mac-osx/) in your web browser.
+2. Download the latest version of Python for macOS by clicking on the "Download Python X.X.X" button (where X.X.X is the version number).
+3. Once the download is complete, open the downloaded file and follow the installation wizard.
+4. During the installation, make sure to select the option to add Python to your system path. This will allow you to use Python from the terminal.
+5. Once the installation is complete, open the Terminal app on your MacBook.
+6. To verify that Python is installed, type the following command in the terminal: `python --version`. This should display the version of Python you just installed.
+7. You can now start using Python on your MacBook by running Python scripts from the terminal or using an Integrated Development Environment (IDE) like PyCharm or Visual Studio Code.
 
-I hope this helps you! Good luck with your Django web development journey.
+## Steps to install Python on a Windows computer
+
+1. Open the official Python website (https://www.python.org/downloads/windows/) in your web browser.
+2. Scroll down to the "Download Python" section and click on the "Download Windows x86-64 executable installer" link (or the link that corresponds to your system architecture).
+3. Once the download is complete, open the downloaded file and follow the installation wizard.
+4. During the installation, make sure to select the option to add Python to your system path. This will allow you to use Python from the command prompt.
+5. Once the installation is complete, open the Command Prompt app on your Windows computer.
+6. To verify that Python is installed, type the following command in the command prompt: `python --version`. This should display the version of Python you just installed.
+7. You can now start using Python on your Windows computer by running Python scripts from the command prompt or using an Integrated Development Environment (IDE) like PyCharm or Visual Studio Code.
+
+That's it! You've now installed Python on your Windows computer. If you encounter any issues during the installation process, feel free to consult the Python documentation or seek help from a developer community.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/python-web/issues) for any improvements, suggestions or errors in the content.
