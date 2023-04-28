@@ -62,6 +62,10 @@ Python web development can be used for a wide range of applications, including w
 - [Best Python Django Tutorial For Beginners – With Project Structure](https://data-flair.training/blogs/python-django-tutorial/)
 - [Django Dashboards — Open Source and Free](https://medium.com/@appseed.us/django-dashboards-open-source-and-free-projects-1d8e64919e6d)
 
+#### Django: Project
+- [Build a Social Media App with Django – Python Web Framework Tutorial](https://youtu.be/xSUm6iMtREA)
+- 💻 [Source code:](https://github.com/tomitokko/django-social-media-website)
+- 💻 [Template files](https://github.com/tomitokko/django-social-media-template)
 
 ### PyScript
 - [PyScript - GitHub](https://github.com/pyscript/pyscript)
