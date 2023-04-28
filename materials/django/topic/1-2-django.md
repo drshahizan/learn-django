@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Install Django
 
-Install pip
+## Install pip
 To install pip on your computer, you can follow these steps:
 
 1. Open a terminal or command prompt on your computer.
@@ -35,6 +35,28 @@ To install pip on your computer, you can follow these steps:
    This should display the version of pip you have installed on your computer.
 
 > Note: If you are using a version of Python earlier than Python 3.4, pip may not be included with your Python installation. In this case, you can download the `get-pip.py` script and run it using your Python interpreter (e.g. `python get-pip.py` for Python 2).
+
+## Install Django using pip
+To install Django using pip, you can follow these steps:
+
+1. Open a terminal or command prompt on your computer.
+
+2. Run the following command to install Django using pip:
+   ```python
+   pip install django
+   ```
+
+3. Wait for the installation to complete. Once the installation is finished, Django should be installed on your computer.
+
+4. You can verify that Django is installed by opening a Python shell and running the following command:
+   ```python
+   import django
+   print(django.get_version())
+   ```
+
+   This should print the version of Django that you have installed on your computer.
+
+> Note: Depending on your system configuration, you may need to run pip with administrative privileges (e.g. using `sudo pip install django` on Linux or macOS) or use a virtual environment to install Django.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/python-web/issues) for any improvements, suggestions or errors in the content.
