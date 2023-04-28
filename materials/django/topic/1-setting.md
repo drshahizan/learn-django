@@ -24,7 +24,7 @@ Once you have Python installed, you can install Django using pip, the Python pac
 
    This will install the latest version of Django.
 
-### 3. Create a virtual environment
+### 3. [Create a virtual environment](1-3-ve.md)
 It's a good practice to create a virtual environment for your Django projects. A virtual environment is a self-contained environment that allows you to install packages without affecting your system-wide Python installation. To create a virtual environment, run the following command in your terminal:
 
    ```python
