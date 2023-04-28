@@ -14,15 +14,15 @@ Steps to create a new Django project:
 ### 1. Install Django
 If you haven't already installed Django, open your terminal or command prompt and run the following command:
 
-```
+```python
 pip install django
 ```
 
 ### 2. Create a new project
 Once you have installed Django, you can create a new project by running the following command in your terminal or command prompt:
 
-```
-django-admin startproject projectname
+```python
+django-admin startproject projek_ST
 ```
 
 Replace "projectname" with the name you want to give your new Django project. This command will create a new directory with the same name as your project inside the directory where you ran the command.
@@ -30,7 +30,7 @@ Replace "projectname" with the name you want to give your new Django project. Th
 ### 3. Create a new app
 Once you have created a new project, you can create a new app by running the following command:
 
-```
+```python
 python manage.py startapp appname
 ```
 
@@ -42,7 +42,7 @@ Now that you have created a new app, you can define your models in the models.py
 ### 5. Create database tables
 Once you have defined your models, you can create database tables by running the following command:
 
-```
+```python
 python manage.py makemigrations
 ```
 
@@ -50,7 +50,7 @@ This command will create a new migration file in the migrations directory inside
 
 ### 6. Apply database migrations: Once you have created the migration file, you can apply the migrations by running the following command:
 
-```
+```python
 python manage.py migrate
 ```
 
@@ -65,7 +65,7 @@ Once you have created a view, you can define URLs that will map to your views by
 ### 9. Run the server
 Now that you have defined your models, created database tables, created a view, and defined URLs, you can run the development server by running the following command:
 
-```
+```python
 python manage.py runserver
 ```
 
