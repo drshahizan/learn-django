@@ -6,6 +6,7 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-django)
 
 Don't forget to hit the :star: if you like this repo.
+
 # Django concept
 
 Django is a web framework for building web applications in Python. It follows the Model-View-Controller (MVC) architectural pattern, where the Model represents the application's data and logic, the View is responsible for rendering the user interface, and the Controller handles user input and coordinates communication between the Model and View. 
@@ -14,7 +15,9 @@ Django is a web framework for building web applications in Python. It follows th
 
 In a Django project, the application logic is organized into individual apps. Each app typically consists of four main components: Models, Views, Templates, and URLs. Here's a brief overview of these components in the context of an example Django project called "App1":
 
+<p align="center">
 <img src="./images/1-django-project.png" width="400" />
+</p>
 
 ### 1. Models
 Models define the data structure and relationships between database tables. In App1, the models might include classes such as "User" or "Post", which represent users and posts in the application. Models are defined in a file called "models.py" in the app directory.
@@ -28,7 +31,33 @@ Templates define the HTML structure and layout of the application's user interfa
 ### 4. URLs
 URLs map user requests to specific views. In App1, the URLs might include patterns such as "/posts/" or "/posts/create/", which map to the "list_posts" and "create_post" views, respectively. URLs are defined in a file called "urls.py" in the app directory.
 
+<p align="center">
+<img src="./images/2-app.png" width="400" />
+</p>
+
 Overall, these components work together to define the functionality and user interface of the App1 web application. By organizing the application logic into separate apps, Django allows developers to build complex applications with a modular and maintainable codebase.
+
+## Example: Create website using Django.
+Creating a website like Facebook.com using Django would be a complex and challenging task that would require a team of experienced developers and a significant amount of time and resources. However, here's a brief overview of the key steps involved in building some of Facebook.com's core features using Django:
+
+### 1. Users:
+- Pages: To allow users to create pages on the website, the developer would need to define a "Page" model in Django's ORM (Object-Relational Mapping) system. This model would store information about the page, such as its name, description, and category. The developer would also need to create views and templates to allow users to create, edit, and view pages on the site.
+- Photos: To allow users to upload and view photos, the developer would need to create a "Photo" model in Django's ORM system. This model would store information about the photo, such as its title, caption, and image file. The developer would also need to create views and templates to allow users to upload and view photos on the site.
+- Friends: To allow users to connect with each other and become friends on the site, the developer would need to create a "Friendship" model in Django's ORM system. This model would store information about the friendship, such as the two users involved and the date the friendship was formed. The developer would also need to create views and templates to allow users to send friend requests, accept friend requests, and view their list of friends.
+
+### 2. Feed:
+- Likes: To allow users to like posts and photos in their feed, the developer would need to create a "Like" model in Django's ORM system. This model would store information about the like, such as the user who liked the post, the post they liked, and the date the like was made. The developer would also need to create views and templates to allow users to like and unlike posts and photos.
+- Comments: To allow users to comment on posts and photos in their feed, the developer would need to create a "Comment" model in Django's ORM system. This model would store information about the comment, such as the user who made the comment, the post or photo they commented on, and the text of the comment. The developer would also need to create views and templates to allow users to create and view comments on posts and photos.
+
+### 3. Groups:
+- Members: To allow users to create and join groups on the site, the developer would need to create a "Group" model in Django's ORM system. This model would store information about the group, such as its name, description, and category. The developer would also need to create views and templates to allow users to create, edit, and view groups on the site, as well as a "Membership" model to track which users are members of each group.
+- Messages: To allow users to send messages to each other within groups, the developer would need to create a "Message" model in Django's ORM system. This model would store information about the message, such as the user who sent the message, the group the message was sent to, and the text of the message. The developer would also need to create views and templates to allow users to send and view messages within groups.
+
+<p align="center">
+<img src="./images/3-fb.png" width="400" />
+</p>
+
+Overall, building a website like Facebook.com using Django would require a combination of technical skills, design expertise, and project management experience. It would also require a deep understanding of the site's core features and functionality, as well as the ability to adapt to changing user needs and trends.
 
 ## Key features
 Django is a high-level, open-source web framework for Python that follows the Model-View-Controller (MVC) architectural pattern. It is designed to make web development faster, easier, and more secure by providing developers with a set of tools and features to build complex web applications.
