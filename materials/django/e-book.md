@@ -9,8 +9,15 @@ Don't forget to hit the :star: if you like this repo.
 
 # E-book Django
 
+## Django Project Blueprints
 
+Django Project Blueprints is a book that provides step-by-step instructions for building 6 real-world Django projects. You can download the sample code for free from the book's website.
 
+- [link](https://www.packtpub.com/free-ebook/django-project-blueprints)
+
+## Django For Beginners
+- [link](https://github.com/wsvincent/djangoforbeginners)
+Django For Beginners is a book that teaches you how to build a simple blog application using Django. The code for the project is available on GitHub.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
