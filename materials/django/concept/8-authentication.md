@@ -10,6 +10,10 @@ Don't forget to hit the :star: if you like this repo.
 # Authentication and authorization
 Authentication and authorization are essential components of web applications that deal with user accounts and access control. Django provides built-in support for authentication and authorization, making it easy to add user authentication and authorization to your web application.
 
+<p align="center">
+<img src="../images/12-authentication.png" width="400" />
+</p>
+
 ### 1. Authentication
 Authentication refers to the process of verifying the identity of a user who is trying to access a web application. In Django, authentication is handled by the `django.contrib.auth` module, which provides a set of views and forms for user authentication. The `User` model is also provided by this module, which represents a user account in your application.
 
