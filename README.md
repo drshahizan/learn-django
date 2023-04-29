@@ -51,7 +51,7 @@ Free Django projects for beginners:
 | [DjangoGirls Tutorial](https://tutorial.djangogirls.org/en/) | DjangoGirls is a nonprofit organization that aims to teach women and girls how to code using Django. They offer a free tutorial that teaches you how to build a blog application using Django. |
 | [Real Python](https://realpython.com/get-started-with-django-1/) | Real Python is a website that offers tutorials and courses on Python and Django. They have a free course that teaches you how to build a simple Django project. |
 
-### Django
+### Web
 - [Meet Django](https://www.djangoproject.com/)
 - [Github: django](https://github.com/django/django)
 - [Django Tutorial: w3schools](https://www.w3schools.com/django/index.php)
