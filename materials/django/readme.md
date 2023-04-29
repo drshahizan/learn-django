@@ -37,6 +37,24 @@ URLs map user requests to specific views. In App1, the URLs might include patter
 
 Overall, these components work together to define the functionality and user interface of the App1 web application. By organizing the application logic into separate apps, Django allows developers to build complex applications with a modular and maintainable codebase.
 
+## Example of a view function in Django. 
+
+Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It is built on top of the Python programming language and follows the model-view-controller (MVC) architectural pattern.
+
+In this particular example, the view function is called `profileView` and it takes a `request` object as its argument. The `request` object contains information about the current request, such as the user's browser, IP address, and any data they submitted in a form.
+
+The first line of the view function imports the `render` function from the `django.shortcuts` module. The `render` function takes a request object, a template name, and a context dictionary as its arguments, and returns an HTTP response with the rendered template.
+
+In the second line of the view function, the `getUser()` function is called to retrieve information about the current user. This function is not defined in the code snippet, but it is likely a custom function that retrieves user data from a database or other source.
+
+Finally, the view function passes the `user` object to the `render` function as part of a context dictionary. This context dictionary allows variables to be passed from the view function to the template, where they can be displayed or manipulated as needed.
+
+<p align="center">
+<img src="./images/3-view.png" width="400" />
+</p>
+
+Overall, Django provides a powerful set of tools for building web applications, including a robust ORM (Object-Relational Mapping) system, a built-in admin interface, and a templating engine for creating dynamic HTML pages. The framework also emphasizes best practices such as DRY (Don't Repeat Yourself) coding and secure development practices.
+
 ## Example: Create website using Django.
 Creating a website like Facebook.com using Django would be a complex and challenging task that would require a team of experienced developers and a significant amount of time and resources. However, here's a brief overview of the key steps involved in building some of Facebook.com's core features using Django:
 
@@ -54,7 +72,7 @@ Creating a website like Facebook.com using Django would be a complex and challen
 - Messages: To allow users to send messages to each other within groups, the developer would need to create a "Message" model in Django's ORM system. This model would store information about the message, such as the user who sent the message, the group the message was sent to, and the text of the message. The developer would also need to create views and templates to allow users to send and view messages within groups.
 
 <p align="center">
-<img src="./images/3-fb.png" width="400" />
+<img src="./images/4-fb.png" width="400" />
 </p>
 
 Overall, building a website like Facebook.com using Django would require a combination of technical skills, design expertise, and project management experience. It would also require a deep understanding of the site's core features and functionality, as well as the ability to adapt to changing user needs and trends.
