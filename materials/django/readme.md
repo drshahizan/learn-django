@@ -44,6 +44,23 @@ Using the MVT pattern, we can build a robust and scalable web application like F
 | 10. Create Website using Django | The process of building a web application using the Django web framework. This typically involves creating a Django project, defining models and views, creating templates, and configuring the project's URLs. |
 | 11. Key Features           | A list of features that make Django a popular choice for web development, including its built-in ORM, template engine, administration interface, and support for third-party packages. |
 
+## Popular websites built using Django
+
+| Website          | Description                                    |
+| ---------------- | ---------------------------------------------- |
+| Instagram        | Social media platform. Instagram's backend is built with Django, and it is one of the most popular social media platforms in the world. |
+| Pinterest        | Visual discovery platform  that uses Django for its backend. |
+| Mozilla          | Non-profit organization for Firefox web browser, uses Django for some of its web applications.|
+| Dropbox          | Cloud storage and file sharing service, uses Django for some of its internal web applications.|
+| Bitbucket        | Web-based version control repository hosting service that uses Django for its backend. |
+| Spotify          | Music streaming service, uses Django for some of its internal web applications.|
+| Eventbrite       | Event organizing and management platform|
+| The Washington Post | One of the largest newspapers in the US, uses Django for some of its web applications.|
+| NASA             | US space agency, , uses Django for some of its web applications.|
+| Disqus           | Commenting platform for websites that uses Django for its backend.|
+
+This is just a small sample of the many websites that are built using Django.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
 
