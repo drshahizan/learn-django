@@ -9,7 +9,14 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment
 
-The goal of this assignment is to create a web application using Django that implements CRUD (Create, Read, Update, Delete) functionality, searching, and a dashboard for admin reporting.
+The goal of this assignment is to create a web application using the Django framework, which is a popular Python web framework that follows the Model-View-Controller (MVC) architecture. The web application should have the following features:
+
+1. CRUD functionality: This refers to the ability to create, read, update, and delete records in the database. For example, if you were building a web application for a bookstore, you would need to create records for books, read records to display them on a page, update records when a book's details change, and delete records when a book is no longer available.
+
+2. Searching: The web application should allow users to search for records in the database. For example, users could search for a book by title, author, or genre.
+
+3. Dashboard for admin reporting: The web application should have a dashboard that allows administrators to view reports and statistics about the data in the database. For example, an administrator of a bookstore web application might want to see how many books have been sold in a certain period, which books are the most popular, or how many customers have made purchases.
+
 
 ## Project Requirements
 
