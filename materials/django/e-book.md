@@ -62,7 +62,6 @@ If you’re curious about Python-based web development, Django for Beginners is 
 This is the code repository for [Django 4 by Example](https://djangobyexample.com/), written by [Antonio Melé](https://antoniomele.es/) and published by [Packt](https://www.packtpub.com/product/django-4-by-example/9781801813051). It contains all the supporting project files necessary to work through the book from start to finish.
 
 
-
 ### Instructions
 The code is organised into directories with the chapter number. For example, `Chapter02` contains the source code for chapter 2. Each chapter folder has a `requirements.txt` file that includes all packages required to run the code of that chapter. These can be installed with the command `pip install -r requirements.txt`.
 
@@ -185,6 +184,30 @@ Join the book [Discord Community](https://discord.gg/PQ7UYX9VTx) to participate 
 - [Django 3 by Example](https://github.com/PacktPublishing/Django-3-by-Example)
 - [Django 2 by Example](https://github.com/PacktPublishing/Django-2-by-Example)
 - [Django by Example](https://github.com/PacktPublishing/Django-by-Example)
+
+## 4. Python Crash Course, 3rd Edition
+<img src="https://nostarch.com/sites/default/files/styles/uc_product_full/public/PythonCrashCourse3e_front%20%281%29.png?itok=GdQ8Ib9x" style="width:200px;"  align="left">
+
+**A Hands-On, Project-Based Introduction to Programming**<br>
+by Eric Matthes. December 2022, 552 pp.
+
+Python Crash Course is the world’s best-selling guide to the Python programming language. This fast-paced, thorough introduction will have you writing programs, solving problems, and developing functioning applications in no time.
+
+You’ll start by learning basic programming concepts, such as variables, lists, classes, and loops, and practice writing clean code with exercises for each topic. You’ll also learn how to make your programs interactive and test your code safely before adding it to a project. You’ll put your new knowledge into practice by creating a Space Invaders–inspired arcade game, building a set of data visualizations with Python’s handy libraries, and deploying a simple application online.
+<br>
+
+**As you work through the book, you’ll learn how to**:
+
+- Use powerful Python libraries and tools, including pytest, Pygame, Matplotlib, Plotly, and Django
+- Make increasingly complex 2D games that respond to keypresses and mouse clicks
+- Generate interactive data visualizations using a variety of datasets
+- Build apps that allow users to create accounts and manage their own data, and deploy your apps online
+- Troubleshoot coding errors and solve common programming problems
+
+> New to this edition: This third edition is completely revised to reflect the latest in Python code. New and updated coverage includes VS Code for text editing, the pathlib module for file handling, pytest for testing your code, as well as the latest features of Matplotlib, Plotly, and Django.
+
+If you’ve been thinking about digging into programming, Python Crash Course will provide you with the skills to write real programs fast. Why wait any longer? Start your engines and code!
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
