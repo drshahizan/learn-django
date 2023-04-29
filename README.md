@@ -14,6 +14,12 @@ Django is a high-level web framework for building web applications in Python. It
 <img src="./materials/django/images/django_flow.png" width="600" />
 </p>
 
+## 🔥 Assignment ⚡
+
+1. [Topic](./materials/task1.md)
+2. [Instruction](./materials/task1.md)
+3. [Task 1: Additional Notes](./materials/task1.md)
+
 ## Python Web Frameworks
 
 Python is a popular high-level programming language used for web development. It has gained popularity in recent years due to its simplicity, readability, and wide range of libraries and frameworks. Python web development involves the creation of web applications and websites using Python programming language. [**More info..**](./materials/pwf)
