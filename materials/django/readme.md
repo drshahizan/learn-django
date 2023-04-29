@@ -223,7 +223,7 @@ The Admin Panel consists of two main sections:
 1. Django Administration: This section is the built-in administrative interface for the Django framework. It provides access to the system-level administration features such as user authentication, groups, permissions, and site settings.
 
 <p align="center">
-<img src="./images/8-django-admin.png" width="400" />
+<img src="./images/8-django-admin.png" width="300" />
 </p>
 
 2. Site Administration: This section provides access to the application-level administration features. It allows authorized users to perform CRUD (Create, Read, Update, Delete) operations on the application's data using a web-based interface. 
