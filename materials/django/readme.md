@@ -223,7 +223,7 @@ The Admin Panel consists of two main sections:
 1. Django Administration: This section is the built-in administrative interface for the Django framework. It provides access to the system-level administration features such as user authentication, groups, permissions, and site settings.
 
 <p align="center">
-<img src="./images/8-django-admin.png" width="400" />
+<img src="./images/8-django-admin.png" width="300" />
 </p>
 
 2. Site Administration: This section provides access to the application-level administration features. It allows authorized users to perform CRUD (Create, Read, Update, Delete) operations on the application's data using a web-based interface. 
@@ -235,6 +235,84 @@ The Admin Panel consists of two main sections:
 The Site Administration section is based on the ModelAdmin class, which defines how the models should be displayed in the Admin Panel. ModelAdmin class allows customization of the admin panel by providing options such as list_display, list_filter, search_fields, and actions. These options allow the developers to control which fields are displayed, how they are sorted, and how the data is filtered. 
 
 Overall, the Django Admin Panel provides a convenient way for developers and administrators to manage and maintain Django applications without writing any custom code. It is a powerful tool that streamlines the development process and helps to improve productivity.
+
+## CRUD (Create, Read, Update, Delete)
+In Django, CRUD (Create, Read, Update, Delete) operations are performed using functions that are defined in views.py. These functions correspond to HTTP methods: GET, POST, PUT, and DELETE.
+
+### 1. Create
+To create a new record in the database, a view function is created that handles the HTTP POST method. The function creates a new instance of the model and saves it to the database.
+
+```python
+from django.shortcuts import render, redirect
+from .models import Book
+from .forms import BookForm
+
+def create_book(request):
+    if request.method == 'POST':
+        form = BookForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('book_list')
+    else:
+        form = BookForm()
+    return render(request, 'create_book.html', {'form': form})
+```
+
+> In this example, the function `create_book` handles the creation of a new book. It checks whether the HTTP method is POST and validates the form. If the form is valid, it saves the data to the database and redirects the user to the book list page.
+
+
+### 2. Read
+To retrieve data from the database, a view function is created that handles the HTTP GET method. The function queries the database using the model and returns the data to the user in a format that is specified in the view.
+
+```python
+from django.shortcuts import render
+from .models import Book
+
+def book_list(request):
+    books = Book.objects.all()
+    return render(request, 'book_list.html', {'books': books})
+```
+
+> In this example, the function `book_list` retrieves all books from the database using the all() method of the Book model. It passes the retrieved data to the book_list.html template to be rendered.
+
+### 3. Update
+To update an existing record in the database, a view function is created that handles the HTTP PUT method. The function retrieves the record from the database, updates the fields, and saves the changes back to the database.
+
+```python
+from django.shortcuts import render, redirect
+from .models import Book
+from .forms import BookForm
+
+def update_book(request, pk):
+    book = Book.objects.get(pk=pk)
+    form = BookForm(request.POST or None, instance=book)
+    if form.is_valid():
+        form.save()
+        return redirect('book_list')
+    return render(request, 'update_book.html', {'form': form})
+```
+
+> In this example, the function `update_book` retrieves the book with the specified primary key from the database and populates the form with the book data. If the form is valid, it updates the book data in the database and redirects the user to the book list page.
+
+### 4. Delete
+To delete a record from the database, a view function is created that handles the HTTP DELETE method. The function retrieves the record from the database and deletes it.
+
+```python
+from django.shortcuts import render, redirect
+from .models import Book
+
+def delete_book(request, pk):
+    book = Book.objects.get(pk=pk)
+    book.delete()
+    return redirect('book_list')
+```
+
+> In this example, the function `delete_book` retrieves the book with the specified primary key from the database and deletes it. It then redirects the user to the book list page.
+
+In Django, these CRUD operations can be performed using built-in functions and classes such as CreateView, DetailView, UpdateView, and DeleteView. These classes provide pre-defined templates and methods to simplify the implementation of CRUD functionality.
+
+Overall, CRUD operations are essential in any web application, and Django provides a straightforward way to implement them using functions and classes. This makes it easier for developers to build complex web applications that allow users to perform CRUD operations on data in the database.
+
 ## Example: Create website using Django
 Creating a website like Facebook.com using Django would be a complex and challenging task that would require a team of experienced developers and a significant amount of time and resources. However, here's a brief overview of the key steps involved in building some of Facebook.com's core features using Django:
 
@@ -256,6 +334,70 @@ Creating a website like Facebook.com using Django would be a complex and challen
 </p>
 
 Overall, building a website like Facebook.com using Django would require a combination of technical skills, design expertise, and project management experience. It would also require a deep understanding of the site's core features and functionality, as well as the ability to adapt to changing user needs and trends.
+
+## Static files
+In Django, static files are used to serve files that do not change during the lifetime of a web application. Examples of static files include stylesheets, JavaScript files, and images. These files are served directly from the web server, without being processed by Django.
+
+To serve static files in Django, you need to create a `static` directory in your application. Inside this directory, you can create subdirectories to organize your static files, such as `styles` for CSS files, `js` for JavaScript files, and `images` for image files.
+
+Here is an example directory structure for static files in a Django project:
+
+```
+myproject/
+|-- myproject/
+|   |-- settings.py
+|   |-- urls.py
+|   |-- wsgi.py
+|-- myapp/
+|   |-- templates/
+|   |-- static/
+|       |-- styles/
+|           |-- main.css
+|           |-- profile.css
+|       |-- js/
+|           |-- script.js
+|           |-- profile.js
+|       |-- images/
+|           |-- logo.png
+|-- manage.py
+```
+
+To use static files in your templates, you need to add the `{% load static %}` template tag at the top of your template. You can then reference your static files using the `{% static %}` template tag, like this:
+
+```html
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'styles/main.css' %}">
+<script src="{% static 'js/script.js' %}"></script>
+<img src="{% static 'images/logo.png' %}" alt="Logo">
+```
+
+In addition to serving static files during development, you also need to configure your web server to serve static files in production. Django provides a `collectstatic` management command that collects all static files from your project and copies them to a single directory that can be served by your web server.
+
+## Authentication and authorization
+Authentication and authorization are essential components of web applications that deal with user accounts and access control. Django provides built-in support for authentication and authorization, making it easy to add user authentication and authorization to your web application.
+
+### 1. Authentication
+Authentication refers to the process of verifying the identity of a user who is trying to access a web application. In Django, authentication is handled by the `django.contrib.auth` module, which provides a set of views and forms for user authentication. The `User` model is also provided by this module, which represents a user account in your application.
+
+### 2. Authorization
+Authorization refers to the process of determining what actions a user is allowed to perform in a web application. In Django, authorization is handled by the built-in permissions system, which allows you to define permissions for different types of users in your application. You can define permissions for specific models and actions, such as creating, reading, updating, and deleting records.
+
+To use authentication and authorization in your Django application, you need to add the `django.contrib.auth` and `django.contrib.contenttypes` apps to your `INSTALLED_APPS` setting in `settings.py`. You can then create views and templates for user authentication, and use the `@login_required` decorator to require authentication for certain views.
+
+Here is an example of using the `@login_required` decorator to require authentication for a view:
+
+```python
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render
+
+@login_required
+def profile(request):
+    # Render the profile template
+    return render(request, 'profile.html')
+```
+
+In addition to authentication and authorization, Django also provides support for other security features, such as password hashing, cross-site request forgery (CSRF) protection, and HTTPS encryption.
 
 ## Key features
 Django is a high-level, open-source web framework for Python that follows the Model-View-Controller (MVC) architectural pattern. It is designed to make web development faster, easier, and more secure by providing developers with a set of tools and features to build complex web applications.
