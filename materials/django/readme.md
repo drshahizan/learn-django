@@ -11,6 +11,23 @@ Don't forget to hit the :star: if you like this repo.
 
 Django is a web framework for building web applications in Python. It follows the Model-View-Controller (MVC) architectural pattern, where the Model represents the application's data and logic, the View is responsible for rendering the user interface, and the Controller handles user input and coordinates communication between the Model and View. 
 
+<p align="center">
+<img src="./images/mvt.png" width="500" />
+</p>
+
+In Django, the MVT (Model-View-Template) architecture is used to structure web applications. It is similar to the more well-known Model-View-Controller (MVC) architecture, but with a few key differences. Let's explore how the MVT pattern could be used in building Facebook using Django.
+
+### Model
+The Model is responsible for handling data and the database. In Facebook, this could include models for User, Page, Photo, and Friend. The model is where we define the fields that we want to store in the database, such as the user's name, email, and password.
+
+### View
+The View is responsible for handling user requests and returning a response. In Facebook, views would handle requests such as viewing a user's profile, creating a new post, or sending a message to a friend. Views can access the models to retrieve or update data as needed.
+
+### Template
+The Template is responsible for rendering the HTML that is returned to the user. In Facebook, templates would be used to create the visual layout of the site, such as the login page, news feed, and profile page. Templates use variables passed from the views to display dynamic content, such as the user's name or the number of likes on a post.
+
+Using the MVT pattern, we can build a robust and scalable web application like Facebook. The model would handle data storage and retrieval, views would handle user requests, and templates would handle the visual layout of the site. With Django's built-in tools, we can quickly build and deploy a feature-rich web application that is secure, reliable, and easy to maintain.
+
 ## Topic
 
 | Django Concept             | Description                                                                                       |
