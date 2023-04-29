@@ -46,6 +46,10 @@ Using the MVT pattern, we can build a robust and scalable web application like F
 
 ## Popular websites built using Django
 
+<p align="center">
+<img src="./images/web.png" width="500" />
+</p>
+
 | Website          | Description                                    |
 | ---------------- | ---------------------------------------------- |
 | Instagram        | Social media platform. Instagram's backend is built with Django, and it is one of the most popular social media platforms in the world. |
