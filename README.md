@@ -47,7 +47,7 @@ Free Django projects for beginners:
 | [Django's official website](https://docs.djangoproject.com/en/4.2/) | Django's documentation has a list of sample projects and code snippets that you can use to learn Django. This is a great place to start for beginners. |
 | [GitHub](https://github.com/django/djangoproject.com) | GitHub is a popular code hosting platform where developers can collaborate on projects. You can search for Django projects and find ones with the "good first issue" label, which means they are beginner-friendly. |
 | [Django Project Blueprints](./materials/django/e-book.md) | Django Project Blueprints is a book that provides step-by-step instructions for building 6 real-world Django projects. You can download the sample code for free from the book's website. |
-| [Django For Beginners](https://github.com/wsvincent/djangoforbeginners) | Django For Beginners is a book that teaches you how to build a simple blog application using Django. The code for the project is available on GitHub. |
+| [Django For Beginners](./materials/django/e-book.md) | Django For Beginners is a book that teaches you how to build a simple blog application using Django. The code for the project is available on GitHub. |
 | [DjangoGirls Tutorial](https://tutorial.djangogirls.org/en/) | DjangoGirls is a nonprofit organization that aims to teach women and girls how to code using Django. They offer a free tutorial that teaches you how to build a blog application using Django. |
 | [Real Python](https://realpython.com/get-started-with-django-1/) | Real Python is a website that offers tutorials and courses on Python and Django. They have a free course that teaches you how to build a simple Django project. |
 
