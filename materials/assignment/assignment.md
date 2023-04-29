@@ -64,7 +64,7 @@ The goal of this assignment is to create a web application using the Django fram
 
 11. Implement user authentication and authorization using Django's built-in authentication system or a third-party library like Django-Allauth.
 
-12. Create a dashboard for admin reporting using Django's built-in admin site or a third-party library like Django-Adminlte. This dashboard should display relevant statistics and data visualizations based on the data in the database.
+12. Create a dashboard for admin reporting using Django's built-in admin site or a third-party library like [Django-Adminlte](https://github.com/app-generator/django-adminlte). This dashboard should display relevant statistics and data visualizations based on the data in the database.
 
 
 ## Submission Requirements
