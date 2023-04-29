@@ -10,6 +10,10 @@ Don't forget to hit the :star: if you like this repo.
 # CRUD (Create, Read, Update, Delete)
 In Django, CRUD (Create, Read, Update, Delete) operations are performed using functions that are defined in views.py. These functions correspond to HTTP methods: GET, POST, PUT, and DELETE.
 
+<p align="center">
+<img src="../images/10-crud.png" width="300" />
+</p>
+
 ### 1. Create
 To create a new record in the database, a view function is created that handles the HTTP POST method. The function creates a new instance of the model and saves it to the database.
 
