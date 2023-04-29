@@ -37,7 +37,7 @@ URLs map user requests to specific views. In App1, the URLs might include patter
 
 Overall, these components work together to define the functionality and user interface of the App1 web application. By organizing the application logic into separate apps, Django allows developers to build complex applications with a modular and maintainable codebase.
 
-## Example of a view function in Django. 
+## Example of a view function in Django
 
 Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It is built on top of the Python programming language and follows the model-view-controller (MVC) architectural pattern.
 
@@ -50,7 +50,7 @@ In the second line of the view function, the `getUser()` function is called to r
 Finally, the view function passes the `user` object to the `render` function as part of a context dictionary. This context dictionary allows variables to be passed from the view function to the template, where they can be displayed or manipulated as needed.
 
 <p align="center">
-<img src="./images/3-view.png" width="400" />
+<img src="./images/3-view.png" width="300" />
 </p>
 
 Overall, Django provides a powerful set of tools for building web applications, including a robust ORM (Object-Relational Mapping) system, a built-in admin interface, and a templating engine for creating dynamic HTML pages. The framework also emphasizes best practices such as DRY (Don't Repeat Yourself) coding and secure development practices.
