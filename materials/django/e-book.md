@@ -57,14 +57,7 @@ If you’re curious about Python-based web development, Django for Beginners is 
 
 [<img src="https://djangobyexample.com/static/v4/img/django_by_example_4_cover.png" style="width:200px;"  align="left">](https://djangobyexample.com/)
 
-[![GitHub stars](https://img.shields.io/github/stars/PacktPublishing/Django-4-by-example)](https://github.com/PacktPublishing/Django-4-by-example/stargazers)
-
-This is the code repository for [Django 4 by Example](https://djangobyexample.com/), written by [Antonio Melé](https://antoniomele.es/) and published by [Packt](https://www.packtpub.com/product/django-4-by-example/9781801813051). It contains all the supporting project files necessary to work through the book from start to finish.
-
-
-### Instructions
-The code is organised into directories with the chapter number. For example, `Chapter02` contains the source code for chapter 2. Each chapter folder has a `requirements.txt` file that includes all packages required to run the code of that chapter. These can be installed with the command `pip install -r requirements.txt`.
-
+This is the code repository for [Django 4 by Example](https://djangobyexample.com/), written by [Antonio Melé](https://antoniomele.es/) and published by [Packt](https://www.packtpub.com/product/django-4-by-example/9781801813051).
 
 ### About the Book
 
