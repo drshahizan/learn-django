@@ -374,6 +374,31 @@ To use static files in your templates, you need to add the `{% load static %}` t
 
 In addition to serving static files during development, you also need to configure your web server to serve static files in production. Django provides a `collectstatic` management command that collects all static files from your project and copies them to a single directory that can be served by your web server.
 
+## Authentication and authorization
+Authentication and authorization are essential components of web applications that deal with user accounts and access control. Django provides built-in support for authentication and authorization, making it easy to add user authentication and authorization to your web application.
+
+### 1. Authentication
+Authentication refers to the process of verifying the identity of a user who is trying to access a web application. In Django, authentication is handled by the `django.contrib.auth` module, which provides a set of views and forms for user authentication. The `User` model is also provided by this module, which represents a user account in your application.
+
+### 2. Authorization
+Authorization refers to the process of determining what actions a user is allowed to perform in a web application. In Django, authorization is handled by the built-in permissions system, which allows you to define permissions for different types of users in your application. You can define permissions for specific models and actions, such as creating, reading, updating, and deleting records.
+
+To use authentication and authorization in your Django application, you need to add the `django.contrib.auth` and `django.contrib.contenttypes` apps to your `INSTALLED_APPS` setting in `settings.py`. You can then create views and templates for user authentication, and use the `@login_required` decorator to require authentication for certain views.
+
+Here is an example of using the `@login_required` decorator to require authentication for a view:
+
+```python
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render
+
+@login_required
+def profile(request):
+    # Render the profile template
+    return render(request, 'profile.html')
+```
+
+In addition to authentication and authorization, Django also provides support for other security features, such as password hashing, cross-site request forgery (CSRF) protection, and HTTPS encryption.
+
 ## Key features
 Django is a high-level, open-source web framework for Python that follows the Model-View-Controller (MVC) architectural pattern. It is designed to make web development faster, easier, and more secure by providing developers with a set of tools and features to build complex web applications.
 
