@@ -18,7 +18,7 @@ Python is a popular high-level programming language used for web development. It
 
 | No | Topic | Description |
 |----|---------------|---------------------------|
-| 1 | [Setting up a Django Project](./materials/topic/1-setting.md) | Learn how to install and configure Django on your computer. |
+| 1 | [Setting up a Django Project](./materials/django/topic/1-setting.md) | Learn how to install and configure Django on your computer. |
 | 2 | [Creating a Django App](./topic/2-create.md) | Learn how to create a new Django app and add it to your project. |
 | 3 | [Models in Django](./topic/3-model.md) | Learn about Django's ORM and how to create models to represent your data. |
 | 4 | [Views and Templates](./topic/4-view.md) | Learn how to create views that handle requests and generate HTML using templates. |
