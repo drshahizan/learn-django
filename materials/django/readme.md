@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Django concept
+# Django Concept
 
 Django is a web framework for building web applications in Python. It follows the Model-View-Controller (MVC) architectural pattern, where the Model represents the application's data and logic, the View is responsible for rendering the user interface, and the Controller handles user input and coordinates communication between the Model and View. 
 
@@ -37,7 +37,26 @@ URLs map user requests to specific views. In App1, the URLs might include patter
 
 Overall, these components work together to define the functionality and user interface of the App1 web application. By organizing the application logic into separate apps, Django allows developers to build complex applications with a modular and maintainable codebase.
 
-## Example of a view function in Django
+## Django commands
+
+| Command | Description |
+| ------- | ----------- |
+| `django-admin startproject <project-name>` | Create a new Django project |
+| `python manage.py runserver` | Start the development server |
+| `python manage.py migrate` | Apply database migrations |
+| `python manage.py createsuperuser` | Create a new superuser for the admin panel |
+| `python manage.py shell` | Open the Django shell |
+| `python manage.py startapp <app-name>` | Create a new app within a project |
+| `python manage.py makemigrations` | Create new database migration files |
+| `python manage.py collectstatic` | Collect all static files into a single directory |
+| `python manage.py test` | Run automated tests for the project |
+| `python manage.py flush` | Remove all data from the database |
+| `python manage.py shell_plus` | Open the Django shell with additional functionality provided by the `django-extensions` package |
+| `python manage.py dumpdata` | Export data from the database into a JSON or XML file |
+| `python manage.py loaddata` | Import data from a JSON or XML file into the database |
+| `python manage.py createsuperuser --username=<username> --email=<email>` | Create a new superuser with a specific username and email address |
+
+## View function
 
 Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It is built on top of the Python programming language and follows the model-view-controller (MVC) architectural pattern.
 
@@ -55,7 +74,7 @@ Finally, the view function passes the `user` object to the `render` function as 
 
 Overall, Django provides a powerful set of tools for building web applications, including a robust ORM (Object-Relational Mapping) system, a built-in admin interface, and a templating engine for creating dynamic HTML pages. The framework also emphasizes best practices such as DRY (Don't Repeat Yourself) coding and secure development practices.
 
-## Django models.Model class
+## Django Model
 
 <p align="center">
 <img src="./images/4-model.png" width="500" />
@@ -74,7 +93,7 @@ By defining these attributes in the `project` class, we are telling Django how t
 
 Overall, the Django ORM and `models.Model` class make it easy to work with relational databases in Python, without having to write SQL queries directly. This allows developers to focus on building their application logic, rather than worrying about the details of how data is stored and retrieved from the database.
 
-## Example: One-to-many relationship
+## Model: One-to-many relationship
 In Django, the relationship between a `Project` and its associated `Reviews` can be modeled as a one-to-many relationship using a foreign key field. 
 
 <p align="center">
@@ -119,7 +138,7 @@ reviews = Review.objects.filter(parent_project=p)
 
 Overall, modeling a one-to-many relationship between a `Project` and its associated `Reviews` in Django is straightforward using a foreign key field. This allows us to easily perform operations on the data using the Django ORM.
 
-## Example: Many-to-many relationship
+## Model: Many-to-many relationship
 
 In Django, a many-to-many relationship between `Tags` and `Products` can be modeled using an intermediary table. This table contains foreign keys to both the `Tags` and `Products` tables, and represents the relationship between the two tables.
 
@@ -239,6 +258,10 @@ Overall, the Django Admin Panel provides a convenient way for developers and adm
 ## CRUD (Create, Read, Update, Delete)
 In Django, CRUD (Create, Read, Update, Delete) operations are performed using functions that are defined in views.py. These functions correspond to HTTP methods: GET, POST, PUT, and DELETE.
 
+<p align="center">
+<img src="./images/10-crud.png" width="300" />
+</p>
+
 ### 1. Create
 To create a new record in the database, a view function is created that handles the HTTP POST method. The function creates a new instance of the model and saves it to the database.
 
@@ -330,13 +353,17 @@ Creating a website like Facebook.com using Django would be a complex and challen
 - Messages: To allow users to send messages to each other within groups, the developer would need to create a "Message" model in Django's ORM system. This model would store information about the message, such as the user who sent the message, the group the message was sent to, and the text of the message. The developer would also need to create views and templates to allow users to send and view messages within groups.
 
 <p align="center">
-<img src="./images/10-fb.png" width="400" />
+<img src="./images/13-fb.png" width="400" />
 </p>
 
 Overall, building a website like Facebook.com using Django would require a combination of technical skills, design expertise, and project management experience. It would also require a deep understanding of the site's core features and functionality, as well as the ability to adapt to changing user needs and trends.
 
 ## Static files
 In Django, static files are used to serve files that do not change during the lifetime of a web application. Examples of static files include stylesheets, JavaScript files, and images. These files are served directly from the web server, without being processed by Django.
+
+<p align="center">
+<img src="./images/11-static.png" width="200" />
+</p>
 
 To serve static files in Django, you need to create a `static` directory in your application. Inside this directory, you can create subdirectories to organize your static files, such as `styles` for CSS files, `js` for JavaScript files, and `images` for image files.
 
@@ -376,6 +403,10 @@ In addition to serving static files during development, you also need to configu
 
 ## Authentication and authorization
 Authentication and authorization are essential components of web applications that deal with user accounts and access control. Django provides built-in support for authentication and authorization, making it easy to add user authentication and authorization to your web application.
+
+<p align="center">
+<img src="./images/12-authentication.png" width="400" />
+</p>
 
 ### 1. Authentication
 Authentication refers to the process of verifying the identity of a user who is trying to access a web application. In Django, authentication is handled by the `django.contrib.auth` module, which provides a set of views and forms for user authentication. The `User` model is also provided by this module, which represents a user account in your application.
