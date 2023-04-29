@@ -167,23 +167,13 @@ The book covers a wide range of web app development topics divided into four dif
   - Build a custom middleware
   - Create custom management commands
 
-### Code Snippets for Intermediate Steps
-[Work in progress] Main chapter directories contain only the finished code for each chapter. The [Snippets](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Snippets) directory contains code files as they appear for a given stage of each chapter.
-
-Where there are interim files for the chapter, you can find those files in the `chXX` folder within a sub-folder for each section. Where the edit to a particular file brings it in line with the final version, that file is not included in the interim tree.
-
-Changed lines are marked with a comment. Where an entire block is new or changed, there is a hashtag on the line following the end of changed lines.
-
-Filenames like `filename_00.py` are the auto-generated files before any edits are applied, they exist for informational purposes only.
-
-### Community & Support
-
-Join the book [Discord Community](https://discord.gg/PQ7UYX9VTx) to participate in the ongoing discussions or/and initiate a new one. You will find other developers reading the book alongside and helping each other with questions.
-
-### Source Code for Previous Editions
+### <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="24">Source Code 
+- [Django 4 by Example](https://github.com/PacktPublishing/Django-4-by-example)
 - [Django 3 by Example](https://github.com/PacktPublishing/Django-3-by-Example)
 - [Django 2 by Example](https://github.com/PacktPublishing/Django-2-by-Example)
 - [Django by Example](https://github.com/PacktPublishing/Django-by-Example)
+
+<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="24"> [Download code](https://github.com/ehmatthes/pcc_3e)
 
 ## 4. Python Crash Course, 3rd Edition
 <img src="https://nostarch.com/sites/default/files/styles/uc_product_full/public/PythonCrashCourse3e_front%20%281%29.png?itok=GdQ8Ib9x" style="width:200px;"  align="left">
