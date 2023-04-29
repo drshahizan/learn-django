@@ -21,7 +21,7 @@ Overall, Python web development offers a flexible and powerful platform for crea
 
 ## Popular Python Web Frameworks
 
-### 1. [Django](./materials/django)
+### 1. [Django](./django)
 This is a high-level Python web framework that follows the Model-View-Controller (MVC) architectural pattern. It comes with many built-in features such as an ORM (Object-Relational Mapping), an admin interface, and many other useful libraries that make it easy to build complex web applications.
 
 ### 2. Flask
