@@ -77,7 +77,7 @@ By completing this assignment, you will have gained a practical understanding of
 ### Others
 - Collaborate effectively with your group members to complete the task.
 - Ensure to send the report in **mark down** format and **source code**.
-- Please submit the assignments in the submission [**Part 1**](https://github.com/drshahizan/learn-django/tree/main/assignment/data-scraping/submission/part1) and [**Part 2**](https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2) folder. It would be best if you create a folder using your group name.
+- Please submit the assignments in the [submission]() folder. It would be best if you create a folder using your group name.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
