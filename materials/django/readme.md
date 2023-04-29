@@ -207,6 +207,34 @@ In addition to these methods, there are other methods available in the Django OR
 
 Overall, the Django ORM provides a simple and convenient way to work with relational databases in Python, allowing developers to write database queries in a more Pythonic and readable way.
 
+## Django Admin Panel
+
+The Django Admin Panel is a built-in application that provides a web-based interface for managing a Django application. It allows authorized users to view, add, edit, and delete data from the database without writing any code.
+
+<p align="center">
+<img src="./images/7-login.png" width="300" />
+</p>
+
+
+The Django Admin Panel is automatically generated based on the models defined in the application. Once the models are defined, the Admin Panel can be customized to meet specific needs by defining a ModelAdmin class. 
+
+The Admin Panel consists of two main sections:
+
+1. Django Administration: This section is the built-in administrative interface for the Django framework. It provides access to the system-level administration features such as user authentication, groups, permissions, and site settings.
+
+<p align="center">
+<img src="./images/8-django-admin.png" width="400" />
+</p>
+
+2. Site Administration: This section provides access to the application-level administration features. It allows authorized users to perform CRUD (Create, Read, Update, Delete) operations on the application's data using a web-based interface. 
+
+<p align="center">
+<img src="./images/9-site.png" width="400" />
+</p>
+
+The Site Administration section is based on the ModelAdmin class, which defines how the models should be displayed in the Admin Panel. ModelAdmin class allows customization of the admin panel by providing options such as list_display, list_filter, search_fields, and actions. These options allow the developers to control which fields are displayed, how they are sorted, and how the data is filtered. 
+
+Overall, the Django Admin Panel provides a convenient way for developers and administrators to manage and maintain Django applications without writing any custom code. It is a powerful tool that streamlines the development process and helps to improve productivity.
 ## Example: Create website using Django
 Creating a website like Facebook.com using Django would be a complex and challenging task that would require a team of experienced developers and a significant amount of time and resources. However, here's a brief overview of the key steps involved in building some of Facebook.com's core features using Django:
 
@@ -224,7 +252,7 @@ Creating a website like Facebook.com using Django would be a complex and challen
 - Messages: To allow users to send messages to each other within groups, the developer would need to create a "Message" model in Django's ORM system. This model would store information about the message, such as the user who sent the message, the group the message was sent to, and the text of the message. The developer would also need to create views and templates to allow users to send and view messages within groups.
 
 <p align="center">
-<img src="./images/7-fb.png" width="400" />
+<img src="./images/10-fb.png" width="400" />
 </p>
 
 Overall, building a website like Facebook.com using Django would require a combination of technical skills, design expertise, and project management experience. It would also require a deep understanding of the site's core features and functionality, as well as the ability to adapt to changing user needs and trends.
