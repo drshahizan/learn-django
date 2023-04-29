@@ -8,6 +8,8 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Topic
+For this project, you have been given a selection of 15 titles to choose from. There are two types of titles: university academic and real-world implementations. Please choose only **one title** that is suitable for your team to work on.
+
 Five topic related to university academic for the Django assignment with CRUD functionality, searching, and admin dashboard
 
 | No. | Item | Description |
