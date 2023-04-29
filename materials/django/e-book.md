@@ -17,13 +17,13 @@ Django is a high-level web framework that eases the creation of complex, databas
 
 Code Bundle for [Django Project Blueprints](https://www.packtpub.com/web-development/django-project-blueprints?utm_source=github&utm_medium=repository&utm_campaign=978-1-78398-542-5), published by Packt Publishing, it contains all the code files required to get started with this book from start to finish.
 
-## What you need for this Code files:
+### What you need for this Code files:
 To create and run all the web applications that we will develop throughout, you will need working copies of the following software:
 *	[The Python Programming Language](https://www.python.org/downloads/)
 *	[pip: The package manager to install Python packages](https://pip.pypa.io/en/stable/installing/)
 *	[virtualenv: A tool to create isolated environments for Python packages](https://virtualenv.pypa.io/en/latest/installation.html)
 
-## Related Django products:
+### Related Django products:
 * [Web Development with Django Cookbook](https://www.packtpub.com/web-development/web-development-django-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781783286898)
 
 * [Django Essentials](https://www.packtpub.com/web-development/django-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781783983704)
@@ -63,11 +63,11 @@ This is the code repository for [Django 4 by Example](https://djangobyexample.co
 
 
 
-## Instructions
+### Instructions
 The code is organised into directories with the chapter number. For example, `Chapter02` contains the source code for chapter 2. Each chapter folder has a `requirements.txt` file that includes all packages required to run the code of that chapter. These can be installed with the command `pip install -r requirements.txt`.
 
 
-## About the Book
+### About the Book
 
 **Django 4 by Example** (4th edition) will guide you through the entire process of developing professional web applications with Django. The book not only covers the most relevant aspects of the framework, but it will also teach you how to integrate other popular technologies into your Django projects.
 
@@ -75,11 +75,11 @@ The book will walk you through the creation of four real-world applications, sol
 
 After reading this book, you will have a good understanding of how Django works and how to build practical, advanced web applications.
 
-## Requirements
+### Requirements
 
 This book requires Python 3.10+ and Django 4.1.
 
-## Django Projects
+### Django Projects
 
 The book covers a wide range of web app development topics divided into four different Django projects:
 
@@ -168,7 +168,7 @@ The book covers a wide range of web app development topics divided into four dif
   - Build a custom middleware
   - Create custom management commands
 
-## Code Snippets for Intermediate Steps
+### Code Snippets for Intermediate Steps
 [Work in progress] Main chapter directories contain only the finished code for each chapter. The [Snippets](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Snippets) directory contains code files as they appear for a given stage of each chapter.
 
 Where there are interim files for the chapter, you can find those files in the `chXX` folder within a sub-folder for each section. Where the edit to a particular file brings it in line with the final version, that file is not included in the interim tree.
@@ -177,11 +177,11 @@ Changed lines are marked with a comment. Where an entire block is new or changed
 
 Filenames like `filename_00.py` are the auto-generated files before any edits are applied, they exist for informational purposes only.
 
-## Community & Support
+### Community & Support
 
 Join the book [Discord Community](https://discord.gg/PQ7UYX9VTx) to participate in the ongoing discussions or/and initiate a new one. You will find other developers reading the book alongside and helping each other with questions.
 
-## Source Code for Previous Editions
+### Source Code for Previous Editions
 - [Django 3 by Example](https://github.com/PacktPublishing/Django-3-by-Example)
 - [Django 2 by Example](https://github.com/PacktPublishing/Django-2-by-Example)
 - [Django by Example](https://github.com/PacktPublishing/Django-by-Example)
