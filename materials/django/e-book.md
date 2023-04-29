@@ -19,11 +19,13 @@ Django is a high-level web framework that eases the creation of complex, databas
 
 ## 2. [Django For Beginners](https://djangoforbeginners.com/)
 
-<img src="https://d33wubrfki0l68.cloudfront.net/d6942e8166c265acf396afb17391fc04efc05210/d0f5f/assets/images/dfb_cover_40.jpg" width="200"> 
+[<img src="https://d33wubrfki0l68.cloudfront.net/d6942e8166c265acf396afb17391fc04efc05210/d0f5f/assets/images/dfb_cover_40.jpg" style="width:200px;"  align="left">](https://djangobyexample.com/)
 
-Django for Beginners is a project-based introduction to Django, the popular Python-based web framework. Suitable for total beginners who have never built a website before as well as professional programmers looking for a fast-paced guide to modern web development and Django fundamentals.
+Welcome to Django for Beginners, a project-based approach to learning web development with the Django web framework. In this book you will build five progressively more complex web applications, starting with a simple Hello, World app, progressing to a Pages app, a Message Board app, a Blog app with forms and user accounts, and finally a Newspaper app that uses a custom user model, email integration, foreign keys, authorization, permissions, and more. By the end of this book you should feel confident creating your own Django projects from scratch using current best practices.
 
-In the book you’ll learn how to:
+Django is a free, open source web framework written in the Python programming language. First released in 2005, Django has been in continuous development since then and today powers many of the largest websites in the world including Instagram, Pinterest, Bitbucket, and Disqus. At the same time, it is flexible enough to be a popular choice for early-stage startups and side projects.
+
+**In the book you’ll learn how to:**
 
 - Build 5 websites from scratch, including a Blog and Newspaper
 - Deploy online using security best practices
