@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Django concept
+# Django Concept
 
 Django is a web framework for building web applications in Python. It follows the Model-View-Controller (MVC) architectural pattern, where the Model represents the application's data and logic, the View is responsible for rendering the user interface, and the Controller handles user input and coordinates communication between the Model and View. 
 
