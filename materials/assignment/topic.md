@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Topic
-Five topic suggestions related to university academic for the Django assignment with CRUD functionality, searching, and admin dashboard. 
+Five topic related to university academic for the Django assignment with CRUD functionality, searching, and admin dashboard
 
 | No. | Item | Description |
 | --- | --- | --- |
@@ -18,7 +18,7 @@ Five topic suggestions related to university academic for the Django assignment 
 | 4 | Event Management System | Organizers can create, edit, delete, and search for events. Students can view the events and RSVP. The admin dashboard could display the overall event attendance and the most popular events. |
 | 5 | Student Social Network | Students can create profiles, connect with other students, and share academic resources. Instructors can join groups and share course material. The admin dashboard could display overall user activity and the most active groups. |
 
-10 topic suggestions related to real-world implementations using Django with CRUD functionality, searching, and admin dashboard:
+10 topic related to real-world implementations using Django with CRUD functionality, searching, and admin dashboard
 
 | No. | Item | Description |
 | --- | --- | --- |
