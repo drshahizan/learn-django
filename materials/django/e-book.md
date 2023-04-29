@@ -208,6 +208,7 @@ You’ll start by learning basic programming concepts, such as variables, lists,
 
 If you’ve been thinking about digging into programming, Python Crash Course will provide you with the skills to write real programs fast. Why wait any longer? Start your engines and code!
 
+<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="24"> [Download code](https://github.com/ehmatthes/pcc_3e)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
