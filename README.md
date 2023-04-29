@@ -10,6 +10,10 @@ Don't forget to hit the :star: if you like this repo.
 # Django
 Django is a high-level web framework for building web applications in Python. It provides a powerful set of tools and libraries for building secure, scalable, and maintainable web applications quickly and efficiently. Django follows the Model-View-Controller (MVC) architectural pattern, and provides features such as an Object-Relational Mapper (ORM) for working with databases, a templating engine for rendering HTML pages, and a built-in admin interface for managing application content. With its rich ecosystem of third-party packages and plugins, Django is a popular choice for web developers around the world. [**More info..**](./materials/django)
 
+<p align="center">
+<img src="./materials/django/images/django_flow.png" width="500" />
+</p>
+
 ## Python Web Frameworks
 
 Python is a popular high-level programming language used for web development. It has gained popularity in recent years due to its simplicity, readability, and wide range of libraries and frameworks. Python web development involves the creation of web applications and websites using Python programming language. [**More info..**](./materials/pwf)
