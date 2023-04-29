@@ -74,7 +74,7 @@ The goal of this assignment is to create a web application using Django that imp
 
 By completing this assignment, you will have gained a practical understanding of how to create a web application using Django that implements CRUD functionality, searching, and a dashboard for admin reporting. This will help you in developing more complex web applications in the future. Good luck!
 
-### Others
+## Others
 - Collaborate effectively with your group members to complete the task.
 - Ensure to send the report in **mark down** format and **source code**.
 - Please submit the assignments in the [submission]() folder. It would be best if you create a folder using your group name.
