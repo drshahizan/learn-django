@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 In Django, static files are used to serve files that do not change during the lifetime of a web application. Examples of static files include stylesheets, JavaScript files, and images. These files are served directly from the web server, without being processed by Django.
 
 <p align="center">
-<img src="../images/11-static.png" width="200" />
+<img src="../images/11-static.png" width="150" />
 </p>
 
 To serve static files in Django, you need to create a `static` directory in your application. Inside this directory, you can create subdirectories to organize your static files, such as `styles` for CSS files, `js` for JavaScript files, and `images` for image files.
