@@ -53,19 +53,17 @@ If you’re curious about Python-based web development, Django for Beginners is 
 
 <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="24"> [Download code](https://github.com/wsvincent/djangoforbeginners)
 
-## 3. Django 4 by Example
+## 3. [Django 4 by Example](https://djangobyexample.com/)
 
 [<img src="https://djangobyexample.com/static/v4/img/django_by_example_4_cover.png" style="width:200px;"  align="left">](https://djangobyexample.com/)
 
-This is the code repository for [Django 4 by Example](https://djangobyexample.com/), written by [Antonio Melé](https://antoniomele.es/) and published by [Packt](https://www.packtpub.com/product/django-4-by-example/9781801813051).
+Django 4 by Example, written by [Antonio Melé](https://antoniomele.es/) and published by [Packt](https://www.packtpub.com/product/django-4-by-example/9781801813051).
 
 ### About the Book
 
 **Django 4 by Example** (4th edition) will guide you through the entire process of developing professional web applications with Django. The book not only covers the most relevant aspects of the framework, but it will also teach you how to integrate other popular technologies into your Django projects.
 
-The book will walk you through the creation of four real-world applications, solving common problems, and implementing best practices, using a step-by-step approach that is easy to follow.
-
-After reading this book, you will have a good understanding of how Django works and how to build practical, advanced web applications.
+The book will walk you through the creation of four real-world applications, solving common problems, and implementing best practices, using a step-by-step approach that is easy to follow. After reading this book, you will have a good understanding of how Django works and how to build practical, advanced web applications.
 
 ### Requirements
 
