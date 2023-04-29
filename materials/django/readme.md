@@ -239,6 +239,10 @@ Overall, the Django Admin Panel provides a convenient way for developers and adm
 ## CRUD (Create, Read, Update, Delete)
 In Django, CRUD (Create, Read, Update, Delete) operations are performed using functions that are defined in views.py. These functions correspond to HTTP methods: GET, POST, PUT, and DELETE.
 
+<p align="center">
+<img src="./images/10-crud.png" width="300" />
+</p>
+
 ### 1. Create
 To create a new record in the database, a view function is created that handles the HTTP POST method. The function creates a new instance of the model and saves it to the database.
 
@@ -330,13 +334,17 @@ Creating a website like Facebook.com using Django would be a complex and challen
 - Messages: To allow users to send messages to each other within groups, the developer would need to create a "Message" model in Django's ORM system. This model would store information about the message, such as the user who sent the message, the group the message was sent to, and the text of the message. The developer would also need to create views and templates to allow users to send and view messages within groups.
 
 <p align="center">
-<img src="./images/10-fb.png" width="400" />
+<img src="./images/13-fb.png" width="400" />
 </p>
 
 Overall, building a website like Facebook.com using Django would require a combination of technical skills, design expertise, and project management experience. It would also require a deep understanding of the site's core features and functionality, as well as the ability to adapt to changing user needs and trends.
 
 ## Static files
 In Django, static files are used to serve files that do not change during the lifetime of a web application. Examples of static files include stylesheets, JavaScript files, and images. These files are served directly from the web server, without being processed by Django.
+
+<p align="center">
+<img src="./images/11-static.png" width="300" />
+</p>
 
 To serve static files in Django, you need to create a `static` directory in your application. Inside this directory, you can create subdirectories to organize your static files, such as `styles` for CSS files, `js` for JavaScript files, and `images` for image files.
 
@@ -376,6 +384,10 @@ In addition to serving static files during development, you also need to configu
 
 ## Authentication and authorization
 Authentication and authorization are essential components of web applications that deal with user accounts and access control. Django provides built-in support for authentication and authorization, making it easy to add user authentication and authorization to your web application.
+
+<p align="center">
+<img src="./images/12-authentication.png" width="400" />
+</p>
 
 ### 1. Authentication
 Authentication refers to the process of verifying the identity of a user who is trying to access a web application. In Django, authentication is handled by the `django.contrib.auth` module, which provides a set of views and forms for user authentication. The `User` model is also provided by this module, which represents a user account in your application.
