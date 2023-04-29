@@ -69,13 +69,18 @@ The goal of this assignment is to create a web application using the Django fram
 
 ## Submission Requirements
 
-1. Submit the source code of your project along with any necessary configuration files.
+1. Submit the source code of your project along with any necessary configuration files. A fully functional Django web application that meets the above requirements.
 
-2. Include a README file that provides instructions on how to run the project and any dependencies.
+2. A document that explains the project structure, the design choices made, and how to run the application.
+
+3. Include a README file that provides instructions on how to run the project and any dependencies.
 
 3. Provide screenshots or a video demo of your project in action, showcasing each of the CRUD operations, searching, and the admin dashboard.
 
 4. Clearly document any assumptions or limitations in your implementation.
+
+5. Source code of the application, committed to a GitHub repository.
+
 
 ## Conclusion
 
