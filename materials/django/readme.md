@@ -15,7 +15,9 @@ Django is a web framework for building web applications in Python. It follows th
 
 In a Django project, the application logic is organized into individual apps. Each app typically consists of four main components: Models, Views, Templates, and URLs. Here's a brief overview of these components in the context of an example Django project called "App1":
 
+<p align="center">
 <img src="./images/1-django-project.png" width="400" />
+</p>
 
 ### 1. Models
 Models define the data structure and relationships between database tables. In App1, the models might include classes such as "User" or "Post", which represent users and posts in the application. Models are defined in a file called "models.py" in the app directory.
@@ -29,7 +31,9 @@ Templates define the HTML structure and layout of the application's user interfa
 ### 4. URLs
 URLs map user requests to specific views. In App1, the URLs might include patterns such as "/posts/" or "/posts/create/", which map to the "list_posts" and "create_post" views, respectively. URLs are defined in a file called "urls.py" in the app directory.
 
+<p align="center">
 <img src="./images/2-app.png" width="400" />
+</p>
 
 Overall, these components work together to define the functionality and user interface of the App1 web application. By organizing the application logic into separate apps, Django allows developers to build complex applications with a modular and maintainable codebase.
 
@@ -49,7 +53,9 @@ Creating a website like Facebook.com using Django would be a complex and challen
 - Members: To allow users to create and join groups on the site, the developer would need to create a "Group" model in Django's ORM system. This model would store information about the group, such as its name, description, and category. The developer would also need to create views and templates to allow users to create, edit, and view groups on the site, as well as a "Membership" model to track which users are members of each group.
 - Messages: To allow users to send messages to each other within groups, the developer would need to create a "Message" model in Django's ORM system. This model would store information about the message, such as the user who sent the message, the group the message was sent to, and the text of the message. The developer would also need to create views and templates to allow users to send and view messages within groups.
 
+<p align="center">
 <img src="./images/3-fb.png" width="400" />
+</p>
 
 Overall, building a website like Facebook.com using Django would require a combination of technical skills, design expertise, and project management experience. It would also require a deep understanding of the site's core features and functionality, as well as the ability to adapt to changing user needs and trends.
 
