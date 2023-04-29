@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 The goal of this assignment is to create a web application using Django that implements CRUD (Create, Read, Update, Delete) functionality. 
 
-##Project Requirements
+## Project Requirements
 
 1. Create a Django project from scratch or use an existing one.
 
@@ -64,7 +64,6 @@ The goal of this assignment is to create a web application using Django that imp
 ## Conclusion
 
 By completing this assignment, you will have gained a practical understanding of how to create a web application using Django that implements CRUD functionality. This will help you in developing more complex web applications in the future. Good luck!
-
 
 ### Others
 - Collaborate effectively with your group members to complete the task.
