@@ -15,6 +15,21 @@ Don't forget to hit the :star: if you like this repo.
 
 Django is a high-level web framework that eases the creation of complex, database-driven websites. It emphasizes on the reusability and pluggability of components, rapid development, and the principle of don't repeat yourself. It lets you build high-performing, elegant web applications quickly. There are several Django tutorials available online, which take as many shortcuts as possible, but leave you wondering how you can adapt them to your own needs. This guide takes the opposite approach by demonstrating how to work around common problems and client requests, without skipping the important details. If you have built a few Django projects and are on the lookout for a guide to get you past the basics and to solve modern development tasks, this is your book. Seven unique projects will take you through the development process from scratch, leaving no stone unturned. In the first two projects, you will learn everything from adding ranking and voting capabilities to your App to building a multiuser blog platform with a unique twist. The third project tackles APIs with Django and walks us through building a Nagios-inspired infrastructure monitoring system. And that is just the start! The other projects deal with customizing the Django admin to create a CMS for your clients, translating your web applications to multiple languages, and using the Elasticsearch search server with Django to create a high performing e-commerce web site. The seventh chapter includes a surprise usage of Django, and we dive deep into the internals of Django to create something exciting! When you're done, you'll have consistent patterns and techniques that you can build on for many projects to come.
 
+Code Bundle for [Django Project Blueprints](https://www.packtpub.com/web-development/django-project-blueprints?utm_source=github&utm_medium=repository&utm_campaign=978-1-78398-542-5), published by Packt Publishing, it contains all the code files required to get started with this book from start to finish.
+
+## What you need for this Code files:
+To create and run all the web applications that we will develop throughout, you will need working copies of the following software:
+*	[The Python Programming Language](https://www.python.org/downloads/)
+*	[pip: The package manager to install Python packages](https://pip.pypa.io/en/stable/installing/)
+*	[virtualenv: A tool to create isolated environments for Python packages](https://virtualenv.pypa.io/en/latest/installation.html)
+
+## Related Django products:
+* [Web Development with Django Cookbook](https://www.packtpub.com/web-development/web-development-django-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781783286898)
+
+* [Django Essentials](https://www.packtpub.com/web-development/django-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781783983704)
+
+* [Instant Django 1.5 Application Development Starter](https://www.packtpub.com/web-development/instant-django-15-application-development-starter?utm_source=github&utm_medium=repository&utm_campaign=9781782163565)
+
 <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="24"> [Download code](https://github.com/packtpublishing/django-projects-blueprints)
 
 ## 2. [Django For Beginners](https://djangoforbeginners.com/)
