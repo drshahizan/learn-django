@@ -66,6 +66,66 @@ The goal of this assignment is to create a web application using the Django fram
 
 12. Create a dashboard for admin reporting using Django's built-in admin site or a third-party library like [Django-Adminlte](https://github.com/app-generator/django-adminlte). This dashboard should display relevant statistics and data visualizations based on the data in the database.
 
+## Codebase structure
+A suggested Django codebase structure that includes folders for documentation and images:
+
+```
+project_name/
+│
+├── app_name/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── urls.py
+│   └── views.py
+│   
+├── static/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│   
+├── templates/
+│   ├── base.html
+│   ├── home.html
+│   ├── login.html
+│   ├── register.html
+│   ├── item_list.html
+│   ├── item_detail.html
+│   ├── item_form.html
+│   ├── item_confirm_delete.html
+│   └── dashboard.html
+│   
+├── media/
+│   └── item_images/
+│
+├── documentation/
+│   ├── requirements.txt
+│   ├── deployment.md
+│   └── usage.md
+│   
+├── project_name/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│   
+├── manage.py
+└── README.md
+```
+
+Here's a brief explanation of each folder and file:
+
+- `app_name`: This folder contains the Django app. It includes files such as `models.py`, `views.py`, and `urls.py`.
+- `static`: This folder contains static files such as CSS, JavaScript, and images.
+- `templates`: This folder contains the HTML templates for the web application.
+- `media`: This folder contains uploaded media files such as images.
+- `documentation`: This folder contains documentation for the project, such as requirements and deployment instructions.
+- `project_name`: This folder contains the project settings, such as `settings.py` and `urls.py`.
+- `manage.py`: This file is used to run various commands for the project, such as starting the development server.
+- `README.md`: This file contains information about the project, such as how to set it up and use it.
+
+> Note: You can add more folders and files as per your requirement. Also, this is just a suggested structure and you can modify it as per your needs.
 
 ## Submission Requirements
 
@@ -80,7 +140,6 @@ The goal of this assignment is to create a web application using the Django fram
 4. Clearly document any assumptions or limitations in your implementation.
 
 5. Source code of the application, committed to a GitHub repository.
-
 
 ## Conclusion
 
