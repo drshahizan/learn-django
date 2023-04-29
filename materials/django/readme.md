@@ -37,7 +37,26 @@ URLs map user requests to specific views. In App1, the URLs might include patter
 
 Overall, these components work together to define the functionality and user interface of the App1 web application. By organizing the application logic into separate apps, Django allows developers to build complex applications with a modular and maintainable codebase.
 
-## Example of a view function in Django
+## Django commands
+
+| Command | Description |
+| ------- | ----------- |
+| `django-admin startproject <project-name>` | Create a new Django project |
+| `python manage.py runserver` | Start the development server |
+| `python manage.py migrate` | Apply database migrations |
+| `python manage.py createsuperuser` | Create a new superuser for the admin panel |
+| `python manage.py shell` | Open the Django shell |
+| `python manage.py startapp <app-name>` | Create a new app within a project |
+| `python manage.py makemigrations` | Create new database migration files |
+| `python manage.py collectstatic` | Collect all static files into a single directory |
+| `python manage.py test` | Run automated tests for the project |
+| `python manage.py flush` | Remove all data from the database |
+| `python manage.py shell_plus` | Open the Django shell with additional functionality provided by the `django-extensions` package |
+| `python manage.py dumpdata` | Export data from the database into a JSON or XML file |
+| `python manage.py loaddata` | Import data from a JSON or XML file into the database |
+| `python manage.py createsuperuser --username=<username> --email=<email>` | Create a new superuser with a specific username and email address |
+
+## View function
 
 Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It is built on top of the Python programming language and follows the model-view-controller (MVC) architectural pattern.
 
@@ -55,7 +74,7 @@ Finally, the view function passes the `user` object to the `render` function as 
 
 Overall, Django provides a powerful set of tools for building web applications, including a robust ORM (Object-Relational Mapping) system, a built-in admin interface, and a templating engine for creating dynamic HTML pages. The framework also emphasizes best practices such as DRY (Don't Repeat Yourself) coding and secure development practices.
 
-## Django models.Model class
+## Django Model
 
 <p align="center">
 <img src="./images/4-model.png" width="500" />
@@ -74,7 +93,7 @@ By defining these attributes in the `project` class, we are telling Django how t
 
 Overall, the Django ORM and `models.Model` class make it easy to work with relational databases in Python, without having to write SQL queries directly. This allows developers to focus on building their application logic, rather than worrying about the details of how data is stored and retrieved from the database.
 
-## Example: One-to-many relationship
+## Model: One-to-many relationship
 In Django, the relationship between a `Project` and its associated `Reviews` can be modeled as a one-to-many relationship using a foreign key field. 
 
 <p align="center">
@@ -119,7 +138,7 @@ reviews = Review.objects.filter(parent_project=p)
 
 Overall, modeling a one-to-many relationship between a `Project` and its associated `Reviews` in Django is straightforward using a foreign key field. This allows us to easily perform operations on the data using the Django ORM.
 
-## Example: Many-to-many relationship
+## Model: Many-to-many relationship
 
 In Django, a many-to-many relationship between `Tags` and `Products` can be modeled using an intermediary table. This table contains foreign keys to both the `Tags` and `Products` tables, and represents the relationship between the two tables.
 
