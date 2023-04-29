@@ -74,7 +74,6 @@ By defining these attributes in the `project` class, we are telling Django how t
 
 Overall, the Django ORM and `models.Model` class make it easy to work with relational databases in Python, without having to write SQL queries directly. This allows developers to focus on building their application logic, rather than worrying about the details of how data is stored and retrieved from the database.
 
-
 ## Example: One-to-many relationship
 In Django, the relationship between a `Project` and its associated `Reviews` can be modeled as a one-to-many relationship using a foreign key field. 
 
@@ -119,6 +118,62 @@ reviews = Review.objects.filter(parent_project=p)
 ```
 
 Overall, modeling a one-to-many relationship between a `Project` and its associated `Reviews` in Django is straightforward using a foreign key field. This allows us to easily perform operations on the data using the Django ORM.
+
+## Example: Many-to-many relationship
+
+In Django, a many-to-many relationship between `Tags` and `Products` can be modeled using an intermediary table. This table contains foreign keys to both the `Tags` and `Products` tables, and represents the relationship between the two tables.
+
+<p align="center">
+<img src="./images/6-many-to-many.png" width="500" />
+</p>
+
+Here's an example of how to define the `Product`, `Tag`, and intermediary `ProductTag` models in Django:
+
+```python
+from django.db import models
+
+class Product(models.Model):
+    title = models.CharField(max_length=255)
+    description = models.TextField()
+    tags = models.ManyToManyField('Tag', through='ProductTag')
+
+class Tag(models.Model):
+    title = models.CharField(max_length=255)
+    description = models.TextField()
+
+class ProductTag(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    tag = models.ForeignKey(Tag, on_delete=models.CASCADE)
+```
+
+In this example, the `Product` model has a many-to-many relationship with the `Tag` model, which is defined using the `tags` field. This field specifies that a product can have many tags, and that the relationship between `Product` and `Tag` is managed by the `ProductTag` model.
+
+The `ProductTag` model is an intermediary model that contains foreign keys to both the `Product` and `Tag` models. This model represents the relationship between the two tables, and allows us to add additional information to the relationship, such as a timestamp or a flag indicating whether the tag is the primary tag for the product.
+
+With this model in place, we can perform various operations on the `Product`, `Tag`, and `ProductTag` objects using the Django ORM. For example, we can create a new product with associated tags like this:
+
+```python
+# create a new product
+p = Product.objects.create(title='My Product', description='This is my product description')
+
+# create some tags for the product
+t1 = Tag.objects.create(title='Tag 1', description='This is tag 1')
+t2 = Tag.objects.create(title='Tag 2', description='This is tag 2')
+
+# associate the tags with the product
+pt1 = ProductTag.objects.create(product=p, tag=t1)
+pt2 = ProductTag.objects.create(product=p, tag=t2)
+```
+
+We can also query for all the tags associated with a particular product:
+
+```python
+# get all the tags for a product
+tags = p.tags.all()
+```
+
+Overall, modeling a many-to-many relationship between `Tags` and `Products` in Django is straightforward using an intermediary table. This allows us to easily perform operations on the data using the Django ORM.
+
 ## Example: Create website using Django
 Creating a website like Facebook.com using Django would be a complex and challenging task that would require a team of experienced developers and a significant amount of time and resources. However, here's a brief overview of the key steps involved in building some of Facebook.com's core features using Django:
 
@@ -136,7 +191,7 @@ Creating a website like Facebook.com using Django would be a complex and challen
 - Messages: To allow users to send messages to each other within groups, the developer would need to create a "Message" model in Django's ORM system. This model would store information about the message, such as the user who sent the message, the group the message was sent to, and the text of the message. The developer would also need to create views and templates to allow users to send and view messages within groups.
 
 <p align="center">
-<img src="./images/6-fb.png" width="400" />
+<img src="./images/7-fb.png" width="400" />
 </p>
 
 Overall, building a website like Facebook.com using Django would require a combination of technical skills, design expertise, and project management experience. It would also require a deep understanding of the site's core features and functionality, as well as the ability to adapt to changing user needs and trends.
