@@ -167,13 +167,11 @@ The book covers a wide range of web app development topics divided into four dif
   - Build a custom middleware
   - Create custom management commands
 
-### <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="24">Source Code 
+### <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="24"> Source Code 
 - [Django 4 by Example](https://github.com/PacktPublishing/Django-4-by-example)
 - [Django 3 by Example](https://github.com/PacktPublishing/Django-3-by-Example)
 - [Django 2 by Example](https://github.com/PacktPublishing/Django-2-by-Example)
 - [Django by Example](https://github.com/PacktPublishing/Django-by-Example)
-
-<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="24"> [Download code](https://github.com/ehmatthes/pcc_3e)
 
 ## 4. Python Crash Course, 3rd Edition
 <img src="https://nostarch.com/sites/default/files/styles/uc_product_full/public/PythonCrashCourse3e_front%20%281%29.png?itok=GdQ8Ib9x" style="width:200px;"  align="left">
