@@ -24,6 +24,20 @@ URLs map user requests to views. In Django, URLs are defined in the form of URL 
 
 In addition to these core components, Django also provides a built-in admin interface for managing application content, as well as support for user authentication, caching, and internationalization. Django's modularity and extensibility make it a powerful tool for building web applications of all sizes and complexity levels.
 
+## Django Project
+
+In a Django project, the application logic is organized into individual apps. Each app typically consists of four main components: Models, Views, Templates, and URLs. Here's a brief overview of these components in the context of an example Django project called "App1":
+
+1. Models: Models define the data structure and relationships between database tables. In App1, the models might include classes such as "User" or "Post", which represent users and posts in the application. Models are defined in a file called "models.py" in the app directory.
+
+2. Views: Views handle user requests and return HTTP responses. In App1, the views might include functions such as "list_posts" or "create_post", which display a list of posts or create a new post, respectively. Views are defined in a file called "views.py" in the app directory.
+
+3. Templates: Templates define the HTML structure and layout of the application's user interface. In App1, the templates might include files such as "list_posts.html" or "create_post.html", which define the layout of the pages for listing posts or creating a new post, respectively. Templates are typically stored in a directory called "templates" within the app directory.
+
+4. URLs: URLs map user requests to specific views. In App1, the URLs might include patterns such as "/posts/" or "/posts/create/", which map to the "list_posts" and "create_post" views, respectively. URLs are defined in a file called "urls.py" in the app directory.
+
+Overall, these components work together to define the functionality and user interface of the App1 web application. By organizing the application logic into separate apps, Django allows developers to build complex applications with a modular and maintainable codebase.
+
 ## Key features
 Django is a high-level, open-source web framework for Python that follows the Model-View-Controller (MVC) architectural pattern. It is designed to make web development faster, easier, and more secure by providing developers with a set of tools and features to build complex web applications.
 
