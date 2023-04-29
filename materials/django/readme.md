@@ -15,7 +15,7 @@ Django is a web framework for building web applications in Python. It follows th
 
 | Django Concept             | Description                                                                                       |
 |----------------------------|---------------------------------------------------------------------------------------------------|
-| 1. [Django Project](./1-project.md)         | A collection of settings, URLs, and apps that defines the functionality of a Django web application. |
+| 1. [Django Project](./concept/1-project.md)         | A collection of settings, URLs, and apps that defines the functionality of a Django web application. |
 | 2. Django Commands         | Command-line tools that facilitate various tasks in a Django project, such as running the server, running tests, and creating database tables. |
 | 3. View function           | A Python function that takes an HTTP request and returns an HTTP response. It determines the content that is displayed to a user in a web application. |
 | 4. Django Model            | A Python class that represents a database table and its fields. It is used to define the schema of a database in a Django project. |
