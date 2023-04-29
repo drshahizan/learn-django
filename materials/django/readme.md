@@ -335,6 +335,45 @@ Creating a website like Facebook.com using Django would be a complex and challen
 
 Overall, building a website like Facebook.com using Django would require a combination of technical skills, design expertise, and project management experience. It would also require a deep understanding of the site's core features and functionality, as well as the ability to adapt to changing user needs and trends.
 
+## Static files
+In Django, static files are used to serve files that do not change during the lifetime of a web application. Examples of static files include stylesheets, JavaScript files, and images. These files are served directly from the web server, without being processed by Django.
+
+To serve static files in Django, you need to create a `static` directory in your application. Inside this directory, you can create subdirectories to organize your static files, such as `styles` for CSS files, `js` for JavaScript files, and `images` for image files.
+
+Here is an example directory structure for static files in a Django project:
+
+```
+myproject/
+|-- myproject/
+|   |-- settings.py
+|   |-- urls.py
+|   |-- wsgi.py
+|-- myapp/
+|   |-- templates/
+|   |-- static/
+|       |-- styles/
+|           |-- main.css
+|           |-- profile.css
+|       |-- js/
+|           |-- script.js
+|           |-- profile.js
+|       |-- images/
+|           |-- logo.png
+|-- manage.py
+```
+
+To use static files in your templates, you need to add the `{% load static %}` template tag at the top of your template. You can then reference your static files using the `{% static %}` template tag, like this:
+
+```html
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'styles/main.css' %}">
+<script src="{% static 'js/script.js' %}"></script>
+<img src="{% static 'images/logo.png' %}" alt="Logo">
+```
+
+In addition to serving static files during development, you also need to configure your web server to serve static files in production. Django provides a `collectstatic` management command that collects all static files from your project and copies them to a single directory that can be served by your web server.
+
 ## Key features
 Django is a high-level, open-source web framework for Python that follows the Model-View-Controller (MVC) architectural pattern. It is designed to make web development faster, easier, and more secure by providing developers with a set of tools and features to build complex web applications.
 
