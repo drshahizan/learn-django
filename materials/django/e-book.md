@@ -15,7 +15,7 @@ Django is a high-level web framework that eases the creation of complex, databas
 
 <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" width="24"> [Download code](https://github.com/packtpublishing/django-projects-blueprints)
 
-## Django For Beginners
+## [Django For Beginners](https://djangoforbeginners.com/)
 
 Django for Beginners is a project-based introduction to Django, the popular Python-based web framework. Suitable for total beginners who have never built a website before as well as professional programmers looking for a fast-paced guide to modern web development and Django fundamentals.
 
