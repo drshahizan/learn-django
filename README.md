@@ -60,15 +60,6 @@ Django is a high-level web framework for building web applications quickly and e
 | [Django 4 by Example](./materials/django/e-book.md#3-django-4-by-example) | Django 4 by Example (4th edition) will guide you through the entire process of developing professional web applications with Django. The book not only covers the most relevant aspects of the framework, but it will also teach you how to integrate other popular technologies into your Django projects. |
 | [Python Crash Course](./materials/django/e-book.md#4-python-crash-course-3rd-edition) | Python Crash Course is the world’s best-selling guide to the Python programming language. This fast-paced, thorough introduction will have you writing programs, solving problems, and developing functioning applications in no time.|
 
-### 2. Website
-
-| Resource | Description |
-| -------- | ----------- |
-| [Django's official website](https://docs.djangoproject.com/en/4.2/) | Django's documentation has a list of sample projects and code snippets that you can use to learn Django. This is a great place to start for beginners. |
-| [GitHub](https://github.com/django/djangoproject.com) | GitHub is a popular code hosting platform where developers can collaborate on projects. You can search for Django projects and find ones with the "good first issue" label, which means they are beginner-friendly. |
-| [DjangoGirls Tutorial](https://tutorial.djangogirls.org/en/) | DjangoGirls is a nonprofit organization that aims to teach women and girls how to code using Django. They offer a free tutorial that teaches you how to build a blog application using Django. |
-| [Real Python](https://realpython.com/get-started-with-django-1/) | Real Python is a website that offers tutorials and courses on Python and Django. They have a free course that teaches you how to build a simple Django project. |
-
 ### 2. Github Repository
 
 | Github| Description | Github  |
