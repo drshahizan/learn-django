@@ -52,7 +52,7 @@ Django is a high-level web framework for building web applications quickly and e
 
 ## Useful links
 
-### E-book
+### 1. E-book
 | Resource | Description |
 | -------- | ----------- |
 | [Django Project Blueprints](./materials/django/e-book.md#1-django-project-blueprints) | Django is a high-level web framework that eases the creation of complex, database-driven websites. It emphasizes on the reusability and pluggability of components, rapid development, and the principle of don't repeat yourself. It lets you build high-performing, elegant web applications quickly. There are several Django tutorials available online, which take as many shortcuts as possible, but leave you wondering how you can adapt them to your own needs.|
@@ -60,7 +60,7 @@ Django is a high-level web framework for building web applications quickly and e
 | [Django 4 by Example](./materials/django/e-book.md#3-django-4-by-example) | Django 4 by Example (4th edition) will guide you through the entire process of developing professional web applications with Django. The book not only covers the most relevant aspects of the framework, but it will also teach you how to integrate other popular technologies into your Django projects. |
 | [Python Crash Course](./materials/django/e-book.md#4-python-crash-course-3rd-edition) | Python Crash Course is the world’s best-selling guide to the Python programming language. This fast-paced, thorough introduction will have you writing programs, solving problems, and developing functioning applications in no time.|
 
-Free Django projects for beginners:
+### 2. Website
 
 | Resource | Description |
 | -------- | ----------- |
@@ -68,6 +68,21 @@ Free Django projects for beginners:
 | [GitHub](https://github.com/django/djangoproject.com) | GitHub is a popular code hosting platform where developers can collaborate on projects. You can search for Django projects and find ones with the "good first issue" label, which means they are beginner-friendly. |
 | [DjangoGirls Tutorial](https://tutorial.djangogirls.org/en/) | DjangoGirls is a nonprofit organization that aims to teach women and girls how to code using Django. They offer a free tutorial that teaches you how to build a blog application using Django. |
 | [Real Python](https://realpython.com/get-started-with-django-1/) | Real Python is a website that offers tutorials and courses on Python and Django. They have a free course that teaches you how to build a simple Django project. |
+
+| Website Name | Description | Github Repository |
+| --- | --- | --- |
+| Django Girls Blog | A blog website created by the Django Girls organization that teaches beginners how to build a blog using Django. | [Link](https://github.com/DjangoGirlsCode/DjangoGirls) |
+| MDN Django Tutorial | A tutorial website created by Mozilla that teaches how to build a library website using Django. | [Link](https://github.com/mdn/django-locallibrary-tutorial) |
+
+| Django Project Ideas | A collection of project ideas for beginners to practice building with Django. | [Link](https://github.com/sabatinoalberto/django-projects) |
+| Real Python Django Tutorials | A series of tutorials that cover various topics related to Django development. | [Link](https://github.com/realpython/django-tutorial) |
+| Django Ecommerce Tutorial | A tutorial that teaches how to build an e-commerce website using Django. | [Link](https://github.com/PacktPublishing/Django-Ecommerce) |
+| Django Girls Tutorial Extensions | A collection of tutorials that extend the Django Girls tutorial and cover additional topics. | [Link](https://github.com/DjangoGirls/tutorial-extensions) |
+| Django React Tutorial | A tutorial that teaches how to build a web application using Django and React. | [Link](https://github.com/alan345/django-react-tutorial) |
+| Django Sample Projects | A collection of sample projects that showcase various features and functionalities of Django. | [Link](https://github.com/shubham171294/Sample-Django-Projects) |
+| Django Reddit Clone | A tutorial that teaches how to build a social news website similar to Reddit using Django. | [Link](https://github.com/justdjango/reddit_clone) |
+| Django Vue.js Tutorial | A tutorial that teaches how to build a web application using Django and Vue.js. | [Link](https://github.com/mitchtabian/Django-Vue.js-Tutorial) |
+
 
 ### Web
 - [Meet Django](https://www.djangoproject.com/)
