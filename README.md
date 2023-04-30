@@ -55,8 +55,10 @@ Django is a high-level web framework for building web applications quickly and e
 ### E-book
 | Resource | Description |
 | -------- | ----------- |
-| [Django Project Blueprints](./materials/django/e-book.md) | Django Project Blueprints is a book that provides step-by-step instructions for building 6 real-world Django projects. You can download the sample code for free from the book's website. |
-| [Django For Beginners](./materials/django/e-book.md) | Django For Beginners is a book that teaches you how to build a simple blog application using Django. The code for the project is available on GitHub. |
+| [Django Project Blueprints](./materials/django/e-book.md#1-django-project-blueprints) | Django is a high-level web framework that eases the creation of complex, database-driven websites. It emphasizes on the reusability and pluggability of components, rapid development, and the principle of don't repeat yourself. It lets you build high-performing, elegant web applications quickly. There are several Django tutorials available online, which take as many shortcuts as possible, but leave you wondering how you can adapt them to your own needs.|
+| [Django For Beginners](./materials/django/e-book.md#2-django-for-beginners) | Welcome to Django for Beginners, a project-based approach to learning web development with the Django web framework. In this book you will build five progressively more complex web applications, starting with a simple Hello, World app, progressing to a Pages app, a Message Board app, a Blog app with forms and user accounts, and finally a Newspaper app that uses a custom user model, email integration, foreign keys, authorization, permissions, and more. By the end of this book you should feel confident creating your own Django projects from scratch using current best practices. |
+| [Django 4 by Example](./materials/django/e-book.md#3-django-4-by-example) | Django 4 by Example (4th edition) will guide you through the entire process of developing professional web applications with Django. The book not only covers the most relevant aspects of the framework, but it will also teach you how to integrate other popular technologies into your Django projects. |
+| [Python Crash Course](./materials/django/e-book.md#4-python-crash-course-3rd-edition) | Python Crash Course is the world’s best-selling guide to the Python programming language. This fast-paced, thorough introduction will have you writing programs, solving problems, and developing functioning applications in no time.|
 
 Free Django projects for beginners:
 
