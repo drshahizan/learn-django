@@ -18,6 +18,7 @@ Django is a high-level web framework for building web applications in Python. It
 
 1. [Topic](./materials/assignment/topic.md)
 2. [Instructions](./materials/assignment/assignment.md)
+3. testing
 
 ## Python Web Frameworks
 
