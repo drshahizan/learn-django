@@ -67,12 +67,7 @@ Django is a high-level web framework for building web applications quickly and e
 | [Django Girls website](https://github.com/DjangoGirls/djangogirls) | A blog website created by the Django Girls organization that teaches beginners how to build a blog using Django. |
 | [MDN Django Tutorial ](https://github.com/mdn/django-locallibrary-tutorial)  | A tutorial website created by Mozilla that teaches how to build a library website using Django. |
 | [Awesome Django](https://github.com/shahraizali/awesome-django)  | An awesome package is one that is mature, is well maintained, has a good amount of users, has good documentation, follows the best practices, and which latest release is less than 1 year old. Awesome Django packages and projects are the ones that inspire and serve as examples. |
-| [Django Ecommerce Tutorial](https://github.com/PacktPublishing/Django-Ecommerce) | A tutorial that teaches how to build an e-commerce website using Django. |
 | [Django Girls Tutorial Extensions](https://github.com/DjangoGirls/tutorial-extensions) | A collection of tutorials that extend the Django Girls tutorial and cover additional topics. | 
-|[Django React Tutorial](https://github.com/alan345/django-react-tutorial) | A tutorial that teaches how to build a web application using Django and React. |
-|[Django Sample Projects](https://github.com/shubham171294/Sample-Django-Projects) | A collection of sample projects that showcase various features and functionalities of Django. |
-| [Django Reddit Clone ](https://github.com/justdjango/reddit_clone)| A tutorial that teaches how to build a social news website similar to Reddit using Django. |
-| [Django Vue.js Tutorial](https://github.com/mitchtabian/Django-Vue.js-Tutorial) | A tutorial that teaches how to build a web application using Django and Vue.js. |
 
 ### 3. Website
 
