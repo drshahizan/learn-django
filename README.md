@@ -62,18 +62,18 @@ Django is a high-level web framework for building web applications quickly and e
 
 ### 2. Github Repository
 
-| Github| Description | Github  |
-| --- | --- | --- |
-| [Django Girls website](https://github.com/DjangoGirls/djangogirls) | A blog website created by the Django Girls organization that teaches beginners how to build a blog using Django. | |
-| [MDN Django Tutorial ](https://github.com/mdn/django-locallibrary-tutorial)  | A tutorial website created by Mozilla that teaches how to build a library website using Django. | |
-| [Django Project Ideas](https://github.com/sabatinoalberto/django-projects)  | A collection of project ideas for beginners to practice building with Django. | |
-| [Real Python Django Tutorials](https://github.com/realpython/django-tutorial)| A series of tutorials that cover various topics related to Django development. |  |
-| [Django Ecommerce Tutorial](https://github.com/PacktPublishing/Django-Ecommerce) | A tutorial that teaches how to build an e-commerce website using Django. |  |
-| [Django Girls Tutorial Extensions](https://github.com/DjangoGirls/tutorial-extensions) | A collection of tutorials that extend the Django Girls tutorial and cover additional topics. | [Link](https://github.com/DjangoGirls/tutorial-extensions) |
-|[Django React Tutorial](https://github.com/alan345/django-react-tutorial) | A tutorial that teaches how to build a web application using Django and React. | |
-|[Django Sample Projects](https://github.com/shubham171294/Sample-Django-Projects) | A collection of sample projects that showcase various features and functionalities of Django. |  |
-| [Django Reddit Clone ](https://github.com/justdjango/reddit_clone)| A tutorial that teaches how to build a social news website similar to Reddit using Django. |  |
-| [Django Vue.js Tutorial](https://github.com/mitchtabian/Django-Vue.js-Tutorial) | A tutorial that teaches how to build a web application using Django and Vue.js. | |
+| Github| Description |
+| --- | --- | 
+| [Django Girls website](https://github.com/DjangoGirls/djangogirls) | A blog website created by the Django Girls organization that teaches beginners how to build a blog using Django. |
+| [MDN Django Tutorial ](https://github.com/mdn/django-locallibrary-tutorial)  | A tutorial website created by Mozilla that teaches how to build a library website using Django. |
+| [Django Project Ideas](https://github.com/sabatinoalberto/django-projects)  | A collection of project ideas for beginners to practice building with Django. |
+| [Real Python Django Tutorials](https://github.com/realpython/django-tutorial)| A series of tutorials that cover various topics related to Django development. |
+| [Django Ecommerce Tutorial](https://github.com/PacktPublishing/Django-Ecommerce) | A tutorial that teaches how to build an e-commerce website using Django. |
+| [Django Girls Tutorial Extensions](https://github.com/DjangoGirls/tutorial-extensions) | A collection of tutorials that extend the Django Girls tutorial and cover additional topics. | 
+|[Django React Tutorial](https://github.com/alan345/django-react-tutorial) | A tutorial that teaches how to build a web application using Django and React. |
+|[Django Sample Projects](https://github.com/shubham171294/Sample-Django-Projects) | A collection of sample projects that showcase various features and functionalities of Django. |
+| [Django Reddit Clone ](https://github.com/justdjango/reddit_clone)| A tutorial that teaches how to build a social news website similar to Reddit using Django. |
+| [Django Vue.js Tutorial](https://github.com/mitchtabian/Django-Vue.js-Tutorial) | A tutorial that teaches how to build a web application using Django and Vue.js. |
 
 ### 3. Website
 
