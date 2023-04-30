@@ -66,7 +66,7 @@ Django is a high-level web framework for building web applications quickly and e
 | --- | --- | 
 | [Django Girls website](https://github.com/DjangoGirls/djangogirls) | A blog website created by the Django Girls organization that teaches beginners how to build a blog using Django. |
 | [MDN Django Tutorial ](https://github.com/mdn/django-locallibrary-tutorial)  | A tutorial website created by Mozilla that teaches how to build a library website using Django. |
-| [Django Project Ideas](https://github.com/sabatinoalberto/django-projects)  | A collection of project ideas for beginners to practice building with Django. |
+| [Awesome Django](https://github.com/shahraizali/awesome-django)  | An awesome package is one that is mature, is well maintained, has a good amount of users, has good documentation, follows the best practices, and which latest release is less than 1 year old. Awesome Django packages and projects are the ones that inspire and serve as examples. |
 | [Real Python Django Tutorials](https://github.com/realpython/django-tutorial)| A series of tutorials that cover various topics related to Django development. |
 | [Django Ecommerce Tutorial](https://github.com/PacktPublishing/Django-Ecommerce) | A tutorial that teaches how to build an e-commerce website using Django. |
 | [Django Girls Tutorial Extensions](https://github.com/DjangoGirls/tutorial-extensions) | A collection of tutorials that extend the Django Girls tutorial and cover additional topics. | 
