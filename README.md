@@ -73,7 +73,6 @@ Django is a high-level web framework for building web applications quickly and e
 | --- | --- | --- |
 | Django Girls Blog | A blog website created by the Django Girls organization that teaches beginners how to build a blog using Django. | [Link](https://github.com/DjangoGirlsCode/DjangoGirls) |
 | MDN Django Tutorial | A tutorial website created by Mozilla that teaches how to build a library website using Django. | [Link](https://github.com/mdn/django-locallibrary-tutorial) |
-
 | Django Project Ideas | A collection of project ideas for beginners to practice building with Django. | [Link](https://github.com/sabatinoalberto/django-projects) |
 | Real Python Django Tutorials | A series of tutorials that cover various topics related to Django development. | [Link](https://github.com/realpython/django-tutorial) |
 | Django Ecommerce Tutorial | A tutorial that teaches how to build an e-commerce website using Django. | [Link](https://github.com/PacktPublishing/Django-Ecommerce) |
