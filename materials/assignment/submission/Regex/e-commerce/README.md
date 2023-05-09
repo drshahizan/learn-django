@@ -1,4 +1,7 @@
-<h1>E-Commerce Platform
+<h1>E-Commerce Platform</h1>
+
+Template: [Argon Dashboard Django](https://github.com/creativetimofficial/argon-dashboard-django/)
+
 <h2>Quick Start</h2>
 
 1. Clone This Project<br>
@@ -19,5 +22,4 @@
 `python manage.py runserver`
   
 Access the web app in browser: http://127.0.0.1:8000/
-  
-Template: [Argon Dashboard Django](https://github.com/creativetimofficial/argon-dashboard-django/)
+ 
