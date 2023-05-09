@@ -1,12 +1,12 @@
 <div  align="center">
-<img  src="https://www.aib.world/wp-content/uploads/2020/12/ethics-blog-google-scholar-profile-large.jpg">
+<img  src="">
 </div>
 
-<h1 align='center'>Part 2: Web scraping text in Google Scholar 📷☁️</h1>
+<h1 align='center'>Web scraping text in Google Scholar 📷☁️</h1>
 
-<p>Google Scholar is a free search engine that indexes scholarly literature, including articles, conference papers, theses, books, and technical reports, from a wide range of academic publishers, professional societies, online repositories, universities, and other websites. In this assigment, we will be scrape data from google scholar specifically staff's articles and publications from Universiti Teknologi Malaysia. The data that we will be scraping include the article's title, author, Journel or Conference Name and Citation. </p>
+<p>Django is a high-level Python web framework that follows the model-view-controller (MVC) architectural pattern. It provides a set of tools and features that simplify the development of web applications. Django emphasizes reusability, modularity, and the principle of "Don't Repeat Yourself" (DRY). </p>
 
-* [📄Google Scholar Web](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Universiti+Teknologi+Malaysia&oq=)
+* [📄](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Universiti+Teknologi+Malaysia&oq=)
 
 <br>
 
