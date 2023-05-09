@@ -1,0 +1,22 @@
+{% extends "layouts/base2.html" %}
+
+{% block title %}
+  Thank You
+{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-body text-center">
+          <h1 class="mb-3">Thank You!</h1>
+          <p>Your order has been successfully completed.</p>
+          <p>Your order number is <strong>{{ order.id }}</strong>.</p>
+          <a href="{% url 'shop:customer_list' %}" class="btn btn-primary mt-3">Continue Shopping</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
