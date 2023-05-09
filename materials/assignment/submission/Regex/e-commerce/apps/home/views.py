@@ -390,4 +390,4 @@ def order_update(request, order_id):
         if form.is_valid():
             form.save()
             return redirect('shop:order_list')
-    return render(request, 'order_update.html', {'order': order, 'form': form})
+    return render(request, 'home/order_update.html', {'order': order, 'form': form})
