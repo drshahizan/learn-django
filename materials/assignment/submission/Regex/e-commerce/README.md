@@ -13,8 +13,11 @@ Template: [Argon Dashboard Django](https://github.com/creativetimofficial/argon-
 4. Activate Virtual Environment<br>
 `\env\Scripts\activate`
 5. Install Requirements Package<br>
-`pip install -r requirements.txt`
+`pip install -r requirements.txt`<br>
+`pip install matplotlib`<br>
+`pip install numpy`
 6. Migrate Database<br>
+`python manage.py makemigrations`<br>
 `python manage.py migrate`
 7. Create Super User<br>
 `python manage.py createsuperuser`
