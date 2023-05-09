@@ -1,0 +1,47 @@
+{% extends "layouts/base3.html" %}
+{% load static %}
+
+{% block title %}
+  {% if category %}
+    {{ category.name }}
+  {% else %}
+    Products
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  <div class="container-fluid mt-4">
+    <div id="sidebar">
+      <h3>Categories</h3>
+      <ul>
+        <li {% if not category %}class="selected"{% endif %}>
+          <a href="{% url "shop:home" %}">All</a>
+        </li>
+        {% for c in categories %}
+          <li {% if category.slug == c.slug %}class="selected"{% endif %}>
+            <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="card">
+      <div class="row justify-content-center">
+        <div class="col-md-11">
+          <div id="main" class="product-list">
+            &nbsp;<h1>{% if category %}{{ category.name }}{% else %}Products{% endif %}</h1>
+            {% for product in products %}
+              <div class="item">
+                <a href="{{ product.get_absolute_url2 }}">
+                  <img src="{% if product.image %}{{ product.image.url }}{% else %}{% static '/assets/img/product/no_image.png' %}{% endif %}" width="300px" height="300px">
+                </a>
+                <a href="{{ product.get_absolute_url2 }}">{{ product.name }}</a>
+                <br>
+                ${{ product.price }}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

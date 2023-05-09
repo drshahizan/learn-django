@@ -1,0 +1,117 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block title %} Tables {% endblock title %}
+
+{% block content %}
+
+  <div class="header bg-primary pb-6">
+    <div class="container-fluid">
+      <div class="header-body">
+        <div class="row align-items-center py-4">
+          <div class="col-lg-6 col-7">
+            <h6 class="h2 text-white d-inline-block mb-0">Order</h6>
+            <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+              <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
+                <li class="breadcrumb-item"><a href="#">Order</a></li>
+                <li class="breadcrumb-item active" aria-current="page">List</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page content -->
+  <div class="container-fluid mt--6">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <!-- Card header -->
+          <div class="card-header border-0">
+            <div class="row justify-content-between align-items-center">
+              <div class="col">
+                <h1 class="mb-0">Orders</h1>
+              </div>
+              <div class="col-auto">
+                <form class="navbar-search navbar-search-light form-inline" id="navbar-search-main" action="{% url 'shop:search_order' %}" method="post">
+                  {% csrf_token %}
+                  <div class="form-group mb-0">
+                    <div class="input-group input-group-alternative input-group-merge">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                      </div>
+                      <input class="form-control" placeholder="Search" name="search" type="text">
+                    </div>
+                  </div>
+                  <button type="button" class="close" data-action="search-close" data-target="#navbar-search-main" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Light table -->
+          <div class="table-responsive">
+            <table class="table align-items-center table-flush">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col" class="sort" data-sort="name">ID</th>
+                  <th scope="col" class="sort" data-sort="budget">Order Date</th>
+                  <th scope="col" class="sort" data-sort="status">Total Amount</th>
+                  <th scope="col">Status</th>
+                  <th scope="col" class="sort" data-sort="completion">Action</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody class="list">
+
+                {% for order in orders %}
+                <tr>
+                  <th scope="row">
+                    <div class="media align-items-center">
+                      <div class="media-body">
+                        <span class="name mb-0 text-sm">{{ order.id }}</span>
+                      </div>
+                    </div>
+                  </th>
+                  <td class="budget">
+                    {{ order.created }}
+                  </td>
+                  <td>
+                    <span class="badge badge-dot mr-4">
+                      <span class="status">${{ order.get_total_cost }}</span>
+                    </span>
+                  </td>
+                  <td>
+                    <span style="{% if order.status == 'paid' %}color: grey;{% elif order.status == 'shipped' %}color: orange;{% elif order.status == 'delivered' %}color: green;{% elif order.status == 'cancelled' %}color: red;{% endif %}">
+                        {{ order.status }}
+                    </span>
+                  </td>                
+                  <td>
+                    <a class="btn btn-info" href="{% url "shop:order_list_product" order.id %}" title="view">
+                        <i class="fa fa-eye"></i>
+                    </a>
+                    <a class="btn btn-primary" href="{% url "shop:order_update" order.id %}" title="edit">
+                      <i class="fa fa-edit"></i>
+                  </a>
+                </td>
+                  {% endfor %}
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE --> 
+{% block javascripts %}{% endblock javascripts %}
