@@ -1,3 +1,8 @@
+<h1 align='center'>Food Delivery System</h1>
+<p align="center">
+  <img src="https://my.priceshop.com/wp-content/uploads/2022/04/1-36-1024x683.jpg" title="Food Delivery System" height='500px'>
+</p>
+<p>We would like to explore Django and create a Food Delivery System. This allows customers of MakanMakan restaurant to order their food online.</p>
 <h2 align='center'>Group Members</h2>
 <table align='center'>
   <tr>
