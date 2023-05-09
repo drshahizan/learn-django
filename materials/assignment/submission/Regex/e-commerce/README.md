@@ -11,7 +11,7 @@ Template: [Argon Dashboard Django](https://github.com/creativetimofficial/argon-
 3. Create a Virtual Environment<br>
 `virtualenv env`
 4. Activate Virtual Environment<br>
-`\env\Scripts\activate`
+`env\Scripts\activate`
 5. Install Requirements Package<br>
 `pip install -r requirements.txt`<br>
 `pip install matplotlib`<br>
