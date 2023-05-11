@@ -5,6 +5,7 @@ whitenoise
 djongo
 django-admin-volt==1.0.10
 pymongo==3.12.3
+pytz
 
 # psycopg2-binary
 # mysqlclient
