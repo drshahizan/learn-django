@@ -3,6 +3,9 @@
 </div>
 
 <h1 align="center"> Online Education Platform </h1>
+<div align="center">
+  <img src="https://github.com/drshahizan/learn-django/assets/97009588/3b0a409d-a741-4dc2-b574-2061dd607f9e" alt = "Django Logo"/>
+</div>
 
 In this project, we will be utilising DJango to develop an e-learning platform where instructors can create and manage courses, students can enroll in courses, and administrators can manage course listings and user accounts. The admin dashboard could display overall course enrollment statistics and the most popular courses.
 
