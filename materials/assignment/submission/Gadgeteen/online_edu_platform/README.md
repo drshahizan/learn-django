@@ -3,7 +3,7 @@
 Template: [Volt Dashboard Django](https://github.com/app-generator/django-volt-dashboard)
 
 
-# Quick Start to the application	
+## Quick Start to the application	
 
 Steps to start the project:
 
