@@ -5,7 +5,9 @@ whitenoise
 django-admin-volt==1.0.10
 pytz
 pymongo==3.12.3
-djongo
+djongo==1.3.6
+mongoengine
+dns
 
 # psycopg2-binary
 # mysqlclient
