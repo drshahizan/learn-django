@@ -2,10 +2,10 @@ django
 gunicorn
 python-dotenv
 whitenoise
-djongo
 django-admin-volt==1.0.10
-pymongo==3.12.3
 pytz
+pymongo==3.12.3
+djongo
 
 # psycopg2-binary
 # mysqlclient
