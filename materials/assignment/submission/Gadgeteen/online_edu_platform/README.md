@@ -67,4 +67,6 @@ Finally, you can run the development server by running the following command:
 python manage.py runserver
 ```
 
+<b> You can now access the web app in browser: http://127.0.0.1:8000/ </b>
+
  
