@@ -1,4 +1,4 @@
-<h1> Student Information System </h1>
+<h1 align="center"> Student Information System </h1>
 
 ## Table of Contents
 - [Codebase Structure](#codebase-structure)
