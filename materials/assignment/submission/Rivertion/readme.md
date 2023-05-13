@@ -12,7 +12,7 @@
       <th>Matric</th>
     </tr>
     <tr>
-      <td>ADAM WAFII A</td>
+      <td>ADAM WAFII AZ</td>
       <td>A20EC0003</td>
     </tr>
     <tr>
