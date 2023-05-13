@@ -12,7 +12,7 @@
       <th>Matric</th>
     </tr>
     <tr>
-      <td>ADAM</td>
+      <td>ADAM </td>
       <td>A20EC0003</td>
     </tr>
     <tr>
