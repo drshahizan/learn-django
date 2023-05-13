@@ -7,7 +7,7 @@
     │   │   ├── _pycache_
     │   │   ├── _init_.py
     │   │   └── 0001_initial.py
-    │   ├── static/
+    │   ├── static/                         #list of plugins for javascript and styling of the page
     │   │   ├── dist/
     │   │   │   └── <css img js>
     │   │   ├── plugins/
@@ -52,6 +52,6 @@
     ├── LICENSE
     ├── manage.py
     ├── Procfile
-    └── requirements.txt
+    └── requirements.txt              #List of libraries that must be install
 ```
     
