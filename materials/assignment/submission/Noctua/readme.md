@@ -8,8 +8,6 @@
 
 A job board, also known as a job site or job portal, is a website or online platform that serves as a centralized hub for job postings and employment opportunities. It provides a platform for employers or recruiters to advertise job openings and for job seekers to search and apply for those positions. Job boards typically allow employers to create accounts and post job listings, including details such as job titles, descriptions, qualifications, and application instructions. Job seekers can then visit the job board, browse through the available listings, and apply directly to the positions of interest. </p>
 
-* [📄]()
-
 <br>
 
 <div align='center'>
