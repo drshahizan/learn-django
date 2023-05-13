@@ -1,3 +1,6 @@
+
+<h2>CodeBase Structure
+    
 ```bash
 .
 └── <StudentInformationSystem>/                                                 # Root directory of the project
