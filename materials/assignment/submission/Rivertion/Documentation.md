@@ -54,5 +54,3 @@
     ├── Procfile
     └── requirements.txt
     
-    ```
-    
