@@ -48,11 +48,11 @@
                 <a href="{% url 'dashboard' %}" class="nav-link">Dashboard</a>
               </li>
               <li class="nav-item me-2">
-                <a href="{% url 'logout' %}" class="nav-link">Logout</a>
+                <a href="{% url 'logout_user' %}" class="nav-link">Logout</a>
               </li>
             {% else %}
               <li class="nav-item me-2">
-                <a href="{% url 'login' %}" class="nav-link">Login</a>
+                <a href="{% url 'login_form' %}" class="nav-link">Login</a>
               </li>
               <li class="nav-item me-2">
                 <a href="{% url 'register1' %}" class="nav-link">Register</a>
