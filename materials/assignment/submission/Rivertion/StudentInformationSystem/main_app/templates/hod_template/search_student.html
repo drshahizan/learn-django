@@ -8,6 +8,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="card-header">
+                {% url 'manage_student' as manage_student %}
                 <a href="{{manage_student}}">  
                     <button type="button" class="btn btn-primary">Reset Search</button> 
                 </a>
