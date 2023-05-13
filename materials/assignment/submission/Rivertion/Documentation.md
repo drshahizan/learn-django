@@ -106,5 +106,81 @@ There are also limitations and drawbacks that may be present when designing the 
 
 <h2>Screenshots</h2>
 
+- Login
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/Login.png">
+
+- Dashboard
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/Dashboard_1.png">
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/Dashboard_2.png">
+
+- Update Profile
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/update_profile.png">
+
+- Student Page
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/Student_page.png">
+
+- Add Course
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/add_course.png">
+
+- Manage Course
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/manage_course.png">
+
+- Add Session
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/add_session.png">
+
+- Manage Session
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/manage_session.png">
+
+- Add Staff
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/add_staff.png">
+
+- Manage Staff
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/manage_staff.png">
+
+- Add Student
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/add_student1.png">
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/add_student2.png">
+
+- Manage Student
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/manage_student.png">
+
+- Add Subject
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/add_subject.png">
+
+- Manage Subject
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/manage_subject.png">
+
+- Notify Staff
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/notify_staff.png">
+
+- Notify Student
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/notify_student.png">
+
+- View Notification
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/view_notification.png">
+
+- View Attendance
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/view_attendance.png">
+
+- View Attendance Student
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/view_attendanceStudent.png">
+
+- Apply Leave
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/Apply_Leave.png">
+
+- Staff Leave
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/staff_leave.png">
+
+- Student Leave
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/student_leave.png">
+
+- Feedback Form
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/Feedback_Form.png">
+
+- Staff Feedback
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/staff_feedback.png">
+
+- Student Feedback
+<img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Rivertion/Images/student_feedback.png">
 
 
