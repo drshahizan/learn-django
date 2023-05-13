@@ -70,6 +70,7 @@ In this system, there are four main models which act as Python classes that repr
 <ul>
   <li> Course: Educational program that students can enroll in </li>
   <li> Subject: Specific topic or class within a course </li>
+  <li> Session: Academic period </li>
   <li> Student: Individual who is enrolled in the college </li>
   <li> Staff: Individual who gives lecture to the students </li>
 </ul>
@@ -81,5 +82,25 @@ Below are the tools and languages that are used in developing this system:
   <li>HTML: Creating the base structure</li>
   <li>CSS: Styling the system</li>
   <li>JavaScript: Adding interactivity and dynamic features</li>
+</ul>
+
+<h2>Assumptions</h2>
+
+When developing a college management system, there can be several common assumptions that might apply. Below are the assumptions found:
+<ul>
+  <li>The system assumes a standard college or educational institution setup with typical administrative and academic processes.</li>
+  <li>It assumes that the college management system will be used by authorized staff members, students, and faculty members who have appropriate credentials.</li>
+  <li>It assumes that the necessary hardware and infrastructure, such as servers, databases, and internet connectivity, are available for the system to operate effectively.</li>
+  <li>It assumes that the system will support a specific number of users, courses, subjects, and other entities based on the anticipated requirements.</li>
+</ul>
+
+<h2>Limitations:</h2>
+
+There are also limitations and drawbacks that may be present when designing the system. Below are the limitations:
+<ul>
+  <li>The system might have limitations in terms of scalability, performance, and handling a large volume of data or concurrent users.</li>
+  <li>It may not address all the specific needs and requirements of every college or educational institution, as different institutions may have unique processes and workflows.</li>
+  <li>The system might not include advanced features or specialized functionalities that could be required by specific colleges.</li>
+  <li>It may have limitations in terms of customization, requiring additional development effort to adapt it to the specific needs of a particular institution.</li>
 </ul>
 
