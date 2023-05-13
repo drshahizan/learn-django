@@ -1,5 +1,5 @@
 
-<h2>CodeBase Structure
+<h2>Codebase Structure</h2>
     
 ```bash
 .
