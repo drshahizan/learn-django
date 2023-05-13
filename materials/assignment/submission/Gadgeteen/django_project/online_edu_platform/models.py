@@ -27,13 +27,11 @@ class Course(models.Model):
     def __str__(self):
         return self.name
     
-class Learner(models.Model):
+class Student(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
 
     def __str__(self):
         return self.user.username
-
-
 
 class Instructor(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
