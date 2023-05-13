@@ -40,7 +40,7 @@
                                         <th>Gender</th>
                                         <th>Course</th>
                                         <th>Avatar</th>
-                                        <th>Actions</th>
+                                        <th style="width:15%">Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -62,7 +62,6 @@
                                             </td>
                                             <td>
                                                 <a href="{% url 'edit_staff' staff.staff.id %}" class="btn btn-info">Edit</a> 
-                                                <br/> 
                                                 <a href="{% url 'delete_staff' staff.staff.id %}" class="btn btn-danger" onclick="return confirm('Are you sure about this ?')">Delete</a>
                                             
                                             </td>
