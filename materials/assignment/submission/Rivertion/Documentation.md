@@ -94,7 +94,7 @@ When developing a college management system, there can be several common assumpt
   <li>It assumes that the system will support a specific number of users, courses, subjects, and other entities based on the anticipated requirements.</li>
 </ul>
 
-<h2>Limitations:</h2>
+<h2>Limitations</h2>
 
 There are also limitations and drawbacks that may be present when designing the system. Below are the limitations:
 <ul>
@@ -103,4 +103,8 @@ There are also limitations and drawbacks that may be present when designing the 
   <li>The system might not include advanced features or specialized functionalities that could be required by specific colleges.</li>
   <li>It may have limitations in terms of customization, requiring additional development effort to adapt it to the specific needs of a particular institution.</li>
 </ul>
+
+<h2>Screenshots</h2>
+
+
 
