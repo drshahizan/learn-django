@@ -7,7 +7,7 @@
     │   │   ├── _pycache_
     │   │   ├── _init_.py
     │   │   └── 0001_initial.py
-    │   ├── static/                         #list of plugins for javascript and styling of the page
+    │   ├── static/                     #list of plugins for javascript and styling of the page
     │   │   ├── dist/
     │   │   │   └── <css img js>
     │   │   ├── plugins/
