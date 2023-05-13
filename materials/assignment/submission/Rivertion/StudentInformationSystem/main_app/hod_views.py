@@ -30,7 +30,6 @@ def search_staff(request):
             return redirect('/staff/manage')    
           
     else:
-        # return render(request, 'hod_template/manage_staff.html')
         return redirect('/staff/manage')
     
 def search_student(request):
@@ -50,7 +49,6 @@ def search_student(request):
             return redirect('/student/manage')    
           
     else:
-        # return render(request, 'hod_template/manage_staff.html')
         return redirect('/staff/manage')
 
 def admin_home(request):
