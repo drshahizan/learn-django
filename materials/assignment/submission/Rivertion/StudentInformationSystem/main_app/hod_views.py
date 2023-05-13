@@ -32,6 +32,26 @@ def search_staff(request):
     else:
         # return render(request, 'hod_template/manage_staff.html')
         return redirect('/staff/manage')
+    
+def search_student(request):
+    if request.method == "POST":
+        searched_student = request.POST["searched_student"]
+        if searched_student:
+            filteredStudent = CustomUser.objects.filter(first_name__contains=searched_student) or CustomUser.objects.filter(last_name__contains=searched_student)
+            searchedStudent = filteredStudent.filter(user_type=3)
+            context = {
+            'searched_student':searched_student,   
+            'searchedStudent': searchedStudent,
+            'page_title': 'Search Student'
+            }
+            return render(request, 'hod_template/search_student.html', context)
+        
+        else:
+            return redirect('/student/manage')    
+          
+    else:
+        # return render(request, 'hod_template/manage_staff.html')
+        return redirect('/staff/manage')
 
 def admin_home(request):
     total_staff = Staff.objects.all().count()

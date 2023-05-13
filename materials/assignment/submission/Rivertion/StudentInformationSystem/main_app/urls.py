@@ -65,6 +65,7 @@ urlpatterns = [
 
 # TESTING 
     path("staff/search_staff", hod_views.search_staff, name='search_staff'),
+    path("student/search_student", hod_views.search_student, name='search_student'),
 
     path("staff/delete/<int:staff_id>",
          hod_views.delete_staff, name='delete_staff'),

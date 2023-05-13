@@ -10,7 +10,12 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">{{page_title}}</h3>
+                        <form class="d-flex" method=POST action="{% url 'search_student' %}">
+                            {% csrf_token %}
+
+                            <input class="form-control me-sm-2" type="search" placeholder="Search Student" name="searched_student">
+                            <button class="btn btn-success" type="submit">Search</button>
+                          </form>
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
@@ -23,7 +28,7 @@
                                     <th>Gender</th>
                                     <th>Course</th>
                                     <th>Avatar</th>
-                                    <th>Actions</th>
+                                    <th style="width:15%">Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -43,7 +48,7 @@
                                         {% endif %}
                                     </td>
                                     
-                                    <td><a href="{% url 'edit_student' student.student.id %}" class="btn btn-info">Edit</a> -
+                                    <td><a href="{% url 'edit_student' student.student.id %}" class="btn btn-info">Edit </a>
                                         <a href="{% url 'delete_student' student.student.id %}" class="btn btn-danger" onclick="return confirm('Are you sure about this ?')">Delete</a>
 
                                     </td>
