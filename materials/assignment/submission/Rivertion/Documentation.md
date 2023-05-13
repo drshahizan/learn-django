@@ -3,22 +3,26 @@
 └── <StudentInformationSystem>/                                                 # Root directory of the project
     ├── main_app/                                                               # Main application directory
     │   ├── _pycache_                                                           # Python cache directory
+    │   │ 
     │   ├── migrations/                                                         # Database migration files
     │   │   ├── _pycache_                                                       # Python cache directory for migrations
     │   │   ├── __init__.py                                                     # Initialization file for migrations
     │   │   └── 0001_initial.py                                                 # Initial migration file
+    │   │ 
     │   ├── static/                                                             # Static files directory
     │   │   ├── dist/                                                           # Distribution directory
     │   │   │   └── <css img js>                                                # CSS, image, and JavaScript files
     │   │   ├── plugins/                                                        # Plugins directory
     │   │   │   └── <Bootstrap and Javascripts plugins>                         # Bootstrap and JavaScript plugins
     │   │   └── 01 PROJECT INFO.txt                                             # Information file about the project
+    │   │ 
     │   ├── templates/ <.html>                                                  # HTML templates directory
     │   │   ├── hod_template                                                    # Head of Department (HOD) templates
     │   │   ├── main_app                                                        # Main application templates
     │   │   ├── registartion                                                    # Registration templates
     │   │   ├── staff_template                                                  # Staff templates
     │   │   └── student_template                                                # Student templates
+    │   │ 
     │   ├── __init__.py                                                         # Initialization file for the main app
     │   ├── 01 PROJECT INFO.txt                                                 # Information file about the main app
     │   ├── admin.py                                                            # Django admin configuration file
