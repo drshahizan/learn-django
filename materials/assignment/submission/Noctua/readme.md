@@ -2,7 +2,7 @@
 <img  src="https://sheet2site.com/how-to-create-job-board/header.jpg">
 </div>
 
-<h1 align='center'>Web scraping text in Google Scholar 📷☁️</h1>
+<h1 align='center'>Django Job Board📰☁️</h1>
 
 <p>Django is a high-level Python web framework that follows the model-view-controller (MVC) architectural pattern. It provides a set of tools and features that simplify the development of web applications. Django emphasizes reusability, modularity, and the principle of "Don't Repeat Yourself" (DRY). 
 
