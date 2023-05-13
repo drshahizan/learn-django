@@ -13,7 +13,7 @@
     │   │   ├── plugins/
     │   │   │   └── <Bootstrap and Javascripts plugins>
     │   │   └── 01 PROJECT INFO.txt
-    │   ├── templates <.html>/
+    │   ├── templates/ <.html>
     │   │   ├── hod_template
     │   │   ├── main_app
     │   │   ├── registartion
@@ -36,7 +36,7 @@
     │   ├── urls.py
     │   └── views.py
     │
-    ├── media
+    ├── media/                          #Uploded images
     │
     ├── student_information_system/
     │   ├── _pycachce_
@@ -47,7 +47,7 @@
     │   ├── urls.py
     │   └── wsgi.py
     │
-    ├── 01 PROJECT INFO.txt
+    ├── 01 PROJECT INFO.txt           #Steps before running the code
     ├── db.sqlite3
     ├── LICENSE
     ├── manage.py
