@@ -1,5 +1,12 @@
 <h1> Student Information System </h1>
 
+## Table of Contents
+- [Codebase Structure](#codebase-structure)
+- [Design Choices](#design-choices)
+- [Assumptions](#assumptions)
+- [Limitations](#limitations)
+- [Screenshots](#screenshots)
+
 <h2>Codebase Structure</h2>
     
 ```bash
