@@ -1,0 +1,84 @@
+{% extends 'main_app/base.html' %}
+{% load static %}
+{% block page_title %}{{page_title}}{% endblock page_title %}
+
+{% block content %}
+
+<section class="content">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="card-header">
+                <a href="{{manage_staff}}">  
+                    <button type="button" class="btn btn-primary">Reset Search</button> 
+                </a>
+            </div>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <form class="d-flex" method=POST action="{% url 'search_staff' %}">
+                            {% csrf_token %}
+
+                            <input class="form-control me-sm-2" type="search" placeholder="Search Staff" name="searched_staff">
+                            <button class="btn btn-success" type="submit">Search</button>
+                          </form>                    
+                    </div>
+                    
+                    
+                    {%if searchedStaff%}
+                        <div class="card-header">
+                            <h3 class="card-title">Results for {{searched_staff}}</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Full Name</th>
+                                        <th>Email</th>
+                                        <th>Gender</th>
+                                        <th>Course</th>
+                                        <th>Avatar</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                        {% for staff in searchedStaff %}
+                                        <tr>
+                                            <td>{{ forloop.counter }}</td>
+                                            <td>{{staff.first_name}} {{staff.last_name}}</td>
+                                            <td>{{staff.email}}</td>
+                                            <td>{{staff.gender}}</td>
+                                            <td>{{staff.staff.course.name}}</td>
+                                            <td>
+                                                {% if staff.profile_pic == ""  %}
+                                                No Image
+                                                {% else %}
+                                                <img class="img img-fluid mb-2" height="56" width="56"
+                                                    src="{{staff.profile_pic}}" alt="">
+                                                {% endif %}
+                                            </td>
+                                            <td>
+                                                <a href="{% url 'edit_staff' staff.staff.id %}" class="btn btn-info">Edit</a> 
+                                                <br/> 
+                                                <a href="{% url 'delete_staff' staff.staff.id %}" class="btn btn-danger" onclick="return confirm('Are you sure about this ?')">Delete</a>
+                                            
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                    {%else%}
+                    <div class="card-header">
+                        <h3 class="card-title">No results for {{searched_staff}}</h3>
+                    </div>
+                    {%endif%}
+                            </tbody>
+                        </table>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

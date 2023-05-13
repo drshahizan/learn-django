@@ -13,6 +13,25 @@ from django.views.generic import UpdateView
 from .forms import *
 from .models import *
 
+def search_staff(request):
+    if request.method == "POST":
+        searched_staff = request.POST["searched_staff"]
+        if searched_staff:
+            filteredStaff = CustomUser.objects.filter(first_name__contains=searched_staff) or CustomUser.objects.filter(last_name__contains=searched_staff)
+            searchedStaff = filteredStaff.filter(user_type=2)
+            context = {
+            'searched_staff':searched_staff,   
+            'searchedStaff': searchedStaff,
+            'page_title': 'Search Staff'
+            }
+            return render(request, 'hod_template/search_staff.html', context)
+        
+        else:
+            return redirect('/staff/manage')    
+          
+    else:
+        # return render(request, 'hod_template/manage_staff.html')
+        return redirect('/staff/manage')
 
 def admin_home(request):
     total_staff = Staff.objects.all().count()
