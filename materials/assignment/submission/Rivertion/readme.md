@@ -5,7 +5,7 @@
 <body>
   <img class="cover-image" src="https://cdn.internationalstudentloan.com/assets/ISTL/images/redesign/what-do-international-student-loans-cover.jpg" alt="Cover Image">
   <h1 class="header" align="center">Student Information System 🎓</h1>
-  <p>A Student Information System (SIS) developed using Django is a web-based application that helps educational institutions efficiently manage student-related data. Built on the Django framework, the SIS provides features such as user authentication, student profile management, enrollment and course management, grading and transcript generation, attendance tracking, and communication/notification capabilities. By leveraging Django's capabilities, the SIS streamlines administrative tasks, improves data management, and enhances communication within the educational institution.</p>
+  <p>A Student Information System (SIS) developed using Django is a web-based application that helps educational institutions efficiently manage student-related data. Built on the Django framework, the SIS provides features such as student profile management, enrollment and course management, attendance tracking, and communication/notification capabilities. By leveraging Django's capabilities, the SIS streamlines administrative tasks, improves data management, and enhances communication within the educational institution.</p>
   <table align="center">
     <tr>
       <th>Name</th>
