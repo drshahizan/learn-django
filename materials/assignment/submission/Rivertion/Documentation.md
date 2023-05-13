@@ -1,3 +1,4 @@
+<h1> Student Information System </h1>
 
 <h2>Codebase Structure</h2>
     
@@ -61,3 +62,24 @@
     └── requirements.txt                                                        # File listing required libraries and dependencies
 ```
     
+<h2>Design Choices</h2>
+
+This system application is about a Student Information System which aims to facilitate the management and administration tasks in a college or educational institution. It includes features such as student enrollment, course management, faculty administration, attendance tracking, exam management, and generating reports.
+
+In this system, there are four main models which act as Python classes that represent database tables. These models then can perform Create, Read, Update, Delete (CRUD) operations and implement various functionalities. Below are the models:
+<ul>
+  <li> Course: Educational program that students can enroll in </li>
+  <li> Subject: Specific topic or class within a course </li>
+  <li> Student: Individual who is enrolled in the college </li>
+  <li> Staff: Individual who gives lecture to the students </li>
+</ul>
+
+Below are the tools and languages that are used in developing this system:
+<ul>
+  <li>Python: Main programming language</li>
+  <li>Django: Web framework</li>
+  <li>HTML: Creating the base structure</li>
+  <li>CSS: Styling the system</li>
+  <li>JavaScript: Adding interactivity and dynamic features</li>
+</ul>
+
