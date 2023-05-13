@@ -36,7 +36,7 @@
     │   ├── urls.py
     │   └── views.py
     │
-    ├── media/                          #Uploded images
+    ├── media/                          #Saved images after being uploaded
     │
     ├── student_information_system/
     │   ├── _pycachce_
@@ -48,7 +48,7 @@
     │   └── wsgi.py
     │
     ├── 01 PROJECT INFO.txt           #Steps before running the code
-    ├── db.sqlite3
+    ├── db.sqlite3                    #Database contain of admin, staff, student info
     ├── LICENSE
     ├── manage.py
     ├── Procfile
