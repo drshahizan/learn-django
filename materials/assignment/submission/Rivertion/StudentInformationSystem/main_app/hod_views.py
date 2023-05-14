@@ -17,7 +17,7 @@ def search_staff(request):
     if request.method == "POST":
         searched_staff = request.POST["searched_staff"]
         if searched_staff:
-            filteredStaff = CustomUser.objects.filter(first_name__contains=searched_staff) or CustomUser.objects.filter(last_name__contains=searched_staff)
+            filteredStaff = CustomUser.objects.filter(first_name__contains=searched_staff) | CustomUser.objects.filter(last_name__contains=searched_staff)
             searchedStaff = filteredStaff.filter(user_type=2)
             context = {
             'searched_staff':searched_staff,   
@@ -36,8 +36,8 @@ def search_student(request):
     if request.method == "POST":
         searched_student = request.POST["searched_student"]
         if searched_student:
-            filteredStudent = CustomUser.objects.filter(first_name__contains=searched_student) or CustomUser.objects.filter(last_name__contains=searched_student)
-            searchedStudent = filteredStudent.filter(user_type=3)
+            filteredStudent = CustomUser.objects.filter(user_type=3)
+            searchedStudent = filteredStudent.filter(first_name__contains=searched_student) | filteredStudent.filter(last_name__contains=searched_student)
             context = {
             'searched_student':searched_student,   
             'searchedStudent': searchedStudent,
