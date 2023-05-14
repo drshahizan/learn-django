@@ -13,20 +13,28 @@
 <h2>Project Structure</h2>
 
 ```bash
-< PROJECT ROOT >
+< PROJECT ROOT >  ///still in progress...do not change
    |
-   |-- core/                               # Implements app configuration
-   |    |-- settings.py                    # Defines Global Settings
-   |    |-- wsgi.py                        # Start the app in production
-   |    |-- urls.py                        # Define URLs served by all apps/nodes
-   |
-   |-- apps/
+   |-- booking/                               # Implements app configuration
+   |    |-- __pycache__/
+   |    |    
+   |    |-- migrations/
+   |    |    |-- __init__.py
+   |    |    |-- 0001_initial.py
    |    |
-   |    |-- home/                          # A simple app that serve HTML files
-   |    |    |-- views.py                  # Serve HTML pages for authenticated users
-   |    |    |-- urls.py                   # Define user routes  
-   |    |    |-- forms.py                  # Define some forms (product, category, cart and order) 
-   |    |    |-- admin.py                  # The configuration for the Django admin interface for the app
+   |    |-- __init__.py                    # Defines Global Settings
+   |    |-- admin.py                        # Start the app in production
+   |    |-- apps.py                        # Define URLs served by all apps/nodes
+   |    |-- models.py
+   |    |-- models.py
+   |    |-- tests.py
+   |    |-- urls.py
+   |    |-- views.py
+   |
+   |-- cms/
+   |    |
+   |    |-- __pycache__/                          # A simple app that serve HTML files
+   |    |        
    |    |
    |    |-- authentication/                # Handles auth routes (login and register)
    |    |    |-- urls.py                   # Define authentication routes  
