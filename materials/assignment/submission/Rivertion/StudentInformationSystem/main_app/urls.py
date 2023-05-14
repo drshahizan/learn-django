@@ -63,9 +63,10 @@ urlpatterns = [
     path("subject/manage/", hod_views.manage_subject, name='manage_subject'),
     path("staff/edit/<int:staff_id>", hod_views.edit_staff, name='edit_staff'),
 
-# TESTING 
+# SEARCH BAR 
     path("staff/search_staff", hod_views.search_staff, name='search_staff'),
     path("student/search_student", hod_views.search_student, name='search_student'),
+    path("course/search_course", hod_views.search_course, name='search_course'),
 
     path("staff/delete/<int:staff_id>",
          hod_views.delete_staff, name='delete_staff'),
