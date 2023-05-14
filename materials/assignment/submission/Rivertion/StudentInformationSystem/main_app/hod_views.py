@@ -68,6 +68,24 @@ def search_course(request):
           
     else:
         return redirect('/course/manage')
+    
+def search_subject(request):
+    if request.method == "POST":
+        searched_subject = request.POST["searched_subject"]
+        if searched_subject:
+            searchedSubject = Subject.objects.filter(name__contains=searched_subject)
+            context = {
+            'searched_subject':searched_subject,   
+            'searchedSubject': searchedSubject,
+            'page_title': 'Search Subject'
+            }
+            return render(request, 'hod_template/search_subject.html', context)
+        
+        else:
+            return redirect('/subject/manage')    
+          
+    else:
+        return redirect('/subject/manage')
 
 def admin_home(request):
     total_staff = Staff.objects.all().count()

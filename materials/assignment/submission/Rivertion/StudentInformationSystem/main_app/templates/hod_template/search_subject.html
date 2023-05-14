@@ -7,6 +7,12 @@
 <section class="content">
     <div class="container-fluid">
         <div class="row">
+            <div class="card-header">
+                {% url 'manage_subject' as manage_subject %}
+                <a href="{{manage_subject}}">  
+                    <button type="button" class="btn btn-primary">Reset Search</button> 
+                </a>
+            </div>
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
@@ -17,6 +23,10 @@
                             <button class="btn btn-success" type="submit">Search</button>
                           </form>
                     </div>
+                    {%if searchedSubject%}
+                        <div class="card-header">
+                            <h3 class="card-title">Results for {{searched_subject}}</h3>
+                        </div>
                     <!-- /.card-header -->
                     <div class="card-body">
                         <table id="example2" class="table table-bordered table-hover">
@@ -30,7 +40,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                {% for subject in subjects %}
+                                {% for subject in searchedSubject %}
                                 <tr>
                                     <td>{{ forloop.counter }}</td>
                                     <td>{{subject.name}}</td>
@@ -46,6 +56,11 @@
                             </tbody>
                         </table>
                     </div>
+                    {%else%}
+                    <div class="card-header">
+                        <h3 class="card-title">No results for {{searched_subject}}</h3>
+                    </div>
+                    {%endif%}
                 </div>
             </div>
         </div>

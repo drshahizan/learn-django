@@ -67,6 +67,7 @@ urlpatterns = [
     path("staff/search_staff", hod_views.search_staff, name='search_staff'),
     path("student/search_student", hod_views.search_student, name='search_student'),
     path("course/search_course", hod_views.search_course, name='search_course'),
+    path("subject/search_subject", hod_views.search_subject, name='search_subject'),
 
     path("staff/delete/<int:staff_id>",
          hod_views.delete_staff, name='delete_staff'),
