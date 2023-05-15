@@ -1,5 +1,6 @@
-<h1 align='center'>Event Management System<h1>
-  
+<h1 align='center'>Event Management System</h1>
+<div align='center'></div>
+
 <table>
   <tr>
    <th>Group members</th>
