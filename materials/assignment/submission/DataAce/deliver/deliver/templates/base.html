@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% block head_title %}{% endblock %}</title>
+    {% block extra_head %}
+    {% endblock %}
+
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+     <!-- Google Fonts -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+     <!-- Bootstrap core CSS -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Material Design Bootstrap -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+  </head>
+  <body>
+    {% block body %}
+
+    {% if messages %}
+    <div class="row justify-content-center pt-3">
+      <div class="col-md-6">
+        {% for message in messages %}
+        <div class="alert alert-primary" role="alert">{{message}}</div>
+        {% endfor %}
+    </div>
+    </div>
+    {% endif %}
+
+<div class="row pt-3 pl-3">
+    <div class="col-md-2">
+      <ul class="list-group">
+        {% if user.is_authenticated %}
+        <li class="list-group-item"><a href="{% url 'account_email' %}">Change E-mail</a></li>
+        <li class="list-group-item"><a href="{% url 'account_logout' %}">Sign Out</a></li>
+        {% else %}
+        <li class="list-group-item"><a href="{% url 'account_login' %}">Sign In</a></li>
+        <li class="list-group-item"><a href="{% url 'account_signup' %}">Sign Up</a></li>
+        {% endif %}
+      </ul>
+    </div>
+</div>
+    {% block content %}
+    {% endblock %}
+    {% endblock %}
+    {% block extra_body %}
+    {% endblock %}
+  </body>
+</html>
