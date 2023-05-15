@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'embed_video',
     'debug_toolbar',
     'redisboard',
+    'fontawesomefree',
 ]
 
 MIDDLEWARE = [

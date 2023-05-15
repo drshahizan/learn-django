@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+<head><link rel="stylesheet" href="~/lib/Font-Awesome/css/fontawesome.min.css">
+<link rel="stylesheet" href="~/lib/Font-Awesome/css/regular.min.css">
+<link rel="stylesheet" href="~/lib/Font-Awesome/css/solid.min.css"></head>
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block content %}
+  <h1>Admin Dashboard</h1>
+
+<div class="module" style="display:inline-flex;gap:20px;">
+    <div class="row">
+      <div class="course-info" style="width:200px;padding:20px">
+        <h3 style="margin:revert;"><b><i class="fa-sharp fa-regular fa-book"></i> Total Courses</b></h3>
+        <span style="font-size:25px">{{total_courses}}</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="course-info" style="width:200px;padding:20px">
+        <h3 style="margin:revert;"><b><i class="fa-sharp fa-regular fa-book-open"></i> Total Modules</b></h3>
+        <span style="font-size:25px">{{total_modules}}</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="course-info" style="width:200px;padding:20px">
+        <h3 style="margin:revert;"><b><i class="fa-solid fa-swatchbook"></i> Total Subjects</b></h3>
+        <span style="font-size:25px">{{total_subjects}}</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="course-info" style="width:200px;padding:20px">
+        <h3 style="margin:revert;"><b><i class="fa-sharp fa-regular fa-graduation-cap"></i> Total Students</b></h3>
+        <span style="font-size:25px">{{total_students}}</span>
+      </div>
+    </div>
+</div>
+{% endblock %}

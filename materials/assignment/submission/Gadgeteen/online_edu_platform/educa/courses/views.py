@@ -249,3 +249,24 @@ def index(request):
     context = {}
     template = "index.html"
     return render(request, template, context)
+
+@login_required
+def AdminDashboard(request):
+    model = Course
+
+    total_courses = Course.objects.count()
+    total_modules = Module.objects.count()
+    total_subjects = Subject.objects.count()
+    total_students = Course.students.through.objects.count()
+
+    context = {
+        'segment': 'index',
+        'total_courses': total_courses,
+        'total_modules': total_modules,
+        'total_subjects': total_subjects,
+        'total_students': total_students,
+    }
+
+    return render(request, 'courses/manage/course/dashboard.html', context)
+
+
