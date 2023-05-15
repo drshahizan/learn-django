@@ -1,5 +1,5 @@
 <h1 align='center'>Event Management System</h1>
-<div align='center'></div>
+<div align='center'>
 
 <table>
   <tr>
