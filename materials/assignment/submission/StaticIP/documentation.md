@@ -30,4 +30,10 @@ Admin can create new event under any event category.
  
  <img width="920" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/StaticIP/event/photo/6-create%20event.png">
  
+4. Event member
+
+Another function is where the admin can add new event member for different event and the system will display the member list. 
+ <img width="920" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/StaticIP/event/photo/8-add%20event%20member.png">
+ 
+ <img width="920" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/StaticIP/event/photo/9-join%20event%20list.png">
  
