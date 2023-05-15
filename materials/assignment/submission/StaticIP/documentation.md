@@ -20,3 +20,14 @@ Admin can create new event category such as carnival by entering all the details
  
 After successfully added a new event category, admin can view the event category list.
  <img width="920" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/StaticIP/event/photo/3-Event%20category.png">
+ 
+3. Create new event
+
+Admin can create new event under any event category. 
+ <img width="920" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/StaticIP/event/photo/4-create%20event.png">
+ 
+ <img width="920" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/StaticIP/event/photo/5-create%20event.png">
+ 
+ <img width="920" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/StaticIP/event/photo/6-create%20event.png">
+ 
+ 
