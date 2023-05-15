@@ -1,0 +1,64 @@
+{% extends 'main_app/base.html' %}
+{% load static %}
+{% block page_title %}{{page_title}}{% endblock page_title %}
+
+{% block content %}
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card-header">
+                {% url 'manage_course' as manage_course %}
+                <a href="{{manage_course}}">  
+                    <button type="button" class="btn btn-primary">Reset Search</button> 
+                </a>
+            </div>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <form class="d-flex" method=POST action="{% url 'search_course' %}">
+                            {% csrf_token %}
+
+                            <input class="form-control me-sm-2" type="search" placeholder="Search Course" name="searched_course">
+                            <button class="btn btn-success" type="submit">Search</button>
+                          </form> 
+                    </div>
+                    {%if searchedCourse%}
+                        <div class="card-header">
+                            <h3 class="card-title">Results for {{searched_course}}</h3>
+                        </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="example2" class="table table-bordered table-hover">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Course</th>
+                                    <th style="width:15%">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for course in searchedCourse %}
+                                <tr>
+                                    <td>{{ forloop.counter }}</td>
+                                    <td>{{course.name}}</td>
+                                    <td>
+                                        <a href="{% url 'edit_course' course.id %}" class="btn btn-info">Edit</a>
+                                        <a href="{% url 'delete_course' course.id %}" onclick="return confirm('Are you sure you want to delete this course ?')" class="btn btn-danger">Delete</a> 
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    {%else%}
+                    <div class="card-header">
+                        <h3 class="card-title">No results for {{searched_course}}</h3>
+                    </div>
+                    {%endif%}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

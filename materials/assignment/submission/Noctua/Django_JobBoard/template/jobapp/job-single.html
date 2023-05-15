@@ -1,0 +1,288 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load is_job_already_applied %}
+{% load is_job_already_saved %}
+{% block content %}
+<!-- HOME -->
+
+
+<section class="section-hero overlay inner-page bg-image"
+  style="background-image: url('{% static 'images/hero_1.jpg' %}');" id="home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 class="text-white font-weight-bold">{{ job.title }}</h1>
+        <div class="custom-breadcrumbs">
+          <a href="{% url 'jobapp:home' %}">Home</a> <span class="mx-2 slash">/</span>
+          <a href="{% url 'jobapp:job-list' %}">Job</a> <span class="mx-2 slash">/</span>
+          <span class="text-white"><strong>{{ job.title }}</strong></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="site-section">
+  <div class="container">
+    {% include 'messages.html' %}
+
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-8 mb-4 mb-lg-0">
+        <div class="d-flex align-items-center">
+          <div class="border p-2 d-inline-block mr-3 rounded">
+            <img src="{% static 'images/job_logo_2.jpg' %}" alt="Image">
+          </div>
+          <div>
+            <h2>{{ job.title }}</h2>
+            <div>
+              <span class="ml-0 mr-2 mb-2"><span class="icon-briefcase mr-2"></span><a href="{{ job.url }}">{{ job.company_name }}</a></span>
+              <span class="m-2"><span class="icon-room mr-2"></span>{{ job.location }}</span>
+              <span class="m-2"><span class="icon-clock-o mr-2"></span>
+                <span class="text-primary">
+
+                  {% if job.job_type == '1' %}
+                  Full Time
+                  {% elif job.job_type == '2'%}
+                  Part Time
+                  {% else  %}
+                  Internship
+                  {% endif %}
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="row">
+          <div class="col-5">
+            {% if user.is_authenticated and user.role == 'employee' %}
+                {% is_job_already_saved job request.user as is_saved %}
+                {% if is_saved %}
+                <span href="#" class="btn btn-block btn-light btn-md"><span
+                    class="icon-heart-o mr-2 text-danger"></span>Saved</span>
+                {% else %}
+
+                <form action="{% url 'jobapp:bookmark-job' job.id %}" method="POST">
+                  {% csrf_token %}
+                  <input type="hidden" name="job" value="{{ job.id }}">
+                  <input type="submit" class="btn btn-block btn-light btn-md" value="Save Job" />
+                </form>
+                {% endif %}
+            
+            {% elif request.user.id == job.user.id and  user.role == 'employer'  %}
+            <button onclick="call_sw_alert_func('{% url 'jobapp:delete' job.id %}','{{ job.id }}','Once Deleted, You Will Not be Able To Recover This Post!')" class="btn btn-block btn-danger btn-md">Delete</button>
+                                   
+            {% comment %} {% else %}
+
+            <form action="{% url 'jobapp:bookmark-job' job.id %}" method="POST">
+              {% csrf_token %}
+              <input type="hidden" name="job" value="{{ job.id }}">
+
+              <input type="submit" class="btn btn-block btn-light btn-md" value="Save" />
+            </form> {% endcomment %}
+
+            {% endif %}
+
+          </div>
+
+        <div class="col-7">
+          {% if user.is_authenticated and user.role == 'employee' %}
+            {% is_job_already_applied job request.user as is_applied %}
+              {% if is_applied %}
+
+              <span  class="btn btn-block btn-danger btn-md">Already Applied</span>
+
+              {% else %}
+
+              <form action="{% url 'jobapp:apply-job' job.id %}" method="POST">
+                {% csrf_token %}
+                <input type="hidden" name="job" value="{{ job.id }}">
+
+                <input type="submit" class="btn btn-block btn-primary btn-md" value="Apply Now" />
+              </form>
+              {% endif %}
+            
+          {% elif request.user.id == job.user.id and user.role == 'employer' %}
+
+          <a href="{% url 'jobapp:edit-job' job.id %}" class="btn btn-block btn-light btn-md">Edit</a>
+           {% else %}
+              <a href="{% url 'jobapp:create-job' %}" class="btn btn-block btn-primary btn-md">Publish Your Job</a>
+            {% endif %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="mb-5">
+          <!-- <figure class="mb-5"><img src="images/job_single_img_1.jpg" alt="Image" class="img-fluid rounded"></figure> -->
+          <h3 class="h5 d-flex align-items-center mb-4 text-primary"><span class="icon-align-left mr-3"></span>Job
+            Description</h3>
+          {{ job.description | safe }}
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-6">
+
+            {% if user.is_authenticated and user.role == 'employee' %}
+            {% is_job_already_saved job request.user as is_saved %}
+            {% if is_saved %}
+            <span class="btn btn-block btn-light btn-md"><span class="icon-heart-o mr-2 text-danger"></span>Already
+              Saved
+              Job</span>
+            {% else %}
+
+            <form action="{% url 'jobapp:bookmark-job' job.id %}" method="POST">
+              {% csrf_token %}
+              <input type="hidden" name="job" value="{{ job.id }}">
+              <input type="submit" class="btn btn-block btn-light btn-md" value="Save" />
+
+            </form>
+
+            {% endif %}
+
+            {% elif request.user.id == job.user.id and user.role == 'employer' %}
+            <button onclick="call_sw_alert_func('{% url 'jobapp:delete' job.id %}','{{ job.id }}','Once Deleted, You Will Not be Able To Recover This Post!')" class="btn btn-block btn-danger btn-md">Delete</button>
+                                   
+           {% elif user.role == none %}
+
+            <form action="{% url 'jobapp:bookmark-job' job.id %}" method="POST">
+              {% csrf_token %}
+              <input type="hidden" name="job" value="{{ job.id }}">
+
+              <input type="submit" class="btn btn-block btn-light btn-md" value="Save" />
+            </form>
+
+            {% endif %}
+          </div>
+          {% if user.is_authenticated and  user.role == 'employee' %}
+          {% is_job_already_applied job request.user as is_applied %}
+          {% if is_applied %}
+
+          <div class="col-6">
+            <span class="btn btn-block btn-danger btn-md">Already Applied</span>
+          </div>
+          {% else %}
+          <div class="col-6">
+            <form action="{% url 'jobapp:apply-job' job.id %}" method="POST">
+              {% csrf_token %}
+              <input type="hidden" name="job" value="{{ job.id }}">
+
+              <input type="submit" class="btn btn-block btn-primary btn-md" value="Apply Now" />
+            </form>
+          </div>
+          {% endif %}
+
+          {% elif  request.user.id == job.user.id and  user.role == 'employer' %}
+          <div class="col-6">
+
+            <a href="{% url 'jobapp:edit-job' job.id %}" class="btn btn-block btn-light btn-md">Edit</a>
+          </div>
+          {% elif user.role == none %}
+            <div class="col-6">
+              <form action="{% url 'jobapp:apply-job' job.id %}" method="POST">
+                {% csrf_token %}
+                <input type="hidden" name="job" value="{{ job.id }}">
+
+                <input type="submit" class="btn btn-block btn-primary btn-md" value="Apply Now" />
+              </form>
+          </div> 
+          {% endif %}
+        </div>
+
+      </div>
+      <div class="col-lg-4">
+        <div class="bg-light p-3 border rounded mb-4">
+          <h3 class="text-primary  mt-3 h5 pl-3 mb-3 ">Job Summary</h3>
+          <ul class="list-unstyled pl-3 mb-0">
+            <li class="mb-2"><strong class="text-black">Published on:</strong> {{ job.timestamp|date:"d M Y" }}</li>
+            <li class="mb-2"><strong class="text-black">Employment Status:</strong>
+              {% if job.job_type == '1' %}
+              Full Time
+              {% elif job.job_type == '2'%}
+              Part Time
+              {% else  %}
+              Internship
+              {% endif %}
+            </li>
+            <li class="mb-2"><strong class="text-black">Job Location:</strong> {{ job.location }}</li>
+            <li class="mb-2"><strong class="text-black">Salary:</strong> {{ job.salary }}</li>
+            <li class="mb-2"><strong class="text-black">Application Deadline:</strong> {{ job.last_date|date:"d M Y" }}
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-light p-3 border rounded">
+          <h3 class="text-primary  mt-3 h5 pl-3 mb-3 ">Share</h3>
+          <div class="px-3">
+            <a href="#" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-facebook"></span></a>
+            <a href="#" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-twitter"></span></a>
+            <a href="#" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-linkedin"></span></a>
+            <a href="#" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-pinterest"></span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+{% if page_obj %}
+
+<section class="site-section" id="next">
+  <div class="container">
+
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-7 text-center">
+        <h2 class="section-title mb-2">{{ total }} Related Jobs</h2>
+      </div>
+    </div>
+
+    <ul class="job-listings mb-5">
+      {% for job in page_obj %}
+      <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
+        <a href="{% url 'jobapp:single-job' job.id %}"></a>
+        <div class="job-listing-logo">
+          <img src="{% static 'images/i.jpg' %}" alt="Image" class="img-fluid">
+        </div>
+
+        <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+          <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+            <h2>{{ job.title}}</h2>
+            <strong>{{ job.company_name }}</strong>
+          </div>
+          <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+            <span class="icon-room"></span> {{ job.location }}
+          </div>
+          <div class="job-listing-meta">
+            <span class="badge badge-danger">
+              {% if job.job_type == '1' %}
+              Full Time
+              {% elif job.job_type == '2'%}
+              Part Time
+              {% else  %}
+              Internship
+              {% endif %}
+            </span>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+
+
+    </ul>
+
+
+    {% include 'jobapp/paginator.html' %}
+
+  </div>
+</section>
+{% endif %}
+{% endblock content %}
+{% block extra_scripts %}
+<script src="{% static 'js/sweet-alert.js' %}"></script>
+<script src="{% static 'js/sweet-alert-ajax.js' %}"></script>
+
+{% endblock %}

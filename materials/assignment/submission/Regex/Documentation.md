@@ -5,7 +5,10 @@
 - [Design Choices](#design-choices)
 - [Assumptions](#assumptions)
 - [Limitations](#limitations)
-- [Screenshots](#screenshots)
+- [System Interface](#system-interface)
+   - [Customers](#customers)
+   - [Public Access](#public-access)
+   - [Admin](#admin)
 
 <h2>Project Structure</h2>
 
@@ -86,32 +89,76 @@ The application is designed to be easy to use and navigate, with a simple, respo
 - The implementation may have performance issues if the database is not properly indexed.
 - The implementation does not integrate with payment gateway.
 
-<h2>Screenshots</h2>
-<h4>General<h4>
+<h2>System Interface</h2>
+<h4>Public Access</h4>
   
-- home
-  
+1. Home Page
+
+When users access the website, they will be directed to the home page to view the products. However, to make a purchase, they must log in first.   
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236977320-a2140acc-7515-4e6a-baca-54fa74d4fc81.png">
 
-- search
+2. Search a Product
   
+To find a specific product, users can simply type in their desired item in the search bar. 
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236977386-f8b6ac2e-e909-417c-905b-44701b796e1b.png">
 
-- register
-  
+3. User Registration
+
+New users can register on the site by simply clicking the register link.  
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236977434-442209bf-dcfe-4216-9ce9-0109f1262922.png">
 
-- login
-  
-  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236977483-8bd44d87-0745-41e7-94eb-2aaf57ee8d1a.png">
-  
-<h4>Admin<h4>
+4. Sign In
 
-- Dashboard
+Once registered, the user will be prompted to proceed to the login page. 
+  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236977483-8bd44d87-0745-41e7-94eb-2aaf57ee8d1a.png">
+ 
+<h4>Customers</h4>
   
+1. Product
+
+Customers who have signed in can easily find and view the products they desire.
+  - Read
+  
+  <img width="945" alt="image" src="https://user-images.githubusercontent.com/120556342/236979630-5139d7af-1def-4662-937d-ebd4a22f6674.png">
+
+  - Search
+  
+  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979689-b3b6e767-5d29-4916-b384-94be1e183b09.png">
+  
+2. Add Products in Cart
+
+To make a purchase, the customer can add the desired item to their cart. If they need to make any changes, they have the option to remove or update items in the cart.
+  - Create
+  
+  <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236979824-840bf3ed-c8aa-4032-a119-ef900ca23e27.png">
+
+  - Read/Update/Delete
+  
+  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979869-279d4f59-9654-4689-b989-7df91a9414d9.png">
+
+3. Order
+
+To complete the order, customers need to provide their shipping and billing details.
+  - Create
+  
+  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979957-134e72b6-6388-41b2-9423-a97235ecc709.png">
+
+  - Read
+  
+  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236980163-cacf530a-70ed-472d-9a1f-fcdfdbc6443e.png">
+  
+  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236980217-4f8aa29c-ee19-4ea9-814d-38737470e21f.png">
+
+<h4>Admin</h4>
+
+1. Dashboard
+
+When logging in as an administrator, the interface will appear differently. The dashboard will display the overall products, categories, orders, and total sales for the admin to view.
   <img width="946" alt="image" src="https://user-images.githubusercontent.com/120556342/236977845-15533c81-62e1-49b8-9b85-8996e346464d.png">
 
-- Category
+2. Category
+
+The administrator can create, modify, remove, view, and search product categories that have been made.
   - Create
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236977962-0bbe1558-90b5-4772-a0e8-2d640ea25f81.png">
@@ -132,7 +179,9 @@ The application is designed to be easy to use and navigate, with a simple, respo
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236978165-2233ca93-f2c0-434c-b831-f0c1c242d523.png">
 
-- Product
+2. Products
+
+The administrator can perform various tasks such as creating, viewing, updating, deleting, and searching for new or previously listed products to sell in the store.
   - Create
   
   <img width="943" alt="image" src="https://user-images.githubusercontent.com/120556342/236984525-266c3c1d-cf27-4916-994a-0ee1a4fcaec6.png">
@@ -155,7 +204,9 @@ The application is designed to be easy to use and navigate, with a simple, respo
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236978815-65239cfc-47f7-43fe-a213-95aaa6c19f77.png">
 
-- Order
+3. Orders
+
+All created orders will be displayed in the Orders section. The administrators have the ability to view and modify the status of the order, indicating whether it has been shipped or delivered.
   - Read
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236978877-9434f1bd-4b76-420f-859f-60b8f6d454fa.png">
 
@@ -168,36 +219,3 @@ The application is designed to be easy to use and navigate, with a simple, respo
   - Search
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979321-7ac6f9ca-9266-4b09-bcd8-a0b26c990e7e.png">
- 
-<h4>Customer<h4>
-  
-- Product
-  - Read
-  
-  <img width="945" alt="image" src="https://user-images.githubusercontent.com/120556342/236979630-5139d7af-1def-4662-937d-ebd4a22f6674.png">
-
-  - Search
-  
-  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979689-b3b6e767-5d29-4916-b384-94be1e183b09.png">
-  
-- Cart
-  - Create
-  
-  <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236979824-840bf3ed-c8aa-4032-a119-ef900ca23e27.png">
-
-  - Read/Update/Delete
-  
-  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979869-279d4f59-9654-4689-b989-7df91a9414d9.png">
-
-- Order
-  - Create
-  
-  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979957-134e72b6-6388-41b2-9423-a97235ecc709.png">
-
-  - Read
-  
-  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236980163-cacf530a-70ed-472d-9a1f-fcdfdbc6443e.png">
-  
-  <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236980217-4f8aa29c-ee19-4ea9-814d-38737470e21f.png">
-
-  

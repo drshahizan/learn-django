@@ -6,9 +6,9 @@
 
 <section class="content">
     <div class="container-fluid">
-
         <div class="row">
             <div class="card-header">
+                {% url 'manage_staff' as manage_staff %}
                 <a href="{{manage_staff}}">  
                     <button type="button" class="btn btn-primary">Reset Search</button> 
                 </a>

@@ -17,7 +17,7 @@ def search_staff(request):
     if request.method == "POST":
         searched_staff = request.POST["searched_staff"]
         if searched_staff:
-            filteredStaff = CustomUser.objects.filter(first_name__contains=searched_staff) or CustomUser.objects.filter(last_name__contains=searched_staff)
+            filteredStaff = CustomUser.objects.filter(first_name__contains=searched_staff) | CustomUser.objects.filter(last_name__contains=searched_staff)
             searchedStaff = filteredStaff.filter(user_type=2)
             context = {
             'searched_staff':searched_staff,   
@@ -36,8 +36,8 @@ def search_student(request):
     if request.method == "POST":
         searched_student = request.POST["searched_student"]
         if searched_student:
-            filteredStudent = CustomUser.objects.filter(first_name__contains=searched_student) or CustomUser.objects.filter(last_name__contains=searched_student)
-            searchedStudent = filteredStudent.filter(user_type=3)
+            filteredStudent = CustomUser.objects.filter(user_type=3)
+            searchedStudent = filteredStudent.filter(first_name__contains=searched_student) | filteredStudent.filter(last_name__contains=searched_student)
             context = {
             'searched_student':searched_student,   
             'searchedStudent': searchedStudent,
@@ -49,7 +49,43 @@ def search_student(request):
             return redirect('/student/manage')    
           
     else:
-        return redirect('/staff/manage')
+        return redirect('/student/manage')
+    
+def search_course(request):
+    if request.method == "POST":
+        searched_course = request.POST["searched_course"]
+        if searched_course:
+            searchedCourse = Course.objects.filter(name__contains=searched_course)
+            context = {
+            'searched_course':searched_course,   
+            'searchedCourse': searchedCourse,
+            'page_title': 'Search Course'
+            }
+            return render(request, 'hod_template/search_course.html', context)
+        
+        else:
+            return redirect('/course/manage')    
+          
+    else:
+        return redirect('/course/manage')
+    
+def search_subject(request):
+    if request.method == "POST":
+        searched_subject = request.POST["searched_subject"]
+        if searched_subject:
+            searchedSubject = Subject.objects.filter(name__contains=searched_subject)
+            context = {
+            'searched_subject':searched_subject,   
+            'searchedSubject': searchedSubject,
+            'page_title': 'Search Subject'
+            }
+            return render(request, 'hod_template/search_subject.html', context)
+        
+        else:
+            return redirect('/subject/manage')    
+          
+    else:
+        return redirect('/subject/manage')
 
 def admin_home(request):
     total_staff = Staff.objects.all().count()
