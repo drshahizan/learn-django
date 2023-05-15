@@ -21,7 +21,11 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 from django.shortcuts import render
-
+from django.db.models import Sum
+import matplotlib.pyplot as plt
+import urllib, base64
+import io
+import numpy as np
 
 class ManageCourseListView(ListView):
     model = Course
@@ -259,12 +263,37 @@ def AdminDashboard(request):
     total_subjects = Subject.objects.count()
     total_students = Course.students.through.objects.count()
 
+    # Aggregate the orders by date and count the number of orders for each day
+    course_data = Course.objects.values('title').annotate(total_students=Count('students')).order_by('title')
+    
+    # Extract the dates and orders totals into separate lists
+    title = [d['title'] for d in course_data]
+    students_totals = [d['total_students'] for d in course_data]
+
+    # Plot the data as a line chart using Matplotlib
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.bar(title, students_totals, color='blue', width=0.1)
+    ax.set_xlabel('Courses')
+    ax.set_ylabel('Total Students')
+    ax.tick_params(axis='both')
+
+    # Save the Matplotlib plot to a PNG image buffer
+    buffer = io.BytesIO()
+    plt.savefig(buffer, format='png', dpi=300)
+    buffer.seek(0)
+    image_png = buffer.getvalue()
+    buffer.close()
+
+    # Encode the PNG image buffer as base64 and create a data URI string
+    students_chart = urllib.parse.quote(base64.b64encode(image_png))
+
     context = {
         'segment': 'index',
         'total_courses': total_courses,
         'total_modules': total_modules,
         'total_subjects': total_subjects,
         'total_students': total_students,
+        'students_chart': students_chart,
     }
 
     return render(request, 'courses/manage/course/dashboard.html', context)
