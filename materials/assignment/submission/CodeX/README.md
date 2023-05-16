@@ -27,3 +27,8 @@
     <td>A20BE0161</td>
   </tr>
 </table>
+
+## Contents📝
+- 📑[Project Documentation](https://github.com/drshahizan/learn-django/blob/2847fbfc2d6e04aee48f308f1bc74097261dcd85/materials/assignment/submission/CodeX/Project_Documentation.md)
+- 💻[Code Folder](https://github.com/drshahizan/learn-django/tree/2847fbfc2d6e04aee48f308f1bc74097261dcd85/materials/assignment/submission/CodeX/cms)
+
