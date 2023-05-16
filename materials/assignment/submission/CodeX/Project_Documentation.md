@@ -68,12 +68,16 @@
 <h2>Design Choices</h2>
 
 
-
 <h2>Assumptions</h2>
 
-
-
 <h2>Limitations</h2>
+
+
+<h2>How to Run Application</h2>
+
+
+
+<h2>Video Demo</h2>
 
 
 
