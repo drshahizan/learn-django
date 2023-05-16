@@ -1,4 +1,4 @@
-<h1>Car Booking System</h1>
+<h1>Car Maintenance Booking System</h1>
 
 ## Table of Content
 - [Project Structure](#project-structure)
