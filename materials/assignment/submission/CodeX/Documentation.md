@@ -13,64 +13,54 @@
 <h2>Project Structure</h2>
 
 ```bash
-< PROJECT ROOT >  ///still in progress...do not change
+< PROJECT ROOT >
    |
-   |-- booking/                               # Implements app configuration
+   |-- booking/                               
    |    |-- __pycache__/
    |    |    
    |    |-- migrations/
+   |    |    |-- __pycache__/
+   |    |    |
    |    |    |-- __init__.py
    |    |    |-- 0001_initial.py
-   |    |
-   |    |-- __init__.py                    # Defines Global Settings
-   |    |-- admin.py                        # Start the app in production
-   |    |-- apps.py                        # Define URLs served by all apps/nodes
-   |    |-- models.py
-   |    |-- models.py
-   |    |-- tests.py
-   |    |-- urls.py
-   |    |-- views.py
+   |    | 
+   |    |-- __init__.py                    
+   |    |-- admin.py                         # display models in the Django admin panel                        
+   |    |-- apps.py                          # allows Django to load them automatically when INSTALLED_APPS contains the path to an application module rather than the path to a configuration class.
+   |    |-- models.py                        # structure of stored data
+   |    |-- tests.py                         # simulate requests, insert test data, inspect your application's output
+   |    |-- urls.py                          # request in Django first comes to urls.py and then goes to views.py.
+   |    |-- views.py                         # takes http requests and returns http response, like HTML documents.
    |
    |-- cms/
+   |    |-- __pycache__/                         
+   |    |-- __init__.py
+   |    |-- asgi.py
+   |    |-- settings.py
+   |    |-- urls.py
+   |    |-- wsgi.py          
+   |     
+   |-- members/   
+   |    |-- __pycache__/
    |    |
-   |    |-- __pycache__/                          # A simple app that serve HTML files
-   |    |        
+   |    |-- migrations/
    |    |
-   |    |-- authentication/                # Handles auth routes (login and register)
-   |    |    |-- urls.py                   # Define authentication routes  
-   |    |    |-- views.py                  # Handles login and registration  
-   |    |    |-- forms.py                  # Define auth forms (login and register) 
+   |    |-- templates/
+   |    |    |-- authenticate/
+   |    |         |-- login.html
+   |    |         |-- register_user.html
    |    |
-   |    |-- static/
-   |    |    |-- <css, JS, images>         # CSS files, Javascripts files
-   |    |
-   |    |-- templates/                     # Templates used to render pages
-   |         |-- includes/                 # HTML chunks and components
-   |         |    |-- navigation.html      # Top menu component of admin
-   |         |    |-- navigation2.html     # Top menu component of customer
-   |         |    |-- navigation3.html     # Top menu component of landing page
-   |         |    |-- sidebar.html         # Sidebar component
-   |         |    |-- footer.html          # App Footer
-   |         |    |-- scripts.html         # Scripts common to all pages
-   |         |
-   |         |-- layouts/                   # Master pages
-   |         |    |-- base-fullscreen.html  # Used by Authentication pages
-   |         |    |-- base.html             # Used by common pages
-   |         |    |-- base2.html            # Used by common pages
-   |         |
-   |         |-- accounts/                  # Authentication pages
-   |         |    |-- login.html            # Login page
-   |         |    |-- register.html         # Register page
-   |         |
-   |         |-- home/                      # UI Kit Pages
-   |              |-- index.html            # Index page
-   |              |-- 404-page.html         # 404 page
-   |              |-- *.html                # All other pages
+   |    |-- __init__.py
+   |    |-- admin.py                         
+   |    |-- apps.py                          
+   |    |-- forms.py                         # keep code easily maintainable
+   |    |-- models.py                        
+   |    |-- tests.py                         
+   |    |-- urls.py                          
+   |    |-- views.py                         
    |
-   |-- requirements.txt                     # Development modules - SQLite storage
-   |
-   |-- .env                                 # Inject Configuration via Environment
-   |-- manage.py                            # Start the app - Django default start script
+   |-- db.sqlite3                            # database file that will keep all of the data that will be generating    
+   |-- manage.py                             # Start the app - Django default start script
    |
    |-- ************************************************************************
 ```
