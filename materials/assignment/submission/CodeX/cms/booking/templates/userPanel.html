@@ -1,0 +1,50 @@
+<title>User Panel</title>
+{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+
+
+
+
+{% if user.is_authenticated %}
+<h1 class=" ms-5 mt-5 ">User Panel</h1>
+
+<div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5 ">
+    <h2 class="">User Info:</h2>
+    <ul class="list-group fs-4 mt-3">
+            <li class="list-group mt-2">First Name: {{ user.first_name }}</li>
+            <li class="list-group mt-2">Last Name: {{ user.last_name }}</li>
+            <li class="list-group mt-2">Username: {{ user.username }}</li>
+    </ul>
+</div>
+
+<!--Appointment Loop-->
+{% if appointments.count > 0 %}
+<div class="mt-5 ">
+    <h1 class=" ms-5">Appointments:</h1>
+    <div class="shadow p-4 mb-3 bg-body bg-body rounded text-black  m-5">
+        {% for appointment in appointments %}
+        <div class="list-group fs-4 border p-3 mb-3">
+            <p class="list-group mt-2">Day: {{ appointment.day }}</p>
+            <p class="list-group mt-2">Time: {{ appointment.time }}</p>
+            <p class="list-group mt-2">Service: {{ appointment.service }}</p>
+            <div class="mt-3 mb-2">
+                <a class="btn btn-primary rounded-3 p-2" href="{% url 'userUpdate' appointment.id %}">Edit Appointment</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+{% else %}
+
+<div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5">
+    <h1 class="p-2  ms-3">First Sign in!</h1>
+    <a href="{% url 'login' %}" class="btn btn-primary text-white">Sign in</a>
+</div>
+
+{% endif %}
+
+
+{% endblock %}

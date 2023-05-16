@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+
+  <!--Hero 1 Start-->
+
+    <div class="bg bg-secondary text-dark pt-5 pb-5">
+        <div class="text-center  pt-5 pb-5">
+            <h1 class="display-1 cGreen me-2 ms-2">CodeX Car Maintenance Services</h1>
+            <p class="fs-4 mt-3">Welcome to CodeX Car Maintenance Services.</p>
+            <a type="button" class="btn btn-primary shadow  mt-5" href="{% url 'booking' %}">Book an Appointment</a>
+        </div>
+    </div>
+
+  <!--Hero 1 End-->
+
+{% endblock %}
