@@ -1,0 +1,55 @@
+<title>Online Booking</title>
+{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+
+
+
+
+{% if user.is_authenticated %}
+<h1 class="text-center  mt-3">Book an Appointment</h1>
+
+<div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5 ">
+    <form method="post" action="{% url 'booking' %}" class="me-2 ms-2" required>
+        {% csrf_token %}
+
+        <!--input service-->
+        <div>
+            <h3 class="">Select Service:</h3>
+            <select class="form-select fs-3" name="service">
+                <option value="Oil Change and Oil Filter">Oil Change and Oil Filter</option>
+                <option value="Windshield wipers and fluid">Windshield wipers and fluid</option>
+                <option value="Air and cabin filter replacement">Air and cabin filter replacement</option>
+                <option value="Tire replacement and wheel balance and rotation">Tire replacement and wheel balance and rotation</option>
+                <option value="Battery replacement">Battery replacement</option>
+                <option value="Brake Repair">Brake Repair</option>
+                <option value="Coolant system services">Coolant system services</option>
+            </select>
+        </div>
+            <!--input day-->
+            <div class="mt-3">
+                <h3 class="">Select Day:</h3>
+                <select class="form-select fs-3" name="day">
+                    {% for validateWeekday in validateWeekdays %}
+                    <option value="{{validateWeekday}}">{{validateWeekday}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <br/>
+            <button type="submit" class="btn btn-primary text-white">Continue</button>
+        </div>
+    </form>
+</div>
+
+{% else %}
+
+<div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5 ">
+    <h1 class="p-2  me-3">You Are Not Signed in!</h1>
+    <a href="{% url 'register' %}" class="btn btn-primary shadow text-center">Sign in</a>
+</div>
+
+{% endif %}
+
+
+{% endblock %}

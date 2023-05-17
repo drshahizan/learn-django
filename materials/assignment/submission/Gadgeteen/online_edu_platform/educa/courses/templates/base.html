@@ -3,12 +3,18 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>{% block title %}Educa{% endblock %}</title>
+    <title>{% block title %}Gadgeteen{% endblock %}</title>
     <link href="{% static "css/base.css" %}" rel="stylesheet">
+    <link href="{% static 'fontawesomefree/css/fontawesome.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'fontawesomefree/css/brands.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'fontawesomefree/css/solid.css' %}" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div id="header">
-      <a href="/" class="logo">Educa</a>
+      <a href="/" class="logo">Gadgeteen</a>
+      <ul class="menu" style="float:left !important;margin-left:20px">
+        <a href="/">Home</a>
+      </ul>
       <ul class="menu">
         {% if request.user.is_authenticated %}
           <li><a href="{% url "logout" %}">Sign out</a></li>
