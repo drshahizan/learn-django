@@ -47,13 +47,13 @@ Admin can reset their password in the Forget Password page by providing their em
 
  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Forget%20Password.png">
 
-**3. Admin Site**
+**4. Admin Site**
 
 Admin can see the recent changes that they have committed and also edit the sub-categories for each categories by pressing the Add and Change button.
 
  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Admin%20Site.png">
  
- **3. Change Password**
+ **5. Change Password**
  
  Admin can change the password by providing the old password and the new password.
  
