@@ -1,4 +1,9 @@
 <h1>Food Delivery System</h1>
+```bash
+#!/bin/bash
+
+echo "Hello, World!"
+```
 
 ## Table of Content
 - [Project Structure](#project-structure)
@@ -122,67 +127,6 @@
    |
    |-- ************************************************************************
 ```
-<PROJECT ROOT>
-   |
-   |-- app/
-   |    |-- controllers/
-   |    |    |-- (Ruby controllers for handling HTTP requests)
-   |    |
-   |    |-- models/
-   |    |    |-- (Ruby models representing database tables and business logic)
-   |    |
-   |    |-- views/
-   |    |    |-- (Ruby views for rendering HTML templates)
-   |    |
-   |    |-- helpers/
-   |    |    |-- (Ruby helper modules for reusable functions and utilities)
-   |    |
-   |    |-- assets/
-   |    |    |-- stylesheets/
-   |    |    |    |-- (CSS or SCSS files)
-   |    |    |
-   |    |    |-- javascripts/
-   |    |    |    |-- (JavaScript files)
-   |    |    |
-   |    |    |-- images/
-   |    |         |-- (Image files)
-   |    |
-   |    |-- config/
-   |    |    |-- (Configuration files for the application)
-   |    |
-   |    |-- db/
-   |    |    |-- (Database-related files, migrations, etc.)
-   |    |
-   |    |-- test/
-   |         |-- (Test files and directories)
-   |
-   |-- config/
-   |    |-- (Application-wide configurations)
-   |
-   |-- db/
-   |    |-- (Database-related files)
-   |
-   |-- lib/
-   |    |-- (Additional Ruby libraries or modules)
-   |
-   |-- public/
-   |    |-- (Static files accessible publicly, e.g., CSS, JS, images)
-   |
-   |-- config.ru (Configuration file for Rack-based applications)
-   |
-   |-- Gemfile (Ruby dependencies and versions)
-   |
-   |-- Rakefile (Task automation file)
-   |
-   |-- ...
-
-<h2>Design Choices</h2>
-
-<h2>Assumptions</h2>
-
-<h2>Limitations</h2>
-
-<h2>System Interface</h2>
 
 ### Homepage
 Both admin and customers can access the homepage of the website for MakanMakan.
