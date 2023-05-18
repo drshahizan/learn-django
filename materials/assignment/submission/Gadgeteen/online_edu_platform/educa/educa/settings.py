@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'redisboard',
     'fontawesomefree',
+    'django.contrib.humanize'
 ]
 
 MIDDLEWARE = [

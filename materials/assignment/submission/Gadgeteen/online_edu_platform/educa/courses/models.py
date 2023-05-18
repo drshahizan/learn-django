@@ -107,3 +107,9 @@ class Image(ItemBase):
 
 class Video(ItemBase):
     url = models.URLField()
+
+class CourseSummary(Course):
+    class Meta:
+        proxy = True
+        verbose_name = 'Course Summary'
+        verbose_name_plural = 'Courses Summary'

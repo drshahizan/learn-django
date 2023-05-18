@@ -1,9 +1,9 @@
 from django.urls import path
 from . import views
 from students import views as sviews
-from django.urls import include, re_path
-from django.contrib import admin
+from django.urls import re_path
 from django.contrib.auth import views as auth_views
+from django.contrib import admin
 
 
 urlpatterns = [
@@ -12,10 +12,6 @@ urlpatterns = [
     re_path(r'^instructor/$', views.ManageCourseListView.as_view(),
          name='instructor'),
     re_path(r'^student/$', sviews.StudentCourseListView.as_view(), name='student'),
-    re_path(r'^admin/$', views.AdminDashboard, name='admin'),
-     path('admin/',
-         views.AdminDashboard,
-         name='admin_dashboard'),
     path('mine/',
          views.ManageCourseListView.as_view(),
          name='manage_course_list'),

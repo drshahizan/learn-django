@@ -1,0 +1,129 @@
+{% extends "admin/change_list.html" %}
+
+{% load i18n %}
+{% load tz %}
+{% load humanize %}
+{% load course %}
+
+<head><link rel="stylesheet" href="~/lib/Font-Awesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/lib/Font-Awesome/css/regular.min.css">
+    <link rel="stylesheet" href="~/lib/Font-Awesome/css/solid.min.css">
+</head>
+
+
+
+{% block content_title %}
+    <h1> {% trans 'Courses Summary' %} </h1>
+{% endblock %}
+
+
+
+
+{% block result_list %}
+
+<div class="results">
+<h2>Course Enrollment Statistics</h2>
+<table>
+    <thead>
+        <tr>
+            <th> <div class="text"> <a href="#">Title </a> </div> </th>
+            <th> <div class="text"> <a href="#">Total Students </a> </div> </th>
+            <th> <div class="text"> <a href="#"><strong>% Of Total Students</strong></a> </div> </th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ summary.total_students }}
+        {% for row in summary %}
+        <tr class="{% cycle 'row1' 'row2' %}">
+            <td> {{ row.title }} </td>
+            <td> {{ row.total_students }} </td>
+            <td><strong> {{ row.total_students | default:0 | percentof:summary_total.total_students }} </strong> </td>
+        </tr>
+        {% endfor %}
+        <tr style="font-weight:bold; border-top:2px solid #DDDDDD;">
+            <td> Total </td>
+            <td> {{ summary_total.total_students | default:0 }} </td>
+            <td> 100% </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<br><br><br>
+<h2> Most popular courses </h2>
+
+
+<style>
+    .bar-chart {
+      height: 160px;
+      padding-top: 60px;
+      display: flex;
+      justify-content: space-around;
+      overflow: hidden;
+    
+    }
+    .bar-chart .bar {
+        background-color: #79aec8;
+        flex: 100%;
+        align-self: flex-end;
+        margin-right: 2px;
+        position: relative;
+    }
+    .bar-chart .bar:last-child {
+        margin: 0;
+    }
+    .bar-chart .bar:hover {
+        background-color: #417690;
+    }
+    
+    .bar-chart .bar .bar-tooltip {
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        position: relative;
+        z-index: 999;
+    }
+    .bar-chart .bar .bar-tooltip {
+        position: absolute;
+        top: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-weight: bold;
+        opacity: 0;
+    }
+    .bar-chart .bar:first-child .bar-tooltip {
+        transform: initial;
+        text-align: initial;
+        left: 0;
+    }
+    .bar-chart .bar:last-child .bar-tooltip {
+        transform: initial;
+        text-align: right;
+        right: 0;
+        left: initial;
+    }
+    .bar-chart .bar:hover .bar-tooltip {
+        opacity: 1;
+    }
+    .bar-x_axis{
+        text-align:center;
+    }
+    </style>
+    
+
+    <div class="results">
+        <div class="bar-chart">
+        {% for x in summary %}
+            <div class="bar" style="height:{{x.total_students | default:0 | barpercentof:summary_total.total_students }}">
+                <div class="bar-x_axis">{{x.title }}</div>
+                <div class="bar-tooltip">
+                    {{x.total_students }}<br>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+    {% endblock %}
+
+{% block pagination %}{% endblock %}

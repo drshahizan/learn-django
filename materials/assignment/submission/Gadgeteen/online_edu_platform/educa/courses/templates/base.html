@@ -12,8 +12,16 @@
   <body>
     <div id="header">
       <a href="/" class="logo">Gadgeteen</a>
-      <ul class="menu" style="float:left !important;margin-left:20px">
-        <a href="/">Home</a>
+      <ul class="menu" style="float:left !important;margin-left:50px;">
+        
+        {% for group in  request.user.groups.all %}
+        {% if request.user.is_authenticated and 'student' == group.name %}
+        <li style='display:inline-block !important; margin-right:20px;'><a href="/">Home</a></li>
+        <li style='display:inline-block !important; margin-right:20px;'><a href="/course/student">My Courses</a></li>
+        {% else %}
+        <li style='display:inline-block !important; margin-right:20px;'><a href="/">Home</a></li>
+        {% endif %}
+        {% endfor %}
       </ul>
       <ul class="menu">
         {% if request.user.is_authenticated %}
