@@ -18,7 +18,7 @@ git clone https://github.com/drshahizan/learn-django.git
 Once you have cloned this repository, locate to this project folder:
 
 ```python
-cd C:\Users\user\learn-django\materials\assignment\submission\Gadgeteen\online_edu_platform
+cd C:\Users\user\learn-django\materials\assignment\submission\Gadgeteen\online_edu_platform\gadgeteen
 ```
 
 ### 3. Create a virtual environment
