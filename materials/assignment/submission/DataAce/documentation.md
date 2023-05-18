@@ -11,7 +11,6 @@
    - [Customer](#customer)
 
 <h2>Project Structure</h2>
-User
 ```bash
 < PROJECT ROOT >
    |
