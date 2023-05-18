@@ -10,10 +10,9 @@
    - [Admin](#admin)
    - [Customer](#customer)
 
- 
-
-
 <h2>Project Structure</h2>
+
+
  ```bash
  < PROJECT ROOT >
    |
@@ -119,12 +118,19 @@
    |    |--tests
    |    |      |-- test_403_csrf.html
    |    |--base.html  
-   |--db.sqlite3                   # Development modules - SQLite storage
+   |--db.sqlite3                   
    |
-   |-- manage.py                   # Start the app - Django default start script
+   |-- manage.py                   
    |
    |-- ************************************************************************
  ```
+<h2>Design Choices</h2>
+
+<h2>Assumptions</h2>
+
+<h2>Limitations</h2>
+
+<h2>System Interface</h2>
 ### Homepage
 Both admin and customers can access the homepage of the website for MakanMakan.
 
