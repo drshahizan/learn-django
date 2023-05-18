@@ -122,60 +122,60 @@
    |
    |-- ************************************************************************
 ```
-```bash
-< PROJECT ROOT >
+<PROJECT ROOT>
    |
-   |-- core/                               # Implements app configuration
-   |    |-- settings.py                    # Defines Global Settings
-   |    |-- wsgi.py                        # Start the app in production
-   |    |-- urls.py                        # Define URLs served by all apps/nodes
-   |
-   |-- apps/
+   |-- app/
+   |    |-- controllers/
+   |    |    |-- (Ruby controllers for handling HTTP requests)
    |    |
-   |    |-- home/                          # A simple app that serve HTML files
-   |    |    |-- views.py                  # Serve HTML pages for authenticated users
-   |    |    |-- urls.py                   # Define user routes  
-   |    |    |-- forms.py                  # Define some forms (product, category, cart and order) 
-   |    |    |-- admin.py                  # The configuration for the Django admin interface for the app
+   |    |-- models/
+   |    |    |-- (Ruby models representing database tables and business logic)
    |    |
-   |    |-- authentication/                # Handles auth routes (login and register)
-   |    |    |-- urls.py                   # Define authentication routes  
-   |    |    |-- views.py                  # Handles login and registration  
-   |    |    |-- forms.py                  # Define auth forms (login and register) 
+   |    |-- views/
+   |    |    |-- (Ruby views for rendering HTML templates)
    |    |
-   |    |-- static/
-   |    |    |-- <css, JS, images>         # CSS files, Javascripts files
+   |    |-- helpers/
+   |    |    |-- (Ruby helper modules for reusable functions and utilities)
    |    |
-   |    |-- templates/                     # Templates used to render pages
-   |         |-- includes/                 # HTML chunks and components
-   |         |    |-- navigation.html      # Top menu component of admin
-   |         |    |-- navigation2.html     # Top menu component of customer
-   |         |    |-- navigation3.html     # Top menu component of landing page
-   |         |    |-- sidebar.html         # Sidebar component
-   |         |    |-- footer.html          # App Footer
-   |         |    |-- scripts.html         # Scripts common to all pages
-   |         |
-   |         |-- layouts/                   # Master pages
-   |         |    |-- base-fullscreen.html  # Used by Authentication pages
-   |         |    |-- base.html             # Used by common pages
-   |         |    |-- base2.html            # Used by common pages
-   |         |
-   |         |-- accounts/                  # Authentication pages
-   |         |    |-- login.html            # Login page
-   |         |    |-- register.html         # Register page
-   |         |
-   |         |-- home/                      # UI Kit Pages
-   |              |-- index.html            # Index page
-   |              |-- 404-page.html         # 404 page
-   |              |-- *.html                # All other pages
+   |    |-- assets/
+   |    |    |-- stylesheets/
+   |    |    |    |-- (CSS or SCSS files)
+   |    |    |
+   |    |    |-- javascripts/
+   |    |    |    |-- (JavaScript files)
+   |    |    |
+   |    |    |-- images/
+   |    |         |-- (Image files)
+   |    |
+   |    |-- config/
+   |    |    |-- (Configuration files for the application)
+   |    |
+   |    |-- db/
+   |    |    |-- (Database-related files, migrations, etc.)
+   |    |
+   |    |-- test/
+   |         |-- (Test files and directories)
    |
-   |-- requirements.txt                     # Development modules - SQLite storage
+   |-- config/
+   |    |-- (Application-wide configurations)
    |
-   |-- .env                                 # Inject Configuration via Environment
-   |-- manage.py                            # Start the app - Django default start script
+   |-- db/
+   |    |-- (Database-related files)
    |
-   |-- ************************************************************************
-```
+   |-- lib/
+   |    |-- (Additional Ruby libraries or modules)
+   |
+   |-- public/
+   |    |-- (Static files accessible publicly, e.g., CSS, JS, images)
+   |
+   |-- config.ru (Configuration file for Rack-based applications)
+   |
+   |-- Gemfile (Ruby dependencies and versions)
+   |
+   |-- Rakefile (Task automation file)
+   |
+   |-- ...
+
 <h2>Design Choices</h2>
 
 <h2>Assumptions</h2>
