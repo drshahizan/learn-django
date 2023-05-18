@@ -189,5 +189,125 @@ Admin can see the recent changes that they have committed and also edit the sub-
  Admin can change the password by providing the old password and the new password.
  
  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Change%20Password.png">
+ 
+  **6. Email address**
+  
+Admin can see and edit the email address of user, the type of user of the email address including if the user is a primary user and if the user is a verified user. Admin can also add email address by completing the form. By selecting certain email address, admin can also delete it in the Action.
 
+ <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Email%20Page.png">
+ 
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Email%20Form.png">
+  
+ **7. Groups**
+  
+Admin can see and edit the groups in the system and can also add groups by completing the form. By selecting certain groups, admin can also delete it in the Action.
+
+ <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Groups%20page.png">
+ 
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Groups%20Form.png">
+  
+ **8. Users**
+  
+Admin can see and edit the usernames and the staff status. Admin can also add users by completing the form. By selecting certain users, admin can also delete it in the Action.
+
+ <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Users%20page.png">
+ 
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/User%20Form.png">
+  
+   **9. Category**
+  
+Admin can see and add including edit the types of food categories in the system. By selecting certain categories, admin can also delete it in the Action.
+
+ <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Category%20Page.png">
+ 
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Category%20Form.png">
+  
+  **10. Menu Items**
+  
+ Admin can see and add including edit the food menus in the system. By selecting certain categories, admin can also delete it in the Action.
+
+ <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Menu%20Admin%20Page.png">
+ 
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Menu%20Form.png">
+  
+  **11. Order Models**
+  
+  Admin can see and add including edit the customers' orders in the system. By selecting certain categories, admin can also delete it in the Action.
+  
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Order%20Page.png">
+ 
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Order%20Form.png">
+  
+  **12. Sites**
+  
+Admin can see and add including edit the sites in the system. By selecting certain categories, admin can also delete it in the Action. In addition, admin can also search for certain sites for easier access.
+
+<img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Site%20Page.png">
+ 
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Site%20Form.png">
+  
+  **13. Social Accounts**
+  
+  Admin can see and add including edit the social accounts in the system. By selecting certain categories, admin can also delete it in the Action.
+  
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Social%20Acc%20Page.png">
+ 
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Social%20Acc%20Form.png">
+  
+   **14. Social Application Tokens**
+   
+   Admin can see and add including edit the social application tokens in the system. By selecting certain categories, admin can also delete it in the Action.
+   
+   <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Social%20Token%20Page.png">
+ 
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Social%20Token%20Form.png">
+   
+   **15. Social Applications**
+   
+   Admin can see and add including edit the social applications in the system. By selecting certain categories, admin can also delete it in the Action.
+  
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Social%20App%20Page.png">
+ 
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Social%20App%20Form.png">
+  
+  **16. Customer Information**
+  
+  Admin can see the customer information for certain orders and check if the order has been paid and shipped. If the order has not been marked shipped, the admin can click on the 'Mark as Shipped' button.
+  
+   <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Cust%20Info.png">
+ 
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Shipped.png">
+  
+  **17. Logout**
+  
+  Admin can logout and be redirected to the page below.
+  
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Logout.png">
+  
 ### Customer
+
+**1. About Us**
+  
+  Customers can see the details about the system in About Us.
+  
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/About%20Us.png">
+  
+  **2. Menu**
+  
+  Customers can see the photos, food names and also the description of the menus available in MakanMakan restaurant. In addition, customers can also search certain keywords to ease their findings.
+  
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Menu%20Page.png">
+  
+   <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Search.png">
+  
+  **3. Order**
+  
+  Customers can check the menus that they want and fill in their information in the form. Customers need to confirm and place their order. Once confirmed, orders will be submitted and paid by using Paypal.
+  
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Order%20Now%20page.png">
+  
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Order%20Page%20Form.png">
+  
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Order%20Submit.png">
+  
+  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Order%20Confirmation.png">
