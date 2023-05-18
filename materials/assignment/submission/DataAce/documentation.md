@@ -9,14 +9,13 @@
    - [Homepage](#homepage)
    - [Admin](#admin)
    - [Customer](#customer)
- ```bash
- code
+
  
- ```
+
 
 <h2>Project Structure</h2>
-```bash
-< PROJECT ROOT >
+ ```bash
+ < PROJECT ROOT >
    |
    |-- customer/                             
    |    |-- __pycache__                      
@@ -125,8 +124,7 @@
    |-- manage.py                   # Start the app - Django default start script
    |
    |-- ************************************************************************
-```
-
+ ```
 ### Homepage
 Both admin and customers can access the homepage of the website for MakanMakan.
 
