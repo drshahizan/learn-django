@@ -69,6 +69,11 @@ Django Job Portal.
    |-- ************************************************************************
 ```
 ## Design Choices
+The system is a job portal that allows employees to search for available jobs, apply for said jobs, while employers on the other hand, posts an opening. 
+
+The main data models used in the application are Category, Job, Applicant, and BookmarkJob. These models can perform Create, Read, Update, Delete (CRUD) operations. Some of the tools and languages that are used include Python, which is the main programming language; Django, as the web framework; HTML, which creates the base structure of the system; and CSS, which is used for styling the system.
+
+## Assumptions
 
 
 ![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-2020-05-08-17_03_46.png)
