@@ -140,6 +140,12 @@ Assumptions in system development refer to the beliefs or expectations made by p
 
 <h2>Limitations</h2>
 
+Limitations in system development refer to the constraints or restrictions that can impact the design, development, implementation, or operation of a system. 
+1. Customers cannot track their order as there is no status of order other than it is succesfully delivered.
+2. Customers need to fill in their details each time they want to place an order as the system do not store customer details.
+3. Only one online payment gateway available.
+4. The application has not been tested with many incoming orders at the same time, so it is not recommended for large-scale business.
+5. Technical limitations such network bandwith and storage can impact the application performance.
 
 
 <h2>System Interface</h2>
