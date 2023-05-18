@@ -68,6 +68,7 @@ Django Job Portal.
    |
    |-- ************************************************************************
 ```
+## Design Choices
 
 
 ![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-2020-05-08-17_03_46.png)
