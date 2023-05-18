@@ -133,8 +133,14 @@ This is a web application called food delivery system for MakanMakan company. Th
 
 <h2>Assumptions</h2>
 
+Assumptions in system development refer to the beliefs or expectations made by project stakeholders regarding various aspects of the system being developed. These assumptions are based on limited information, incomplete understanding, or simplifications made to facilitate the development process. 
+1. The system is made customized for MakanMakan restaurant only, no other restaurant participating on the same web application.
+2. The system are open to public and has only one user: Admin. Customers do not need to sign up, only fill in form to order.
+3. The system assumes that all customers understood the flow of placing online order.
 
 <h2>Limitations</h2>
+
+
 
 <h2>System Interface</h2>
 
