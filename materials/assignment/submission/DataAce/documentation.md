@@ -126,7 +126,13 @@
  ```
 <h2>Design Choices</h2>
 
+This is a web application called food delivery system for MakanMakan company. This application developed using Django framework and SQLite. The main purpose of this application is to allow customer browse menu, place order and deliver the food to their doorstep. When designing a food delivery system, there are several key design choices that we consider. 
+* User interface and experience - We designed interfaces that are user-friendly which makes it clear and easy for customers to browse menu. It has a search bar where user can insert keyword and the results will appear. This function save so much time compared to scroll the menu until the last page.
+* Restaurant management - We create a dashboard where restaurant are able to view incoming orders and status of current order where it has been delivered or not. This dashboard allow restaurant to keep track of their orders and minimize risk of making mistakes due to many orders made at the same time.
+* Payment and pricing - There will be 2 types of payment which are online and cash on delivery. We have implemented a safe payment gateway which user can just click pay and it will redirect to the payment. On the other hand,if they prefer to pay by cash they can opt to cash on delivery method. Options are given to customers so they can choose which payment method suits them.
+
 <h2>Assumptions</h2>
+
 
 <h2>Limitations</h2>
 
