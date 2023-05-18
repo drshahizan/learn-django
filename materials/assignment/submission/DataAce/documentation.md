@@ -11,117 +11,98 @@
    - [Customer](#customer)
 
 <h2>Project Structure</h2>
-```bash
-< PROJECT ROOT >
-   |
-   |-- customer/                             
-   |    |-- __pycache__                      
-   |    |-- migrations/   
-   |    |         |-- __pycache__
-   |    |         |-- 0001_initial.py 
-   |    |         |-- 0002_ordermodel_city_ordermodel_email_ordermodel_name_and_more.py
-   |    |         |-- 0003_ordermodel_is_paid.py 
-   |    |         |-- 0004_ordermodel_is_shipped.py
-   |    |         |-- __init__.py 
-   |    |-- templates/customer   
-   |    |         |-- about.html   
-   |    |         |-- base.html 
-   |    |         |-- footer.html  
-   |    |         |-- index.html  
-   |    |         |-- menu.html
-   |    |         |-- navigation.html 
-   |    |         |-- order.html  
-   |    |         |-- order_confirmation.html
-   |    |         |-- order_pay_confirmation.html    
-   |    |--__init__.py
-   |    |--admin.py
-   |    |--apps.py
-   |    |--models.py
-   |    |--tests.py
-   |    |--views.py
-   |-- deliver/
-   |    |--__pycache__
-   |    |-- home/                          
-   |    |--__init__.py   
-   |    |-- asgi.py                     
-   |    |-- settings.py  
-   |    |-- urls.py           
-   |    |-- wsgi.py             
-   |-- djangoenv/               
-   |    |--Lib/site-packages                 
-   |    |--Scripts                  
-   |    |--pyvenv.cfg                 
-   |    |
-   |-- media/menu_images/
-   |    |-- FP-Nasi-lemak-with-all-its-trimmings.jpg        
-   |    |--aglio.jpg
-   |    |--cheesecake.jpg
-   |    |--chickendrummet.jpg
-   |    |--fishchip.jpg
-   |    |--friedrice.jpg
-   |    |--icedcappo.jpg
-   |    |--laksa.jpg
-   |    |--lambshank.jpg
-   |    |--lavacake.jpg
-   |    |--spaghetti.jpg
-   |    |--wonton.jpg
-   |    |
-   |-- restaurant/                     
-   |    |-- __pycache__
-   |    |-- templates/restaurant/                 
-   |    |         |-- navigation.html     
-   |    |         |-- base.html     
-   |    |         |-- dashboard.html     
-   |    |         |-- order-details.html         
-   |    |--__init__.py        
-   |    |--account_adapter.py        
-   |    |-- admin.py                   
-   |    |-- apps.py 
-   |    |-- models.py            
-   |    |-- tests.py           
-   |    |--urls.py                
-   |    |
-   |--templates/
-   |    |--account/
-   |    |      |-- email/
-   |    |      |-- messages/
-   |    |      |-- snippets/
-   |    |      |-- account_inactive.html
-   |    |      |-- base.html
-   |    |      |-- email.html
-   |    |      |-- email_confirm.html
-   |    |      |-- login.html
-   |    |      |-- logout.html
-   |    |      |-- password_change.html
-   |    |      |-- password_reset.html
-   |    |      |-- password_reset_done.html
-   |    |      |-- password_reset_from_key.html
-   |    |      |-- password_reset_from_key_done.html
-   |    |      |-- password_set.html
-   |    |      |-- signup.html
-   |    |      |-- signup_closed.html
-   |    |      |-- verification_sent.html
-   |    |      |-- verified_email_required.html
-   |    |--openid/  
-   |    |      |-- base.html
-   |    |      |-- login.html
-   |    |--socialaccount/   
-   |    |      |-- messages/
-   |    |      |-- snippets/
-   |    |      |-- base.html
-   |    |      |-- authentication_error.html
-   |    |      |-- connections.html
-   |    |      |-- login_cancelled.html
-   |    |      |-- signup.html
-   |    |--tests
-   |    |      |-- test_403_csrf.html
-   |    |--base.html  
-   |--db.sqlite3                   # Development modules - SQLite storage
-   |
-   |-- manage.py                   # Start the app - Django default start script
-   |
-   |-- ************************************************************************
-```
+<details>
+<summary>PROJECT ROOT</summary>
+<p>
+
+|-- customer/
+| |-- pycache
+| |-- migrations/
+| | |-- pycache
+| | |-- 0001_initial.py
+| | |-- 0002_ordermodel_city_ordermodel_email_ordermodel_name_and_more.py
+| | |-- 0003_ordermodel_is_paid.py
+| | |-- 0004_ordermodel_is_shipped.py
+| | |-- init.py
+| |-- templates/customer
+| | |-- about.html
+| | |-- base.html
+| | |-- footer.html
+| | |-- index.html
+| | |-- menu.html
+| | |-- navigation.html
+| | |-- order.html
+| | |-- order_confirmation.html
+| | |-- order_pay_confirmation.html
+| |-- init.py
+| |-- admin.py
+| |-- apps.py
+| |-- models.py
+| |-- tests.py
+| |-- views.py
+|-- deliver/
+| |-- pycache
+| |-- home/
+| |-- init.py
+| |-- asgi.py
+| |-- settings.py
+| |-- urls.py
+| |-- wsgi.py
+|-- djangoenv/
+| |-- Lib/site-packages
+| |-- Scripts
+| |-- pyvenv.cfg
+|
+|-- media/menu_images/
+| |-- FP-Nasi-lemak-with-all-its-trimmings.jpg
+| |-- aglio.jpg
+| |-- cheesecake.jpg
+| |-- chickendrummet.jpg
+| |-- fishchip.jpg
+| |-- friedrice.jpg
+| |-- icedcappo.jpg
+| |-- laksa.jpg
+| |-- lambshank.jpg
+| |-- lavacake.jpg
+| |-- spaghetti.jpg
+| |-- wonton.jpg
+|
+|-- restaurant/
+| |-- pycache
+| |-- templates/restaurant/
+| | |-- navigation.html
+| | |-- base.html
+| | |-- dashboard.html
+| | |-- order-details.html
+| |-- init.py
+| |-- account_adapter.py
+| |-- admin.py
+| |-- apps.py
+| |-- models.py
+| |-- tests.py
+| |-- urls.py
+|
+|-- templates/
+| |-- account/
+| | |-- email/
+| | |-- messages/
+| | |-- snippets/
+| | |-- account_inactive.html
+| | |-- base.html
+| | |-- email.html
+| | |-- email_confirm.html
+| | |-- login.html
+| | |-- logout.html
+| | |-- password_change.html
+| | |-- password_reset.html
+| | |-- password_reset_done.html
+| | |-- password_reset_from
+
+
+
+
+
+
 
 <h2>Design Choices</h2>
 
