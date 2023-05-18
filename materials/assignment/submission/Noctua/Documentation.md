@@ -2,43 +2,73 @@
 Django Job Portal.       
 
 
-## Installation 
+## Project Structure
 
+```bash
+< PROJECT ROOT >
+   |
+   |-- account/                              
+   |    |-- admin.py                   
+   |    |-- apps.py                        
+   |    |-- forms.py                       
+   |	|-- managers.py
+   |    |-- models.py
+   |    |-- urls.py
+   |    |-- views.py
+   |	
+   |-- job/
+   |    |-- asgi.py
+   |    |-- settings.py
+   |    |-- urls.py
+   |    |-- wsgi.py
+   |
+   |-- jobapp/
+   |    |-- admin.py                   
+   |    |-- apps.py                        
+   |    |-- forms.py                       
+   |	|-- managers.py
+   |    |-- models.py
+   |    |-- urls.py
+   |    |-- views.py             
+   |    |
+   |-- static/
+   |    |-- <bs4, css, JS, images>         
+   |    |
+   |-- templates/                     
+   |         |-- account/                 
+   |         |    |-- employee-edit-profile.html      
+   |         |    |-- employee-registration.html     
+   |         |    |-- employer-registration.html     
+   |         |    |-- login.html               
+   |         |
+   |         |-- jobapp/                   
+   |         |    |-- all-applicants.html  
+   |         |    |-- applicant-details.html             
+   |         |    |-- dashboard.html    
+   |         |    |-- employee-edit-profile.html
+   |         |    |-- index.html
+   |         |    |-- job-edit.html
+   |         |    |-- job-list.html   
+   |         |    |-- job-single.html
+   |         |    |-- paginator.html
+   |         |    |-- post-job.html
+   |         |    |-- result.html
+   |         |    |-- search.html     
+   |         |
+   |         |-- base.html                
+   |         |-- footer.html            
+   |         |-- head.html         
+   |         |-- header.html
+   |         |-- messages.html
+   |         |-- scripts.html
+   |
+   |-- requirements.txt                     
+   |                               
+   |-- manage.py                            
+   |
+   |-- ************************************************************************
 ```
-open terminal and type
-https://github.com/Sany07/Job-Portal.git
 
-or simply download using the url below
-https://github.com/Sany07/Job-Portal.git
-```
-
-## Install requirements
-
-```
-pip install -r requirements.txt
-```
-## Database
-
-```
-Set the database from settings.py
-```
-
-## To migrate the database open terminal in project directory and type
-```
-python manage.py makemigrations
-python manage.py migrate
-```
-
-## Collects all static files in your apps
-
-```
-python manage.py collectstatic
-```
-
-## Run the server
-```
-python manage.py runserver
-```
 
 ![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-2020-05-08-17_03_46.png)
 
