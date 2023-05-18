@@ -132,6 +132,7 @@
 
 <h2>System Interface</h2>
 ### Homepage
+
 Both admin and customers can access the homepage of the website for MakanMakan.
 
  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Homepage.png">
