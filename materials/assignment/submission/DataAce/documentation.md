@@ -131,6 +131,7 @@
 <h2>Limitations</h2>
 
 <h2>System Interface</h2>
+
 ### Homepage
 
 Both admin and customers can access the homepage of the website for MakanMakan.
