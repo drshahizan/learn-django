@@ -1,9 +1,4 @@
 <h1>Food Delivery System</h1>
-```bash
-#!/bin/bash
-
-echo "Hello, World!"
-```
 
 ## Table of Content
 - [Project Structure](#project-structure)
