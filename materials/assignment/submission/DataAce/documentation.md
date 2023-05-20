@@ -163,7 +163,12 @@ Both admin and customers can access the homepage of the website for MakanMakan.
 Admin can see the total revenue and total orders for the current day. Admin can also monitor the orders that has not been paid and shipped including the customers information.
 
  <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/Dashboard.png">
- 
+**2. Sign Up**
+
+Sign Up is section is closed and admin can only add new admin through admin's site.
+
+ <img width="1020" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataAce/photos/sign-up.png">
+
 **2. Login**
  
  Admin can access two different login pages.
