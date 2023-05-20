@@ -57,8 +57,7 @@ class StudentCourseDetailView(DetailView):
         course = self.get_object()
         if 'module_id' in self.kwargs:
             # get current module
-            context['module'] = course.modules.get(
-                                    id=self.kwargs['module_id'])
+            context['module'] = course.modules.get(id=self.kwargs['module_id'])
         else:
             # get first module
             context['module'] = course.modules.all()[0]

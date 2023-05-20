@@ -1,7 +1,6 @@
 from django.contrib import admin
 from .models import Subject, Course, Module, CourseSummary
-from django.db.models import Count, Min, Max, DateTimeField
-from django.db.models.functions import Trunc
+from django.db.models import Count
 
 @admin.register(Subject)
 class SubjectAdmin(admin.ModelAdmin):
@@ -57,4 +56,3 @@ class CourseSummaryAdmin(admin.ModelAdmin):
         response.context_data['summary_total'] = dict(qs.aggregate(**metrics))
 
         return response
-

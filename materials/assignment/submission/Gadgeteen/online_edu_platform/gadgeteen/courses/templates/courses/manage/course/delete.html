@@ -3,12 +3,14 @@
 {% block title %}Delete course{% endblock %}
 
 {% block content %}
-  <h1>Delete course "{{ object.title }}"</h1>
-  <div class="module">
+
+  
+  <div  class="content" style="min-height:0px !important; padding: 158px 30px 30px 300px;">
+    <h1>Delete course "{{ object.title }}"</h1>
     <form action="" method="post">
       {% csrf_token %}
       <p>Are you sure you want to delete "{{ object }}"?</p>
-      <input type="submit" value="Confirm">
+      <input class="btn btn-sm btn-warning" type="submit" value="Confirm">
     </form>
   </div>
 {% endblock %}

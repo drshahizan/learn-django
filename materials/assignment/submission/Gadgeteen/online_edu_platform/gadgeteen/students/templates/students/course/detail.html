@@ -1,40 +1,47 @@
-{% extends "base.html" %}
-{% load cache %}
+{% extends "layouts/base.html" %}
 
 {% block title %}
   {{ object.title }}
 {% endblock %}
 
 {% block content %}
-  <h1>
-    {{ module.title }}
-  </h1>
-  <div class="contents">
-    <h3>Modules</h3>
-    <ul id="modules">
-      {% for m in object.modules.all %}
-        <li data-id="{{ m.id }}" {% if m == module %}class="selected"{% endif %}>
-          <a href="{% url "student_course_detail_module" object.id m.id %}">
-            <span>
-              Module <span class="order">{{ m.order|add:1 }}</span>
-            </span>
-            <br>
-            {{ m.title }}
-          </a>
-        </li>
-      {% empty %}
-        <li>No modules yet.</li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="module">
-    {% cache 600 module_contents module %}
+
+<div class="content" style="min-height:0px !important; padding: 158px 30px 30px 300px;">
+  <div class="row">
+    <div class="col-lg-3">
+      <h1>
+        {{ module.title }}
+      </h1>
+      <h3>Modules</h3>
+      <ul id="modules">
+        {% for m in object.modules.all %}
+          <li data-id="{{ m.id }}" {% if m == module %}class="selected"{% endif %}>
+            <a href="{% url "student_course_detail_module" object.id m.id %}">
+              <span>
+                Module <span class="order">{{ m.order|add:1 }}</span>
+              </span>
+              <br>
+              {{ m.title }}
+            </a>
+          </li>
+        {% empty %}
+          <li>No modules yet.</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="col-lg-6">
       {% for content in module.contents.all %}
         {% with item=content.item %}
           <h2>{{ item.title }}</h2>
           {{ item.render }}
         {% endwith %}
       {% endfor %}
-    {% endcache %}
+    </div>
   </div>
+</div>
+
+
+
+
 {% endblock %}

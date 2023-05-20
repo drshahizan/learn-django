@@ -1,0 +1,3 @@
+{{#each icons}}
+.{{ @root.faCssPrefix }}-{{ @key }}::before { content: "\\{{ this.unicodeHex }}"; }
+{{/each}}

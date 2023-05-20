@@ -9,19 +9,22 @@
 {% endblock %}
 
 {% block content %}
-  <h1>
-    {% if object %}
-      Edit course "{{ object.title }}"
-    {% else %}
-      Create a new course
-    {% endif %}
-  </h1>
-  <div class="module">
+
+  <div  class="content" style="min-height:0px !important; padding: 158px 30px 30px 300px;">
+    <h1>
+      {% if object %}
+        Edit course "{{ object.title }}"
+      {% else %}
+        Create a new course
+      {% endif %}
+    </h1>
     <h2>Course info</h2>
     <form method="post">
-      {{ form.as_p }}
+      <div class="form-group">
+        {{ form.as_p }}
+      </div>
       {% csrf_token %}
-      <p><input type="submit" value="Save course"></p>
+      <p><input class="btn btn-sm btn-primary" type="submit" value="Save course"></p>
     </form>
   </div>
 {% endblock %}
