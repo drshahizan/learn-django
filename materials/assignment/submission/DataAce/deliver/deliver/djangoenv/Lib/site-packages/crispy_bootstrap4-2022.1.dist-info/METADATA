@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: crispy-bootstrap4
+Version: 2022.1
+Summary: Bootstrap4 template pack for django-crispy-forms
+Home-page: https://github.com/django-crispy-forms/crispy-bootstrap4
+Author: David Smith
+License: MIT
+Project-URL: Issues, https://github.com/django-crispy-forms/crispy-bootstrap4/issues
+Project-URL: CI, https://github.com/django-crispy-forms/crispy-bootstrap4/actions
+Project-URL: Changelog, https://github.com/django-crispy-forms/crispy-bootstrap4/releases
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django-crispy-forms (>=1.14.0)
+Requires-Dist: django (>=3.2)
+
+# crispy-bootstrap4
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/smithdc1/crispy-bootstrap4/blob/main/LICENSE)
+
+Bootstrap4 template pack for django-crispy-forms. This template pack was 
+included with the core django-crispy-forms package until version 2.0.
+
+## Installation
+
+Install this plugin using `pip`:
+
+```bash
+    $ pip install crispy-bootstrap4
+```
+
+## Usage
+
+You will need to update your project's settings file to add `crispy_forms`
+and `crispy_bootstrap4` to your projects `INSTALLED_APPS`. Also set
+`bootstrap4` as and allowed template pack and as the default template pack
+for your project:
+
+```python
+    INSTALLED_APPS = (
+        ...
+        "crispy_forms",
+        "crispy_bootstrap4",
+        ...
+    )
+
+    CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+    CRISPY_TEMPLATE_PACK = "bootstrap4"
+```
