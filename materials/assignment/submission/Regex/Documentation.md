@@ -187,7 +187,7 @@ The administrator can perform various tasks such as creating, viewing, updating,
   <img width="943" alt="image" src="https://user-images.githubusercontent.com/120556342/236984525-266c3c1d-cf27-4916-994a-0ee1a4fcaec6.png">
 
 
-  - Read
+  - View
   
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236978395-f8c9910d-5b46-4618-8aaf-0d865cf6a389.png">
   <img width="945" alt="image" src="https://user-images.githubusercontent.com/120556342/236978489-889ee112-e1c2-4b22-add6-42c80708a37b.png">
