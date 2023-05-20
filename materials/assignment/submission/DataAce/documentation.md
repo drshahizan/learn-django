@@ -1,5 +1,7 @@
 <h1>Food Delivery System</h1>
 
+In today's fast-paced world, we understand the importance of convenience and saving time. That's why our Food Delivery System is designed to streamline the entire food ordering process, eliminating the hassle of long phone calls and waiting in lines. With just a few clicks or taps, customers can explore a wide selection of restaurants, browse through menus, customize their orders, and securely complete their transactions – all from the comfort of their own homes or while on the go. We believe that ordering food should be a seamless and enjoyable experience, and our application is tailored to meet those expectations. Whether it's a quick lunch, a family dinner, or a special occasion, our Food Delivery System is here to make every meal a hassle-free delight.
+
 ## Table of Content
 - [Project Structure](#project-structure)
 - [Design Choices](#design-choices)
