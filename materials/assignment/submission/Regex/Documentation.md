@@ -206,7 +206,7 @@ The administrator can perform various tasks such as creating, viewing, updating,
 
 3. Orders
 
-All created orders will be displayed in the Orders section. The administrators have the ability to view and modify the status of the order, indicating whether it has been shipped or delivered.
+The Orders section will show all created orders. The administrators have the ability to view and modify the status of the order, indicating whether it has been shipped or delivered.
   - Read
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236978877-9434f1bd-4b76-420f-859f-60b8f6d454fa.png">
 
