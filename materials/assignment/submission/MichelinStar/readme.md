@@ -1,4 +1,5 @@
 <h1 align='center'>Social Network 📱</h1>
+<img class="cover-image" src="https://img.freepik.com/premium-vector/social-network-concept_98292-5943.jpg?w=2000" alt="Cover Image">
 <h2 align = 'center'>Group Members </h2>
 <table align = 'center'>
   <tr>
