@@ -1,0 +1,187 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block head %}
+<title>Home</title>
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+<style>
+  .text-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Set the background color with opacity */
+    color: #fff; /* Set the text color */
+    width: 1000px; /* Adjust the width as desired */
+    height: 405px; /* Set a maximum width if needed */
+  }
+
+  .text-center1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+
+  .container1{
+      background-color:grey;
+    }
+  
+</style>
+{% endblock %}
+
+{% block body %}
+
+  <!--Hero 1 Start-->
+
+  <div class="bg bg-secondary text-dark pt-5 pb-5">
+    <div class="text-center  pt-5 pb-5">
+        <h1 class="display-1 cGreen me-2 ms-2">CodeX Services</h1>
+        <p class="fs-4 mt-3">Welcome to CodeX Car Maintenance Services. These are the services we offer.</p>
+    </div>
+</div>
+
+<!--Hero 1 End-->
+
+<!-- Carousel Start -->
+<div class="container1">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="13"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://repairsmith-prod-wordpress.s3.amazonaws.com/2021/09/iStock-652660336-2.jpg" class="d-block w-100" alt="Oil change and filter" style="width: 250px; height: 405px;">
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <div class="text-overlay">
+            <div class="text-center1  pt-5 pb-5">
+              <p class="fs-4 mt-3">Oil Change and Oil Filter</p>
+            <p class="carousel-text">Regularly replacing the engine oil and oil filter to keep the engine lubricated and running smoothly.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://amaabcaprod.azureedge.net/content/social/top-up-windshield-washer-fluid-social.jpg" class="d-block w-100" alt="Windshield" style="width: 250px; height: 405px;">
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <div class="text-overlay">
+            <div class="text-center1  pt-5 pb-5">
+              <p class="fs-4 mt-3">Windshield Wipers and Fluid</p>
+            <p class="carousel-text">Replacing worn-out windshield wipers and ensuring an adequate supply of windshield washer fluid for clear visibility during rain or snow.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://jiffylubespecials.com/wp-content/uploads/JIFY4728251_cabin-air.jpg" class="d-block w-100" alt="Air and cabin filter" style="width: 250px; height: 405px;">
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <div class="text-overlay">
+            <div class="text-center1  pt-5 pb-5">
+              <p class="fs-4 mt-3">Air and Cabin Filter Replacement</p>
+            <p class="carousel-text">Swapping out the air filter to maintain clean airflow to the engine and replacing the cabin filter for fresh and clean air inside the vehicle.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://assets.firestonecompleteautocare.com/content/dam/bsro-sites/fcac/blog/images/2019/09/fcac-blog-alignment-2019.jpg" class="d-block w-100" alt="Tire replacement and alignment" style="width: 250px; height: 405px;">
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <div class="text-overlay">
+            <div class="text-center1  pt-5 pb-5">
+              <p class="fs-4 mt-3">Tire Replacement and Wheel Balance and Rotation</p>
+            <p class="carousel-text">Changing worn-out tires, ensuring proper wheel balance, and rotating tires to promote even wear and prolong their lifespan.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://mybateri.com/wp-content/uploads/2023/03/that-s-need-be-recharged-process-repairing-car-after-accident-man-working-with-engine-hood-1024x683.jpg" class="d-block w-100" alt="Battery replacement" style="width: 250px; height: 405px;">
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <div class="text-overlay">
+            <div class="text-center1  pt-5 pb-5">
+              <p class="fs-4 mt-3">Battery Replacement</p>
+            <p class="carousel-text">Installing a new battery to ensure reliable starting and electrical power for the vehicle.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.kbb.com/wp-content/uploads/2023/01/checking-the-brake-discs.jpg" class="d-block w-100" alt="Brake repair"style="width: 250px; height: 405px;">
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <div class="text-overlay">
+            <div class="text-center1  pt-5 pb-5">
+              <p class="fs-4 mt-3">Brake Repair</p>
+            <p class="carousel-text">Addressing issues with the braking system, including brake pad replacement, rotor resurfacing or replacement, and brake fluid flush to maintain safe and efficient braking performance.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.avrautomotive.com.au/wp-content/uploads/Radiator-and-System-Cooling-Service.jpg" class="d-block w-100" alt="Coolant service" style="width: 250px; height: 405px;">
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <div class="text-overlay">
+            <div class="text-center1  pt-5 pb-5">
+              <p class="fs-4 mt-3">Coolant System Services</p>
+            <p class="carousel-text">Performing maintenance tasks such as coolant flush and refill to prevent engine overheating and ensure proper cooling system function.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Carousel ends-->
+
+
+
+  <!--Hero 1 Start-->
+
+    <div class="bg bg-secondary text-dark pt-5 pb-5">
+        <div class="text-center  pt-5 pb-5">
+            <h1 class="display-1 cGreen me-2 ms-2">CodeX</h1>
+            <p class="fs-4 mt-3">Welcome to CodeX Car Maintenance Services. We fix everything that needed to be fixed.</p>
+            <a type="button" class="btn btn-primary shadow  mt-5" href="{% url 'booking' %}">Book an Appointment</a>
+        </div>
+    </div>
+
+  <!--Hero 1 End-->
+
+{% endblock %}

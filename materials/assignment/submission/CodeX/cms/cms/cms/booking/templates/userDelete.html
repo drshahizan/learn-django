@@ -1,0 +1,55 @@
+<title>Delete Appointment</title>
+{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+
+
+
+
+{% if user.is_authenticated %}
+<!--if 24hrs before nobat-->
+{% if delta24 == True %}
+<h1 class="text-center  mt-3">Delete Appointment</h1>
+
+<div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5 ">
+    <form method="post" action="{% url 'userDelete' id %}" class="me-2 ms-2" required>
+        {% csrf_token %}
+
+        <!--input service-->
+
+<!--else if its 24hrs before editing-->
+{% else %}
+
+
+
+{% endif %}
+
+<div class = " shadow p-4 mb-3 bg-body bg-body rounded text-black  m-5 mt-5">
+<div class="mt-5" align="center">
+    <div class="container" style="width: 18rem;">
+        <form method="POST">
+            <!-- Security token by Django -->
+            {% csrf_token %}
+            Are you want to delete this appointment ?
+            <p></p>    
+            <button type="submit" class="btn btn-danger" value="Yes">Yes, delete</button>      
+            <!--Adrina: i cannot do cancel button without deleting the appointment-->
+            <!--<button type="previous" class="btn btn-warning" a href="{% url 'userPanel' %}">Cancel</button>-->
+           
+            <a href="{% url 'userPanel' %}">Cancel </a>
+        </form>
+    </div>
+</div>
+</div>
+
+{% else %}
+
+<div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5 ">
+    <h1 class="p-2  me-3">You Are Not Signed in!</h1>
+    <a href="{% url 'register' %}" class="btn btn-primary shadow text-center">Sign in</a>
+</div>
+
+{% endif %}
+
+
+{% endblock %}
