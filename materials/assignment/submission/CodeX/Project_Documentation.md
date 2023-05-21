@@ -97,7 +97,15 @@ Below are the tools and languages that are used in developing this system:
 
 <h2>How to Run Application</h2>
 
+To access the system on your local host, please follow these steps after downloading the app folder:
 
+1. Open your command prompt.
+2. Execute the provided command within the command prompt.
+3. This command will launch the website on your local host, allowing you to view and interact with it.
+
+```python
+python manage.py runserver
+```
 
 <h2>Video Demo</h2>
 
