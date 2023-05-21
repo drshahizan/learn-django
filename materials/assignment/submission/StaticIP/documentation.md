@@ -4,7 +4,8 @@
 - [System Interface](#system-interface)
   - [Admin](#Admin)
 <h2>Project Structure</h2>
-```command
+
+```
 C:.
 ├───.idea
 │   ├───inspectionProfiles       
@@ -44,6 +45,7 @@ C:.
     ├───base
     └───events
 ```
+
 <h2>System Interface</h2>
 
 <h4>Admin</h4>
