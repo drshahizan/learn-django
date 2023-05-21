@@ -99,13 +99,24 @@ Below are the tools and languages that are used in developing this system:
 
 To access the system on your local host, please follow these steps after downloading the app folder:
 
-1. Open your command prompt.
-2. Execute the provided command within the command prompt.
-3. This command will launch the website on your local host, allowing you to view and interact with it.
+1. Open the cms folder until the manage.py file is in view
+
+<img height='200px' src='https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/43f37a92-c7a1-4e67-9c74-04b498a862dd'/>
+
+2. Type in `cmd` in the diirectory, then hit enter.
+
+![2](https://github.com/drshahizan/learn-django/assets/96984290/18d6c8ff-1a57-4207-9cab-2c3068c7c89d)
+
+3. A command prompt will appear. Execute the provided command within the command prompt.
 
 ```python
+#copy paste into the command prompt
 python manage.py runserver
 ```
+
+4. This command will launch the website on your local host, allowing you to view and interact with it. Copy and paste the link provided by the cmd prompt
+![3](https://github.com/drshahizan/learn-django/assets/96984290/37e1326a-f069-46d6-8ce4-507ece5ab12d)
+
 
 <h2>Video Demo</h2>
 
