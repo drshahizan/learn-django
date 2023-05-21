@@ -103,7 +103,7 @@ Django is a high-level web framework for building web applications quickly and e
 These resources provide a range of options for beginners to find and learn from Django projects.
 
 ## Tools
-Diagrams are visual representations of information or data that help convey complex concepts, processes or systems in a clear and concise manner. Flowcharts are diagrams that use shapes and arrows to illustrate the steps in a process or algorithm [**[More info...]**](software-engineering/materials/tools.md).
+Diagrams are visual representations of information or data that help convey complex concepts, processes or systems in a clear and concise manner. Flowcharts are diagrams that use shapes and arrows to illustrate the steps in a process or algorithm [**[More info...]**](https://github.com/drshahizan/software-engineering/materials/tools.md).
 
 | No | Tools |  File |
 | :-----: |  ------ | :-----: | 
