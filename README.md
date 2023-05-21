@@ -22,7 +22,8 @@ Django is a high-level web framework for building web applications in Python. It
 | No | Group |  Title |File |
 | :-----: |------ | ------ | :-----: | 
 | 1 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 2 | DataAce | Food Delivery System |  <a href=".materials/assignment/submission/DataAce" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 2 | DataAce | Food Delivery System |  <a href=".materials/assignment/submission/DataAce" ><img src="./images/task.png" width="24px" height="24px" ></a> |
+| 5 | Rivertion | Srudent Information System |  <a href=".materials/assignment/submission/Rivertion" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 
 ## Python Web Frameworks
 
