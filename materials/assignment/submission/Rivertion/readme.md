@@ -4,7 +4,7 @@
 </head>
 <body>
   <img class="cover-image" src="https://cdn.internationalstudentloan.com/assets/ISTL/images/redesign/what-do-international-student-loans-cover.jpg" alt="Cover Image">
-  <h1 class="header" align="center">Student Information System 🎥</h1>
+  <h1 class="header" align="center">Movie Recommendation System 🎥</h1>
   <p>TBD</p>
   <table align="center">
     <tr>
