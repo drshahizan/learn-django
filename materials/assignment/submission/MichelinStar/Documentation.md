@@ -11,3 +11,6 @@
    - [Admin](#admin)
 
 <h2>Design Choices</h2>
+<h2>Assumption</h2>
+<h2>Limitation</h2>
+<h2>Interface</h2>
