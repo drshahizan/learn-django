@@ -23,7 +23,7 @@ Django is a high-level web framework for building web applications in Python. It
 | :-----: |------ | ------ | :-----: | 
 | 1 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 2 | DataAce | Food Delivery System |  <a href="./materials/assignment/submission/DataAce/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 3 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 3 | Regex | E-commerce platform |  <a href=".materials/assignment/submission/Regex/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 4 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 5 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 6 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
