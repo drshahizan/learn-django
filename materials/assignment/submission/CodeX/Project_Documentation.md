@@ -115,6 +115,7 @@ python manage.py runserver
 ```
 
 4. This command will launch the website on your local host, allowing you to view and interact with it. Copy and paste the link provided by the cmd prompt
+
 ![3](https://github.com/drshahizan/learn-django/assets/96984290/37e1326a-f069-46d6-8ce4-507ece5ab12d)
 
 
