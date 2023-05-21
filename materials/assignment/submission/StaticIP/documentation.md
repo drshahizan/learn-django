@@ -6,7 +6,7 @@
 <h2>Project Structure</h2>
 
 ```
-C:.
+django-event-management
 ├───.idea
 │   ├───inspectionProfiles       
 │   └───libraries
