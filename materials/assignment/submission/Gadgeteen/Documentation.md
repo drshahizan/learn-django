@@ -1,4 +1,4 @@
-<h1>Blogging Platform</h1>
+<h1>Online Education Platform</h1>
 
 ## Table of Content
 - [Project Structure](#project-structure)
