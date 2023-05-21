@@ -5,10 +5,9 @@
 - [Design Choices](#design-choices)
 - [Assumptions](#assumptions)
 - [Limitations](#limitations)
+- [How to Run Application](#how-to-run-application)
+- [Video Demo](#video-demo)
 - [System Interface](#system-interface)
-   - [Customers](#customers)
-   - [Public Access](#public-access)
-   - [Admin](#admin)
 
 <h2>Project Structure</h2>
 
