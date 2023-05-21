@@ -9,3 +9,5 @@
    - [Customers](#customers)
    - [Public Access](#public-access)
    - [Admin](#admin)
+
+<h2>Design Choices</h2>
