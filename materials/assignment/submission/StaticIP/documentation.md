@@ -3,6 +3,48 @@
 ## Table Content
 - [System Interface](#system-interface)
   - [Admin](#Admin)
+<h2>Project Structure</h2>
+
+```
+C:.
+├───.idea
+│   ├───inspectionProfiles       
+│   └───libraries
+├───events
+│   ├───migrations
+│   │   └───__pycache__
+│   └───__pycache__
+├───event_management
+│   └───__pycache__
+├───static
+│   ├───css
+│   ├───fonts
+│   ├───img
+│   ├───js
+│   │   └───pages
+│   └───plugins
+│       ├───bootstrap
+│       │   └───js
+│       ├───chart.js
+│       ├───fontawesome-free
+│       │   ├───css
+│       │   └───webfonts
+│       ├───jquery
+│       ├───jquery-mapael
+│       │   └───maps
+│       ├───jquery-mousewheel
+│       ├───overlayScrollbars
+│       │   ├───css
+│       │   └───js
+│       └───raphael
+│           └───dev
+│               └───test
+│                   ├───svg
+│                   └───vml
+└───templates
+    ├───base
+    └───events
+```
 
 <h2>System Interface</h2>
 
