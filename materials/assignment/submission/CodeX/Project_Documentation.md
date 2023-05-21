@@ -66,12 +66,35 @@
 ```
 
 <h2>Design Choices</h2>
+The Car Maintenance System is designed to assist customers in scheduling their car maintenance appointments conveniently via the company's website. It offers various features, including customer registration, a user-friendly booking form, and tools for tracking and managing bookings. Additionally, the system administrator has access to a comprehensive list of all bookings made by customers.
+
+Within this system, there are four primary models implemented as Python classes, each representing a specific database table. These models facilitate Create, Read, Update, and Delete (CRUD) operations while incorporating various functionalities. The following are the models:
+
+1. Customer Model: This model stores information related to customer details, such as their first name, last name, and registration details. It enables CRUD operations to manage customer data effectively.
+2. Booking Model: The Booking Model is responsible for storing information regarding car maintenance bookings made by customers. It includes details like the customer's ID, type of maintenance to be made, preferred date and time for the maintenance, and any additional comments. CRUD operations can be performed on this model to manage booking records efficiently.
+3. Admin Model: The Admin Model represents the system administrator. It contains data such as the administrator's username, password, and access privileges. This model allows CRUD operations to manage administrator accounts and their associated permissions. Admin could also view the list of bookings made by customers.
+4. Service Model: The Service Model holds information about the various car maintenance services provided by the company. It includes details such as service names, descriptions, durations, and prices. CRUD operations on this model enable the addition, modification, and deletion of services offered by the company.
+
+Below are the tools and languages that are used in developing this system:
+1. Python
+2. HTML
+3. CSS
+4. Bootstrap
+5. Django
+6. JavaScript
 
 
 <h2>Assumptions</h2>
 
+1. The system is designed as a web-based application, accessible through a web browser, allowing customers to make car maintenance bookings on the company's website. The system administrator can log in securely to access administrative functionalities.
+2. User authentication and authorization mechanisms are implemented, requiring customers to register and log in to access booking features, while the system administrator has exclusive access to administrative tools. The Admin Model facilitates the management of administrator accounts and permissions.
+3. The system incorporates features for tracking and managing bookings, allowing customers to view their booking details and providing the system administrator with access to a comprehensive list of all customer bookings. This facilitates efficient monitoring and organization of maintenance appointments.
+
 <h2>Limitations</h2>
 
+1. The system may face limitations in handling a growing number of customers and bookings, potentially resulting in performance issues and the need for additional resources.
+2. The system's user experience may be hindered if it lacks intuitive and user-friendly design, leading to difficulties in navigation or understanding instructions.
+3. While the system covers basic functionalities, it may lack advanced features such as automated reminders or comprehensive reporting capabilities.
 
 <h2>How to Run Application</h2>
 
@@ -82,6 +105,7 @@
 
 
 <h2>System Interface</h2>
-<h4>Public Access</h4>
+
+
   
 
