@@ -67,7 +67,9 @@
 <h2>Design Choices</h2>
 The Car Maintenance System is designed to assist customers in scheduling their car maintenance appointments conveniently via the company's website. It offers various features, including customer registration, a user-friendly booking form, and tools for tracking and managing bookings. Additionally, the system administrator has access to a comprehensive list of all bookings made by customers.
 
-Within this system, there are four primary models implemented as Python classes, each representing a specific database table. These models facilitate Create, Read, Update, and Delete (CRUD) operations while incorporating various functionalities. The following are the models:
+Within this system, there are four primary models implemented as Python classes, each representing a specific database table. These models facilitate Create, Read, Update, and Delete (CRUD) operations while incorporating various functionalities. 
+
+The following are the models:
 
 1. Customer Model: This model stores information related to customer details, such as their first name, last name, and registration details. It enables CRUD operations to manage customer data effectively.
 2. Booking Model: The Booking Model is responsible for storing information regarding car maintenance bookings made by customers. It includes details like the customer's ID, type of maintenance to be made, preferred date and time for the maintenance, and any additional comments. CRUD operations can be performed on this model to manage booking records efficiently.
