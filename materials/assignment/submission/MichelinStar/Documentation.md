@@ -8,7 +8,7 @@
 - [System Interface](#system-interface)
    - [Admin](#admin)
    - [Customers](#customers)
-   - [Public Access](#public-access)
+   
    
 
 <h2>Design Choices</h2>
