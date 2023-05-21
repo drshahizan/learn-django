@@ -19,6 +19,10 @@ Django is a high-level web framework for building web applications in Python. It
 1. [Topic](./materials/assignment/topic.md)
 2. [Instructions](./materials/assignment/assignment.md)
 
+| No | Group |  Title |File |
+| :-----: |------ | ------ | :-----: | 
+| 1 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+
 ## Python Web Frameworks
 
 Python is a popular high-level programming language used for web development. It has gained popularity in recent years due to its simplicity, readability, and wide range of libraries and frameworks. Python web development involves the creation of web applications and websites using Python programming language. [**More info..**](./materials/pwf)
@@ -97,12 +101,6 @@ Django is a high-level web framework for building web applications quickly and e
 - 💻 [Source code:](https://github.com/tomitokko/django-social-media-website)
 - 💻 [Template files](https://github.com/tomitokko/django-social-media-template)
 These resources provide a range of options for beginners to find and learn from Django projects.
-
-## Submission
-
-| No | Group |  Title |File |
-| :-----: |------ | ------ | :-----: | 
-| 1 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 
 
 ## Contribution 🛠️
