@@ -98,6 +98,13 @@ Django is a high-level web framework for building web applications quickly and e
 - 💻 [Template files](https://github.com/tomitokko/django-social-media-template)
 These resources provide a range of options for beginners to find and learn from Django projects.
 
+## Submission
+
+| No | Group |  Title |File |
+| :-----: |------ | ------ | :-----: | 
+| 1 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
 
