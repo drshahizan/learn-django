@@ -1,0 +1,75 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Category List {% endblock title %}
+
+{% block content %}
+
+<div class="header bg-primary pb-6">
+    <div class="container-fluid">
+      <div class="header-body">
+        <div class="row align-items-center py-4">
+          <div class="col-lg-6 col-7">
+            <h6 class="h2 text-white d-inline-block mb-0">Category</h6>
+            <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+              <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
+                <li class="breadcrumb-item"><a href="#">Category</a></li>
+                <li class="breadcrumb-item active" aria-current="page">List</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Header -->
+    <div class="container-fluid mt--7">
+        <div class="card shadow">
+          <div class="row">
+            <div class="card-header bg-transparent">
+              <h1 class="mb-2">Category</h1>
+              <a class="btn btn-success" href="{% url "shop:category_create" %}">Add Category</a>
+            </div>
+            <div class="ml-auto"><br>
+              <form class="navbar-search navbar-search-light form-inline mr-sm-3" id="navbar-search-main" action="{% url 'shop:search_category' %}", method="post">
+                {% csrf_token %}
+                <div class="form-group mb-0">
+                  <div class="input-group input-group-alternative input-group-merge">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Search" name="search" type="text">
+                  </div>
+                </div>
+                <button type="button" class="close" data-action="search-close" data-target="#navbar-search-main" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </form>
+            </div>
+          </div>
+          
+            <div class="row">  
+                {% for category in categories %}
+                <div class = 'col-sm-4'>
+                    <div class="card-body">
+                    <button type="button" class="btn-icon-clipboard" data-clipboard-text="active-40" title={{category.name}}>
+                        <div>
+                            <i class="ni ni-cart"></i>&nbsp&nbsp
+                            <h3>{{ category.name }}</h3>
+                        </div><br>
+                        <a class="btn btn-primary" href="{% url "shop:category_update" category.id %}" title="edit">
+                            <i class="fa fa-edit text-white"></i>
+                        </a>
+                        <a class="btn btn-danger" href="{% url "shop:category_delete" category.id %}" title="delete">
+                            <i class="fa fa-trash text-white"></i>
+                        </a>
+                    </button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,59 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+<div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-md-10">
+        <h1>Order {{ order.id }}</h1>
+      </div>
+      <div class="col-md-2">
+         <a class="btn btn-success" href="{% url 'shop:order_list' %}">Order List</a>
+      </div>
+    </div>
+
+  <table class="table">
+    <tr>
+      <th>First Name:</th>
+      <td>{{ order.first_name }}</td>
+    </tr>
+    <tr>
+      <th>Last Name:</th>
+      <td>{{ order.last_name }}</td>
+    </tr>
+    <!-- display other order fields -->
+  </table>
+  <h2>Order Items</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in order.items.all %}
+        <tr>
+          <td>{{ item.product.name }}</td>
+          <td>${{ item.price }}</td>
+          <td>{{ item.quantity }}</td>
+          <td>${{ item.get_cost }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Total:</td>
+        <td>${{ order.get_total_cost }}</td>
+      </tr>
+    </tfoot>
+  </table>
+  <h2>Update Status</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Update Status</button>
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "layouts/base2.html" %}
+{% load static %}
+
+{% block title %}
+  Order Summary
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid mt-4">
+  <h1>Order Summary</h1>
+
+  {% if orders %}
+  <div class="card mb-4">
+    <div class="card-header">
+      <h5 class="mb-0">Orders</h5>
+    </div>
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Order Number</th>
+              <th scope="col">Date</th>
+              <th scope="col">Total</th>
+              <th scope="col">Status</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for order in orders %}
+            <tr>
+              <td>{{ order.id }}</td>
+              <td>{{ order.created }}</td>
+              <td>${{ order.get_total_cost }}</td>
+              <td>
+                <span style="{% if order.status == 'paid' %}color: grey;{% elif order.status == 'shipped' %}color: orange;{% elif order.status == 'delivered' %}color: green;{% elif order.status == 'cancelled' %}color: red;{% endif %}">
+                  {{ order.status }}
+              </span>
+              </td>
+              <td><a href="{% url 'shop:order_product' order.id %}" class="btn btn-primary btn-sm">View Order</a></td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <p>You have not placed any orders yet.</p>
+  <p><a href="{% url 'shop:customer_list' %}" class="btn btn-primary">Continue Shopping</a></p>
+  {% endif %}
+</div>
+{% endblock %}
