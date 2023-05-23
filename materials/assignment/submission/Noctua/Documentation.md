@@ -87,10 +87,46 @@ The main data models used in the application are Category, Job, Applicant, and B
    <li>The system may not have the flexibility in terms of customization in order to completely adapt to a specific needs of a particular company.</li>
 </ul>
 
-## Screenshots
-- Home page
+## Steps
+### Employer
+Employer can add job vacancies. Each job vacancy added must be publish by admin before employee can view and or applicants apply the job.
+
+1. Employer must firstly sign up and sign in as employer. Below is the landing page for employer after signing in.
 
 ![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-2020-05-08-17_03_46.png)
+
+2. Employer can post a job by filling in job and company details.
+
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-job-create-2020-05-08-17_00_46.png)
+
+3. Employer can view all jobs that they posted in Dashboard.
+
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-dashboard-2020-05-08-17_01_07.png)
+
+4. Employer view applicants. 
+
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-dashboard-employer-job-54-applicants-2020-05-08-17_01_34.png)
+
+### Admin
+Admin will publish job listed by employer so that applicants can view and apply. 
+
+1. Admin sign up at the command prompt by running the code below.
+``` ruby
+python manage.py createsuperuser
+```
+
+2. Here are the details needed in cmd to create an admin.
+
+![Settings Window](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Noctua/image/createsuperuser.png)
+
+3. Admin login and access django admin page.
+
+![Settings Window](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Noctua/image/adminjobs.png)
+
+4. Admin publish job.
+![Settings Window](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Noctua/image/adminjobs.png)
+
+### Employee/Applicants
 - Job list page
 
 ![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-jobs-2020-05-08-17_40_01.png)
@@ -100,12 +136,6 @@ The main data models used in the application are Category, Job, Applicant, and B
 - Job posting page
 
 ![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-job-create-2020-05-08-17_00_46.png)
-- Dashboard
-
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-dashboard-2020-05-08-17_01_07.png)
-- Applicants page
-
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-dashboard-employer-job-54-applicants-2020-05-08-17_01_34.png)
 
 <div align="center">
     <h3>========Thank You=========</h3>
