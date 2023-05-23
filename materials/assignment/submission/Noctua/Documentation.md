@@ -115,27 +115,27 @@ Admin will publish job listed by employer so that applicants can view and apply.
 python manage.py createsuperuser
 ```
 
-2. Here are the details needed in cmd to create an admin.
-
-![Settings Window](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Noctua/image/createsuperuser.png)
+2. Details needed in cmd to create an admin are email and password.
 
 3. Admin login and access django admin page.
 
 ![Settings Window](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Noctua/image/adminjobs.png)
 
 4. Admin publish job.
+
 ![Settings Window](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Noctua/image/adminjobs.png)
 
 ### Employee/Applicants
-- Job list page
+Employee/applicants can see the list of jobs offer and apply.
+
+1. Job listed can be view by both employee and employer.
 
 ![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-jobs-2020-05-08-17_40_01.png)
-- Job description page
+
+2. Employee can see the job description and apply from here.
 
 ![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-job-79-2020-05-08-16_59_55.png)
-- Job posting page
 
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-job-create-2020-05-08-17_00_46.png)
 
 <div align="center">
     <h3>========Thank You=========</h3>
