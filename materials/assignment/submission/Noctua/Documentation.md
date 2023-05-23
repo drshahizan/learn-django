@@ -76,7 +76,8 @@ The main data models used in the application are Category, Job, Applicant, and B
 ## Assumptions
 <ul>
    <li>The system assumes there are only three types of employement status which are full-time, part-time, and internship.</li>
-   <li>It assumes that there will only be two types of users which are employer and employee.</li>
+   <li>It assumes that there will only be two types of users which are employer, employee and admin.</li>
+   <li>Employer will add job vacancies, admin approve the job to be displayed, and employee can view and apply for the job.</li>
 </ul>
 
 ## Limitations
