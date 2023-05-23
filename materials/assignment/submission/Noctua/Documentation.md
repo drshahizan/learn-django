@@ -128,7 +128,7 @@ python manage.py createsuperuser
 ### Employee/Applicants
 Employee/applicants can see the list of jobs offer and apply.
 
-1. Job listed can be view by both employee and employer.
+1. Job published can be view by both employee and employer.
 
 ![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-jobs-2020-05-08-17_40_01.png)
 
