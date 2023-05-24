@@ -1,0 +1,67 @@
+{% extends 'admin/adminbase.html' %}
+{% block content %}
+{% load widget_tweaks %}
+{%load static%}
+<br><br>
+<div class="container">
+    {% if requests %}
+    <H4 class="text-center">Event Request</H4><br>
+    {% if message %}
+   <h5 class="text-center" style="color: red;"> {{message}}</h5><br>
+{% else %}
+
+{% endif %}
+    <table class="table table-light table-hover table-bordered table-striped">
+        <thead class="bg-dark">
+            <tr>
+                <th scope="col" style="color: rgb(192, 192, 192);">Event Name</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Chairman of the Event</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Phone Number</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Email Adress</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Venue</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Start Date</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">End Date</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Description</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Attire</th>
+                <th style="color: rgb(192, 192, 192);">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for t in requests %}
+            <tr>
+                <td> {{t.event_name}}</td>
+                
+                <td>{{t.chairman_name}}</td>
+                <td>{{t.phone_no}}</td>
+                <td>{{t.email}}</td>
+                <td>{{t.venue}}</td>
+                <td>{{t.sdate}}</td>
+                <td>{{t.edate}}</td>
+                <td>{{t.description}}</td>
+                <td>{{t.attiregroup}}</td>
+                <td>{{t.status}}</td>
+                
+                
+                <td>
+                   
+                    <button class="btn btn-success btn-sm"><a  style="text-decoration: none;color: white;" href="{% url 'update-approve-status' t.id  %}"><i class="fa fa-check"></i> Approve</a> </button>
+                    <button class="btn btn-danger btn-sm"><a  style="text-decoration: none;color: white;" href="{% url 'update-reject-status' t.id  %}"><i class="fa fa-times"></i> Reject</a> </button>
+                    
+                </td>
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    
+    </table>
+{% else %}
+<div class="alert alert-danger" role="alert">
+    No Event Request By Customer!
+  </div>
+
+{% endif %}
+
+</div>
+
+
+{% endblock content %}
