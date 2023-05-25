@@ -71,10 +71,10 @@ Within this system, there are four primary models implemented as Python classes,
 
 The following are the models:
 
-1. Customer Model: This model stores information related to customer details, such as their first name, last name, and registration details. It enables CRUD operations to manage customer data effectively.
-2. Booking Model: The Booking Model is responsible for storing information regarding car maintenance bookings made by customers. It includes details like the customer's ID, type of maintenance to be made, preferred date and time for the maintenance, and any additional comments. CRUD operations can be performed on this model to manage booking records efficiently.
-3. Admin Model: The Admin Model represents the system administrator. It contains data such as the administrator's username, password, and access privileges. This model allows CRUD operations to manage administrator accounts and their associated permissions. Admin could also view the list of bookings made by customers.
-4. Service Model: The Service Model holds information about the various car maintenance services provided by the company. It includes details such as service names, descriptions, durations, and prices. CRUD operations on this model enable the addition, modification, and deletion of services offered by the company.
+1. `Customer Model`: This model stores information related to customer details, such as their first name, last name, and registration details. It enables CRUD operations to manage customer data effectively.
+2. `Booking Model`: The Booking Model is responsible for storing information regarding car maintenance bookings made by customers. It includes details like the customer's ID, type of maintenance to be made, preferred date and time for the maintenance, and any additional comments. CRUD operations can be performed on this model to manage booking records efficiently.
+3. `Admin Model`: The Admin Model represents the system administrator. It contains data such as the administrator's username, password, and access privileges. This model allows CRUD operations to manage administrator accounts and their associated permissions. Admin could also view the list of bookings made by customers.
+4. `Service Model`: The Service Model holds information about the various car maintenance services provided by the company. It includes details such as service names, descriptions, durations, and prices. CRUD operations on this model enable the addition, modification, and deletion of services offered by the company.
 
 Below are the tools and languages that are used in developing this system:
 1. Python
