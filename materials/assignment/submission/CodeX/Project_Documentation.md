@@ -127,9 +127,9 @@ python manage.py runserver
 
 <h2>System Interface</h2>
 
-<h4>Public</h4>
+<h3>Public</h3>
 
-<h4>Admin</h4>
+<h3>Admin</h3>
 
 1. Login Page.(Login as admin)
 ![Screenshot 2023-05-27 001040](https://github.com/drshahizan/learn-django/assets/92329710/fce12b5b-5711-493c-8365-1fa12b0d91ef)
@@ -157,7 +157,7 @@ python manage.py runserver
 ![Screenshot 2023-05-27 002600](https://github.com/drshahizan/learn-django/assets/92329710/3a68ff07-9c2a-4a3b-a413-8861baf9488d)
 
 
-<h4>Customer</h4>
+<h3>Customer</h3>
 
 
   
