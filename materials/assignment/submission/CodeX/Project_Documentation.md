@@ -159,6 +159,7 @@ python manage.py runserver
 
 <h3>Customer</h3>
 
+1. 
 
   
 
