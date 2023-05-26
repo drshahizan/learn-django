@@ -127,6 +127,14 @@ python manage.py runserver
 
 <h2>System Interface</h2>
 
+<h4>Public</h4>
+
+<h4>Admin</h4>
+
+
+
+<h4>Customer</h4>
+
 
   
 
