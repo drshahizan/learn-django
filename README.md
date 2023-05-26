@@ -25,11 +25,12 @@ Django is a high-level web framework for building web applications in Python. It
 | 2 | DataAce | Food Delivery System |  <a href="./materials/assignment/submission/DataAce/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 4 | DataSphere | Blogging PLatform |  <a href="materials/assignment/submission/DataSphere" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 5 | Gadgeteen | Online Education Platform |  <a href=".materials/assignment/submission/Gadgeteen" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 6 | Noctua | Job Portal |  <a href="materials/assignment/submission/Noctua" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 7 | Regex | E-Commerce Platform |  <a href="materials/assignment/submission/Regex" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 8 | Rivertion | Student Information System |  <a href="materials/assignment/submission/Rivertion/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 9 | StaticIP | Event Management System |  <a href="materials/assignment/submission/StaticIP/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 10 | MichelinStar | Social Network App |  <a href="materials/assignment/submission/MichelinStar/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 6 | MichelinStar | Social Network App |  <a href="materials/assignment/submission/MichelinStar/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 7 | Noctua | Job Portal |  <a href="materials/assignment/submission/Noctua" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 8 | Regex | E-Commerce Platform |  <a href="materials/assignment/submission/Regex" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 9 | Rivertion | Student Information System |  <a href="materials/assignment/submission/Rivertion/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 10 | StaticIP | Event Management System |  <a href="materials/assignment/submission/StaticIP/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+
 
 ## Python Web Frameworks
 
