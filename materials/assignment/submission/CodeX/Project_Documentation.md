@@ -131,6 +131,30 @@ python manage.py runserver
 
 <h4>Admin</h4>
 
+1. Login Page.(Login as admin)
+![Screenshot 2023-05-27 001040](https://github.com/drshahizan/learn-django/assets/92329710/fce12b5b-5711-493c-8365-1fa12b0d91ef)
+
+2. Home Page of Admin.
+![Screenshot 2023-05-27 001057](https://github.com/drshahizan/learn-django/assets/92329710/0aaea240-838f-4840-83c7-df577db61390)
+
+3. Customer Booking List. (Admin View)
+![Screenshot 2023-05-27 002204](https://github.com/drshahizan/learn-django/assets/92329710/83c1c6e9-da78-4d44-8449-e37e0b9e6811)
+![Screenshot 2023-05-27 002226](https://github.com/drshahizan/learn-django/assets/92329710/76749816-de91-4100-ab82-18bceca81c22)
+
+4. Edit Booking Status.
+a. Admin approve customer booking.
+![Screenshot 2023-05-27 002320](https://github.com/drshahizan/learn-django/assets/92329710/40d8ac05-bbcc-4c4e-94e9-80b13d6f3c7d)
+b. Approved booking updated into approved booking list.
+![Screenshot 2023-05-27 002343](https://github.com/drshahizan/learn-django/assets/92329710/6e629e3c-9420-4c90-8d47-34ffaa976680)
+c. Message shows that appointment has been edited successfully.
+![Screenshot 2023-05-27 002423](https://github.com/drshahizan/learn-django/assets/92329710/e9ceef35-def6-423d-8a1a-54ed5dcd740c)
+d. Admin reject customer booking.
+![Screenshot 2023-05-27 002511](https://github.com/drshahizan/learn-django/assets/92329710/ed430ef5-f68f-4c22-a66d-1e2e994bf5a6)
+e. Rejected booking updated into rejected booking list.
+![Screenshot 2023-05-27 002545](https://github.com/drshahizan/learn-django/assets/92329710/e1ec8829-0b7f-49d0-b2d8-79170a088b46)
+
+5. Profile View (Admin)
+![Screenshot 2023-05-27 002600](https://github.com/drshahizan/learn-django/assets/92329710/3a68ff07-9c2a-4a3b-a413-8861baf9488d)
 
 
 <h4>Customer</h4>
