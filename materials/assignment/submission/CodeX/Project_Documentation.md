@@ -159,7 +159,16 @@ python manage.py runserver
 
 <h3>Customer</h3>
 
-1. 
+1. Login Page (Login as Customer)
+!
 
-  
+2. Home Page of Customer
+
+3. Customer Book Apointment
+
+4. Customer Book  Apointment Time
+
+5. Customer Book Success
+
+6. Profiel View (Customer)  
 
