@@ -127,8 +127,6 @@ python manage.py runserver
 
 <h2>System Interface</h2>
 
-<h3>Public</h3>
-
 <h3>Admin</h3>
 
 1. Login Page.(Login as admin)
@@ -174,5 +172,5 @@ python manage.py runserver
 5. Customer Book Success
 ![Screenshot 2023-05-27 110214](https://github.com/drshahizan/learn-django/assets/120616074/88623bdf-fded-4420-9fdc-4bba1eb9b9c1)
 
-6. Profiel View (Customer)  
+6. Profile View (Customer)  
 ![Screenshot 2023-05-27 110111](https://github.com/drshahizan/learn-django/assets/120616074/cb462bcd-3f6d-4d84-a3c6-aa481708941b)
