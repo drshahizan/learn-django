@@ -8,7 +8,7 @@
 - [Steps](#steps)
    - [Employer](#employer)
    - [Admin](#admin)
-   - [Employee/Applicants](#employee/applicants)
+   - [Applicants](#applicants)
 
 ## Project Structure
 
@@ -134,7 +134,7 @@ python manage.py createsuperuser
 
 ![Settings Window](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Noctua/image/adminjobs.png)
 
-### Employee/Applicants
+### Applicants
 Employee/applicants can see the list of jobs offer and apply.
 
 1. Job published can be view by both employee and employer.
