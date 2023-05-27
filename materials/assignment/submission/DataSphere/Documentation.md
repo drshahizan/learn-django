@@ -120,6 +120,15 @@ A few common assumptions that are implemented while developing the blogging syst
 </ul>
 
 <h2>Limitations</h2>
+A few limitattions that are faced while developing the blogging system are:
+<ul>
+
+   <li> Designing a user-friendly and visually appealing interface was a bit challenging. Balancing functionality with simplicity, creating intuitive navigation, and           optimizing the user experience across different devices and screen sizes can present difficulties..</li>
+
+   <li>Limited time for the development of blogging system </li>
+
+   <li>Development was a liltle bit limited by technical which impacted the performance and scalability of the blogging system..</li>
+</ul>
 
 
 <h2>System Interface</h2>
