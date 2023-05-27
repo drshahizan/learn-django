@@ -107,6 +107,17 @@
 
 <h2>Design Choices</h2>
 
+This system application is about the Blogging System  where the goal is to enable users to easily create, format, and publish their content. It provides a user-friendly interface and tools to facilitate the creation of blog posts, articles, and other types of contentn. Besides, it also aims to foster engagement and interaction between content creators and their audience
+
+Below are the tools and languages that are used in developing this system:
+
+    Python: Main programming language
+    Django: Web framework
+    HTML: Creating the base structure
+    CSS: Styling the system
+    JavaScript: Adding interactivity and dynamic features
+
+
 
 <h2>Assumptions</h2>
 A few common assumptions that are implemented while developing the blogging system:
@@ -127,7 +138,7 @@ A few limitattions that are faced while developing the blogging system are:
 
    <li>Limited time for the development of blogging system </li>
 
-   <li>Development was a liltle bit limited by technical which impacted the performance and scalability of the blogging system..</li>
+   <li>Development was a liltle bit limited by technical constraints which impacted the performance and scalability of the blogging system..</li>
 </ul>
 
 
