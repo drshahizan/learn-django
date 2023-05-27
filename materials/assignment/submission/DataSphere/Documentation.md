@@ -109,6 +109,14 @@
 
 
 <h2>Assumptions</h2>
+A few common assumptions that are implemented while developing the blogging system:
+
+   <li>Assumptions are made about the features and capabilities required for content creation, editing, and management. This could involve assumptions about text             formatting   options, media uploading, categories, tags, and search functionalities.</li>
+
+   <li>Assumptions are made about the desired user interactions and engagement on the platform. </li>
+
+   <li>Assumptions are made about the user interface and user experience (UI/UX) design. This includes assumptions about the layout, navigation, and overall aesthetic         appeal of the platform.</li>
+
 
 <h2>Limitations</h2>
 
