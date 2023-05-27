@@ -174,3 +174,33 @@ python manage.py runserver
 
 6. Profile View (Customer)  
 ![Screenshot 2023-05-27 110111](https://github.com/drshahizan/learn-django/assets/120616074/cb462bcd-3f6d-4d84-a3c6-aa481708941b)
+
+<h3>Public</h3>
+
+1.Home Page and Contacts inquiries
+![Home Page and contacts](https://github.com/drshahizan/learn-django/assets/120613814/1c087545-b5a2-442c-b005-a85c30b20ce2)
+
+2. Booking page
+![Booking Public View Asked to Sign In first](https://github.com/drshahizan/learn-django/assets/120613814/e55e1a58-3ed4-492e-b2ea-406e996a9699)
+
+3. Services Provided
+![Services 1](https://github.com/drshahizan/learn-django/assets/120613814/8f04cc7a-8dcf-49f9-aeaa-15db86e9f700)
+![services 2](https://github.com/drshahizan/learn-django/assets/120613814/6c00fc56-582b-4f31-a6ce-443c0a1dfaa9)
+![Services 3](https://github.com/drshahizan/learn-django/assets/120613814/4415a2a3-f7d4-4203-8ddb-4ce192bc81a1)
+![services 4](https://github.com/drshahizan/learn-django/assets/120613814/23490f77-eb24-48c0-ab4d-dba3a6451869)
+![services 5](https://github.com/drshahizan/learn-django/assets/120613814/bad66294-c5ec-46a7-a8eb-c7fddd938b75)
+![services 6](https://github.com/drshahizan/learn-django/assets/120613814/b8482f62-cd36-444b-bf03-151d381ec893)
+![services 7](https://github.com/drshahizan/learn-django/assets/120613814/68204bec-6d48-4da3-a50e-f628fb892b42)
+
+4. Sign Up
+![Sign up 1](https://github.com/drshahizan/learn-django/assets/120613814/ad4f677c-0d4b-4494-b3ed-771918faa2f0)
+![Sign up 2](https://github.com/drshahizan/learn-django/assets/120613814/6c30120f-cc75-4162-a3e5-1b96378e203f)
+
+5. Sign  In
+![Sign 1](https://github.com/drshahizan/learn-django/assets/120613814/6a8cbe33-7a2e-42db-9a90-8b603d919a7d)
+
+
+
+
+
+
