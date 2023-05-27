@@ -110,13 +110,6 @@
 Our team was tasked with creating a blogging platform using Django. Users should be able to manage their own postings, make and publish blog entries, and leave comments on other people's writings on the platform. The most popular content and overall blog activity could be shown on the admin dashboard. Django was selected as the project's framework because it is an established framework that is ideal for creating online applications. Data for the project will be kept in a SQLite database. For tiny applications, SQLite is the ideal database because it is compact and simple to use. The application's primary data models are Profile and BlogModel. When building user profiles and blog entries, these models can conduct Create, Read, Update, and Delete (CRUD) activities. The project's user interface will be styled using the Bootstrap CSS framework. A responsive and mobile-friendly user interface can be easily made using the well-liked and documented Bootstrap framework.
 
 
-Below are the tools and languages that are used in developing this system:
-
-    Python: Main programming language
-    Django: Web framework
-    HTML: Creating the base structure
-    CSS: Styling the system
-    JavaScript: Adding interactivity and dynamic features
 
 
 
