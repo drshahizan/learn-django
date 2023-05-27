@@ -6,8 +6,8 @@
 - [Assumptions](#assumptions)
 - [Limitations](#limitations)
 - [Steps](#steps)
-   - [Admin](#admin)
    - [Employer](#employer)
+   - [Admin](#admin)
    - [Employee/Applicants](#employee/applicants)
 
 ## Project Structure
