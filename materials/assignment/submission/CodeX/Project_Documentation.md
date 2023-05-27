@@ -160,15 +160,19 @@ python manage.py runserver
 <h3>Customer</h3>
 
 1. Login Page (Login as Customer)
-!
+![Screenshot 2023-05-27 110329](https://github.com/drshahizan/learn-django/assets/120616074/04782dfa-6894-449b-9454-408a1fc28e4c)
 
 2. Home Page of Customer
+![Screenshot 2023-05-27 110140](https://github.com/drshahizan/learn-django/assets/120616074/147fe0c0-ad89-40bf-a31b-f5f3c2bea363)
 
 3. Customer Book Apointment
+![Screenshot 2023-05-27 110152](https://github.com/drshahizan/learn-django/assets/120616074/c573aa3d-1c56-453f-88b4-f923dba8178a)
 
 4. Customer Book  Apointment Time
+![Screenshot 2023-05-27 110205](https://github.com/drshahizan/learn-django/assets/120616074/db5a0402-c8d0-458d-a308-4b53602b9679)
 
 5. Customer Book Success
+![Screenshot 2023-05-27 110214](https://github.com/drshahizan/learn-django/assets/120616074/88623bdf-fded-4420-9fdc-4bba1eb9b9c1)
 
 6. Profiel View (Customer)  
-
+![Screenshot 2023-05-27 110111](https://github.com/drshahizan/learn-django/assets/120616074/cb462bcd-3f6d-4d84-a3c6-aa481708941b)
