@@ -1,6 +1,14 @@
-# Job Portal
-Django Job Portal.       
-
+<h1 align="center">Django Job Portal</h1>
+      
+## Table of Content
+- [Project Structure](#project-structure)
+- [Design Choices](#design-choices)
+- [Assumptions](#assumptions)
+- [Limitations](#limitations)
+- [Steps](#steps)
+   - [Admin](#admin)
+   - [Employer](#employer)
+   - [Employee/Applicants](#employee/applicants)
 
 ## Project Structure
 
