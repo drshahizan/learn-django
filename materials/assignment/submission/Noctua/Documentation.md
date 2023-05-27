@@ -93,7 +93,7 @@ Employer can add job vacancies. Each job vacancy added must be publish by admin 
 
 1. Employer must firstly sign up and sign in as employer. Below is the landing page for employer after signing in.
 
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-2020-05-08-17_03_46.png?s=150)
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-2020-05-08-17_03_46.png?s=300)
 
 2. Employer can post a job by filling in job and company details.
 
