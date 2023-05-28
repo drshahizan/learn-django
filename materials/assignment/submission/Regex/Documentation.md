@@ -9,6 +9,7 @@
    - [Customers](#customers)
    - [Public Access](#public-access)
    - [Admin](#admin)
+- [Quick Start](#quick-start)
 
 <h2>Project Structure</h2>
 
@@ -219,3 +220,7 @@ The Orders section will show all created orders. The administrators have the abi
   - Search
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979321-7ac6f9ca-9266-4b09-bcd8-a0b26c990e7e.png">
+
+<h2>Quick Start</h2>
+
+[How to Run the Project](https://github.com/drshahizan/learn-django/edit/main/materials/assignment/submission/Regex/shop/README.md)
