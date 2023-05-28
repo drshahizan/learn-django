@@ -146,7 +146,90 @@ There are several other features that might be added to the project in addition 
 The Django blogging platform would become a more potent and adaptable tool for users with the addition of these new functionalities.
 
 
-
-
-
 <h2>System Interface</h2>
+<h4>**Public Access**</h4>
+
+1. Landing Page
+Users will be led to the landing page when they visit the website.  A landing page is a standalone web page designed to entice a specific audience to take action. Users can view older or newer content uploaded by other authors on this page. In addition, they are permitted to write their own blog post too.
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Index%20Page.png">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/View%20Blog.png">
+</p>
+<br></br>
+
+2. View Posts
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Blog%20Detail.png">
+</p>
+<br></br>
+
+3. CRUD Operation with Blog Posts
+Create, Read, Update, and Delete (CRUD) are the four basic actions that a software application should be able to do.Users must be able to make blogposts, access data in the UI by reading or viewing the posts, update or amend the posts, and remove the posts in our blogging platform.
+
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Manage%20Posts.png">
+</p>
+<br></br>
+
+- **Create Blog**
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Add%20Blog.png">
+</p>
+<br></br>
+
+Users are also allowed to upload images to their blog posts.
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Upload%20Image.png">
+</p>
+<br></br>
+
+When the image is uploaded successfully, we are able to see the name of the chosen file. To create a blog, proceed to click on the **'Create Blog'** buttonn.
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Upload%20Successful.png">
+</p>
+<br></br>
+
+- **Update Blog**
+To update previous blogposts, you can simply edit and make changes on the title, content and uploaded image. A latest version of the post will be created.
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Update%20Blog.png">
+</p>
+<br></br>
+
+- **Delete Blog**
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Deleted%20Blog.png">
+</p>
+<br></br>
+
+<h4>**Admin**</h4>
+
+1. Admin Page
+This is the initial page for administrators. Here we can log in as an administrator with the following details:
+- Username: admin
+- Password: 123123
+
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Admin.png">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Admin%20Login.png">
+</p>
+<br></br>
+
+2. Admin Dashboard
+Once logged in, admins can view blog's recent activity. They can also view the blog models posted by the general public.
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Admin%20Dashboard.png">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/View%20Added%20Blogs.png">
+</p>
+<br></br>
+
+3. Log Out
+After managing the blog, admins are required to log out from their site to ensure security of the blog isn't breached. Admins are also allowed to govern their own profile by changing their password.
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Log%20Out.png">
+   <img width="947" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/Logged%20Out.png">
+</p>
+<br></br>
+
+
+
