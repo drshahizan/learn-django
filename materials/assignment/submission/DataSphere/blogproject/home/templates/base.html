@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from demo.bootstrapious.com/directory/1-6-1/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Apr 2021 09:21:30 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Directory Theme by Bootstrapious</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Price Slider Stylesheets -->
+    <link rel="stylesheet" href="/media/css/nouislider.css">
+    <!-- Google fonts - Playfair Display-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700">
+    <!-- Google fonts - Poppins-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,700">
+    <!-- swiper-->
+    <link rel="stylesheet" href="/media/css/swiper.min.css">
+    <!-- Magnigic Popup-->
+    <link rel="stylesheet" href="/media/css/magnific-popup.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="/media/css/default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="/media/css/custom.css">
+    <script src="/media/js/main.js"> </script>
+
+
+   </head>
+  <body style="padding-top: 72px;">
+    <input type="hidden" id="csrf" value="{{csrf_token}}">
+    <header class="header">
+     
+      <nav class="navbar navbar-expand-lg fixed-top shadow navbar-light bg-white">
+        <div class="container-fluid">
+          <div class="d-flex align-items-center"><a class="navbar-brand py-1" href="/">
+          <h3>Blogging Platform</h3>
+          </div>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+          <!-- Navbar Collapse -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            
+            <ul class="navbar-nav ml-auto">
+              
+              <li class="nav-item mt-3 mt-lg-0 ml-lg-3 d-lg-none d-xl-inline-block">
+                <a class="btn btn-info" href="{% url 'add_blog' %}">Add Blogs</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- /Navbar -->
+    </header>
+   
+
+    {% block start %}
+
+
+    {% endblock %}
+
+
+    <footer class="position-relative z-index-10 d-print-none">
+   
+      <div class="py-4 font-weight-light bg-gray-800 text-gray-300">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-left">
+              <p class="text-sm mb-md-0">&copy; 2023, DataSphere.  All rights reserved.</p>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </footer>
+   
+    
+  </body>
+
+
+</html>

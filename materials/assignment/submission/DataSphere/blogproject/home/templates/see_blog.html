@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block start %}
+
+
+<section class="mt-5 pt-5">
+    <div class="container">
+       
+        <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Blog title</th>
+            <th scope="col">Created at</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for blog in blog_objs %}
+          <tr>
+            <th scope="row">{{forloop.counter}}</th>
+            <td>{{blog.title}}</td>
+            <td>{{blog.created_at}}</td>
+            <td>
+                <a href="{%  url 'blog_update' blog.slug %}" class="btn btn-success">Update</a>
+                <a href="{% url 'blog_delete' blog.id %}" class="btn btn-danger">Delete</a>
+
+
+            </td>
+          </tr>
+          {% endfor %}
+         
+
+          </tbody>
+          </table>
+          
+    </div>
+</section>
+
+
+
+{% endblock %}
