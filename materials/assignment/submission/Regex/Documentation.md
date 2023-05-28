@@ -223,4 +223,4 @@ The Orders section will show all created orders. The administrators have the abi
 
 <h2>Quick Start</h2>
 
-[How to Run the Project](https://github.com/drshahizan/learn-django/edit/main/materials/assignment/submission/Regex/shop/README.md)
+[How to Run the Project](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Regex/shop/README.md)
