@@ -44,3 +44,4 @@ Introducing our django powered blogging platform: In today's digital age, we und
 ## Contents📝
 - 📑[Project Documentation](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/Documentation.md)
 - 💻[Code Folder](https://github.com/drshahizan/learn-django/tree/main/materials/assignment/submission/DataSphere/blogproject)
+- 📄[Instructions to set up Django](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/Setting%20Up%20a%20Django%20Blogging%20Platform.md)
