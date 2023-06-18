@@ -40,4 +40,5 @@ Introducing our django powered blogging platform: In today's digital age, we und
   </tr>
   </table>
 </p>
+<h2> 🏴 CONTENTS </h2>
 
