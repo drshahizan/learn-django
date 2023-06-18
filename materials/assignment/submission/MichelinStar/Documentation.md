@@ -97,7 +97,7 @@ The main data models in this application are User, Post and Comment. These data 
 
 
 <h2>Quick Start</h2>
-[How to Run the Project](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/MichelinStar/QuickStart.md)
+[How to run the project](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/MichelinStar/QuickStart.md)
 
 <h2>Video Demo</h2>
 <a href"https://www.youtube.com/watch?v=Linar24QyzY">Youtube Demo Link : </a>
