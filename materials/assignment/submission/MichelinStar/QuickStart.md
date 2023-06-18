@@ -11,30 +11,24 @@ git clone https://github.com/drshahizan/learn-django.git
 
 2. Go to Project Directory<br>
 ```python
-cd C:\Users\user\learn-django\materials\assignment\submission\MichelinStar\Social_Network_App
+cd C:\Users\user
 ```
 
 3. Create a Virtual Environment<br>
 
-```python
-virtualenv env
-```
+Type CMD (will be redirect to virtual environment.
 
 4. Activate Virtual Environment<br>
 ```python
 env\Scripts\activate
 ```
 
-5. Install Requirements Package<br>
+5. Select own Folder Pathway<br>
 
+6. Start the Server by Running the Server
 ```python
-pip install -r requirements.txt
-pip install matplotlib
-pip install numpy
+python manage.py runserver
 ```
 
-6. Migrate Database<br>
-```python
-python manage.py makemigrations
-python manage.py migrate
-```
+7. Start Django<br>
+Copy the server address and paste it in Chrome
