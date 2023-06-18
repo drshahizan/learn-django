@@ -70,5 +70,5 @@ As social network apps handle sensitive user information, ensuring privacy and s
 </ol>
 
 ## Contents📝
-- 📑[Report](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/MichelinStar/Documentation.md)
+- 📑[Documentation](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/MichelinStar/Documentation.md)
 - 💻[Code](https://github.com/drshahizan/learn-django/tree/main/materials/assignment/submission/MichelinStar/Social_Network_App)
