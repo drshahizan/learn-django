@@ -1,0 +1,71 @@
+{% extends 'admin/adminbase.html' %}
+{% block content %}
+{% load widget_tweaks %}
+{%load static%}
+<head>
+ <style>
+     .label {
+  color: white;
+  padding: 8px;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+.other {background-color: #e7e7e7; color: black;} /* Gray */
+ </style>
+</head>
+<br><br>
+<div class="container">
+    <H4 class="text-center">Event Request History</H4><br>
+    {% if message %}
+   <h5 class="text-center" style="color: red;"> {{message}}</h5><br>
+{% else %}
+
+{% endif %}
+    <table class="table table-light table-hover table-bordered table-striped">
+        <thead class="bg-dark">
+            <tr>
+                <th scope="col" style="color: rgb(192, 192, 192);">Event Name</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Chairman of the Event</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Phone Number</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Email Adress</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Venue</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Start Date</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">End Date</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Description</th>
+                <th scope="col" style="color: rgb(192, 192, 192);">Attire</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            {% for t in requests %}
+            <tr>
+                <td> {{t.event_name}}</td>
+                
+                <td>{{t.chairman_name}}</td>
+                <td>{{t.phone_no}}</td>
+                <td>{{t.email}}</td>
+                <td>{{t.venue}}</td>
+                <td>{{t.sdate}}</td>
+                <td>{{t.edate}}</td>
+                <td>{{t.description}}</td>
+                <td>{{t.attiregroup}}</td>
+                {% if t.status == 'Approved' %}
+                <td><span class="label success"> Approved</span></td>
+                {% else %}
+                <td><span class="label danger">Rejected</span></td>
+                {% endif %}
+                
+                
+            
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    
+    </table>
+</div>
+
+{% endblock content %}

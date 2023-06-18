@@ -1,0 +1,69 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+
+{% block title %}
+  Order Detail
+{% endblock %}
+
+{% block content %}
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-md-10">
+        <h1>Order {{ order.id }}</h1>
+      </div>
+      <div class="col-md-2">
+        <a class="btn btn-success" href="{% url 'shop:order_list' %}">Order List</a>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Billing Information</h3>
+        <p><strong>Name:</strong> {{ order.first_name }} {{order.last_name }}</p>
+        <p><strong>Email:</strong> {{ order.email }}</p>
+        <p><strong>Address:</strong> {{ order.address }}</p>
+        <p><strong>City:</strong> {{ order.city }}</p>
+        <p><strong>ZIP:</strong> {{ order.postal_code }}</p>
+        
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-12">
+        <h3>Order Items</h3>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Product</th>
+              <th scope="col">Price</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in order.items.all %}
+            <tr>
+              <td>
+                  {% if item.product.image %}
+                  <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" class="img-fluid" width="100">
+                  {% else %}
+                  <img src="{% static '/assets/img/product/no_image.png' %}" alt="{{ item.product.name }}" class="img-fluid" width="100">
+                  {% endif %}
+                  {{ item.product.name }}
+              </td>
+              <td>${{ item.price }}</td>
+              <td>{{ item.quantity }}</td>
+              <td>${{ item.get_cost }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+              <td colspan="3"><strong>Total:</strong></td>
+              <td>${{ order.get_total_cost }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="footer text-center m-2">
+      <a href="{% url 'shop:order_list' %}" class="btn btn-success">Back to Order List</a>
+  </div>
+  </div>
+{% endblock %}

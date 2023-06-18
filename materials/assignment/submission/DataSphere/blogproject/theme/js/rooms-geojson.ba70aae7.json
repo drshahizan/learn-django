@@ -1,0 +1,204 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.99967,
+            40.73723
+          ]
+        },
+        "properties": {
+          "id": "59c0c8e33b1527bfe2abaf92",
+          "index": 0,
+          "isActive": true,
+          "logo": "http://placehold.it/32x32",
+          "image": "photo-1484154218962-a197022b5858.jpg",
+          "link": "detail-rooms.html",
+          "url": "#",
+          "name": "Modern, Well-Appointed Room",
+          "subtitle": "Private room",
+          "email": "biancabriggs@bluehill.com",
+          "stars": 5,
+          "price": 80,
+          "person": "Pamela",
+          "avatar": "img/avatar/avatar-0.jpg",
+          "phone": "+1 (920) 407-3975",
+          "address": "151 Karweg Place, Waumandee, Iowa, 5508",
+          "about": "Cupidatat excepteur non dolore laborum et quis nostrud veniam dolore deserunt. Pariatur dolore ut in elit id nulla. Irure nostrud sint deserunt enim Lorem. Do eu esse consequat mollit labore commodo officia labore voluptate sit voluptate cupidatat.\r\n",
+          "tags": [
+            "et",
+            "cupidatat"
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.9906951,
+            40.7384555
+          ]
+        },
+        "properties": {
+          "id": "59c0c8e322f3375db4d89128",
+          "index": 1,
+          "isActive": true,
+          "logo": "http://placehold.it/32x32",
+          "image": "photo-1426122402199-be02db90eb90.jpg",
+          "link": "detail-rooms.html",
+          "url": "#",
+          "name": "Cute Quirky Garden apt, NYC adjacent",
+          "subtitle": "Entire apartment",
+          "email": "biancabriggs@plutorque.com",
+          "stars": 4,
+          "price": 121,
+          "person": "John",
+          "avatar": "img/avatar/avatar-7.jpg",
+          "phone": "+1 (986) 599-2693",
+          "address": "325 Seton Place, Castleton, Indiana, 3368",
+          "about": "Proident irure eiusmod velit veniam consectetur id minim irure et nostrud mollit magna velit. Commodo amet proident aliqua qui enim exercitation ipsum laborum Lorem. Irure nostrud sint deserunt enim Lorem. Do eu esse consequat mollit labore commodo officia labore voluptate sit voluptate cupidatat.\r\n",
+          "tags": [
+            "magna",
+            "culpa"
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.0014247,
+            40.732346
+          ]
+        },
+        "properties": {
+          "id": "59c0c8e3a31e62979bf147c9",
+          "index": 2,
+          "isActive": true,
+          "logo": "http://placehold.it/32x32",
+          "image": "photo-1512917774080-9991f1c4c750.jpg",
+          "link": "detail-rooms.html",
+          "url": "#",
+          "name": "Modern Apt - Vibrant Neighborhood!",
+          "subtitle": "Entire apartment",
+          "email": "biancabriggs@junipoor.com",
+          "stars": 3,
+          "price": 75,
+          "person": "Julie",
+          "avatar": "img/avatar/avatar-8.jpg",
+          "phone": "+1 (863) 446-2211",
+          "address": "397 Crystal Street, Idledale, Nebraska, 4692",
+          "about": "Lorem amet ex duis in et fugiat consectetur laborum eiusmod labore. Quis cupidatat et do dolor in in magna. Eu sit quis cillum proident pariatur commodo consequat ea sunt mollit. Ad aliquip aliquip amet occaecat aute incididunt ex sit culpa adipisicing amet officia nisi. Commodo amet proident aliqua qui enim exercitation ipsum laborum Lorem.\r\n",
+          "tags": [
+            "ex",
+            "exercitation"
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.9969277,
+            40.7246413
+          ]
+        },
+        "properties": {
+          "id": "59c0c8e3503eb77d487e8082",
+          "index": 3,
+          "isActive": false,
+          "logo": "http://placehold.it/32x32",
+          "image": "photo-1494526585095-c41746248156.jpg",
+          "link": "detail-rooms.html",
+          "url": "#",
+          "name": "Sunny Private Studio-Apartment",
+          "subtitle": "Shared room",
+          "email": "biancabriggs@musix.com",
+          "stars": 4,
+          "price": 93,
+          "person": "Barbora",
+          "avatar": "img/avatar/avatar-9.jpg",
+          "phone": "+1 (862) 498-2322",
+          "address": "828 Dewitt Avenue, Wyano, Nevada, 5082",
+          "about": "Deserunt eiusmod Lorem proident consequat elit culpa laboris ea cupidatat. Consequat dolore proident ipsum qui sint enim id in non et duis sunt aute qui. Laboris deserunt enim exercitation do consequat irure dolor ipsum commodo est fugiat qui mollit.\r\n",
+          "tags": [
+            "eiusmod"
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.9893617,
+            40.741726
+          ]
+        },
+        "properties": {
+          "id": "59c0c8e39aa2eed0626e485d",
+          "index": 4,
+          "isActive": false,
+          "logo": "http://placehold.it/32x32",
+          "image": "photo-1522771739844-6a9f6d5f14af.jpg",
+          "link": "detail-rooms.html",
+          "url": "#",
+          "name": "Mid-Century Modern Garden Paradise",
+          "subtitle": "Entire house",
+          "email": "biancabriggs@prosure.com",
+          "stars": 5,
+          "price": 115,
+          "person": "Jack",
+          "avatar": "img/avatar/avatar-10.jpg",
+          "phone": "+1 (831) 587-2089",
+          "address": "942 Greenpoint Avenue, Northridge, Puerto Rico, 8248",
+          "about": "Cillum sunt reprehenderit ea non irure veniam dolore commodo labore fugiat est consequat velit. Cupidatat nisi qui ad sit ut labore id esse tempor proident enim exercitation est aliquip. Ipsum deserunt dolor proident sunt ut proident esse do pariatur duis incididunt id ullamco. Dolore proident consectetur dolor irure mollit commodo sunt dolore.  \r\n",
+          "tags": [
+            "nisi",
+            "ex",
+            "eiusmod"
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.96,
+            40.741726
+          ]
+        },
+        "properties": {
+          "id": "59c0c8e39aa2edasd626e485d",
+          "index": 5,
+          "isActive": false,
+          "logo": "http://placehold.it/32x32",
+          "image": "photo-1488805990569-3c9e1d76d51c.jpg",
+          "link": "detail-rooms.html",
+          "url": "#",
+          "name": "Brooklyn Life, Easy to Manhattan",
+          "subtitle": "Private room",
+          "email": "biancabriggs@prosure.com",
+          "stars": 4,
+          "price": 123,
+          "person": "Stuart",
+          "avatar": "img/avatar/avatar-11.jpg",
+          "phone": "+1 (831) 587-2089",
+          "address": "942 Greenpoint Avenue, Northridge, Puerto Rico, 8248",
+          "about": "Cillum sunt reprehenderit ea non irure veniam dolore commodo labore fugiat est consequat velit. Cupidatat nisi qui ad sit ut labore id esse tempor proident enim exercitation est aliquip. Ipsum deserunt dolor proident sunt ut proident esse do pariatur duis incididunt id ullamco. Dolore proident consectetur dolor irure mollit commodo sunt dolore.  \r\n",
+          "tags": [
+            "nisi",
+            "ex",
+            "eiusmod"
+          ]
+        }
+      }      
+    ]
+  }

@@ -68,3 +68,7 @@ Facilitate content discovery and user search functionality to help users find pe
 As social network apps handle sensitive user information, ensuring privacy and security is crucial. Implement measures like secure user authentication, permissions-based access control, data encryption, and user privacy settings to protect user data and maintain trust.
   </li>
 </ol>
+
+## Contents📝
+- 📑[Report](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/MichelinStar/Documentation.md)
+- 💻[Code](https://github.com/drshahizan/learn-django/tree/main/materials/assignment/submission/MichelinStar/Social_Network_App)

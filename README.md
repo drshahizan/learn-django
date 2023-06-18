@@ -24,6 +24,16 @@ Django is a high-level web framework for building web applications in Python. It
 | 1 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 2 | DataAce | Food Delivery System |  <a href=".materials/assignment/submission/DataAce" ><img src="./images/task.png" width="24px" height="24px" ></a> |
 | 5 | Rivertion | Srudent Information System |  <a href=".materials/assignment/submission/Rivertion" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 1 | CodeX | Booking System |  <a href="./materials/assignment/submission/CodeX/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 2 | DataAce | Food Delivery System |  <a href="./materials/assignment/submission/DataAce/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 4 | DataSphere | Blogging PLatform |  <a href="materials/assignment/submission/DataSphere" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 5 | Gadgeteen | Online Education Platform |  <a href=".materials/assignment/submission/Gadgeteen" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 6 | MichelinStar | Social Network App |  <a href="materials/assignment/submission/MichelinStar/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 7 | Noctua | Job Portal |  <a href="materials/assignment/submission/Noctua" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 8 | Regex | E-Commerce Platform |  <a href="materials/assignment/submission/Regex" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 9 | Rivertion | Student Information System |  <a href="materials/assignment/submission/Rivertion/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 10 | StaticIP | Event Management System |  <a href="materials/assignment/submission/StaticIP/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+
 
 ## Python Web Frameworks
 
@@ -121,4 +131,6 @@ Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for 
 
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+![](https://komarev.com/ghpvc/?username=drshahizan&label=Views&color=0e75b6&style=flat)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
+

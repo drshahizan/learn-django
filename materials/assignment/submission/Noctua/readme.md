@@ -46,5 +46,5 @@ A job board, also known as a job site or job portal, is a website or online plat
 
 ### 📂Folder content:
 
-* [📖Documentation]()
-* [💻Code]()
+* [📖Documentation](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Noctua/Documentation.md)
+* [💻Code](https://github.com/drshahizan/learn-django/tree/main/materials/assignment/submission/Noctua/noctua-job-portal)

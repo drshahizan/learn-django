@@ -1,0 +1,65 @@
+{% extends "layouts/base2.html" %}
+{% load static %}
+
+{% block title %}
+  Order Detail
+{% endblock %}
+
+{% block content %}
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-12">
+        <h1>Order {{ order.id }}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Billing Information</h3>
+        <p><strong>Name:</strong> {{ order.first_name }}</p>
+        <p><strong>Email:</strong> {{ order.last_name }}</p>
+        <p><strong>Address:</strong> {{ order.email }}</p>
+        <p><strong>City:</strong> {{ order.address }}</p>
+        <p><strong>State:</strong> {{ order.postal_code }}</p>
+        <p><strong>ZIP:</strong> {{ order.city }}</p>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-12">
+        <h3>Order Items</h3>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Product</th>
+              <th scope="col">Price</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in order.items.all %}
+            <tr>
+              <td>
+                <a href="{{ item.product.get_absolute_url2 }}">
+                  {% if item.product.image %}
+                  <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" class="img-fluid" width="100">
+                  {% else %}
+                  <img src="{% static '/assets/img/product/no_image.png' %}" alt="{{ item.product.name }}" class="img-fluid" width="100">
+                  {% endif %}
+                  {{ item.product.name }}
+                </a>
+              </td>
+              <td>${{ item.price }}</td>
+              <td>{{ item.quantity }}</td>
+              <td>${{ item.get_cost }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+              <td colspan="3"><strong>Total:</strong></td>
+              <td>${{ order.get_total_cost }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+{% endblock %}

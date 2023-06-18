@@ -1,0 +1,155 @@
+<title>Staff Panel</title>
+{% extends 'admin_layout.html' %}
+{% load static %}
+{% block body %}
+
+
+
+
+{% if user.is_authenticated %}
+<div class="container">
+  <div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5 ">
+      <h1 class="text-center  mb-5">Appointment Booking List</h1>
+      <input class="form-control form-control-lg fs-5 border border-primary" id="myInput" type="text" placeholder="Search Appointment">
+      <br>
+      
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover mx-auto">
+            <thead>
+              <tr>
+                <th class="text-center" scope="col">Time</th>
+                <th class="text-center" scope="col">First Name</th>
+                <th class="text-center" scope="col">Last Name</th>
+                <th class="text-center" scope="col">Service</th>
+                <th class="text-center" scope="col">Date</th>
+                <th class="text-center" scope="col">Status</th>
+                <th class="text-center" scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody id="myTable">
+                {% for item in items %}
+                {% if item.status == 'Pending' %}
+              <tr>
+                <td class="text-center">{{item.time}}</td>
+                <td class="text-center">{{item.user.first_name}}</td>
+                <td class="text-center">{{item.user.last_name}}</td>
+                <td class="text-center">{{item.service}}</td>
+                <td class="text-center">{{item.day}}</td>
+                <td class="text-center">{{item.status}}</td>
+                <td class="text-center"><a href="{% url 'adminUpdate' item.id %}" class="btn btn-primary text-white">Edit</a></td>
+              </tr>
+                {% endif%}
+                {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5 ">
+    <h1 class="text-center  mb-5">Approved Appointment Booking List</h1>
+    <input class="form-control form-control-lg fs-5 border border-primary" id="myInput" type="text" placeholder="Search Appointment">
+    <br>
+    
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped table-hover mx-auto">
+        <thead>
+          <tr>
+            <th class="text-center" scope="col">Time</th>
+            <th class="text-center" scope="col">First Name</th>
+            <th class="text-center" scope="col">Last Name</th>
+            <th class="text-center" scope="col">Service</th>
+            <th class="text-center" scope="col">Date</th>
+            <th class="text-center" scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody id="myTable">
+          {% for item in items %}
+            {% if item.status == 'Approved' %}
+              <tr>
+                <td class="text-center">{{ item.time }}</td>
+                <td class="text-center">{{ item.user.first_name }}</td>
+                <td class="text-center">{{ item.user.last_name }}</td>
+                <td class="text-center">{{ item.service }}</td>
+                <td class="text-center">{{ item.day }}</td>
+                <td class="text-center">{{ item.status }}</td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5 ">
+    <h1 class="text-center  mb-5">Rejected Appointment Booking List</h1>
+    <input class="form-control form-control-lg fs-5 border border-primary" id="myInput" type="text" placeholder="Search Appointment">
+    <br>
+    
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped table-hover mx-auto">
+        <thead>
+          <tr>
+            <th class="text-center" scope="col">Time</th>
+            <th class="text-center" scope="col">First Name</th>
+            <th class="text-center" scope="col">Last Name</th>
+            <th class="text-center" scope="col">Service</th>
+            <th class="text-center" scope="col">Date</th>
+            <th class="text-center" scope="col">Status</th>
+            
+          </tr>
+        </thead>
+        <tbody id="myTable">
+          {% for item in items %}
+            {% if item.status == 'Rejected' %}
+              <tr>
+                <td class="text-center">{{ item.time }}</td>
+                <td class="text-center">{{ item.user.first_name }}</td>
+                <td class="text-center">{{ item.user.last_name }}</td>
+                <td class="text-center">{{ item.service }}</td>
+                <td class="text-center">{{ item.day }}</td>
+                <td class="text-center">{{ item.status }}</td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+
+{% else %}
+
+<div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5">
+  <h1 class="p-2  me-3">First Sign in!</h1>
+  <a href="{% url 'login' %}" class="btn btn-primary text-white">Sign in</a>
+</div>
+
+{% endif %}
+
+<!--Staff Panel Search-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+      $("#myInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#myTable tr").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+</script>
+
+{% endblock %}
+
+

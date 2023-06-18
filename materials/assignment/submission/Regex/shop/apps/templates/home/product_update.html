@@ -1,0 +1,31 @@
+{% extends 'layouts/base.html' %}
+{% block title %}Edit Product{% endblock title %}
+
+{% block content %}
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h1>Edit Product</h1>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="btn btn-success" href="{% url 'shop:product_list' %}">Product List</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {{ form  }}
+                        <br><button class="btn btn-success ml-2" type="submit">Update product</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

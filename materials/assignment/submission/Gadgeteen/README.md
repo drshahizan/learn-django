@@ -53,4 +53,7 @@ In this project, we will be utilising DJango to develop an e-learning platform w
 
 ## Contents📝
 
+📄 [Documentation](Documentation.md)
+
+💻 [Source Code](online_edu_platform)
 

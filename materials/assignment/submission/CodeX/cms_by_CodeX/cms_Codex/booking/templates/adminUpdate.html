@@ -1,0 +1,44 @@
+<title>Edit Appointment</title>
+{% extends 'admin_layout.html' %}
+{% load static %}
+{% block body %}
+
+
+
+
+{% if user.is_authenticated %}
+<!--if 24hrs before nobat-->
+<h1 class="text-center  mt-3">Edit Appointment</h1>
+
+<div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5 ">
+    <form method="post" action="{% url 'adminUpdate' id %}" class="me-2 ms-2" required>
+        {% csrf_token %}
+
+        <!--input service-->
+        <div>
+            <h4 class="">Select Service:</h4>
+            <select class="form-select fs-5" name="status">
+                <option value="Pending">Pending</option>
+                <option value="Rejected">Rejected</option>
+                <option value="Approved">Approved</option>
+            </select>
+        </div>
+
+        <br/>
+        <button type="submit" class="btn btn-success text-white">Continue</button>
+    </form>
+</div>
+<!--else if its 24hrs before editing-->
+
+
+{% else %}
+
+<div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5 ">
+    <h1 class="p-2  me-3">You Are Not Signed in!</h1>
+    <a href="{% url 'register' %}" class="btn btn-primary shadow text-center">Sign in</a>
+</div>
+
+{% endif %}
+
+
+{% endblock %}
