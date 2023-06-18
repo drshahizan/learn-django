@@ -19,3 +19,6 @@ The main data models in this application are User, Post and Comment. These data 
    <li>The user of the system may not have enough of privacy as they system are not able to make privacy setting on users' account.</li>
 </ul>
 <h2>System Interface</h2>
+<h2>Video Demo</h2>
+<a href"https://www.youtube.com/watch?v=Linar24QyzY">Youtube Demo Link : </a>
+https://www.youtube.com/watch?v=Linar24QyzY
