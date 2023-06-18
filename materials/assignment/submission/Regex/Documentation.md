@@ -95,7 +95,7 @@ The application is designed to be easy to use and navigate, with a simple, respo
   
 1. Home Page
 
-When users access the website, they will be directed to the home page to view the products. However, to make a purchase, they must log in first.   
+When users access the website, they will be directed to the home page which is the list of products. However, to make a purchase, they must log in first.   
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236977320-a2140acc-7515-4e6a-baca-54fa74d4fc81.png">
 
 2. Search a Product
@@ -128,7 +128,7 @@ Customers who have signed in can easily find and view the products they desire.
   
 2. Add Products in Cart
 
-To make a purchase, the customer can add the desired item to their cart. If they need to make any changes, they have the option to remove or update items in the cart.
+To make a purchase, the customer can add the desired item to their cart. If they need to make any changes, they have the option to remove or update the items in the cart.
   - Create
   
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236979824-840bf3ed-c8aa-4032-a119-ef900ca23e27.png">
