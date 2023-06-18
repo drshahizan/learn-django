@@ -42,9 +42,11 @@ The main data models in this application are User, Post and Comment. These data 
 
 
 <h2>Quick Start</h2>
-<a href="https://github.com/drshahizan/learn-django/blob/main/materials/django/topic/1-setting.md">How to run the project</a>
-&nbsp;
-<a href="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/MichelinStar/QuickStart.md">How to run the project (if downloaded python and django)</a>
+<ul>
+<li><a href="https://github.com/drshahizan/learn-django/blob/main/materials/django/topic/1-setting.md">How to run the project</a></li>
+
+<li><a href="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/MichelinStar/QuickStart.md">How to run the project (if downloaded python and django)</a></li>
+</ul>
 
 <h2>Video Demo</h2>
 <a href="https://www.youtube.com/watch?v=Linar24QyzY">Youtube Demo Link</a>
