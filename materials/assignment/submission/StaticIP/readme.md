@@ -24,3 +24,6 @@
   </tr>
 </table>
 </div>
+
+# Content 📝
+- [Documentation](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/StaticIP/documentation.md)
