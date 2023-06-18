@@ -29,10 +29,11 @@ env\Scripts\activate
 5. Select own Folder Pathway<br>
 &nbsp;
 
-7. Start the Server by Running the Server
+6. Start the Server by Running the Server
 ```python
 python manage.py runserver
 ```
+&nbsp;
 
 7. Start Django<br>
 Copy the server address and paste it in Chrome
