@@ -10,6 +10,7 @@
    - [Public Access](#public-access)
    - [Admin](#admin)
 - [Quick Start](#quick-start)
+- [Video Demo](#video-demo)
 
 <h2>Project Structure</h2>
 ```bash
