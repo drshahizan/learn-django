@@ -1,12 +1,12 @@
 <h1>Social Network App </h1>
 
 &nbsp;
-<h2>Quick Start</h2>
+<h2>Quick Start 2</h2>
 
 
 1. Clone This Project<br>
 ```python
-git clone https://github.com/drshahizan/learn-django.git
+git clone [https://github.com/drshahizan/learn-django.git](https://github.com/drshahizan/learn-django/tree/main/materials/assignment/submission/MichelinStar)
 ```
 &nbsp;
 
