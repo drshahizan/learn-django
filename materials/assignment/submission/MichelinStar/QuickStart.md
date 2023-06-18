@@ -1,6 +1,6 @@
 <h1>Social Network App </h1>
 
-
+&nbsp;
 <h2>Quick Start</h2>
 
 
@@ -8,24 +8,28 @@
 ```python
 git clone https://github.com/drshahizan/learn-django.git
 ```
+&nbsp;
 
 2. Go to Project Directory<br>
 ```python
 cd C:\Users\user
 ```
+&nbsp;
 
 3. Create a Virtual Environment<br>
+Type CMD (will be redirect to virtual environment)
+&nbsp;
 
-Type CMD (will be redirect to virtual environment.
-
-4. Activate Virtual Environment<br>
+5. Activate Virtual Environment<br>
 ```python
 env\Scripts\activate
 ```
+&nbsp;
 
 5. Select own Folder Pathway<br>
+&nbsp;
 
-6. Start the Server by Running the Server
+7. Start the Server by Running the Server
 ```python
 python manage.py runserver
 ```
