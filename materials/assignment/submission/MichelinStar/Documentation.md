@@ -10,62 +10,48 @@
 - [Quick Start](#quick-start)
 - [Video Demo](#video-demo)
 
+
 <h2>Project Structure</h2>
+
 ```bash
 < PROJECT ROOT >
    |
-   |-- core/                               # Implements app configuration
+   |-- first_project/                      # Implements app configuration
+   |    |-- env                            # Inject Configuration via Environment
    |    |-- settings.py                    # Defines Global Settings
-   |    |-- wsgi.py                        # Start the app in production
    |    |-- urls.py                        # Define URLs served by all apps/nodes
+   |    |-- wsgi.py                        # Start the app in production
    |
-   |-- apps/
+   |-- hello/
+   |    |                   
+   |    |-- views.py                  # Serve HTML pages for authenticated users
+   |    |-- urls.py                   # Define user routes  
+   |    |-- admin.py                  # The configuration for the Django admin interface for the app
    |    |
-   |    |-- home/                          # A simple app that serve HTML files
-   |    |    |-- views.py                  # Serve HTML pages for authenticated users
-   |    |    |-- urls.py                   # Define user routes  
-   |    |    |-- forms.py                  # Define some forms (product, category, cart and order) 
-   |    |    |-- admin.py                  # The configuration for the Django admin interface for the app
+   |-- static/
+   |    |-- assests                   # assets files
+   |    |-- css                       # CSS files
+   |    |-- fonts                     # fonts files
+   |    |-- images                    # images files
+   |    |-- js                        # js files 
+   |    |-- settings                  # settings files
+   |    |-- video                     # video files
    |    |
-   |    |-- authentication/                # Handles auth routes (login and register)
-   |    |    |-- urls.py                   # Define authentication routes  
-   |    |    |-- views.py                  # Handles login and registration  
-   |    |    |-- forms.py                  # Define auth forms (login and register) 
-   |    |
-   |    |-- static/
-   |    |    |-- <css, JS, images>         # CSS files, Javascripts files
-   |    |
-   |    |-- templates/                     # Templates used to render pages
-   |         |-- includes/                 # HTML chunks and components
-   |         |    |-- navigation.html      # Top menu component of admin
-   |         |    |-- navigation2.html     # Top menu component of customer
-   |         |    |-- navigation3.html     # Top menu component of landing page
-   |         |    |-- sidebar.html         # Sidebar component
-   |         |    |-- footer.html          # App Footer
-   |         |    |-- scripts.html         # Scripts common to all pages
-   |         |
-   |         |-- layouts/                   # Master pages
-   |         |    |-- base-fullscreen.html  # Used by Authentication pages
-   |         |    |-- base.html             # Used by common pages
-   |         |    |-- base2.html            # Used by common pages
-   |         |
-   |         |-- accounts/                  # Authentication pages
-   |         |    |-- login.html            # Login page
-   |         |    |-- register.html         # Register page
-   |         |
-   |         |-- home/                      # UI Kit Pages
-   |              |-- index.html            # Index page
-   |              |-- 404-page.html         # 404 page
-   |              |-- *.html                # All other pages
+   |-- templates/                     # Templates used to render pages
+   |         |-- index.html           # Templates used to index pages
+   |         |-- profile.html         # Templates used to profile pages
+   |         |-- search.html          # Templates used to search pages
+   |         |-- setting.html         # Templates used to setting pages
+   |         |-- signin.html          # Templates used to signin pages
+   |         |-- signup.html          # Templates used to signup pages
    |
    |-- requirements.txt                     # Development modules - SQLite storage
    |
-   |-- .env                                 # Inject Configuration via Environment
    |-- manage.py                            # Start the app - Django default start script
    |
    |-- ************************************************************************
-     </PROJECT>
 ```
+
 
 <h2>Design Choices</h2>
 The application is a social network platform that enables users to upload their photos, follow other users and interact from one to another as they are able to like and comment on the photos of other users. The application is designed to provide a user-friendly and intuitive experience, featuring a straightforward and responsive interface that enables users to swiftly locate desired information.
