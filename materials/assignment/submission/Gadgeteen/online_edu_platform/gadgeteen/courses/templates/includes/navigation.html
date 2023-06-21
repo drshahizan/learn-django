@@ -38,13 +38,16 @@
                     <ul class="dropdown-menu dropdown-navbar">
                         <li class="dropdown-divider"></li>
                         {% if request.user.is_authenticated %}
-                        {% if request.user.is_superuser %}
-                        <li class="nav-link"><a href="{% url 'admin:logout' %}" class="nav-item dropdown-item">Log
-                                out</a></li>
+                            {% if request.user.is_superuser %}
+                            <li class="nav-link"><a href="{% url 'admin:logout' %}" class="nav-item dropdown-item">Log
+                                    out</a></li>
+                            {% else %}
+                            <li><a href="{% url 'logout' %}" class="nav-item dropdown-item"><i class="feather icon-lock"></i>
+                                    Logout</a></li>
+                            {% endif %}
                         {% else %}
-                        <li><a href="{% url 'logout' %}" class="dropdown-item"><i class="feather icon-lock"></i>
-                                Logout</a></li>
-                        {% endif %}
+                        <li><a href="{% url 'login' %}" class="nav-item dropdown-item"><i class="feather icon-lock"></i>
+                            Login</a></li>
                         {% endif %}
                     </ul>
                 </li>
