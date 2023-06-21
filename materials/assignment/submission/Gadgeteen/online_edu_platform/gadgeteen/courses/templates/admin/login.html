@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+{% load i18n static admin_black %}
+<html lang="en">
+
+<head>
+    {% include 'includes/head.html' %}
+</head>
+
+<body class="">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent mw-100">
+            <div class="container-fluid overflow-hidden">
+                <div class="navbar-wrapper">
+                    <div class="navbar-toggle d-inline">
+                        <button type="button" class="navbar-toggler">
+                            <span class="navbar-toggler-bar bar1"></span>
+                            <span class="navbar-toggler-bar bar2"></span>
+                            <span class="navbar-toggler-bar bar3"></span>
+                        </button>
+                    </div>
+                    <a class="navbar-brand" href="/">Gadgeteen</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar navbar-kebab"></span>
+                    <span class="navbar-toggler-bar navbar-kebab"></span>
+                    <span class="navbar-toggler-bar navbar-kebab"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navigation">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="input-group d-flex align-items-center mb-0">
+                            <label class="switch theme-switch">
+                                <input type="checkbox" class="bsc" checked="">
+                                <span class="slider"></span>
+                            </label>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Login</a>
+                        </li>
+
+                        <li class="separator d-lg-none"></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+        <div class="container-fluid">
+            <div class="content">
+                <div class="container">
+                    <div class="row pt-5">
+                        <div class="col-md-6 mt-5 offset-md-3 pt-5 mt-5">
+                            <div class="card">
+                                <div class="card-header text-center py-4">
+                                    <h4 class="title">Admin Login</h4>
+                                </div>
+                                <div class="card-body px-5 py-3">
+                                    <form method="post">
+                                        {% csrf_token %}
+                                        {% if form.non_field_errors %}
+                                        {% for error in form.non_field_errors  %}
+                                        <small class="text-danger mb-3">{{ error }}</small>
+                                        {% endfor %}
+                                        {% endif %}
+                                        <div class="form-group">
+                                            <label>Username</label>
+                                            <input type="text" class="form-control" name="{{form.username.name}}"
+                                                placeholder="Username">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Password</label>
+                                            <input type="password" class="form-control" name="{{form.password.name}}"
+                                                placeholder="password">
+                                        </div>
+
+                                        <button type="submit"
+                                            class="btn btn-block btn-primary mt-2 mb-4">Signin</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <footer class="footer px-5 py-4 fixed-bottom">
+                <div class="copyright mx-auto float-none text-center">
+                    ©
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>
+                    made with <i class="tim-icons icon-heart-2"></i>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    {% include 'includes/fixed-plugin.html' %}
+    {% include 'includes/scripts.html' %}
+</body>
+
+</html>
+
+
+{% block extrajs %}
+<script type="application/javascript">
+    {% if form.username.errors %}
+    notification.danger("{{ form.username.errors }}", 'top', 'right');
+    {% endif %}
+    {% if form.password.errors %}
+    notification.danger("{{ form.password.errors }}", 'top', 'right');
+    {% endif %}
+
+    {% if user.is_authenticated %}
+    var msg = "You are authenticated as {{ username }}, but are not authorized to " +
+        "access this page.Would you like to login to a different account ?"
+    notification.warning(msg, 'top', 'right');
+    {% endif %}
+
+    {% if form.errors and not form.non_field_errors %}
+    {% if form.errors.items|length == 1 %}
+    notification.warning("{% trans "Please correct the error below." %}", 'top', 'right');
+    {% else %}
+    notification.warning("{% trans "Please correct the errors below." %}", 'top', 'right');
+    {% endif %}
+    {% endif %}
+
+    {% if form.non_field_errors %}
+    {% for error in form.non_field_errors %}
+    notification.warning("{{ error|clean_text }}", 'top', 'right');
+    {% endfor %}
+    {% endif %}
+</script>
+{% endblock %}

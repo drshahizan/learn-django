@@ -3,7 +3,7 @@
 <a href="https://github.com/drshahizan/learn-django/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-django" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/drshahizan/learn-django/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-django" alt="Issues Badge"/></a>
 <a href="https://github.com/drshahizan/learn-django/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-django?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-django)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Flearn-django&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
 Don't forget to hit the :star: if you like this repo.
 
@@ -18,6 +18,22 @@ Django is a high-level web framework for building web applications in Python. It
 
 1. [Topic](./materials/assignment/topic.md)
 2. [Instructions](./materials/assignment/assignment.md)
+
+| No | Group |  Title |File |
+| :-----: |------ | ------ | :-----: | 
+| 1 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 2 | DataAce | Food Delivery System |  <a href=".materials/assignment/submission/DataAce" ><img src="./images/task.png" width="24px" height="24px" ></a> |
+| 5 | Rivertion | Srudent Information System |  <a href=".materials/assignment/submission/Rivertion" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 1 | CodeX | Booking System |  <a href="./materials/assignment/submission/CodeX/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 2 | DataAce | Food Delivery System |  <a href="./materials/assignment/submission/DataAce/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 4 | DataSphere | Blogging PLatform |  <a href="materials/assignment/submission/DataSphere" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 5 | Gadgeteen | Online Education Platform |  <a href=".materials/assignment/submission/Gadgeteen" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 6 | MichelinStar | Social Network App |  <a href="materials/assignment/submission/MichelinStar/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 7 | Noctua | Job Portal |  <a href="materials/assignment/submission/Noctua" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 8 | Regex | E-Commerce Platform |  <a href="materials/assignment/submission/Regex" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 9 | Rivertion | Student Information System |  <a href="materials/assignment/submission/Rivertion/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 10 | StaticIP | Event Management System |  <a href="materials/assignment/submission/StaticIP/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+
 
 ## Python Web Frameworks
 
@@ -98,9 +114,23 @@ Django is a high-level web framework for building web applications quickly and e
 - 💻 [Template files](https://github.com/tomitokko/django-social-media-template)
 These resources provide a range of options for beginners to find and learn from Django projects.
 
+## Tools
+Diagrams are visual representations of information or data that help convey complex concepts, processes or systems in a clear and concise manner. Flowcharts are diagrams that use shapes and arrows to illustrate the steps in a process or algorithm [**[More info...]**](https://github.com/drshahizan/software-engineering/blob/main/materials/tools.md).
+
+| No | Tools |  File |
+| :-----: |  ------ | :-----: | 
+| 1 | Figma |  <a href="https://github.com/drshahizan/software-engineering/blob/main/materials/figma.md" ><img src="./images/figma.svg" width="24px" height="24px" ></a> | 
+| 2 | Draw.io| <a href="https://github.com/drshahizan/software-engineering/blob/main/materials/uml/drawio/1-draw-io.md" ><img src="./images/drawio.svg" width="24px" height="24px" ></a> | 
+| 3 | Github Pages| <a href="https://github.com/drshahizan/learn-github/blob/main/materials/pages.md" ><img src="./images/github.svg" width="24px" height="24px" ></a> | 
+| 4 | Behance| <a href="https://www.behance.net/" ><img src="./images/behance.svg" width="24px" height="24px" ></a> | 
+| 5 | Visual Studio Code| <a href="https://code.visualstudio.com/" ><img src="./images/vsc.svg" width="24px" height="24px" ></a> | 
+| 6 | Bootstrap Studio| <a href="https://bootstrapstudio.io/" ><img src="./images/bootstrap-studio.png" width="24px" height="24px" ></a> | 
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-django/issues) for any improvements, suggestions or errors in the content.
 
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
+

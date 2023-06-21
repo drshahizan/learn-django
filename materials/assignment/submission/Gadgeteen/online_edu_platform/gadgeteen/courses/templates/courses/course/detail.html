@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends 'layouts/base_user.html' %}
 
 {% block title %}
   {{ object.title }}
@@ -6,10 +6,7 @@
 
 {% block content %}
   {% with subject=object.subject %}
-    <h1>
-      {{ object.title }}
-    </h1>
-    <div class="module">
+    <div class="content" style="min-height:0px !important; padding: 158px 30px 30px 300px;">
       <h2>Overview</h2>
       <p>
         <a href="{% url "course_list_subject" subject.slug %}">
@@ -22,7 +19,7 @@
         <form action="{% url "student_enroll_course" %}" method="post">
           {{ enroll_form }}
           {% csrf_token %}
-          <input type="submit" value="Enroll now">
+          <input class="btn btn-fill btn-primary" type="submit" value="Enroll now">
         </form>
       {% else %}
         <a href="{% url "student_registration" %}" class="button">

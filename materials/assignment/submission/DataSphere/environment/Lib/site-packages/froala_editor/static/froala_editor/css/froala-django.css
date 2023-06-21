@@ -1,0 +1,21 @@
+form .fr-dropdown ul.fr-dropdown-menu {
+    margin-left: 0;
+}
+
+form .fr-element p {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.fr-box {
+    clear: both;
+    z-index: 1;
+}
+
+div.form-row {
+    overflow: visible;
+}
+
+.aligned label:not(.vCheckboxLabel):after {
+    content: none;
+}

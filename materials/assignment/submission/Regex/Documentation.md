@@ -9,6 +9,7 @@
    - [Customers](#customers)
    - [Public Access](#public-access)
    - [Admin](#admin)
+- [Quick Start](#quick-start)
 
 <h2>Project Structure</h2>
 
@@ -94,7 +95,7 @@ The application is designed to be easy to use and navigate, with a simple, respo
   
 1. Home Page
 
-When users access the website, they will be directed to the home page to view the products. However, to make a purchase, they must log in first.   
+When users access the website, they will be directed to the home page which is the list of products. However, to make a purchase, they must log in first.   
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236977320-a2140acc-7515-4e6a-baca-54fa74d4fc81.png">
 
 2. Search a Product
@@ -127,7 +128,7 @@ Customers who have signed in can easily find and view the products they desire.
   
 2. Add Products in Cart
 
-To make a purchase, the customer can add the desired item to their cart. If they need to make any changes, they have the option to remove or update items in the cart.
+To make a purchase, the customer can add the desired item to their cart. If they need to make any changes, they have the option to remove or update the items in the cart.
   - Create
   
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236979824-840bf3ed-c8aa-4032-a119-ef900ca23e27.png">
@@ -187,7 +188,7 @@ The administrator can perform various tasks such as creating, viewing, updating,
   <img width="943" alt="image" src="https://user-images.githubusercontent.com/120556342/236984525-266c3c1d-cf27-4916-994a-0ee1a4fcaec6.png">
 
 
-  - Read
+  - View
   
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236978395-f8c9910d-5b46-4618-8aaf-0d865cf6a389.png">
   <img width="945" alt="image" src="https://user-images.githubusercontent.com/120556342/236978489-889ee112-e1c2-4b22-add6-42c80708a37b.png">
@@ -206,7 +207,7 @@ The administrator can perform various tasks such as creating, viewing, updating,
 
 3. Orders
 
-All created orders will be displayed in the Orders section. The administrators have the ability to view and modify the status of the order, indicating whether it has been shipped or delivered.
+The Orders section will show all created orders. The administrators have the ability to view and modify the status of the order, indicating whether it has been shipped or delivered.
   - Read
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236978877-9434f1bd-4b76-420f-859f-60b8f6d454fa.png">
 
@@ -219,3 +220,7 @@ All created orders will be displayed in the Orders section. The administrators h
   - Search
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979321-7ac6f9ca-9266-4b09-bcd8-a0b26c990e7e.png">
+
+<h2>Quick Start</h2>
+
+[How to Run the Project](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Regex/shop/README.md)

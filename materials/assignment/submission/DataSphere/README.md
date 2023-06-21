@@ -1,16 +1,15 @@
-<h1 align="center"> Blogging Platform <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
+<h1 align="center"> Blogging Platform 💻 ✍️ <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
 </h1>
-<h2 align="center">
-  Group Name
-  <br>
-</h2>
 
 <p align="center">
-  <a>DataSphere</a><br>
+  <img src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/photos/illustration.png" title="Blogging Platform">
 </p>
 
+Introducing our django powered blogging platform: In today's digital age, we understand the need for a seamless and efficient platform to share your thoughts and engage with a global audience. Our blogging platform, built using the Django framework, offers an intuitive and user-friendly experience for writers of all levels. With its robust CRUD functionalities, you can effortlessly create, edit, update, and delete captivating blog posts. Connect with readers through interactive comment sections, fostering a sense of community and sparking engaging discussions. Our platform prioritizes security and scalability, providing a safe and reliable environment for you to focus on what matters most—expressing your ideas and connecting with like-minded individuals. Check out our blogging platform today and embark on a journey of creative expression and meaningful interactions. The directories above lead to the source code of our blogging platform, you will find every file needed to run our website in your machine.
+
+
 <h2 align="center">
-  Group Members
+  Group Members ; DataSphere 📊 🌐
   <br>
 </h2>
 <p align="center">
@@ -42,3 +41,7 @@
   </table>
 </p>
 
+## Contents📝
+- 📑[Project Documentation](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/Documentation.md)
+- 💻[Code Folder](https://github.com/drshahizan/learn-django/tree/main/materials/assignment/submission/DataSphere/blogproject)
+- 📄[Instructions to set up Django](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/DataSphere/Setting%20Up%20a%20Django%20Blogging%20Platform.md)

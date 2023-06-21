@@ -32,5 +32,10 @@
       <td>A20EC0237</td>
     </tr>
   </table>
+  
 </body>
 </html>
+
+## Contents📝
+- 📑[Report](https://github.com/drshahizan/learn-django/blob/2733b8603295df3e9b029eccd0a97971d7ac6019/materials/assignment/submission/Rivertion/Documentation.md)
+- 💻[System](https://github.com/drshahizan/learn-django/tree/213015ff7c5ff468e6d5a7d1c16303b616076159/materials/assignment/submission/Rivertion/StudentInformationSystem)

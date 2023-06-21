@@ -13,3 +13,4 @@ numpy
 fontawesomefree
 attr
 attrs
+django-admin-black

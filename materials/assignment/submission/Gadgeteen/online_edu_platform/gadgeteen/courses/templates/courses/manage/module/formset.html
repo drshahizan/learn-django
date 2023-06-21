@@ -1,17 +1,26 @@
 {% extends "base.html" %}
-
+<style>
+  .{
+    margin-bottom:10px;
+  }
+</style>
 {% block title %}
   Edit "{{ course.title }}"
 {% endblock %}
 
 {% block content %}
-  <h1>Edit "{{ course.title }}"</h1>
-  <div class="module">
+  
+  <div  class="content" style="min-height:0px !important; padding: 158px 30px 30px 300px;">
+    <h1>Edit "{{ course.title }}"</h1>
     <h2>Course modules</h2>
-    <form method="post">
+    
+    <form method="post" style="display: flex;flex-direction: column;justify-content: center;align-items: flex-start;">
       {{ formset }}
+      <br>
       {{ formset.management_form }}
+      <br>
       {% csrf_token %}
+      <br>
       <input type="submit" value="Save modules">
     </form>
   </div>

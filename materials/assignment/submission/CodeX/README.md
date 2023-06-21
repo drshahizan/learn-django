@@ -1,5 +1,5 @@
 <h1 align='center'>DJANGO - CAR MAINTENANCE BOOKING SYSTEM</h1>
-
+<h2 align='center'>Group: CodeX </h2>
 <h2 align='center'>Group Members </h2>
 <table align='center'>
   <tr>

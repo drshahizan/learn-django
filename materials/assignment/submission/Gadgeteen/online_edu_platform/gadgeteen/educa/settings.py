@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -43,8 +44,10 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'redisboard',
     'fontawesomefree',
-    'django.contrib.humanize'
+    'django.contrib.humanize',
+    'admin_black.apps.AdminBlackConfig',
 ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',

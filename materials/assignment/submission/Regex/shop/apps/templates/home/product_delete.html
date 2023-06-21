@@ -1,0 +1,22 @@
+{% extends 'layouts/base.html' %}
+{% block title %}Delete Product{% endblock title %}
+
+{% block content %}
+<div class="container-fluid mt-4 pt-3">
+    <div class="row justify-content-center">
+        <div class="col-xl-4">
+            <div class="card">
+                <div class="px-3 py-3">
+                    <h2>Delete Product</h2>
+                    <form action="" method="post">{% csrf_token %}
+                        <p>Are you sure you want to delete this Product?</p>
+                        <a href="{% url 'shop:product_list' %}" class="btn btn-secondary"> Cancel </a>
+                        <button class="btn btn-danger ml-2" type="submit">Confirm</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

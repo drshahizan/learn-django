@@ -1,0 +1,82 @@
+{% load i18n static admin_black %}
+<ul class="nav">
+  {% if not request.user.is_authenticated %}
+  <li class="{% if 'pages' in parent %}active{% endif %}">
+    <a data-toggle="collapse" href="#pagesExamples">
+      <i class="tim-icons icon-lock-circle"></i>
+      <p>
+        Profile
+        <b class="caret"></b>
+      </p>
+    </a>
+    <div class="collapse" id="pagesExamples">
+      <ul class="nav">
+        <li>
+          <a href="{% url 'login' %}">
+            <span class="sidebar-mini-icon">L</span>
+            <span class="sidebar-normal"> Login </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </li>
+  {% else %}
+  <li class="{% if 'pages' in parent %}active{% endif %}">
+    <a data-toggle="collapse" href="#pagesExamples">
+      <i class="tim-icons icon-lock-circle"></i>
+      <p>
+        Profile
+        <b class="caret"></b>
+      </p>
+    </a>
+    <div class="collapse" id="pagesExamples">
+      <ul class="nav">
+        <li>
+          <a href="{% url 'logout' %}">
+            <span class="sidebar-mini-icon">L</span>
+            <span class="sidebar-normal"> Logout </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </li>
+  {% endif %}
+  {% if request.user.is_active and request.user.is_staff %}
+  {% admin_get_menu as app_list %}
+  {% if app_list %}
+  {% for app in app_list %}
+  {% if app.has_perms and not app.pinned %}
+  <li class="">
+    <a data-toggle="collapse" href="#dashboards{{app.app_label}}" aria-expanded="false">
+      <i class="tim-icons {% if app.icon %} {{ app.icon }} {% else %} icon-lock-circle{% endif %}"></i>
+      <p>
+        {{ app.label|slice:15 }}{% if app.label|length > 15 %}..{% endif %}
+        <b class="caret"></b>
+      </p>
+    </a>
+    {% if app.models %}
+    <div
+      class="collapse {% if 'tables-bootstrap-' in segment or app_label == app.label or app.url in request.path|urlencode %} show {% endif %}"
+      id="dashboards{{app.app_label}}">
+      <ul class="nav">
+        {% for model in app.models %}
+        {% if model.url %}
+        <li class="{% if 'bootstrap-tables' in segment or model.url in request.path|urlencode %} active {% endif %}">
+          <a href="{{ model.url }}">
+            <span class="sidebar-mini-icon">{{ model.label|first }}</span>
+            <span class="sidebar-normal">{{ model.label }}</span>
+          </a>
+        </li>
+        {% else %}
+        <li class="">{{ model.label }}</li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </li>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+  {% endif %}
+</ul>

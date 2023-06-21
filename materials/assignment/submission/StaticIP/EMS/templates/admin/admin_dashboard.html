@@ -1,0 +1,67 @@
+{% extends 'admin/adminbase.html' %}
+{% block content %}
+<br><br>
+<div class="container">
+
+    <div class="row">
+      <div class="col-sm-3">
+          <div class="card bg-light">
+              <div class="card-body">
+                  <div class="blood">
+                      <i class="fas fa-spinner" style="color:#efb000;"></i>
+                  </div><br>
+                  <div>
+                      Total Event Requests <br>
+                     {{totalrequest}}
+                  </div>                            
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card bg-light">
+            <div class="card-body">
+                <div class="blood">
+                  <i class="fas fa-sync xyz" style="color:#efb000;"></i>
+                </div><br>
+                <div>
+                    Pending Event Request <br>
+                    {{totalrequestpending}}
+                </div>                            
+            </div>
+          </div>
+      </div>
+
+        <div class="col-sm-3">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <div class="blood">
+                        <i class="far fa-check-circle" style="color:green;"></i>
+                    </div><br>
+                    <div>
+                        Approved Event Requests <br>
+                        {{totalapprovedrequest}}
+                    </div>                            
+                </div>
+              </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <div class="blood">
+                      <i class="fas fa-times-circle xyz" style="color: red;"></i>
+                    </div><br>
+                    <div>
+                         Rejected Event Request <br>
+                        {{totalrequestrejected}}
+                    </div>                            
+                </div>
+              </div>
+          </div>
+
+    </div>
+</div>
+
+
+{% endblock content %}

@@ -1,0 +1,17 @@
+.fak, .fa-kit {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome Kit";
+}
+
+@font-face {
+  font-family: "Font Awesome Kit";
+  font-style: normal;
+  font-display: block;
+  src: {{#each fontFaceSources}}url("{{this.url}}") format("{{this.format}}"){{#unless @last}}, {{/unless}}{{/each ~}};
+}

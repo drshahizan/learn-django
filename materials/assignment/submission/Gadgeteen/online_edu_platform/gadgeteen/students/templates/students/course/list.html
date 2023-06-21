@@ -1,10 +1,11 @@
-{% extends "base.html" %}
+{% extends "layouts/base.html" %}
 
 {% block title %}My courses{% endblock %}
 
 {% block content %}
-  <h1>My courses</h1>
-  <div class="module">
+
+  <div class="content" style="min-height:0px !important; padding: 158px 30px 30px 300px;">
+    <h1>My courses</h1>
     {% for course in object_list %}
       <div class="course-info">
         <h3>{{ course.title }}</h3>

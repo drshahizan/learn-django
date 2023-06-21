@@ -1,0 +1,178 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block head %}
+<title>Home</title>
+<link rel="stylesheet" href="{% static 'booking/css/bootstrap.css' %}">
+<link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+  .text-overlay {
+    background-color: rgba(209, 35, 35, 0);
+    color: #fff;
+    width: 1000px;
+    height: 405px;
+  }
+
+  .text-center1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+
+  .container1 {
+    background-color: lightgray;
+  }
+
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  container {
+    height: 100%;
+    margin: 10px;
+    padding: 0;
+  }
+
+  .wrapper {
+    min-height: 100%;
+    position: relative;
+  }
+
+  #services {
+    padding-bottom: 50px;
+    margin-top: 20px; /* Added margin */
+    margin: 0;
+  }
+
+  .service {
+    border: 1px solid black; /* Added outline */
+    border-radius: 5px; /* Added border radius */
+    padding: 20px; /* Added padding */
+    margin-bottom: 20px; /* Added margin bottom */
+    margin: 30px;
+  }
+
+  .service-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+  }
+
+  .service-icon i {
+    font-size: 30px;
+    color: #333;
+  }
+
+</style>
+{% endblock %}
+
+{% block body %}
+
+  <!--Hero 1 Start-->
+
+  <div class="bg bg-dark text-white  pb-5">
+    <div class="text-center pt-5  "> 
+      <h1 class=" ">Services</h1>   
+      <p></p>
+      <p></p>
+      <p></p>
+        <a type="button" class="btn btn-success shadow " href="{% url 'booking' %}">Book Now</a>
+    </div>
+</div>
+
+<!--Hero 1 End-->
+
+<div class="bg bg-light">
+
+<div class = "container">
+<section id="services">
+    <table>
+      <tr>
+        <td>
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-car"></i>
+            </div>
+            <h2>Brake Repair</h2>
+            <p>Addressing issues with the braking system, including brake pad replacement, rotor resurfacing or replacement, and brake fluid flush to maintain safe and efficient braking performance.</p>
+          </div>
+        </td>
+        <td>
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-snowflake"></i>
+            </div>
+            <h2>Coolant System Services</h2>
+            <p>Performing maintenance tasks such as coolant flush and refill to prevent engine overheating and ensure proper cooling system function.</p>
+          </div>
+        </td>
+        <td>
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h2>Air and Cabin Filter Replacement</h2>
+            <p>Swapping out the air filter to maintain clean airflow to the engine and replacing the cabin filter for fresh and clean air inside the vehicle.</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        
+        <td>
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-tint"></i>
+            </div>
+            <h2>Oil Change and Oil Filter</h2>
+            <p>Regularly replacing the engine oil and oil filter to keep the engine lubricated and running smoothly.</p>
+          </div>
+        </td>
+        <td>
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-car-crash"></i>
+            </div>
+            <h2>Windshield Wipers and Fluid</h2>
+            <p>Replacing worn-out windshield wipers and ensuring an adequate supply of windshield washer fluid for clear visibility during rain or snow.</p>
+        </td>
+        <td>
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-battery-empty"></i>
+            </div>
+            <h2>Battery Replacement</h2>
+            <p>Installing a new battery to ensure reliable starting and electrical power for the vehicle.</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+      <td></td>
+      <td>
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-tape"></i>
+            </div>
+            <h2>Tire Replacement and Wheel Balance and Rotation</h2>
+            <p>Changing worn-out tires, ensuring proper wheel balance, and rotating tires to promote even wear and prolong their lifespan.</p>
+          </div>
+        </td>
+        <td></td>
+        <!-- ... Remaining service entries ... -->
+      </tr>
+    </table>
+  </section>
+</div>
+
+
+
+{% endblock %}
