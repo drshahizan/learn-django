@@ -82,18 +82,17 @@ The main data models in this application are User, Post and Comment. These data 
 
 <h4>User Login Page</h4>
 <p align="center">
-<img src="
-" width="600" />
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/244bda4d-fd64-4a1b-8267-5ec2573632b5" width="600" />
 </p>
 
 <h4>User Sign Up Page</h4>
 <p align="center">
-<img src="https://github.com/drshahizan/learn-django/assets/120615951/0f221929-5f74-4ec4-b31a-f3fef8a7008a" width="600" />
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/4bb39ced-368f-408b-8d5c-8ac79cdb5f15" width="600" />
 </p>
 
 <h4>Set Up after Sign Up</h4>
 <p align="center">
-<img src="https://github.com/drshahizan/learn-django/assets/120615951/4bb39ced-368f-408b-8d5c-8ac79cdb5f15" width="600" />
+<img src="" width="600" />
 </p>
 
 <h4>User Home Page</h4>
