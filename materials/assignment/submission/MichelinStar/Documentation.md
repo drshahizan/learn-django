@@ -80,10 +80,39 @@ The main data models in this application are User, Post and Comment. These data 
 
 <h2>System Interface</h2>
 
-<h4> User Login</h4>
+<h4>User Login Page</h4>
 <p align="center">
 <img src="https://github.com/drshahizan/learn-django/assets/120615951/1524b508-859d-4132-84fa-f334785dd1a0" width="600" />
+</p>
 
+<h4>User Sign Up Page</h4>
+<p align="center">
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/0dcb08b8-47a2-4e32-9cea-033a7a306ac7" width="600" />
+</p>
+
+<h4>Set Up after Sign Up</h4>
+<p align="center">
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/4bb39ced-368f-408b-8d5c-8ac79cdb5f15" width="600" />
+</p>
+
+<h4>User Home Page</h4>
+<p align="center">
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/1524b508-859d-4132-84fa-f334785dd1a0" width="600" />
+</p>
+
+<h4>Upload Photo</h4>
+<p align="center">
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/f48ed4f3-9841-4b77-a7f1-295aa3c3aa10" width="600" />
+</p>
+
+<h4>Search Result </h4>
+<p align="center">
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/28fc7f7b-3d91-4f15-961e-74639ac96068" width="600" />
+</p>
+
+<h4>View Other Users</h4>
+<p align="center">
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/7e34f476-d190-4c64-89b0-b96665c84c40" width="600" />
 </p>
 
 <h2>Quick Start</h2>
