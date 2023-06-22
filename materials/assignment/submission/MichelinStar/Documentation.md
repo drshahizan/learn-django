@@ -80,6 +80,11 @@ The main data models in this application are User, Post and Comment. These data 
 
 <h2>System Interface</h2>
 
+<h4> User Login</h4>
+<p align="center">
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/1524b508-859d-4132-84fa-f334785dd1a0" width="600" />
+
+</p>
 
 <h2>Quick Start</h2>
 <ul>
