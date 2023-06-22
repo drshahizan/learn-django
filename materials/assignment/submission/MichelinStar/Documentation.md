@@ -82,7 +82,8 @@ The main data models in this application are User, Post and Comment. These data 
 
 <h4>User Login Page</h4>
 <p align="center">
-<img src="https://github.com/drshahizan/learn-django/assets/120615951/1524b508-859d-4132-84fa-f334785dd1a0" width="600" />
+<img src="
+" width="600" />
 </p>
 
 <h4>User Sign Up Page</h4>
@@ -107,12 +108,12 @@ The main data models in this application are User, Post and Comment. These data 
 
 <h4>Search Result </h4>
 <p align="center">
-<img src="https://github.com/drshahizan/learn-django/assets/120615951/28fc7f7b-3d91-4f15-961e-74639ac96068" width="600" />
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/8b26c404-42d1-4458-a301-9ce2def2157d" width="600" />
 </p>
 
 <h4>View Other Users</h4>
 <p align="center">
-<img src="https://github.com/drshahizan/learn-django/assets/120615951/7e34f476-d190-4c64-89b0-b96665c84c40" width="600" />
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/852b4f2e-1249-4296-8dfe-8d34ebb00808" width="600" />
 </p>
 
 <h2>Quick Start</h2>
