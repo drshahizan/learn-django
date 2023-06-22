@@ -92,7 +92,7 @@ The main data models in this application are User, Post and Comment. These data 
 
 <h4>Set Up after Sign Up</h4>
 <p align="center">
-<img src="" width="600" />
+<img src="https://github.com/drshahizan/learn-django/assets/120615951/da0ba4fd-355b-42e8-8114-399abb030161" width="600" />
 </p>
 
 <h4>User Home Page</h4>
