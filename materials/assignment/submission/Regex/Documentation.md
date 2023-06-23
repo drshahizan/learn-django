@@ -1,6 +1,7 @@
 <h1>E-commerce platform</h1>
 
 ## Table of Content
+- [Introduction](#introduction)
 - [Project Structure](#project-structure)
 - [Design Choices](#design-choices)
 - [Assumptions](#assumptions)
@@ -9,7 +10,19 @@
    - [Customers](#customers)
    - [Public Access](#public-access)
    - [Admin](#admin)
+- [Conclusion](#conclusion)
 - [Quick Start](#quick-start)
+
+<h2>Introduction</h2>
+The e-commerce industry has transformed the way we buy and sell products and services. Customers can now shop online, browse through numerous products, and purchase them from the comfort of their homes. We will explore developing an e-commerce platform using the Django framework, which is a versatile Python web framework that follows the Model-View-Controller (MVC) architectural pattern. Django simplifies the development process by providing built-in features and tools, and we will leverage these features to create a user-friendly and responsive e-commerce website.
+
+Our platform will have a straightforward design that focuses on ease of use and functionality. It will consist of several key components, including Category, Product, Order, and OrderItem models that will allow us to organize products into different categories, manage customer orders, and track order items. Customers will have an intuitive and responsive user interface to ensure a seamless shopping experience. They will be able to view product listings, search for specific items, add products to their shopping cart, and make modifications before proceeding to the checkout process. The platform will also collect shipping and billing details for smooth order fulfillment.
+
+Administrators will have a comprehensive dashboard that will display vital information such as product listings, categories, orders, and total sales. They will have the ability to create, modify, and remove categories and products, as well as view and modify order statuses. This level of control ensures efficient management of the e-commerce platform and enables administrators to provide excellent customer service.
+
+It's essential to note that our e-commerce platform may not be optimized for large-scale applications and may have security and performance considerations that need to be addressed for real-world deployment. Nonetheless, this project will provide a solid foundation for understanding the development of e-commerce platforms using Django and serve as a starting point for future enhancements and improvements.
+
+In brief, our e-commerce platform using Django will showcase the power and flexibility of this popular web framework. By leveraging Django's features and following best practices, we aim to create a user-friendly and responsive e-commerce website that allows customers to browse, search, and purchase products effortlessly while providing administrators with the necessary tools to manage and monitor the platform effectively.
 
 <h2>Project Structure</h2>
 
@@ -220,6 +233,10 @@ The Orders section will show all created orders. The administrators have the abi
   - Search
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979321-7ac6f9ca-9266-4b09-bcd8-a0b26c990e7e.png">
+
+<h2>Conclusion</h2>
+
+In conclusion, the e-commerce website is a user-friendly platform built on the Django framework to ensure a smooth and hassle-free checkout process. The primary data models used include Category, Product, Order, and OrderItem, which help to organize products and manage the checkout process. The UI is easy to navigate and responsive, using HTML templates, CSS, and JavaScript. It is important to note that proper indexing of the database is crucial to prevent potential security vulnerabilities and performance issues. Additionally, it is assumed that products are priced uniformly, there is only one seller, and all products are available for purchase at any time. Overall, this website is a great option for online shopping.
 
 <h2>Quick Start</h2>
 
