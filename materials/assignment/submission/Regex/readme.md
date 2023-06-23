@@ -36,3 +36,6 @@ E-commerce, short for electronic commerce, refers to the buying and selling of g
 ## Contents📝
 - 📑[Documentation](https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Regex/Documentation.md)
 - 💻[Code](https://github.com/drshahizan/learn-django/tree/main/materials/assignment/submission/Regex/shop)
+
+## Overview of the e-commerce platform
+  This e-commerce website is built on the Django framework and has a simple design. It utilizes four primary data models: Category, Product, Order, and OrderItem. The interface is user-friendly and responsive. The system assumes uniform pricing, one seller, and constant product availability. The implementation is not optimized for large-scale applications and may have security and performance issues. The website allows customers to view, search, add, and modify products in their cart before providing shipping and billing details. Admins can access a dashboard displaying products, categories, orders, and total sales. They can create, modify, remove, view, search for categories and products, and view and modify order status.
