@@ -19,7 +19,7 @@ Don't forget to hit the :star: if you like this repo.
 | 5 | Gadgeteen | Online Education Platform |  <a href="Gadgeteen" ><img src="../../../images/task.png" width="24px" height="24px" ></a> | 
 | 6 | MichelinStar | Social Network App |  <a href="MichelinStar/" ><img src="../../../images/task.png" width="24px" height="24px" ></a> | 
 | 7 | Noctua | Job Board Platform |  <a href="Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> | 
-| 8 | Regex | E-Commerce Platform |  <a href="Regex" ><img src="../../../images/task.png" width="24px" height="24px" ></a> | 
+| 8 | Regex | E-Commerce Platform |  <a href="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/Regex/readme.md" ><img src="../../../images/task.png" width="24px" height="24px" ></a> | 
 | 9 | Rivertion | Student Information System |  <a href="Rivertion/" ><img src="../../../images/task.png" width="24px" height="24px" ></a> | 
 | 10 | StaticIP | Event Management System |  <a href="StaticIP/" ><img src="../../../images/task.png" width="24px" height="24px" ></a> | 
 
