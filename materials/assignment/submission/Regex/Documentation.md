@@ -1,4 +1,4 @@
-<h1>E-commerce platform</h1>
+<h1 align="center">E-commerce platform🛒 </h1>
 
 ## Table of Content
 - [Introduction](#introduction)
@@ -14,7 +14,8 @@
 - [Quick Start](#quick-start)
 
 <h2>Introduction</h2>
-The e-commerce industry has transformed the way we buy and sell products and services. Customers can now shop online, browse through numerous products, and purchase them from the comfort of their homes. We will explore developing an e-commerce platform using the Django framework, which is a versatile Python web framework that follows the Model-View-Controller (MVC) architectural pattern. Django simplifies the development process by providing built-in features and tools, and we will leverage these features to create a user-friendly and responsive e-commerce website.
+
+   The e-commerce industry has transformed the way we buy and sell products and services. Customers can now shop online, browse through numerous products, and purchase them from the comfort of their homes. We will explore developing an e-commerce platform using the Django framework, which is a versatile Python web framework that follows the Model-View-Controller (MVC) architectural pattern. Django simplifies the development process by providing built-in features and tools, and we will leverage these features to create a user-friendly and responsive e-commerce website.
 
 Our platform will have a straightforward design that focuses on ease of use and functionality. It will consist of several key components, including Category, Product, Order, and OrderItem models that will allow us to organize products into different categories, manage customer orders, and track order items. Customers will have an intuitive and responsive user interface to ensure a seamless shopping experience. They will be able to view product listings, search for specific items, add products to their shopping cart, and make modifications before proceeding to the checkout process. The platform will also collect shipping and billing details for smooth order fulfillment.
 
