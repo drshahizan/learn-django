@@ -6,11 +6,15 @@
 - [Assumptions](#assumptions)
 - [Limitations](#limitations)
 - [System Interface](#system-interface)
+    - [General](#general)
+    - [Admin](#admin)
+    - [Instructor](#instructor)
+    - [Student](#student)
 
 <h2>Project Structure</h2>
 
 ```
-Gadgeteen
+gadgeteen
 ├── courses
 │   ├── admin.py
 │   ├── apps.py
