@@ -92,11 +92,12 @@ gadgeteen
 
 <h3>General</h3>
 
-1. Homepage
+1. Landing Page
 
+The landing page shows a list of subjects and courses. User need to register or login to access the content.
 ![Screenshot from 2023-06-23 14-00-22](https://github.com/drshahizan/learn-django/assets/69034742/db61f8b8-ee65-42bf-9471-e9e0d5464131)
 
-2. Student Sign up
+3. Student Sign up
 
 ![Screenshot from 2023-06-23 14-03-24](https://github.com/drshahizan/learn-django/assets/69034742/a3584ee9-9ee8-42c9-978c-fc42d755a901)
 
@@ -154,6 +155,7 @@ gadgeteen
 
 5. Manage Content
 
+Instructor can create several types of new content including text, image, video and file content. Then, instructor can edit or delete existing content.
 ![Screenshot from 2023-06-22 01-37-49](https://github.com/drshahizan/learn-django/assets/69034742/26501fdc-6e1b-4236-b6ba-cd9c90c3fd08)
 
 
@@ -161,10 +163,12 @@ gadgeteen
 
 1. My Course
 
+The system shows the list of courses that the student is enrolled. Student can view the content by clicking 'Access contents'.
 ![Screenshot from 2023-06-22 01-33-28](https://github.com/drshahizan/learn-django/assets/69034742/da0cc1c9-5cac-470f-98f3-5f63b966eb4c)
 
 2. Access Course
 
+After student click 'Access contents', the system display the module and its contents. Student can switch module by clicking on the link in the modules list.
 ![Screenshot from 2023-06-22 01-38-09](https://github.com/drshahizan/learn-django/assets/69034742/e394aee8-e147-4627-bead-8d38795eb3f4)
 
 
