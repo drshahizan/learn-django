@@ -70,37 +70,37 @@
 
 <h2>Design Choices</h2>
 
-The application is a simple e-commerce website that allows users to browse products, add them to a cart, and checkout by creating an order. The design of the application is straightforward and built on top of the Django framework.
+This e-commerce website is a user-friendly platform that enables users to explore a wide range of products, add them to their cart, and effortlessly complete their checkout process by placing an order. The application is built on top of the reliable Django framework and has a simple yet efficient design.
 
-The main data models used in the application are Category, Product, Order, and OrderItem. Category and Product are used to organize the products in the database, while Order and OrderItem are used to manage the checkout process.
+The primary data models utilized in this application are Category, Product, Order, and OrderItem. Category and Product are used to systematically organize the products in the database, while Order and OrderItem are responsible for managing the checkout process.
 
-The application is designed to be easy to use and navigate, with a simple, responsive interface that allows users to quickly find what they are looking for. The UI is built with HTML templates, CSS, and JavaScript.
+The application's interface is designed to be smooth and hassle-free, catering to users' convenience. The UI is crafted using HTML templates, CSS, and JavaScript and has a responsive design that allows for easy navigation and quick access to the desired products.
 
 <h2>Assumptions</h2>
 
-- The system assumes that all products are priced the same regardless of quantity or any other factors, as there is no option to set different prices for different quantities or offer discounts or promotions.
+- The system assumes that products are priced uniformly, irrespective of the quantity or any other factors. It does not allow sellers to offer discounts or promotions on different quantities.
 - The system assumes there is only one seller in the system. 
 - The system assumes that all products are available for purchase at all times, and there is no option to indicate if a product is out of stock or temporarily unavailable.
 
 <h2>Limitations</h2>
 
-- The implementation may not be optimized for large-scale applications, as it has not been tested with very large datasets.
+- The implementation may not be optimized for large-scale applications, as it has not been tested with high volumes datasets.
 - The implementation may have security vulnerabilities, such as SQL injection attacks, if not used and configured properly.
 - The implementation assumes that the database schema is already created and will not handle schema changes automatically. Manual intervention may be required to handle schema changes.
 - The implementation may have performance issues if the database is not properly indexed.
-- The implementation does not integrate with payment gateway.
+- The implementation does not integrate with the payment gateway.
 
 <h2>System Interface</h2>
 <h4>Public Access</h4>
   
 1. Home Page
 
-When users access the website, they will be directed to the home page which is the list of products. However, to make a purchase, they must log in first.   
+Upon accessing the website, users will be directed to the home page where they can view the list of available products. In order to make a purchase, it is necessary to log in first.   
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236977320-a2140acc-7515-4e6a-baca-54fa74d4fc81.png">
 
 2. Search a Product
   
-To find a specific product, users can simply type in their desired item in the search bar. 
+To locate a specific product, simply enter the name of the item you desire in the search bar and the results will appear shortly thereafter. 
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236977386-f8b6ac2e-e909-417c-905b-44701b796e1b.png">
 
 3. User Registration
@@ -117,8 +117,8 @@ Once registered, the user will be prompted to proceed to the login page.
   
 1. Product
 
-Customers who have signed in can easily find and view the products they desire.
-  - Read
+Customers who have signed in can easily find and view desired products.
+  - View 
   
   <img width="945" alt="image" src="https://user-images.githubusercontent.com/120556342/236979630-5139d7af-1def-4662-937d-ebd4a22f6674.png">
 
@@ -126,25 +126,25 @@ Customers who have signed in can easily find and view the products they desire.
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979689-b3b6e767-5d29-4916-b384-94be1e183b09.png">
   
-2. Add Products in Cart
+2. Add Products to the Cart
 
 To make a purchase, the customer can add the desired item to their cart. If they need to make any changes, they have the option to remove or update the items in the cart.
-  - Create
+  - Add products to cart
   
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236979824-840bf3ed-c8aa-4032-a119-ef900ca23e27.png">
 
-  - Read/Update/Delete
+  - View/Update/Delete products in the cart
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979869-279d4f59-9654-4689-b989-7df91a9414d9.png">
 
 3. Order
 
 To complete the order, customers need to provide their shipping and billing details.
-  - Create
+  - Add details
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979957-134e72b6-6388-41b2-9423-a97235ecc709.png">
 
-  - Read
+  - View details
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236980163-cacf530a-70ed-472d-9a1f-fcdfdbc6443e.png">
   
@@ -160,11 +160,11 @@ When logging in as an administrator, the interface will appear differently. The 
 2. Category
 
 The administrator can create, modify, remove, view, and search product categories that have been made.
-  - Create
+  - Add 
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236977962-0bbe1558-90b5-4772-a0e8-2d640ea25f81.png">
   
-  - Read
+  - View
   
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236977910-abd43419-baf5-4b12-907c-bfa4aa69e1f0.png">
 
@@ -183,7 +183,7 @@ The administrator can create, modify, remove, view, and search product categorie
 2. Products
 
 The administrator can perform various tasks such as creating, viewing, updating, deleting, and searching for new or previously listed products to sell in the store.
-  - Create
+  - Add
   
   <img width="943" alt="image" src="https://user-images.githubusercontent.com/120556342/236984525-266c3c1d-cf27-4916-994a-0ee1a4fcaec6.png">
 
@@ -208,7 +208,7 @@ The administrator can perform various tasks such as creating, viewing, updating,
 3. Orders
 
 The Orders section will show all created orders. The administrators have the ability to view and modify the status of the order, indicating whether it has been shipped or delivered.
-  - Read
+  - View
   <img width="947" alt="image" src="https://user-images.githubusercontent.com/120556342/236978877-9434f1bd-4b76-420f-859f-60b8f6d454fa.png">
 
   <img width="960" alt="image" src="https://user-images.githubusercontent.com/120556342/236979112-dc0f7710-a831-4378-9c1f-a9bacc325ecd.png">
