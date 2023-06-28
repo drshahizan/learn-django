@@ -21,11 +21,9 @@ Django is a high-level web framework for building web applications in Python. It
 
 | No | Group |  Title |File |
 | :-----: |------ | ------ | :-----: | 
-| 1 | | |  <a href=".materials/assignment/submission" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 2 | DataAce | Food Delivery System |  <a href=".materials/assignment/submission/DataAce" ><img src="./images/task.png" width="24px" height="24px" ></a> |
-| 5 | Rivertion | Srudent Information System |  <a href=".materials/assignment/submission/Rivertion" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 1 | CodeX | Booking System |  <a href="./materials/assignment/submission/CodeX/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 2 | DataAce | Food Delivery System |  <a href="./materials/assignment/submission/DataAce/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 1 | Rivertion | Student Information System |  <a href=".materials/assignment/submission/Rivertion" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 2 | CodeX | Booking System |  <a href="./materials/assignment/submission/CodeX/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 3 | DataAce | Food Delivery System |  <a href="./materials/assignment/submission/DataAce" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 4 | DataSphere | Blogging PLatform |  <a href="materials/assignment/submission/DataSphere" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 5 | Gadgeteen | Online Education Platform |  <a href=".materials/assignment/submission/Gadgeteen" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 6 | MichelinStar | Social Network App |  <a href="materials/assignment/submission/MichelinStar/" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
