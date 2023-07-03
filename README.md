@@ -107,7 +107,7 @@ Django is a high-level web framework for building web applications quickly and e
 
 #### Django: Project
 - [Build a Social Media App with Django – Python Web Framework Tutorial](https://youtu.be/xSUm6iMtREA)
-- 💻 [Source code:](https://github.com/tomitokko/django-social-media-website)
+- 💻 [Source code](https://github.com/tomitokko/django-social-media-website)
 - 💻 [Template files](https://github.com/tomitokko/django-social-media-template)
 These resources provide a range of options for beginners to find and learn from Django projects.
 
