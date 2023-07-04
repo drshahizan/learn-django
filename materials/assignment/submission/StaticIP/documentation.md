@@ -1,10 +1,17 @@
 <h1 align ='center'>Event Management System</h1>
 
 ## Table Content
+- [Introduction](#introduction)
+- [Project Structure](#project-structure)
+- [Design Choices](#design-choices)
+- [Assumptions](#assumptions)
+- [Limitations](#limitations)
 - [System Interface](#system-interface)
-  - [Admin](#Admin)
-<h2>Project Structure</h2>
+- [Conclusion](#conclusion)
+- [Quick Start](#quick-start)
 
+## Introduction
+## Project Structure
 ```
 django-event-management
 ├───.idea
@@ -45,11 +52,10 @@ django-event-management
     ├───base
     └───events
 ```
-
-<h2>System Interface</h2>
-
-<h4>Admin</h4>
-
+## Design Choices
+## Assumptions
+## Limitations
+## System Interface
 1. Dashboard
 
 Admin can view the event category, number of user registrations and complete event on the dashboard. All the functions such as create, edit, delete can be accessed on the dashboard. 
@@ -79,3 +85,5 @@ Another function is where the admin can add new event member for different event
  
  <img width="920" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/StaticIP/event/photo/9-join%20event%20list.png">
  
+## Conclusion
+## Quick Start
