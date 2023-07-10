@@ -58,11 +58,9 @@ django-event-management
 ```
 ## Design Choices
 
-Design Choices This event management system is a comprehensive platform that enables users to discover, create, and participate in various events, such as concerts, workshops, seminars, and parties. The application is built on the powerful Django framework and has a modular and adaptable design.
+Our Event Management System is built on Django, which is a highly reliable and robust framework. This ensures that the application has a strong foundation. To effectively organize and manage event related information, our system utilizes key data models such as Event Category, Job Category, Event Agenda, Event Job Category Linking, Event Member, Event User Wishlist, User Coin and Event Image.
 
-The main data models used in this application are EventCategory, JobCategory, Event, EventImage, EventAgenda, EventJobCategoryLinking, EventMember, EventUserWishList, and UserCoin. EventCategory and JobCategory are used to classify the events and the jobs associated with them, while Event, EventImage, and EventAgenda are used to store the information of the events and their images and schedules. EventJobCategoryLinking is used to link the events and the jobs that are required for them, while EventMember and EventUserWishList are used to manage the registration and the interest of the users for the events. UserCoin is used to keep track of the coins that the users earn or spend by creating or joining events.
-
-The application’s interface is designed to be attractive and user-friendly, catering to users’ needs. The UI is created using HTML templates, CSS, Bootstrap, and jQuery and has a responsive design that allows for easy searching and browsing of the events.
+The user interface of our system is designed to be intuitive and user friendly. This provides event organizers with a seamless experience. The UI is created using HTML templates, CSS, and JavaScript to create a visually appealing and responsive design. This allows for easy navigation and efficient access to essential features. 
 
 ## Assumptions
 
