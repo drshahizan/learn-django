@@ -57,6 +57,13 @@ django-event-management
     └───events
 ```
 ## Design Choices
+
+This event management system is a versatile platform that enables users to browse, create, and join various events, such as concerts, workshops, seminars, and parties. The application is built on the robust Django framework and has a flexible and scalable design.
+
+The main data models used in this application are Event, Ticket, Booking, and Review. Event and Ticket are used to store the details of the events and the tickets available for them, while Booking and Review are used to handle the reservation process and the feedback mechanism.
+
+The application’s interface is designed to be engaging and interactive, appealing to users’ preferences. The UI is developed using HTML templates, CSS, Bootstrap, and jQuery and has a dynamic design that allows for easy filtering and sorting of the events.
+
 ## Assumptions
 ## Limitations
 ## System Interface
