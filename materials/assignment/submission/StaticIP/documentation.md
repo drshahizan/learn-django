@@ -58,11 +58,11 @@ django-event-management
 ```
 ## Design Choices
 
-This event management system is a versatile platform that enables users to browse, create, and join various events, such as concerts, workshops, seminars, and parties. The application is built on the robust Django framework and has a flexible and scalable design.
+Design Choices This event management system is a comprehensive platform that enables users to discover, create, and participate in various events, such as concerts, workshops, seminars, and parties. The application is built on the powerful Django framework and has a modular and adaptable design.
 
-The main data models used in this application are Event, Ticket, Booking, and Review. Event and Ticket are used to store the details of the events and the tickets available for them, while Booking and Review are used to handle the reservation process and the feedback mechanism.
+The main data models used in this application are EventCategory, JobCategory, Event, EventImage, EventAgenda, EventJobCategoryLinking, EventMember, EventUserWishList, and UserCoin. EventCategory and JobCategory are used to classify the events and the jobs associated with them, while Event, EventImage, and EventAgenda are used to store the information of the events and their images and schedules. EventJobCategoryLinking is used to link the events and the jobs that are required for them, while EventMember and EventUserWishList are used to manage the registration and the interest of the users for the events. UserCoin is used to keep track of the coins that the users earn or spend by creating or joining events.
 
-The application’s interface is designed to be engaging and interactive, appealing to users’ preferences. The UI is developed using HTML templates, CSS, Bootstrap, and jQuery and has a dynamic design that allows for easy filtering and sorting of the events.
+The application’s interface is designed to be attractive and user-friendly, catering to users’ needs. The UI is created using HTML templates, CSS, Bootstrap, and jQuery and has a responsive design that allows for easy searching and browsing of the events.
 
 ## Assumptions
 ## Limitations
