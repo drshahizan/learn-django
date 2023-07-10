@@ -66,6 +66,9 @@ The application’s interface is designed to be engaging and interactive, appeal
 
 ## Assumptions
 ## Limitations
+
+Limitations Users cannot cancel or modify their bookings once they have been confirmed as the system does not allow refunds or changes. Users need to create an account and log in to the system to be able to book or create events as the system does not support guest users. Only one currency option available for the ticket prices. The application has not been tested with many concurrent users or events, so it is not suitable for high-demand scenarios. Technical limitations such as security and reliability can affect the application functionality.
+
 ## System Interface
 1. Dashboard
 
