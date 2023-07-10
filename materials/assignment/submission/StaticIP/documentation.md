@@ -66,7 +66,10 @@ The application’s interface is designed to be attractive and user-friendly, ca
 
 ## Assumptions
 
-Assumption It assumes that there will be no duplicate events in the system. It assumes that the users will need to create an account and log in to the system to be able to book or create events. It assumes that the system will require some essential components such as servers, databases, and payment gateways to function properly. It assumes that the system will allow users to upload images and agendas for their events as well as rate and review other events.
+- It assumes that there will be no duplicate events in the system.
+- It assumes that the users will need to create an account and log in to the system to be able to book or create events.
+- It assumes that the system will require some essential components such as servers, databases, and payment gateways to function properly.
+- It assumes that the system will allow users to upload images and agendas for their events as well as rate and review other events.
 
 ## Limitations
 
