@@ -65,6 +65,9 @@ The main data models used in this application are EventCategory, JobCategory, Ev
 The application’s interface is designed to be attractive and user-friendly, catering to users’ needs. The UI is created using HTML templates, CSS, Bootstrap, and jQuery and has a responsive design that allows for easy searching and browsing of the events.
 
 ## Assumptions
+
+Assumption It assumes that there will be no duplicate events in the system. It assumes that the users will need to create an account and log in to the system to be able to book or create events. It assumes that the system will require some essential components such as servers, databases, and payment gateways to function properly. It assumes that the system will allow users to upload images and agendas for their events as well as rate and review other events.
+
 ## Limitations
 
 Limitations Users cannot cancel or modify their bookings once they have been confirmed as the system does not allow refunds or changes. Users need to create an account and log in to the system to be able to book or create events as the system does not support guest users. Only one currency option available for the ticket prices. The application has not been tested with many concurrent users or events, so it is not suitable for high-demand scenarios. Technical limitations such as security and reliability can affect the application functionality.
