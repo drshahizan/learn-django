@@ -56,6 +56,7 @@ django-event-management
     ├───base
     └───events
 ```
+
 ## Design Choices
 
 Our Event Management System is built on Django, which is a highly reliable and robust framework. This ensures that the application has a strong foundation. To effectively organize and manage event related information, our system utilizes key data models such as Event Category, Job Category, Event Agenda, Event Job Category Linking, Event Member, Event User Wishlist, User Coin and Event Image.
@@ -104,6 +105,9 @@ Another function is where the admin can add new event member for different event
  <img width="920" alt="image" src="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission/StaticIP/event/photo/9-join%20event%20list.png">
  
 ## Conclusion
+
+In conclusion, the Django framework provides a robust and efficient platform for developing django event management system. With its rich set of features, Django simplifies the process of building and maintaining such systems, allowing the focus on the core functionality of event management. The built-in administrative interface, Django Admin, enables easy management of events, attendees and venues, providing a user-friendly interface for non-technical users to perform administrative tasks. Overall, it provides a solid foundation for developing a scalable event management system.
+
 ## Quick Start
 
 **Instructions**
