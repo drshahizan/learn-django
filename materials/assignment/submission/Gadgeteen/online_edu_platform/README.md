@@ -25,6 +25,11 @@ Once you have located to the folder, you can create a virtual environment by run
 ```python
 virtualenv env
 ```
+> if `virtualenv` is not working, try the code below
+
+> ```python
+> python -m venv env
+> ```
 
 ### 4. Active the virtual enviroment
 Once you have created the virtual environment, you can activate virtual environment by running the following command:
