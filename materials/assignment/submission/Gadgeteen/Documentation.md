@@ -80,13 +80,16 @@ gadgeteen
 
 - The project assumes that course content, including courses, modules, and resources, will be provided by instructors or administrators. Students can then access the course content.
 
-- 
 
 <h2>Limitations</h2>
 
 - The online educational platform's scalability may be limited by the hardware resources and hosting environment.
 
-- 
+- Offline access to course materials, such as downloadable resources or offline learning capabilities, is not included in the current implementation.
+
+- The implementation assumes that the database schema is already created and will not handle schema changes automatically.
+
+- The implementation may be susceptible to security vulnerabilities if not used and configured properly.
 
 <h2>System Interface</h2>
 
